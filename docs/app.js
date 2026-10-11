@@ -336,6 +336,7 @@ function modelsHTML(n) {
       ${hasPrice ? `<td>${m.price ? money(m.price) : "-"}</td><td>${perPyeong(m) ? moneyShort(perPyeong(m)) : "-"}</td>` : ""}</tr>`).join("")}</tbody>
   </table></div>
   ${hasPlan ? `<p class="note">📐 표시가 있는 타입을 누르면 평면도를 볼 수 있어요.</p>`
+    : n.homePlans?.length ? `<p class="note">아래 ‘분양 홈페이지 평면도’에서 볼 수 있어요.</p>`
     : n.planPages?.length ? `<p class="note">아래 ‘공고문 속 평면도’에서 볼 수 있어요.</p>` : planLinksHTML(n)}
   ${hasPrice ? `<p class="note">최고가 기준이에요. 평당가는 ${ms.every((m) => !m.price || m.area) ? "공급면적" : "공급면적(없으면 전용면적)"} 3.3㎡당 추정치예요.</p>` : ""}`;
 }
@@ -386,6 +387,18 @@ function pdfPlansHTML(n) {
       <img src="${esc(p.url)}" alt="공고문 ${p.page}쪽" loading="lazy">
       <span>${p.page}쪽${p.types.length ? " · " + esc(p.types.join(", ")) : ""}</span></button>`).join("")}</div>
     <p class="note">모집공고문 PDF에서 평면도로 보이는 페이지를 자동으로 잘라 왔어요. 누르면 크게 보여요.</p></div>`;
+}
+
+// 분양 홈페이지에서 찾은 평면도 (원본 이미지를 그대로 보여줌)
+function homePlansHTML(n) {
+  const plans = (n.homePlans || []).filter((p) => safeUrl(p.url));
+  if (!plans.length) return "";
+  const label = (p) => `${p.type ? p.type + " " : ""}${p.kind === "입체" ? "입체 평면" : "평면도"}`;
+  return `<div class="section home-plans"><h4>분양 홈페이지 평면도</h4><div class="gallery">${plans.map((p) => `
+    <button class="thumb" data-plan="${esc(p.url)}" data-title="${esc(n.name)} ${esc(label(p))}">
+      <img src="${esc(p.url)}" alt="${esc(label(p))}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('.thumb').hidden=true">
+      <span>${esc(label(p))}</span></button>`).join("")}</div>
+    <p class="note">출처: ${safeUrl(n.homepage) ? `<a href="${esc(n.homepage)}" target="_blank" rel="noopener">분양 홈페이지</a>` : "분양 홈페이지"}. 자동으로 찾은 이미지라 실제 공급 타입과 다를 수 있어요.</p></div>`;
 }
 
 function filesHTML(n) {
@@ -493,6 +506,7 @@ function openDetail(id, { push = true } = {}) {
       ${n.stale ? `<p class="note">오늘 이 출처를 새로 확인하지 못해 지난 정보를 보여주고 있어요.</p>` : ""}</div>
     ${n.models?.length ? `<div class="section"><h4>주택형별 공급</h4>${modelsHTML(n)}</div>` : ""}
     ${n.images?.length ? `<div class="section"><h4>단지 이미지</h4>${imagesHTML(n)}</div>` : ""}
+    ${homePlansHTML(n)}
     ${pdfPlansHTML(n)}
     ${plansHTML(n)}
     ${mapHTML(n)}

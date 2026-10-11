@@ -25,7 +25,9 @@ jobs:
           cache: pip
 
       - name: 설치
-        run: pip install -r requirements.txt pytest
+        run: |
+          pip install -r requirements.txt pytest
+          python -m playwright install --with-deps chromium
 
       - name: 테스트
         run: python -m pytest -q

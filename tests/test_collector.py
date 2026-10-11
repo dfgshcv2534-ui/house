@@ -407,3 +407,32 @@ def test_pdf_plan_page_detection(tmp_path):
     assert pdfplans.types_on_page("주택형 084.9800A 평면도", models) == ["84A"]
     assert pdfplans.types_on_page("59㎡ 타입", models) == ["59"]
     assert pdfplans.types_on_page("2059년", models) == []
+
+
+def test_homepage_plan_helpers():
+    from collector import homeplans as hp
+    assert hp.type_from_url("https://cheonggye-elitz.com/assets/plan-81a.webp?v=bc7e754d") == "81A"
+    assert hp.type_from_url("http://x.com/images/type-38-plan.png") == "38"
+    assert hp.type_from_url("http://x.com/unit_084B.jpg") == "84B"
+    assert hp.type_from_url("http://x.com/img/community_01_240528.jpg") is None
+    assert hp.is_plan_image("https://cheonggye-elitz.com/assets/plan-81a.webp?v=1")
+    assert not hp.is_plan_image("https://cheonggye-elitz.com/assets/siteplan-low.webp?v=1")
+    assert not hp.is_plan_image("https://x.com/img/community_KV_240527.jpg")
+    assert hp.match_type("81A", "81A") and hp.match_type("38", "38") and hp.match_type("84", "84B")
+    assert not hp.match_type("81B", "81A") and not hp.match_type("59", "84A")
+
+
+def test_homepage_plans_attach_from_cache(tmp_path):
+    import json as _json
+    from collector import homeplans as hp
+    (tmp_path / "plans").mkdir()
+    today = hp.kst_today().isoformat()
+    (tmp_path / "plans" / "homepages.json").write_text(_json.dumps({"http://cheonggye-elitz.com": {"checked": today, "plans": [
+        {"url": "https://cheonggye-elitz.com/assets/plan-81a.webp", "type": "81A", "kind": "평면"},
+        {"url": "https://cheonggye-elitz.com/assets/plan-76.webp", "type": "76", "kind": "평면"}]}}), encoding="utf-8")
+    n = {"source": "청약홈", "homepage": "cheonggye-elitz.com", "dates": {"end": today},
+         "models": [{"type": "81A"}, {"type": "81B"}, {"type": "76"}]}
+    hp.attach([n], tmp_path)
+    assert [m.get("plan") for m in n["models"]] == ["https://cheonggye-elitz.com/assets/plan-81a.webp", None,
+                                                    "https://cheonggye-elitz.com/assets/plan-76.webp"]
+    assert len(n["homePlans"]) == 2
