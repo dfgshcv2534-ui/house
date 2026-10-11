@@ -1,21 +1,23 @@
 {
- "updatedAt": "2026-10-11T18:32+09:00",
+ "updatedAt": "2026-10-11T19:02+09:00",
  "baseDate": "2026-10-11",
  "sources": {
   "청약홈": {
    "ok": true,
-   "count": 58,
+   "count": 92,
    "failedParts": []
   },
   "SH": {
    "ok": true,
-   "count": 21,
+   "count": 47,
    "failedParts": []
   },
   "LH": {
-   "ok": true,
+   "ok": false,
    "count": 6,
-   "failedParts": []
+   "failedParts": [
+    "공급"
+   ]
   },
   "LH 사전청약": {
    "ok": false,
@@ -23,6 +25,6 @@
    "message": "LH 사전청약 요청주소가 아직 비어 있습니다 (collector/lh.py PRE_LIST_URL)"
   }
  },
- "total": 35,
- "newToday": 0
+ "total": 52,
+ "newToday": 17
 }

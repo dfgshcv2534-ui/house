@@ -2,6 +2,7 @@
  {
   "id": "sh:rent:311087",
   "source": "SH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "공공임대",
   "name": "강동구 청년창업가,예술인주택(수요자맞춤형) 잔여세대 모집 공고",
@@ -34,11 +35,17 @@
    "[붙임1] 2026년 하반기 강동구 청년창업주택 모집 공고문.pdf",
    "[붙임2] 신청서.zip"
   ],
-  "firstSeen": "2026-10-11"
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.5301,
+   "lng": 127.1238,
+   "precision": "구"
+  }
  },
  {
   "id": "sh:rent:310976",
   "source": "SH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "사회주택",
   "name": "[토지임대부 사회주택] 옥류서원 입주자 모집 공고문",
@@ -66,11 +73,17 @@
    "옥류서원 입주자모집공고문.pdf",
    "[별지1~3] 옥류서원 입주신청서양식 (261002).docx"
   ],
-  "firstSeen": "2026-10-11"
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.5735,
+   "lng": 126.979,
+   "precision": "구"
+  }
  },
  {
   "id": "ah:urbty:2026950087:2026950087",
   "source": "청약홈",
+  "sector": "민간",
   "cat": "분양",
   "kind": "오피스텔",
   "name": "당산역 더클래스 한강",
@@ -104,11 +117,17 @@
   "tel": "16685468",
   "url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950087&pblancNo=2026950087&houseSecd=02",
   "homepage": "https://www.더클래스한강.com",
-  "firstSeen": "2026-10-11"
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.53462,
+   "lng": 126.90655,
+   "precision": "동"
+  }
  },
  {
   "id": "ah:opt:2026940214:2026940214",
   "source": "청약홈",
+  "sector": "민간",
   "cat": "분양",
   "kind": "임의공급",
   "name": "브라운스톤 목동(2차)",
@@ -160,11 +179,17 @@
   "tel": "0226443339",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940214&pblancNo=2026940214",
   "homepage": "https://www.브라운스톤목동.com",
-  "firstSeen": "2026-10-11"
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.52612,
+   "lng": 126.86452,
+   "precision": "동"
+  }
  },
  {
   "id": "sh:rent:311005",
   "source": "SH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "사회주택",
   "name": "[토지지원 사회주택]에어스페이스 신림3호점_어울리 입주자 모집 공고",
@@ -194,6 +219,7 @@
  {
   "id": "sh:rent:310950",
   "source": "SH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "매입임대",
   "name": "[청년형] 특화형 매입임대주택(금천구) 입주자 모집 공고(운영기관 : 한지붕 협동조합)",
@@ -220,11 +246,17 @@
   "files": [
    "[한지붕협동조합]SH특화형 매입임대주택(청년) 입주자 모집 공고문_20261002.pdf"
   ],
-  "firstSeen": "2026-10-11"
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.4569,
+   "lng": 126.8955,
+   "precision": "구"
+  }
  },
  {
   "id": "lh:2015122300020843",
   "source": "LH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "매입임대",
   "name": "26년 2차 비분양전환형 든든전세주택 입주자 모집공고",
@@ -250,16 +282,29 @@
   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020843&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
   "homepage": null,
   "files": [
-   "26년_2차_든든전세주택_QnA.hwpx",
-   "26년_2차_비분양전환형_든든전세주택_입주자모집공고문(서울지역본부).hwpx",
-   "26년_2차_비분양전환형_든든전세주택_입주자모집공고문(서울지역본부).pdf",
-   "26년_2차_비분양전환형_든든전세주택_주택목록(서울지역본부).xlsx"
+   {
+    "name": "26년_2차_든든전세주택_QnA.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68775508"
+   },
+   {
+    "name": "26년_2차_비분양전환형_든든전세주택_입주자모집공고문(서울지역본부).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68818384"
+   },
+   {
+    "name": "26년_2차_비분양전환형_든든전세주택_입주자모집공고문(서울지역본부).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68818385"
+   },
+   {
+    "name": "26년_2차_비분양전환형_든든전세주택_주택목록(서울지역본부).xlsx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68775511"
+   }
   ],
   "firstSeen": "2026-10-11"
  },
  {
   "id": "ah:remndr:2026910250:2026910250",
   "source": "청약홈",
+  "sector": "민간",
   "cat": "분양",
   "kind": "무순위·잔여세대",
   "name": "신림스카이아파트(20차)",
@@ -308,11 +353,17 @@
   "tel": "028779273",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910250&pblancNo=2026910250",
   "homepage": null,
-  "firstSeen": "2026-10-11"
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.47175,
+   "lng": 126.93351,
+   "precision": "주소"
+  }
  },
  {
   "id": "sh:rent:310653",
   "source": "SH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "매입임대",
   "name": "2026년 하반기 신혼·신생아 매입임대주택Ⅱ 입주자 모집공고",
@@ -352,6 +403,7 @@
  {
   "id": "sh:rent:310650",
   "source": "SH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "매입임대",
   "name": "2026년 하반기 신혼·신생아 매입임대주택Ⅰ 입주자 모집공고",
@@ -391,6 +443,7 @@
  {
   "id": "ah:urbty:2026950085:2026950085",
   "source": "청약홈",
+  "sector": "민간",
   "cat": "분양",
   "kind": "오피스텔",
   "name": "잠실에떼르넬비욘드",
@@ -442,11 +495,17 @@
   "tel": "15225914",
   "url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950085&pblancNo=2026950085&houseSecd=02",
   "homepage": null,
-  "firstSeen": "2026-10-11"
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.5113,
+   "lng": 127.11879,
+   "precision": "동"
+  }
  },
  {
   "id": "sh:rent:310672",
   "source": "SH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "사회주택",
   "name": "[토지지원 사회주택]유니버설디자인하우스_망우 입주자 모집 공고",
@@ -476,6 +535,7 @@
  {
   "id": "ah:remndr:2026910251:2026910251",
   "source": "청약홈",
+  "sector": "민간",
   "cat": "분양",
   "kind": "무순위·잔여세대",
   "name": "충정로역자이르네",
@@ -517,11 +577,17 @@
   "tel": "16601245",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910251&pblancNo=2026910251",
   "homepage": "https://충정로역자이르네.com",
-  "firstSeen": "2026-10-11"
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.55676,
+   "lng": 126.9663,
+   "precision": "동"
+  }
  },
  {
   "id": "sh:rent:310673",
   "source": "SH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "공공임대",
   "name": "2026년 신정도시마을 잔여세대 입주자모집공고",
@@ -554,6 +620,7 @@
  {
   "id": "ah:remndr:2026930040:2026930040",
   "source": "청약홈",
+  "sector": "민간",
   "cat": "분양",
   "kind": "무순위·잔여세대",
   "name": "강변역 센트럴 아이파크",
@@ -591,11 +658,17 @@
   "tel": "15513560",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026930040&pblancNo=2026930040",
   "homepage": "https://www.i-park.com/gangbyeon",
-  "firstSeen": "2026-10-11"
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.54449,
+   "lng": 127.08747,
+   "precision": "동"
+  }
  },
  {
   "id": "ah:remndr:2026910220:2026910220",
   "source": "청약홈",
+  "sector": "민간",
   "cat": "분양",
   "kind": "무순위·잔여세대",
   "name": "아크로 리버스카이(2차)",
@@ -630,11 +703,17 @@
   "tel": "025290205",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910220&pblancNo=2026910220",
   "homepage": "https://www.acro.co.kr",
-  "firstSeen": "2026-10-11"
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.5068,
+   "lng": 126.92913,
+   "precision": "동"
+  }
  },
  {
   "id": "sh:rent:310575",
   "source": "SH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "사회주택",
   "name": "[토지임대부 사회주택] 쌍문생활 302호 입주자 모집 공고문",
@@ -660,11 +739,17 @@
    "쌍문생활 입주자모집공고문 2609.pdf",
    "어반업사이클링 사회주택 입주신청서.hwp"
   ],
-  "firstSeen": "2026-10-11"
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.6688,
+   "lng": 127.0471,
+   "precision": "구"
+  }
  },
  {
   "id": "lh:2015122300020807",
   "source": "LH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "통합공공임대",
   "name": "강서염창 통합공공임대주택 최초 입주자 모집공고",
@@ -694,18 +779,54 @@
   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020807&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
   "homepage": null,
   "files": [
-   "(별첨1)공통제출서류(개인정보동의서,금융정보동의서,자산보유,예비자)_전원필수제출.hwpx",
-   "(별첨2)예비신혼부부(신청확인서,세대구성확인서).hwpx",
-   "(별첨3)위임장(현장_대리인_신청시)_해당자만_제출.hwpx",
-   "강서염창통합공공임대입주자공고문(정정).hwpx",
-   "강서염창통합공공임대입주자공고문(정정).pdf",
-   "강서염창통합공공임대팸플릿(최종안).pdf"
+   {
+    "name": "(별첨1)공통제출서류(개인정보동의서,금융정보동의서,자산보유,예비자)_전원필수제출.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68684231"
+   },
+   {
+    "name": "(별첨2)예비신혼부부(신청확인서,세대구성확인서).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68684232"
+   },
+   {
+    "name": "(별첨3)위임장(현장_대리인_신청시)_해당자만_제출.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68684233"
+   },
+   {
+    "name": "강서염창통합공공임대입주자공고문(정정).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68684215"
+   },
+   {
+    "name": "강서염창통합공공임대입주자공고문(정정).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68684216"
+   },
+   {
+    "name": "강서염창통합공공임대팸플릿(최종안).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68684234"
+   }
   ],
-  "firstSeen": "2026-10-11"
+  "images": [
+   {
+    "label": "이미지",
+    "name": "위치도.jpg",
+    "url": "https://apply.lh.or.kr/images/co/na/noImg.gif"
+   },
+   {
+    "label": "이미지",
+    "name": "단지배치도.jpg",
+    "url": "https://apply.lh.or.kr/images/co/na/noImg.gif"
+   }
+  ],
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.54815,
+   "lng": 126.87651,
+   "precision": "주소"
+  }
  },
  {
   "id": "sh:rent:310258",
   "source": "SH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "공공임대",
   "name": "2026년 2차 희망하우징(공공기숙사) 입주자 모집공고",
@@ -739,6 +860,7 @@
  {
   "id": "lh:2015122300020759",
   "source": "LH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "매입임대",
   "name": "26년 3차 청년 매입임대주택 예비입주자 모집공고",
@@ -764,17 +886,33 @@
   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020759&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
   "homepage": null,
   "files": [
-   "(필독)_서울지역본부_청년매입임대_신청시_유의사항.hwpx",
-   "26년_3차_청년매입임대_QnA_서울지역본부.hwpx",
-   "26년_3차_청년매입임대_공급주택목록_서울지역본부.xlsx",
-   "26년_3차_청년매입임대_예비입주자_모집공고문_서울지역본부.hwpx",
-   "26년_3차_청년매입임대_예비입주자_모집공고문_서울지역본부.pdf"
+   {
+    "name": "(필독)_서울지역본부_청년매입임대_신청시_유의사항.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68596946"
+   },
+   {
+    "name": "26년_3차_청년매입임대_QnA_서울지역본부.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68596947"
+   },
+   {
+    "name": "26년_3차_청년매입임대_공급주택목록_서울지역본부.xlsx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68596948"
+   },
+   {
+    "name": "26년_3차_청년매입임대_예비입주자_모집공고문_서울지역본부.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68646609"
+   },
+   {
+    "name": "26년_3차_청년매입임대_예비입주자_모집공고문_서울지역본부.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68646610"
+   }
   ],
   "firstSeen": "2026-10-11"
  },
  {
   "id": "lh:2015122300020750",
   "source": "LH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "매입임대",
   "name": "26년 3차 신혼·신생아 매입임대Ⅰ 예비입주자 모집공고",
@@ -800,16 +938,29 @@
   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020750&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
   "homepage": null,
   "files": [
-   "26년3차_신혼·신생아매입임대Ⅰ_공급주택목록(서울지역본부).xlsx",
-   "26년3차신혼·신생아매입임대Ⅰ입주자모집공고문(서울지역본부).hwpx",
-   "26년3차신혼·신생아매입임대Ⅰ입주자모집공고문(서울지역본부).pdf",
-   "26년신혼·신생아매입임대Ⅰ_QnA.hwpx"
+   {
+    "name": "26년3차_신혼·신생아매입임대Ⅰ_공급주택목록(서울지역본부).xlsx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68646052"
+   },
+   {
+    "name": "26년3차신혼·신생아매입임대Ⅰ입주자모집공고문(서울지역본부).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68650342"
+   },
+   {
+    "name": "26년3차신혼·신생아매입임대Ⅰ입주자모집공고문(서울지역본부).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68650345"
+   },
+   {
+    "name": "26년신혼·신생아매입임대Ⅰ_QnA.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68646089"
+   }
   ],
   "firstSeen": "2026-10-11"
  },
  {
   "id": "lh:2015122300020749",
   "source": "LH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "매입임대",
   "name": "26년 3차 신혼·신생아매입임대주택Ⅱ(전세형) 예비입주자 모집공고",
@@ -835,16 +986,29 @@
   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020749&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
   "homepage": null,
   "files": [
-   "26년3차_신혼·신생아매입임대Ⅱ(전세형)_공급주택목록(서울지역본부).xlsx",
-   "26년3차신혼·신생아매입임대Ⅱ(전세형)입주자모집공고문(서울지역본부).hwpx",
-   "26년3차신혼·신생아매입임대Ⅱ(전세형)입주자모집공고문(서울지역본부).pdf",
-   "26년신혼·신생아매입임대Ⅱ(전세형)_QnA.hwpx"
+   {
+    "name": "26년3차_신혼·신생아매입임대Ⅱ(전세형)_공급주택목록(서울지역본부).xlsx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68646211"
+   },
+   {
+    "name": "26년3차신혼·신생아매입임대Ⅱ(전세형)입주자모집공고문(서울지역본부).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68650303"
+   },
+   {
+    "name": "26년3차신혼·신생아매입임대Ⅱ(전세형)입주자모집공고문(서울지역본부).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68650304"
+   },
+   {
+    "name": "26년신혼·신생아매입임대Ⅱ(전세형)_QnA.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68646214"
+   }
   ],
   "firstSeen": "2026-10-11"
  },
  {
   "id": "ah:remndr:2026910244:2026910244",
   "source": "청약홈",
+  "sector": "민간",
   "cat": "분양",
   "kind": "무순위·잔여세대",
   "name": "더 리치먼드 미아(3차)",
@@ -879,11 +1043,17 @@
   "tel": "15516264",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910244&pblancNo=2026910244",
   "homepage": "https://www.더리치먼드미아.com",
-  "firstSeen": "2026-10-11"
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.62208,
+   "lng": 127.02091,
+   "precision": "동"
+  }
  },
  {
   "id": "ah:opt:2026940206:2026940206",
   "source": "청약홈",
+  "sector": "민간",
   "cat": "분양",
   "kind": "임의공급",
   "name": "청계백상앨리츠(3차)",
@@ -929,11 +1099,17 @@
   "tel": "0222966521",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940206&pblancNo=2026940206",
   "homepage": "http://cheonggye-elitz.com",
-  "firstSeen": "2026-10-11"
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.56743,
+   "lng": 127.04045,
+   "precision": "주소"
+  }
  },
  {
   "id": "sh:rent:310041",
   "source": "SH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "재개발임대",
   "name": "2026년 재개발임대주택 일반모집 공고",
@@ -966,6 +1142,7 @@
  {
   "id": "ah:urbty:2026950082:2026950082",
   "source": "청약홈",
+  "sector": "민간",
   "cat": "분양",
   "kind": "도시형생활주택",
   "name": "신대방역 더하이브퍼스트",
@@ -1011,11 +1188,17 @@
   "tel": "16003990",
   "url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950082&pblancNo=2026950082&houseSecd=02",
   "homepage": "https://www.thehive-first.com",
-  "firstSeen": "2026-10-11"
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.4869,
+   "lng": 126.92818,
+   "precision": "주소"
+  }
  },
  {
   "id": "sh:rent:309807",
   "source": "SH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "매입임대",
   "name": "[청년형] 특화형 매입임대주택 입주자 모집 공고(운영기관 : 한지붕 협동조합)",
@@ -1043,11 +1226,17 @@
    "[한지붕협동조합]SH특화형 매입임대주택(청년) 입주자 모집 공고문_구천면로 46길 38 203호.pdf",
    "[한지붕협동조합]SH특화형 매입임대주택(청년) 입주자 모집 공고문_시흥대로88길 18 304호.pdf"
   ],
-  "firstSeen": "2026-10-11"
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.5301,
+   "lng": 127.1238,
+   "precision": "구"
+  }
  },
  {
   "id": "sh:rent:309467",
   "source": "SH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "장기전세(미리내집)",
   "name": "제51차 장기전세주택 입주자 모집공고",
@@ -1080,6 +1269,7 @@
  {
   "id": "sh:rent:310107",
   "source": "SH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "매입임대",
   "name": "(수정) 2026년 2차 장기미임대 매입임대주택 입주자모집공고",
@@ -1115,6 +1305,7 @@
  {
   "id": "sh:rent:309337",
   "source": "SH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "행복주택",
   "name": "2026년 2차 행복주택 입주자 모집공고",
@@ -1148,6 +1339,7 @@
  {
   "id": "sh:rent:308446",
   "source": "SH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "장기전세(미리내집)",
   "name": "2026년 1차 일반주택형 미리내집(신혼신생아매입임대주택Ⅱ) 입주자 모집공고(2026.08.14.) 주택정보 추가",
@@ -1179,6 +1371,7 @@
  {
   "id": "ah:apt:2026000399:2026000399",
   "source": "청약홈",
+  "sector": "민간",
   "cat": "분양",
   "kind": "아파트",
   "name": "브라운스톤 월곡 센트럴",
@@ -1238,7 +1431,6 @@
   "priceMin": 86200,
   "priceMax": 107500,
   "tags": [
-   "민영",
    "투기과열지구",
    "조정대상지역"
   ],
@@ -1248,11 +1440,17 @@
   "tel": "15997775",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000399&pblancNo=2026000399",
   "homepage": "https://www.브라운스톤월곡센트럴.com",
-  "firstSeen": "2026-10-11"
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.60444,
+   "lng": 127.03764,
+   "precision": "동"
+  }
  },
  {
   "id": "sh:rent:308971",
   "source": "SH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "장기전세(미리내집)",
   "name": "2026년 일반주택형 미리내집(공공한옥) 잔여세대 입주자 모집공고",
@@ -1290,6 +1488,7 @@
  {
   "id": "sh:rent:308944",
   "source": "SH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "장기전세(미리내집)",
   "name": "제8차 장기전세주택2(미리내집) 입주자 모집 공고",
@@ -1320,8 +1519,47 @@
   "firstSeen": "2026-10-11"
  },
  {
+  "id": "sh:rent:308887",
+  "source": "SH",
+  "sector": "공공",
+  "cat": "임대",
+  "kind": "공공임대",
+  "name": "2026-3차 충신동 연극인 두레주택 잔여세대 입주자 모집공고",
+  "address": null,
+  "gu": null,
+  "units": 5,
+  "dates": {
+   "notice": "2026-08-21",
+   "start": "2026-09-03",
+   "end": "2026-09-03",
+   "winner": "2026-10-21"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [
+   "예술인"
+  ],
+  "builder": null,
+  "supplier": "SH공사 맞춤주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=308887",
+  "homepage": null,
+  "files": [
+   "[공고문] 2026-3차 충신동 연극인두레주택 잔여세대 입주자모집공고(26_ 8_ 21_).pdf",
+   "(첨부1) 두레주택 보증금 확인서.pdf",
+   "(첨부2) 4호점 (충신동1-136) 평면도.PDF",
+   "(첨부3) 5호점 (충신동1-139) 평면도.PDF"
+  ],
+  "firstSeen": "2026-10-11"
+ },
+ {
   "id": "lh:2015122300020605",
   "source": "LH",
+  "sector": "공공",
   "cat": "임대",
   "kind": "행복주택",
   "name": "서울번동3 행복주택 예비입주자 모집",
@@ -1351,12 +1589,619 @@
   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020605&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
   "homepage": null,
   "files": [
-   "(공통)필수제출서류.hwpx",
-   "(복학예정자)추가서류.hwpx",
-   "(예비신혼부부만제출)공동신청확인서및세대구성확인서.hwpx",
-   "서울번동3_행복주택_예비입주자_표준모집공고문.hwpx",
-   "서울번동3_행복주택_예비입주자_표준모집공고문.pdf",
-   "서울번동3행복주택팸플릿.pdf"
+   {
+    "name": "(공통)필수제출서류.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68214581"
+   },
+   {
+    "name": "(복학예정자)추가서류.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68214582"
+   },
+   {
+    "name": "(예비신혼부부만제출)공동신청확인서및세대구성확인서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68214583"
+   },
+   {
+    "name": "서울번동3_행복주택_예비입주자_표준모집공고문.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68214584"
+   },
+   {
+    "name": "서울번동3_행복주택_예비입주자_표준모집공고문.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68214585"
+   },
+   {
+    "name": "서울번동3행복주택팸플릿.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68214586"
+   }
+  ],
+  "images": [
+   {
+    "label": "이미지",
+    "name": "단지조감도.png",
+    "url": "https://apply.lh.or.kr/images/co/na/noImg.gif"
+   },
+   {
+    "label": "이미지",
+    "name": "단지배치도.png",
+    "url": "https://apply.lh.or.kr/images/co/na/noImg.gif"
+   },
+   {
+    "label": "이미지",
+    "name": "동호배치도.png",
+    "url": "https://apply.lh.or.kr/images/co/na/noImg.gif"
+   }
+  ],
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.62963,
+   "lng": 127.04184,
+   "precision": "주소"
+  }
+ },
+ {
+  "id": "sh:rent:308605",
+  "source": "SH",
+  "sector": "공공",
+  "cat": "임대",
+  "kind": "매입임대",
+  "name": "[청년형] 특화형 매입임대주택(성북구) 입주자 모집 공고(운영기관 : 에스이임파워 사회적협동조합)",
+  "address": null,
+  "gu": "성북구",
+  "units": null,
+  "dates": {
+   "notice": "2026-08-20"
+  },
+  "dateBasis": "없음",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [
+   "청년"
+  ],
+  "builder": null,
+  "supplier": "SH공사 매입주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=308605",
+  "homepage": null,
+  "files": [
+   "[에스이임파워 사회적협동조합]SH특화형 매입임대주택(청년) 입주자 모집 공고문_20260820.pdf"
+  ],
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.5894,
+   "lng": 127.0167,
+   "precision": "구"
+  }
+ },
+ {
+  "id": "sh:rent:308340",
+  "source": "SH",
+  "sector": "공공",
+  "cat": "임대",
+  "kind": "국민임대",
+  "name": "2026년 국민임대주택 입주자 모집공고",
+  "address": null,
+  "gu": null,
+  "units": 1973,
+  "dates": {
+   "notice": "2026-08-20",
+   "start": "2026-09-01",
+   "end": "2026-09-03",
+   "winner": "2027-02-15"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "SH공사 공공주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=308340",
+  "homepage": null,
+  "files": [
+   "2026년 국민임대주택 입주자모집공고문(20260820).pdf"
+  ],
+  "firstSeen": "2026-10-11"
+ },
+ {
+  "id": "sh:rent:308644",
+  "source": "SH",
+  "sector": "공공",
+  "cat": "임대",
+  "kind": "장기전세(미리내집)",
+  "name": "2026년 1차 일반주택형 미리내집(신혼신생아매입임대주택Ⅱ) 입주자 모집공고",
+  "address": null,
+  "gu": "도봉구",
+  "units": null,
+  "dates": {
+   "notice": "2026-08-14",
+   "start": "2026-08-31",
+   "end": "2026-09-02",
+   "winner": "2027-01-07"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [
+   "신혼·신생아"
+  ],
+  "builder": null,
+  "supplier": "SH공사 매입주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=308644",
+  "homepage": null,
+  "files": [
+   "2026년 1차 일반주택형 미리내집 입주자 모집공고문_20260814.pdf",
+   "구경하는집 배너(빌드아르떼아파트).jpg"
+  ],
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.6688,
+   "lng": 127.0471,
+   "precision": "구"
+  }
+ },
+ {
+  "id": "sh:rent:308379",
+  "source": "SH",
+  "sector": "공공",
+  "cat": "임대",
+  "kind": "매입임대",
+  "name": "[청년형] 특화형 매입임대주택(강동구) 입주자 모집 공고(운영기관 : 마을과집 협동조합)",
+  "address": null,
+  "gu": "강동구",
+  "units": null,
+  "dates": {
+   "notice": "2026-08-13"
+  },
+  "dateBasis": "없음",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [
+   "청년"
+  ],
+  "builder": null,
+  "supplier": "SH공사 매입주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=308379",
+  "homepage": null,
+  "files": [
+   "[마을과집]SH특화형 매입임대주택(청년) 입주자 모집 공고문_20260813.pdf"
+  ],
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.5301,
+   "lng": 127.1238,
+   "precision": "구"
+  }
+ },
+ {
+  "id": "sh:rent:308394",
+  "source": "SH",
+  "sector": "공공",
+  "cat": "임대",
+  "kind": "재개발임대",
+  "name": "2026년 재개발임대주택 입주자 모집 일정 연기 안내",
+  "address": null,
+  "gu": null,
+  "units": null,
+  "dates": {
+   "notice": "2026-08-10"
+  },
+  "dateBasis": "없음",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "SH공사 주택공급기준부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=308394",
+  "homepage": null,
+  "files": [],
+  "firstSeen": "2026-10-11"
+ },
+ {
+  "id": "sh:rent:308167",
+  "source": "SH",
+  "sector": "공공",
+  "cat": "임대",
+  "kind": "공공임대",
+  "name": "(수정) 2026년 1~2인가구를 위한 도시형생활주택(건설형원룸) 잔여세대 입주자 모집공고",
+  "address": null,
+  "gu": null,
+  "units": 65,
+  "dates": {
+   "notice": "2026-08-06",
+   "start": "2026-08-18",
+   "end": "2026-09-02",
+   "winner": "2026-11-20"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "SH공사 맞춤주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=308167",
+  "homepage": null,
+  "files": [
+   "(수정)2026년 1-2인가구를 위한 도시형생활주택(건설형원룸) 잔여세대 입주자 모집공고(26_ 8_ 5_).pdf",
+   "(수정)생활언어 번역본 ( 2026년 1-2인가구를 위한 도시형생활주택(건설형원룸) 잔여세대 입주자 모집공고).pdf"
+  ],
+  "firstSeen": "2026-10-11"
+ },
+ {
+  "id": "sh:purchase:307954",
+  "source": "SH",
+  "sector": "공공",
+  "cat": "임대",
+  "kind": "매입임대",
+  "name": "2026년 빈집활용 건설약정방식 매입임대주택 사전공고(수정)",
+  "address": null,
+  "gu": null,
+  "units": null,
+  "dates": {
+   "notice": "2026-08-03"
+  },
+  "dateBasis": "없음",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "SH공사 빈집사업부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C3379/www/brd/m_247/view.do?multi_itm_seq=512&seq=307954",
+  "homepage": null,
+  "files": [
+   "2026년 빈집활용 건설약정방식 매입임대주택 사전공고문(수정).hwp"
+  ],
+  "firstSeen": "2026-10-11"
+ },
+ {
+  "id": "sh:rent:309925",
+  "source": "SH",
+  "sector": "공공",
+  "cat": "임대",
+  "kind": "청년안심주택",
+  "name": "2026년 2차 청년안심주택(공공임대) 입주자 모집공고(정정)",
+  "address": null,
+  "gu": null,
+  "units": 595,
+  "dates": {
+   "notice": "2026-07-31",
+   "start": "2026-08-11",
+   "end": "2026-08-13",
+   "winner": "2026-12-11"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [
+   "정정공고"
+  ],
+  "targets": [
+   "청년"
+  ],
+  "builder": null,
+  "supplier": "SH공사 맞춤주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=309925",
+  "homepage": null,
+  "files": [
+   "2026년 제2차청년안심주택-공고문.pdf",
+   "[첨부] 청년안심주택 신청 관련 부모 범위 기준(1).pdf"
+  ],
+  "firstSeen": "2026-10-11"
+ },
+ {
+  "id": "sh:rent:307704",
+  "source": "SH",
+  "sector": "공공",
+  "cat": "임대",
+  "kind": "매입임대",
+  "name": "[청년형] 특화형 매입임대주택 입주자 모집 공고(운영기관 : 유니버설하우징협동조합)",
+  "address": null,
+  "gu": null,
+  "units": null,
+  "dates": {
+   "notice": "2026-07-30"
+  },
+  "dateBasis": "없음",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [
+   "청년"
+  ],
+  "builder": null,
+  "supplier": "SH공사 매입주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=307704",
+  "homepage": null,
+  "files": [
+   "[유니버설하우징 협동조합]SH특화형 매입임대주택(청년) 입주자 모집 공고문_20260730.pdf"
+  ],
+  "firstSeen": "2026-10-11"
+ },
+ {
+  "id": "sh:rent:306722",
+  "source": "SH",
+  "sector": "공공",
+  "cat": "임대",
+  "kind": "공공임대",
+  "name": "2026년 성북구 연극인주택 잔여세대 입주자 모집공고",
+  "address": null,
+  "gu": "성북구",
+  "units": 9,
+  "dates": {
+   "notice": "2026-07-08",
+   "start": "2026-07-20",
+   "end": "2026-07-21",
+   "winner": "2026-10-08"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [
+   "예술인"
+  ],
+  "builder": null,
+  "supplier": "SH공사 맞춤주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=306722",
+  "homepage": null,
+  "files": [
+   "2026년 성북구 연극인주택 잔여세대 입주자 모집공고(26_ 7_ 8_).pdf"
+  ],
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.5894,
+   "lng": 127.0167,
+   "precision": "구"
+  }
+ },
+ {
+  "id": "sh:rent:306218",
+  "source": "SH",
+  "sector": "공공",
+  "cat": "임대",
+  "kind": "공공임대",
+  "name": "2026년 1차 기숙사형 청년주택 입주자모집 공고",
+  "address": null,
+  "gu": null,
+  "units": 56,
+  "dates": {
+   "notice": "2026-06-26",
+   "start": "2026-07-13",
+   "end": "2026-07-15",
+   "winner": "2026-12-07"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [
+   "청년"
+  ],
+  "builder": null,
+  "supplier": "SH공사 매입주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=306218",
+  "homepage": null,
+  "files": [
+   "[공고문] 2026년 1차 기숙사형 청년주택 모집공고문(홈페이지)_1.pdf",
+   "[주택목록] 2026-1차 기숙사형 청년주택 주택목록(홈페이지 공개용).pdf",
+   "[도면] 수유동 392-125 T K수유1.pdf",
+   "[사진] 수유동 392-125 T K수유1.pdf"
+  ],
+  "firstSeen": "2026-10-11"
+ },
+ {
+  "id": "sh:rent:306214",
+  "source": "SH",
+  "sector": "공공",
+  "cat": "임대",
+  "kind": "매입임대",
+  "name": "2026년 1차 청년 매입임대주택 입주자 모집공고",
+  "address": null,
+  "gu": "마포구",
+  "units": 849,
+  "dates": {
+   "notice": "2026-06-26",
+   "start": "2026-07-13",
+   "end": "2026-07-15",
+   "winner": "2026-12-07"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [
+   "청년"
+  ],
+  "builder": null,
+  "supplier": "SH공사 매입주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=306214",
+  "homepage": null,
+  "files": [
+   "1_ [공고문] 2026년 1차 청년 매입임대주택 입주자 모집공고.pdf",
+   "2_ [주택목록] 2026년 1차 청년 매입임대주택 입주자 모집공고(홈페이지 공개용).pdf",
+   "3_ [첨부] 도면 및 사진(링크).pdf",
+   "4_ [첨부] 청년 매입임대주택 신청 관련 부모 범위 기준.pdf"
+  ],
+  "firstSeen": "2026-10-11",
+  "geo": {
+   "lat": 37.5663,
+   "lng": 126.9019,
+   "precision": "구"
+  }
+ },
+ {
+  "id": "sh:rent:306205",
+  "source": "SH",
+  "sector": "공공",
+  "cat": "임대",
+  "kind": "공공임대",
+  "name": "2026-2차 사당동원룸 잔여세대 입주자모집공고",
+  "address": null,
+  "gu": null,
+  "units": 13,
+  "dates": {
+   "notice": "2026-06-26",
+   "start": "2026-07-09",
+   "end": "2026-07-10",
+   "winner": "2026-09-28"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "SH공사 맞춤주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=306205",
+  "homepage": null,
+  "files": [
+   "[공고문] 2026-2차 사당동 원룸 잔여세대 입주자모집공고(26_ 6_ 26_).pdf"
+  ],
+  "firstSeen": "2026-10-11"
+ },
+ {
+  "id": "sh:rent:306066",
+  "source": "SH",
+  "sector": "공공",
+  "cat": "임대",
+  "kind": "공공임대",
+  "name": "2026년 만리동 예술인 협동조합주택(막쿱) 잔여세대 입주자 모집공고",
+  "address": null,
+  "gu": null,
+  "units": 1,
+  "dates": {
+   "notice": "2026-06-25",
+   "start": "2026-07-09",
+   "end": "2026-07-10",
+   "winner": "2026-10-21"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [
+   "예술인"
+  ],
+  "builder": null,
+  "supplier": "SH공사 맞춤주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=306066",
+  "homepage": null,
+  "files": [
+   "2026년 만리동 예술인 협동조합주택(막쿱) 잔여세대 입주자 모집공고(2026_ 6_ 25_).pdf"
+  ],
+  "firstSeen": "2026-10-11"
+ },
+ {
+  "id": "sh:rent:306065",
+  "source": "SH",
+  "sector": "공공",
+  "cat": "임대",
+  "kind": "공공임대",
+  "name": "2026년 화곡동 청년 협동조합주택(그랑) 잔여세대 입주자 모집공고",
+  "address": null,
+  "gu": null,
+  "units": 4,
+  "dates": {
+   "notice": "2026-06-24",
+   "start": "2026-07-06",
+   "end": "2026-07-08",
+   "winner": "2026-10-14"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [
+   "청년"
+  ],
+  "builder": null,
+  "supplier": "SH공사 맞춤주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=306065",
+  "homepage": null,
+  "files": [
+   "2026년 화곡동 청년 협동조합주택(그랑) 잔여세대 입주자 모집공고(2026_ 6_ 24_).pdf"
+  ],
+  "firstSeen": "2026-10-11"
+ },
+ {
+  "id": "sh:rent:306011",
+  "source": "SH",
+  "sector": "공공",
+  "cat": "임대",
+  "kind": "공공임대",
+  "name": "2026년 가양동 육아 협동조합주택(이음채) 잔여세대 입주자 모집공고",
+  "address": null,
+  "gu": null,
+  "units": 5,
+  "dates": {
+   "notice": "2026-06-23",
+   "start": "2026-07-06",
+   "end": "2026-07-08",
+   "winner": "2026-10-14"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "SH공사 맞춤주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=306011",
+  "homepage": null,
+  "files": [
+   "2026년 가양동 육아 협동조합주택(이음채) 잔여세대 입주자 모집공고(2026_ 6_ 23_).pdf"
   ],
   "firstSeen": "2026-10-11"
  }
