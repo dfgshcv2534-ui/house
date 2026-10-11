@@ -14,7 +14,7 @@ import re
 from datetime import timedelta
 
 from .common import (
-    SPECIAL, SourceError, clean, clean_title, drop_reposts, get, gu_in_text, is_correction, is_seoul,
+    SPECIAL, SourceError, clean, clean_title, drop_reposts, get, gu_in_text, is_correction, is_recruitment_title, is_seoul,
     kst_today, log, redact, seoul_gu, special_kind, to_float, to_int, to_iso, to_month,
 )
 
@@ -307,7 +307,7 @@ def _collect(session, key: str | None, *, list_url: str, dtl_url: str, spl_url: 
     supply_on = bool(spl_url)
     for row, cat in rows:
         item = normalize(row, cat, pre=pre)
-        if not item["name"]:
+        if not item["name"] or not is_recruitment_title(row.get("PAN_NM")):
             continue
         params = {"serviceKey": key, "PAN_ID": row["PAN_ID"], **{k: row.get(k) for k in DETAIL_PARAMS}}
         if detail_on:

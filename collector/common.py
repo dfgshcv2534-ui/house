@@ -220,3 +220,15 @@ def sector_of(detail_kind: str | None, supplier: str | None) -> str:
     if detail_kind == "민영":
         return "민간"
     return "공공" if supplier and PUBLIC_SUPPLIER.search(supplier) else "민간"
+
+
+# 입주자 모집공고만 남기기: '모집' 공고여야 하고, 연기·변경 안내·취소·사전공고·보충 글은 뺀다 ([정정]·(수정) 공고는 남김)
+RECRUIT = re.compile(r"모집|공급\s*공고|분양\s*공고|청약\s*공고|사전\s*청약")
+NOT_RECRUIT = re.compile(
+    r"연기|일정\s*(?:변경|조정|안내)|변경\s*(?:안내|알림|공지)|취소|중단|철회|보류|사전\s*공고|사전\s*안내|"
+    r"(?:정보|서류|내용)\s*추가|추가\s*(?:안내|공지)|안내\s*$|안내문|알림\s*$|공지\s*$|Q\s*&\s*A|FAQ|질의|응답"
+)
+
+
+def is_recruitment_title(title: str | None) -> bool:
+    return bool(title) and bool(RECRUIT.search(title)) and not NOT_RECRUIT.search(title)

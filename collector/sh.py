@@ -13,7 +13,7 @@ from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
-from .common import SPECIAL, SourceError, clean, drop_reposts, get, gu_in_text, kst_today, log, seoul_gu, special_kind, to_iso
+from .common import SPECIAL, SourceError, clean, drop_reposts, get, is_recruitment_title, gu_in_text, kst_today, log, seoul_gu, special_kind, to_iso
 
 BASE = "https://www.i-sh.co.kr"
 PREFIXES = ["/app", "/main"]  # 같은 게시판이 두 경로로 열린다. 앞의 것이 실패하면 뒤의 것으로
@@ -32,7 +32,6 @@ EXCLUDE = re.compile(
     r"추첨\s*결과|합격|선정\s*결과|입주\s*안내|하자|설명회|사전\s*점검|추가\s*서류|개인정보|만족도|채용|입찰|용역|"
     r"(?:접수|청약|신청)\s*(?:현황|결과)|결과\s*$|경쟁률|분양\s*전환\s*(?:신청\s*)?(?:안내|가격|대상|감정)"
 )
-INCLUDE = re.compile(r"모집|공급|청약|분양|공고")
 
 # (정규식, 유형 이름, 분류) — 위에서부터 먼저 맞는 것
 KIND_RULES = [
@@ -71,7 +70,7 @@ def targets_of(title: str) -> list[str]:
 
 
 def is_recruitment(title: str) -> bool:
-    return bool(INCLUDE.search(title)) and not EXCLUDE.search(title)
+    return is_recruitment_title(title) and not EXCLUDE.search(title)
 
 
 def parse_list(html: str) -> list[dict]:

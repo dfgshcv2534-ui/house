@@ -436,3 +436,25 @@ def test_homepage_plans_attach_from_cache(tmp_path):
     assert [m.get("plan") for m in n["models"]] == ["https://cheonggye-elitz.com/assets/plan-81a.webp", None,
                                                     "https://cheonggye-elitz.com/assets/plan-76.webp"]
     assert len(n["homePlans"]) == 2
+
+
+def test_only_recruitment_notices():
+    keep = [
+        "2026년 2차 행복주택 입주자 모집공고",
+        "2026년 2차 청년안심주택(공공임대) 입주자 모집공고(정정)",
+        "(수정) 2026년 2차 장기미임대 매입임대주택 입주자모집공고",
+        "26년 3차 청년 매입임대주택 예비입주자 모집공고",
+        "서울번동3 행복주택 예비입주자 모집",
+        "2026년 재개발임대주택 일반모집 공고",
+        "[토지임대부 사회주택] 옥류서원 입주자 모집 공고문",
+    ]
+    drop = [
+        "2026년 재개발임대주택 입주자 모집 일정 연기 안내",
+        "2026년 빈집활용 건설약정방식 매입임대주택 사전공고(수정)",
+        "2026년 1차 일반주택형 미리내집(신혼신생아매입임대주택Ⅱ) 입주자 모집공고(2026.08.14.) 주택정보 추가",
+        "행복주택 입주자 모집 접수 기간 변경 안내",
+        "2026년 국민임대 입주자 모집 취소 공고",
+        "행복주택 예비당첨자 게시",
+    ]
+    assert [t for t in keep if not sh.is_recruitment(t)] == []
+    assert [t for t in drop if sh.is_recruitment(t)] == []
