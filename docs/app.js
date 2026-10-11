@@ -365,7 +365,7 @@ function imagesHTML(n) {
     : `<a class="thumb thumb-link" href="${esc(im.url)}" target="_blank" rel="noopener"><span class="ph" aria-hidden="true">🖼</span><span>${esc(im.label)} ↗</span></a>`).join("")}</div>`;
 }
 
-const PLAN_FILE = /평면|단위세대|타입별|주택형별/;
+const PLAN_FILE = /평면|도면|단위세대|타입별|주택형별|팜플렛|팸플릿|카탈로그|브로슈어/;
 function fileLink(f) {
   if (typeof f === "string") return esc(f);
   return safeUrl(f.url) ? `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.name)} ↗</a>` : esc(f.name);
@@ -373,9 +373,9 @@ function fileLink(f) {
 function plansHTML(n) {
   const plans = (n.files || []).filter((f) => typeof f !== "string" && PLAN_FILE.test(f.name));
   if (!plans.length) return "";
-  return `<div class="section"><h4>평면도 첨부</h4><div class="plan-files">${plans.map((f) => safeUrl(f.url)
+  return `<div class="section"><h4>평면도·도면 첨부</h4><div class="plan-files">${plans.map((f) => safeUrl(f.url)
     ? `<a class="btn" href="${esc(f.url)}" target="_blank" rel="noopener">📐 ${esc(f.name)}</a>` : `<span class="btn">📐 ${esc(f.name)}</span>`).join("")}</div>
-    <p class="note">공고에 첨부된 평면도 파일이에요. 누르면 미리보기로 열려요.</p></div>`;
+    <p class="note">공고에 첨부된 평면도·도면·팜플렛 파일이에요. 누르면 미리보기로 열려요.</p></div>`;
 }
 // 모집공고문 PDF에서 잘라 온 평면도 페이지 (상대 경로 plans/…)
 function pdfPlansHTML(n) {
