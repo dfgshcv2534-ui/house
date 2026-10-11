@@ -1,1 +1,23 @@
-{"updatedAt": null, "baseDate": null, "sources": {}, "total": 0, "newToday": 0}
+{
+ "updatedAt": "2026-10-11T17:16+09:00",
+ "baseDate": "2026-10-11",
+ "sources": {
+  "청약홈": {
+   "ok": true,
+   "count": 58,
+   "failedParts": []
+  },
+  "SH": {
+   "ok": true,
+   "count": 32,
+   "failedParts": []
+  },
+  "LH": {
+   "ok": false,
+   "count": 0,
+   "message": "LH API 오류: {'OpenAPI_ServiceResponse': {'cmmMsgHeader': {'errMsg': 'SERVICE_KEY_IS_NOT_REGISTERED_ERROR', 'returnAuthMsg': '등록되지 않은 서비스키', 'returnReasonCode': '30'}}}"
+  }
+ },
+ "total": 28,
+ "newToday": 28
+}
