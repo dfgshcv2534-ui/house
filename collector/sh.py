@@ -11,7 +11,7 @@ from datetime import date, timedelta
 
 from bs4 import BeautifulSoup
 
-from .common import SPECIAL, SourceError, clean, drop_reposts, get, gu_in_text, kst_today, log, special_kind, to_iso
+from .common import SPECIAL, SourceError, clean, drop_reposts, get, gu_in_text, kst_today, log, seoul_gu, special_kind, to_iso
 
 BASE = "https://www.i-sh.co.kr"
 PREFIXES = ["/app", "/main"]  # 같은 게시판이 두 경로로 열린다. 앞의 것이 실패하면 뒤의 것으로
@@ -188,6 +188,17 @@ def extract_schedule(text: str, notice: str | None) -> dict:
     return out
 
 
+ADDRESS_RE = re.compile(r"서울(?:특별시|시)?\s+(\S+구)\s+\S+?(?:동|로|길)(?:\s*\d+(?:-\d+)?)?(?:\s*(?:번지|번길\s*\d+))?")
+
+
+def single_address(text: str) -> str | None:
+    """본문에 나오는 서울 주소가 한 자치구뿐이면 첫 주소를 쓴다 (여러 곳 공고는 위치를 정하지 않음)."""
+    found = list(ADDRESS_RE.finditer(text or ""))
+    if not found or len({m.group(1) for m in found}) != 1:
+        return None
+    return re.sub(r"\s+", " ", found[0].group(0)).strip()
+
+
 def units_of(text: str) -> int | None:
     m = re.search(r"(?:총|공급\s*(?:호수|세대수|규모)?|모집\s*(?:호수|세대)?)\s*:?\s*([\d,]{1,6})\s*(?:호|세대|가구)", text or "")
     if not m:
@@ -235,6 +246,7 @@ def to_notice(row: dict, board: dict, detail: dict | None, url: str) -> dict:
     dates = {"notice": row["date"]}
     dates.update({k: v for k, v in sched.items() if k in ("start", "end", "winner")})
     name = re.sub(r"\s*\(\s*(?:\d{4}|\d{2})\s*[.\-]\s*\d{1,2}\s*[.\-]\s*\d{1,2}\s*\.?\s*(?:공고)?\s*\)\s*$", "", title)
+    address = single_address(text)
     return {
         "id": f"sh:{board['key']}:{row['seq']}",
         "source": "SH",
@@ -242,8 +254,8 @@ def to_notice(row: dict, board: dict, detail: dict | None, url: str) -> dict:
         "cat": cat,
         "kind": kind,
         "name": name,
-        "address": None,
-        "gu": gu_in_text(title) or gu_in_text(text[:400]),
+        "address": address,
+        "gu": (seoul_gu(address) if address else None) or gu_in_text(title) or gu_in_text(text[:400]),
         "units": units_of(title) or units_of(text[:1500]),
         "dates": {k: v for k, v in dates.items() if v},
         "dateBasis": "본문" if sched.get("start") else "없음",

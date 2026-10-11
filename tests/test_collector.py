@@ -308,3 +308,18 @@ def test_geocoder_queries_and_fallback(tmp_path, monkeypatch):
     c = {"address": "서울특별시 강남구 세곡동 100 A1블록", "gu": "강남구"}
     g2.locate(c)
     assert g2.session.calls == [] and c["geo"]["precision"] == "동"
+
+
+def test_lh_detail_units_from_complex_rows():
+    from collector import lh
+    item = lh.normalize({"PAN_ID": "7", "PAN_NM": "강서염창 통합공공임대주택 모집", "AIS_TP_CD_NM": "통합공공임대", "PAN_NT_ST_DT": "2026.09.17"}, "임대")
+    lh.apply_detail(item, [{"dsSbd": [{"LGDN_ADR": "서울특별시 강서구 공항대로81길 14(염창동)", "HSH_CNT": "14",
+                                        "HTN_FMLA_DESC": "개별난방", "DDO_AR": "59.95~59.95", "MVIN_XPC_YM": "2027.02"}]}])
+    assert item["units"] == 14 and item["area"] == "59.95㎡" and "개별난방" in item["tags"]
+    assert item["address"].startswith("서울특별시 강서구") and item["gu"] == "강서구" and item["moveIn"] == "2027-02"
+
+
+def test_sh_single_address():
+    assert sh.single_address("소재지: 서울특별시 관악구 신림동 1422-5 (에어스페이스)") == "서울특별시 관악구 신림동 1422-5"
+    assert sh.single_address("서울특별시 강동구 고덕동 1 / 서울특별시 송파구 거여동 2") is None
+    assert sh.single_address("공급 위치는 첨부 참조") is None

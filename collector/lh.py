@@ -112,7 +112,8 @@ def _dates_in(text) -> list[str]:
 
 def apply_detail(item: dict, body) -> None:
     """상세정보 응답으로 주소·일정·입주 예정·세대수·첨부를 채운다."""
-    sbd = (_ds(body, "dsSbd") or [{}])[0]
+    sbds = _ds(body, "dsSbd") or [{}]
+    sbd = sbds[0]
     address = " ".join(x for x in (clean(sbd.get("LCT_ARA_ADR")), clean(sbd.get("LCT_ARA_DTL_ADR"))) if x)
     if not address:  # 유형마다 주소 필드 이름이 달라서, 서울 주소가 든 *ADR 필드를 찾는다
         address = next((clean(v) for k, v in sbd.items() if k.endswith("ADR") and is_seoul(v)), None)
@@ -123,7 +124,15 @@ def apply_detail(item: dict, body) -> None:
     notice = item["dates"].get("notice") or ""
     if move_in and move_in >= notice[:7]:  # 이미 입주한 기존 단지(예비입주자 모집)의 과거 입주월은 숨긴다
         item["moveIn"] = move_in
-    item["units"] = to_int(sbd.get("SUM_TOT_HSH_CNT")) or item["units"]
+    # 세대수: 합계 필드가 있으면 그것, 없으면 단지별 HSH_CNT 합 (공급정보 서비스 없이도 채워진다)
+    item["units"] = to_int(sbd.get("SUM_TOT_HSH_CNT")) or (sum(to_int(b.get("HSH_CNT")) or 0 for b in sbds) or None) or item["units"]
+    heat = clean(sbd.get("HTN_FMLA_DESC"))
+    if heat and heat not in item["tags"]:
+        item["tags"].append(heat)
+    area = clean(sbd.get("DDO_AR") or sbd.get("MIN_MAX_RSDN_DDO_AR"))
+    if area:
+        lo, _, hi = area.partition("~")
+        item["area"] = f"{lo.strip()}㎡" if not hi or lo.strip() == hi.strip() else f"{lo.strip()}~{hi.strip()}㎡"
 
     starts, ends, winners, c_starts, c_ends = [], [], [], [], []
     for r in _ds(body, "dsSplScdl"):
@@ -281,8 +290,7 @@ def _collect(session, key: str | None, *, list_url: str, dtl_url: str, spl_url: 
             try:
                 apply_supply(item, _json(get(session, spl_url, params=params), what + " 공급정보"))
             except SourceError as e:  # 공급정보 서비스 미신청
-                log.warning("%s — 세대수·주택형 없이 진행합니다", e)
-                failed.append("공급")
+                log.info("%s — 주택형별 표 없이 진행합니다 (선택 기능)", e)
                 supply_on = False
             except Exception as e:
                 log.warning("%s 공급정보 실패(%s): %s", what, row.get("PAN_ID"), e)

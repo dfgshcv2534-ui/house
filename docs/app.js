@@ -420,6 +420,7 @@ function openDetail(id, { push = true } = {}) {
   const kv = [];
   if (n.units) kv.push(["공급 세대", `${n.units.toLocaleString()}세대`]);
   if (n.priceMin) kv.push(["분양가", n.priceMin === n.priceMax ? money(n.priceMin) : `${moneyShort(n.priceMin)} ~ ${moneyShort(n.priceMax)}`]);
+  if (n.area) kv.push(["전용면적", n.area]);
   if (n.moveIn) kv.push(["입주 예정", fmtMonth(n.moveIn)]);
   if (n.builder) kv.push(["시공사", n.builder]);
   if (n.supplier) kv.push(["공급 주체", n.supplier]);
