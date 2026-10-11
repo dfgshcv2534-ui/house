@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-11T18:28+09:00",
+ "updatedAt": "2026-10-11T18:32+09:00",
  "baseDate": "2026-10-11",
  "sources": {
   "청약홈": {
@@ -14,7 +14,7 @@
   },
   "LH": {
    "ok": true,
-   "count": 8,
+   "count": 6,
    "failedParts": []
   },
   "LH 사전청약": {
@@ -23,6 +23,6 @@
    "message": "LH 사전청약 요청주소가 아직 비어 있습니다 (collector/lh.py PRE_LIST_URL)"
   }
  },
- "total": 37,
- "newToday": 8
+ "total": 35,
+ "newToday": 0
 }
