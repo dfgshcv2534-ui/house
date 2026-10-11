@@ -21,7 +21,7 @@ from .common import SPECIAL, SourceError, api_key, kst_now, kst_today, log, make
 DATA_DIR = Path(__file__).resolve().parent.parent / "docs" / "data"
 KEEP_AFTER_END_DAYS = 14
 KEEP_UNDATED_DAYS = 60
-ID_PREFIX = {"청약홈": "ah:", "SH": "sh:", "LH": "lh:"}
+ID_PREFIX = {"청약홈": "ah:", "SH": "sh:", "LH": "lh:", "LH 사전청약": "lhp:"}
 
 
 def load_json(path: Path, default):
@@ -76,6 +76,7 @@ def run_sources(session, key) -> tuple[dict[str, list[dict]], dict[str, dict]]:
         "청약홈": lambda: applyhome.collect(session, key),
         "SH": lambda: sh.collect(session),
         "LH": lambda: lh.collect(session, key),
+        "LH 사전청약": lambda: lh.collect_pre(session, key),
     }
     for name, job in jobs.items():
         try:

@@ -189,3 +189,33 @@ def test_applyhome_conversion_rental_is_special():
     assert (n["cat"], n["kind"]) == ("특수형", "분양전환 임대")
     row = dict(APT_ROW, RENT_SECD_NM="분양전환 불가임대")
     assert applyhome.normalize(row, applyhome.SOURCES[0], [])["cat"] == "임대"
+
+
+def test_lh_detail_fills_schedule_and_address():
+    from collector import lh
+    item = lh.normalize({"PAN_ID": "2026000123", "PAN_NM": "서울강남 행복주택 입주자 모집", "AIS_TP_CD_NM": "행복주택",
+                         "PAN_NT_ST_DT": "2026.10.01", "CLSG_DT": "2026.10.17", "PAN_SS": "공고중", "DTL_URL": "https://apply.lh.or.kr/x"}, "임대")
+    assert (item["cat"], item["kind"], item["gu"]) == ("임대", "행복주택", None)
+    body = [
+        {"resHeader": [{"SS_CODE": "Y"}]},
+        {"dsSbd": [{"LCT_ARA_ADR": "서울특별시 강남구 세곡동 100", "LCT_ARA_DTL_ADR": "A1블록", "MVIN_XPC_YM": "202803", "SUM_TOT_HSH_CNT": "350"}]},
+        {"dsSplScdl": [
+            {"HS_SBSC_ACP_TRG_CD_NM": "청년", "ACP_DTTM": "2026.10.14 10:00 ~ 2026.10.16 17:00", "PZWR_ANC_DT": "20261224", "CTRT_ST_DT": "20270210", "CTRT_ED_DT": "20270212"},
+            {"HS_SBSC_ACP_TRG_CD_NM": "고령자", "ACP_DTTM": "2026.10.15 10:00 ~ 2026.10.17 17:00", "PZWR_ANC_DT": "20261224"},
+        ]},
+        {"dsAhflInfo": [{"CMN_AHFL_NM": "공고문.pdf", "AHFL_URL": "https://apply.lh.or.kr/f"}, {"CMN_AHFL_NM": "다운로드", "AHFL_URL": "x"}]},
+    ]
+    lh.apply_detail(item, body)
+    assert item["address"] == "서울특별시 강남구 세곡동 100 A1블록" and item["gu"] == "강남구"
+    assert item["dates"] == {"notice": "2026-10-01", "start": "2026-10-14", "end": "2026-10-17", "winner": "2026-12-24",
+                             "contract_start": "2027-02-10", "contract_end": "2027-02-12"}
+    assert item["moveIn"] == "2028-03" and item["units"] == 350 and item["files"] == ["공고문.pdf"]
+    assert "statusHint" not in item
+
+
+def test_lh_preorder_slot_is_skipped_until_configured():
+    import pytest
+    from collector import lh
+    from collector.common import SourceError
+    with pytest.raises(SourceError, match="요청주소"):
+        lh.collect_pre(None, "key")
