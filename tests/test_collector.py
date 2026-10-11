@@ -351,3 +351,10 @@ def test_sh_single_address():
     assert sh.single_address("소재지: 서울특별시 관악구 신림동 1422-5 (에어스페이스)") == "서울특별시 관악구 신림동 1422-5"
     assert sh.single_address("서울특별시 강동구 고덕동 1 / 서울특별시 송파구 거여동 2") is None
     assert sh.single_address("공급 위치는 첨부 참조") is None
+
+
+def test_applyhome_notice_files():
+    html = """<a href="https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=1&amp;pblancNo=1&amp;atchmnflSeqNo=9&amp;atchmnflSn=4"
+      class="btn">모집공고문 보기</a> <a href="/x">기타</a>"""
+    assert applyhome.notice_files(html) == [{"name": "모집공고문 보기 (PDF)",
+        "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=1&pblancNo=1&atchmnflSeqNo=9&atchmnflSn=4"}]

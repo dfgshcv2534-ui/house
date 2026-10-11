@@ -170,6 +170,39 @@ def normalize(row: dict, src: dict, models: list[dict]) -> dict:
     }
 
 
+_ATTACH_RE = re.compile(r"""href=["']([^"']*getAtchmnfl\.do[^"']*)["'][^>]*>\s*([^<]{0,40})""", re.I)
+
+
+def notice_files(html: str) -> list[dict]:
+    """청약홈 공고 상세 페이지에서 '모집공고문 보기' 같은 첨부(PDF) 직접 링크를 뽑는다."""
+    from html import unescape
+    from urllib.parse import urljoin
+    out = []
+    for href, label in _ATTACH_RE.findall(html or ""):
+        url = urljoin("https://www.applyhome.co.kr/", unescape(href))
+        if url not in [f["url"] for f in out]:
+            out.append({"name": (clean(label) or "첨부파일") + " (PDF)", "url": url})
+    return out
+
+
+def add_notice_files(session, items: list[dict]) -> None:
+    """아직 볼 일이 남은 공고만 상세 페이지를 한 번씩 열어 모집공고문 링크를 붙인다."""
+    recent = (kst_today() - timedelta(days=30)).isoformat()
+    for item in items:
+        d = item["dates"]
+        if not item.get("url") or max(d.values(), default="") < recent:
+            continue
+        try:
+            resp = get(session, item["url"], attempts=2, timeout=20)
+            files = notice_files(resp.text) if resp.status_code == 200 else []
+        except Exception as e:
+            log.warning("청약홈 상세 페이지 실패(%s): %s", item["name"], e)
+            continue
+        if files:
+            item["files"] = files
+        time.sleep(0.3)
+
+
 def collect(session, key: str | None) -> tuple[list[dict], list[str]]:
     """(서울 공고 목록, 실패한 하위 출처 키 목록)."""
     if not key:
@@ -202,4 +235,5 @@ def collect(session, key: str | None) -> tuple[list[dict], list[str]]:
                 out.append(item)
     if len(failed) == len(SOURCES):
         raise SourceError("청약홈 API를 하나도 읽지 못했습니다")
+    add_notice_files(session, out)
     return out, failed
