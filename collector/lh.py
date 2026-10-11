@@ -7,7 +7,7 @@ from __future__ import annotations
 
 from datetime import timedelta
 
-from .common import SourceError, clean, get, redact, gu_in_text, is_seoul, kst_today, log, to_int, to_iso
+from .common import SPECIAL, SourceError, clean, get, redact, gu_in_text, is_seoul, kst_today, log, special_kind, to_int, to_iso
 
 URL = "https://apis.data.go.kr/B552555/lhLeaseNoticeInfo1/lhLeaseNoticeInfo1"
 LOOKBACK_DAYS = 90
@@ -35,6 +35,9 @@ def normalize(row: dict, cat: str) -> dict:
     kind = clean(row.get("AIS_TP_CD_NM")) or clean(row.get("UPP_AIS_TP_NM")) or "LH"
     if "신혼희망" in kind or "분양" in kind:
         cat = "분양"
+    special = special_kind(kind, clean(row.get("PAN_NM")))
+    if special:
+        kind, cat = special, SPECIAL
     status = clean(row.get("PAN_SS"))
     name = clean(row.get("PAN_NM"))
     return {

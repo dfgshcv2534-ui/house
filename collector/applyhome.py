@@ -10,7 +10,7 @@ import time
 from datetime import timedelta
 
 from .common import (
-    SourceError, clean, first, get, redact, is_seoul, kst_today, log, seoul_gu, to_float, to_int, to_iso, to_month,
+    SPECIAL, SourceError, clean, first, get, redact, is_seoul, kst_today, log, seoul_gu, special_kind, to_float, to_int, to_iso, to_month,
 )
 
 BASE = "https://api.odcloud.kr/api/ApplyhomeInfoDetailSvc/v1"
@@ -134,6 +134,9 @@ def normalize(row: dict, src: dict, models: list[dict]) -> dict:
     rent_nm = clean(row.get("RENT_SECD_NM")) or ""
     if "임대" in rent_nm or "임대" in kind:
         cat = "임대"
+    special = special_kind(rent_nm, clean(row.get("HOUSE_NM")))
+    if special:
+        kind, cat = special, SPECIAL
     tags = [label for field, label in FLAG_TAGS if str(row.get(field) or "").upper() == "Y"]
     detail_kind = clean(row.get("HOUSE_DTL_SECD_NM"))
     if src["key"] == "apt" and detail_kind:

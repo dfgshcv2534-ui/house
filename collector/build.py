@@ -16,7 +16,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from . import applyhome, lh, sh
-from .common import SourceError, api_key, kst_now, kst_today, log, make_session
+from .common import SPECIAL, SourceError, api_key, kst_now, kst_today, log, make_session
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "docs" / "data"
 KEEP_AFTER_END_DAYS = 14
@@ -50,7 +50,7 @@ def dedupe(items: list[dict]) -> list[dict]:
     keys = [(i, _norm_name(i["name"])) for i in ah]
     out = []
     for item in items:
-        if item["source"] != "청약홈" and item["cat"] == "분양":
+        if item["source"] != "청약홈" and item["cat"] in ("분양", SPECIAL):
             mine = _norm_name(item["name"])
             match = next((a for a, k in keys if len(k) >= 4 and k in mine), None)
             if match:

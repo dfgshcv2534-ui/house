@@ -48,7 +48,7 @@ def test_sh_list_and_filter():
 def test_sh_classify():
     assert sh.classify("2026년 2차 행복주택 입주자 모집공고", "임대") == ("행복주택", "임대")
     assert sh.classify("장기전세주택(미리내집) 입주자 모집", "임대")[0] == "장기전세(미리내집)"
-    assert sh.classify("마곡 토지임대부 분양주택 입주자 모집", "분양") == ("토지임대부 분양", "분양")
+    assert sh.classify("마곡 토지임대부 분양주택 입주자 모집", "분양") == ("토지임대부 분양", "특수형")
     assert sh.classify("청년 매입임대주택 모집", "임대")[0] == "매입임대"
     assert sh.targets_of("청년·신혼부부 매입임대") == ["청년", "신혼·신생아"]
 
@@ -165,3 +165,27 @@ def test_sh_drop_reposts_keeps_latest():
 def test_keep_uses_latest_schedule_date():
     item = {"dates": {"end": "2026-09-01", "contract_end": "2026-10-20"}}
     assert build.keep(item, date(2026, 10, 11))
+
+
+def test_special_kinds():
+    from collector.common import special_kind
+    assert special_kind("마곡 토지임대부 분양주택") == "토지임대부 분양"
+    assert special_kind("[토지임대부 사회주택] 옥류서원") is None
+    assert special_kind("서울형 지분적립형 분양주택 입주자 모집") == "지분적립형 분양"
+    assert special_kind("뉴홈 나눔형 사전청약") == "나눔형(이익공유)"
+    assert special_kind("분양전환 가능임대") == "분양전환 임대"
+    assert special_kind("10년 공공임대주택 입주자 모집") == "분양전환 임대"
+    assert special_kind("공공임대(10년)") == "분양전환 임대"
+    assert special_kind("분양전환 불가임대") is None
+    assert special_kind("행복주택 입주자 모집") is None
+    assert sh.classify("[토지임대부 사회주택] 옥류서원 입주자 모집 공고문", "분양") == ("사회주택", "임대")
+    assert sh.classify("10년 공공임대주택 입주자 모집공고", "임대") == ("분양전환 임대", "특수형")
+    assert not sh.is_recruitment("○○단지 분양전환 가격 안내")
+
+
+def test_applyhome_conversion_rental_is_special():
+    row = dict(APT_ROW, RENT_SECD_NM="분양전환 가능임대", HOUSE_DTL_SECD_NM="국민")
+    n = applyhome.normalize(row, applyhome.SOURCES[0], [])
+    assert (n["cat"], n["kind"]) == ("특수형", "분양전환 임대")
+    row = dict(APT_ROW, RENT_SECD_NM="분양전환 불가임대")
+    assert applyhome.normalize(row, applyhome.SOURCES[0], [])["cat"] == "임대"

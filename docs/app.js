@@ -14,6 +14,21 @@ const SCHEDULE_STEPS = [
   ["contract_start", "계약", "contract_end"],
 ];
 
+const TABS = ["분양", "임대", "특수형", "전체"];
+const CAT_CLASS = { "분양": "sale", "임대": "rent", "특수형": "special" };
+// 특수형 유형별 특징: [카드에 보이는 한 줄, 상세 화면 설명]
+const KIND_NOTES = {
+  "토지임대부 분양": ["건물만 분양 · 땅은 임대료 별도",
+    "건물만 소유하고 토지는 공공에 임대료를 내며 사용해요. 분양가가 크게 낮은 대신 매달 토지 임대료가 있고, 전매 제한·거주 의무·되팔 때 공공 환매 조건을 꼭 확인하세요."],
+  "분양전환 임대": ["임대로 살다가 분양 전환",
+    "정해진 기간(보통 5년·10년) 임대로 거주한 뒤 우선 분양받을 수 있어요. 전환 시점의 분양가 산정 방식(감정가 기준 등)과 임대 기간 중 보증금·임대료를 함께 비교하세요."],
+  "지분적립형 분양": ["지분 일부만 사고 나중에 늘려가요",
+    "처음에는 집 지분의 일부(예: 10~25%)만 사고, 20~30년에 걸쳐 나머지 지분을 나눠 사요. 남은 공공 지분에는 임대료를 내요."],
+  "나눔형(이익공유)": ["싸게 사고, 팔 때 차익을 나눠요",
+    "시세보다 낮은 가격에 분양받는 대신, 의무 거주 후 공공에 되팔 때 시세 차익의 일부를 공공과 나눠요."],
+};
+const kindClass = (n) => CAT_CLASS[n.cat] || "rent";
+
 const state = {
   tab: "분양", q: "", kind: "", gu: "", sort: "deadline",
   statuses: new Set(["open", "upcoming", "check"]), fav: false, targets: new Set(),
@@ -154,6 +169,7 @@ function renderHeader() {
     el.textContent = c || "";
   }
   for (const b of document.querySelectorAll(".tabs button")) b.setAttribute("aria-selected", b.dataset.tab === state.tab);
+  $("#tabNote").hidden = state.tab !== "특수형";
 }
 
 function renderStats() {
@@ -204,13 +220,14 @@ function cardHTML(n) {
   return `<article class="card ${st.key}" data-id="${esc(n.id)}" tabindex="0" role="button" aria-label="${esc(n.name)} 자세히 보기">
     <div class="card-top">
       <span class="badge ${st.key}">${esc(st.label)}</span>
-      <span class="kind ${n.cat === "분양" ? "sale" : "rent"}">${esc(n.kind)}</span>
+      <span class="kind ${kindClass(n)}">${esc(n.kind)}</span>
       ${isNew(n) ? `<span class="newtag">NEW</span>` : ""}
       <span class="src">${esc(n.source)}</span>
     </div>
     <button class="star" data-star="${esc(n.id)}" aria-pressed="${favs.has(n.id)}" aria-label="관심 공고">${favs.has(n.id) ? "★" : "☆"}</button>
     <h3>${esc(n.name)}</h3>
     ${where ? `<p class="where">${esc(where)}</p>` : ""}
+    ${KIND_NOTES[n.kind] ? `<p class="kind-note">${KIND_NOTES[n.kind][0]}</p>` : ""}
     ${price}
     <dl class="facts">${facts.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>
     ${tags.length ? `<div class="mini-tags">${tags.map((t) => `<span>${esc(t)}</span>`).join("")}</div>` : ""}
@@ -225,7 +242,9 @@ function renderList(list) {
   }
   el.innerHTML = list.length
     ? list.map(cardHTML).join("")
-    : `<div class="empty"><b>조건에 맞는 공고가 없어요</b>필터를 줄이거나 ‘마감’도 포함해 보세요.</div>`;
+    : state.tab === "특수형" && !notices.some((n) => n.cat === "특수형")
+      ? `<div class="empty"><b>지금 서울에 나온 특수형 공고가 없어요</b>새 공고가 올라오면 매일 아침 여기에 모아 드려요.</div>`
+      : `<div class="empty"><b>조건에 맞는 공고가 없어요</b>필터를 줄이거나 ‘마감’도 포함해 보세요.</div>`;
 }
 
 function agendaEvents(list) {
@@ -330,7 +349,7 @@ function openDetail(id, { push = true } = {}) {
       <div>
         <div class="card-top">
           <span class="badge ${st.key}">${esc(st.label)}</span>
-          <span class="kind ${n.cat === "분양" ? "sale" : "rent"}">${esc(n.kind)}</span>
+          <span class="kind ${kindClass(n)}">${esc(n.kind)}</span>
           <span class="src" style="margin-left:0">${esc(n.source)}</span>
         </div>
         <h2 id="dTitle">${esc(n.name)}</h2>
@@ -339,6 +358,7 @@ function openDetail(id, { push = true } = {}) {
       <button class="close" data-close aria-label="닫기">×</button>
     </div>
     ${kv.length ? `<div class="section"><dl class="kv">${kv.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>` : ""}
+    ${KIND_NOTES[n.kind] ? `<div class="section"><h4>${esc(n.kind)}란?</h4><p class="kind-detail">${KIND_NOTES[n.kind][1]}</p></div>` : ""}
     <div class="section"><h4>일정</h4>${timeline || `<p class="note">일정이 공고 본문에 없어요. 공고문 원문에서 확인해 주세요.</p>`}
       ${n.dateBasis === "본문" ? `<p class="note">SH 공고 본문에서 자동으로 읽은 일정이에요. 원문과 꼭 대조해 주세요.</p>` : ""}
       ${n.stale ? `<p class="note">오늘 이 출처를 새로 확인하지 못해 지난 정보를 보여주고 있어요.</p>` : ""}</div>
@@ -426,7 +446,7 @@ function writeHash() {
 }
 function readHash() {
   const p = new URLSearchParams(location.hash.slice(1));
-  if (["분양", "임대", "전체"].includes(p.get("tab"))) state.tab = p.get("tab");
+  if (TABS.includes(p.get("tab"))) state.tab = p.get("tab");
   state.q = p.get("q") || "";
   state.kind = p.get("kind") || "";
   state.gu = p.get("gu") || "";

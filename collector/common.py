@@ -154,3 +154,24 @@ def gu_in_text(text: str | None) -> str | None:
         elif gu in text:
             return gu
     return None
+
+
+SPECIAL = "특수형"
+# 분양과 임대 사이에 있는 방식: 소유 구조나 전환 조건이 달라 따로 본다. (정규식, 유형 이름)
+SPECIAL_RULES = [
+    (r"토지\s*임대부(?!\s*사회주택)", "토지임대부 분양"),
+    (r"지분\s*적립형", "지분적립형 분양"),
+    (r"나눔형|이익\s*공유형", "나눔형(이익공유)"),
+    (r"분양\s*전환\s*(?:가능|형)?\s*(?:공공)?\s*임대|분납\s*임대|(?:5|10)\s*년\s*(?:공공)?\s*임대|공공\s*임대\s*\(\s*(?:5|10)\s*년|분양\s*전환\s*가능", "분양전환 임대"),
+]
+
+
+def special_kind(*texts) -> str | None:
+    """토지임대부·지분적립형·나눔형·분양전환 임대면 그 유형 이름, 아니면 None."""
+    text = " ".join(t for t in texts if t)
+    if re.search(r"분양\s*전환\s*불가", text):
+        text = re.sub(r"분양\s*전환\s*불가\S*", "", text)
+    for pattern, kind in SPECIAL_RULES:
+        if re.search(pattern, text):
+            return kind
+    return None

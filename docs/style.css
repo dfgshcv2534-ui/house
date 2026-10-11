@@ -19,6 +19,8 @@
   --sale: #2459e0;
   --rent: #12805c;
   --rent-soft: #e3f4ec;
+  --special: #7a3fd1;
+  --special-soft: #f1e9fd;
   --new: #d6336c;
   --star: #e8a400;
   --shadow: 0 1px 2px rgba(16, 24, 40, .05), 0 1px 3px rgba(16, 24, 40, .06);
@@ -48,6 +50,8 @@
     --sale: #7ea2ff;
     --rent: #5fd0a4;
     --rent-soft: #173229;
+    --special: #c4a2ff;
+    --special-soft: #2c2142;
     --new: #ff7aa2;
     --shadow: none;
     color-scheme: dark;
@@ -59,7 +63,7 @@
   --text: #eef0f3; --text-2: #b6bcc6; --text-3: #8a919c;
   --accent: #7ea2ff; --accent-soft: #1f2a46; --open: #ff7aa2; --open-soft: #3a1f2a;
   --upcoming: #7ea2ff; --upcoming-soft: #1f2a46; --check: #f0b25c; --check-soft: #3a2c19;
-  --closed: #8a919c; --closed-soft: #262a31; --sale: #7ea2ff; --rent: #5fd0a4; --rent-soft: #173229;
+  --closed: #8a919c; --closed-soft: #262a31; --sale: #7ea2ff; --rent: #5fd0a4; --rent-soft: #173229; --special: #c4a2ff; --special-soft: #2c2142;
   --new: #ff7aa2; --shadow: none; color-scheme: dark;
 }
 
@@ -135,6 +139,11 @@ button, input, select { font: inherit; color: inherit; }
 .kind { font-size: 12px; font-weight: 600; padding: 3px 8px; border-radius: 6px; background: var(--surface-2); color: var(--text-2); }
 .kind.sale { color: var(--sale); background: var(--accent-soft); }
 .kind.rent { color: var(--rent); background: var(--rent-soft); }
+.kind.special { color: var(--special); background: var(--special-soft); }
+.kind-note { margin: 6px 0 0; font-size: 12.5px; color: var(--special); font-weight: 600; }
+.kind-detail { margin: 0; font-size: 14px; color: var(--text-2); background: var(--special-soft); border-radius: 10px; padding: 10px 12px; }
+.tab-note { margin: 14px 0 0; padding: 10px 12px; border-radius: 12px; background: var(--special-soft); color: var(--text-2); font-size: 13.5px; }
+.tab-note b { color: var(--special); font-weight: 650; }
 .newtag { font-size: 11px; font-weight: 800; color: var(--new); letter-spacing: .02em; }
 .src { margin-left: auto; font-size: 11.5px; color: var(--text-3); }
 .card h3 { margin: 8px 0 2px; font-size: 16.5px; font-weight: 700; letter-spacing: -.01em; line-height: 1.35; }

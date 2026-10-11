@@ -11,7 +11,7 @@ from datetime import date, timedelta
 
 from bs4 import BeautifulSoup
 
-from .common import SourceError, clean, get, gu_in_text, kst_today, log, to_iso
+from .common import SPECIAL, SourceError, clean, get, gu_in_text, kst_today, log, special_kind, to_iso
 
 BASE = "https://www.i-sh.co.kr"
 PREFIXES = ["/app", "/main"]  # 같은 게시판이 두 경로로 열린다. 앞의 것이 실패하면 뒤의 것으로
@@ -28,7 +28,7 @@ BOARDS = [
 EXCLUDE = re.compile(
     r"당첨자|당첨\s*결과|발표|계약\s*결과|결과\s*(?:알림|안내|공고)|서류\s*(?:심사|제출)\s*대상|순번|명단|동\s*·?\s*호|"
     r"추첨\s*결과|합격|선정\s*결과|입주\s*안내|하자|설명회|사전\s*점검|추가\s*서류|개인정보|만족도|채용|입찰|용역|"
-    r"(?:접수|청약|신청)\s*(?:현황|결과)|결과\s*$|경쟁률"
+    r"(?:접수|청약|신청)\s*(?:현황|결과)|결과\s*$|경쟁률|분양\s*전환\s*(?:신청\s*)?(?:안내|가격|대상|감정)"
 )
 INCLUDE = re.compile(r"모집|공급|청약|분양|공고")
 
@@ -39,7 +39,6 @@ KIND_RULES = [
     (r"미리내집|장기전세", "장기전세(미리내집)", "임대"),
     (r"청년\s*안심주택", "청년안심주택", "임대"),
     (r"신혼희망타운", "신혼희망타운", "분양"),
-    (r"토지임대부", "토지임대부 분양", "분양"),
     (r"국민임대", "국민임대", "임대"),
     (r"영구임대", "영구임대", "임대"),
     (r"재개발\s*임대", "재개발임대", "임대"),
@@ -57,6 +56,8 @@ TARGET_RULES = [
 
 
 def classify(title: str, board_cat: str) -> tuple[str, str]:
+    if not re.search(r"사회주택", title) and (kind := special_kind(title)):
+        return kind, SPECIAL
     for pattern, kind, cat in KIND_RULES:
         if re.search(pattern, title):
             return kind, cat
