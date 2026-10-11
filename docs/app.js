@@ -342,9 +342,12 @@ function modelsHTML(n) {
 function imagesHTML(n) {
   const ims = (n.images || []).filter((im) => safeUrl(im.url));
   if (!ims.length) return "";
-  return `<div class="gallery">${ims.map((im) => `<button class="thumb" data-plan="${esc(im.url)}" data-title="${esc(im.label)} · ${esc(im.name)}">
-    <img src="${esc(im.url)}" alt="${esc(im.label)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('.thumb').hidden=true">
-    <span>${esc(im.label)}</span></button>`).join("")}</div>`;
+  const isImage = (u) => /\.(jpe?g|png|gif|webp)(\?|$)/i.test(u) || !/ImageView/i.test(u);
+  return `<div class="gallery">${ims.map((im) => isImage(im.url)
+    ? `<button class="thumb" data-plan="${esc(im.url)}" data-title="${esc(im.label)} · ${esc(im.name)}">
+      <img src="${esc(im.url)}" alt="${esc(im.label)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('.thumb').hidden=true">
+      <span>${esc(im.label)}</span></button>`
+    : `<a class="thumb thumb-link" href="${esc(im.url)}" target="_blank" rel="noopener"><span class="ph" aria-hidden="true">🖼</span><span>${esc(im.label)} ↗</span></a>`).join("")}</div>`;
 }
 
 const PLAN_FILE = /평면|단위세대|타입별|주택형별/;

@@ -244,3 +244,5 @@ button, input, select { font: inherit; color: inherit; }
 .files a { word-break: break-all; }
 .plan-files { display: grid; gap: 6px; }
 .plan-files .btn { justify-content: flex-start; font-weight: 600; font-size: 13.5px; word-break: break-all; }
+.thumb-link { display: block; text-decoration: none; color: inherit; }
+.thumb-link .ph { display: grid; place-items: center; aspect-ratio: 4 / 3; font-size: 28px; background: var(--surface-2); padding: 0; }

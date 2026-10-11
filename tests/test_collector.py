@@ -358,3 +358,27 @@ def test_applyhome_notice_files():
       class="btn">모집공고문 보기</a> <a href="/x">기타</a>"""
     assert applyhome.notice_files(html) == [{"name": "모집공고문 보기 (PDF)",
         "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=1&pblancNo=1&atchmnflSeqNo=9&atchmnflSn=4"}]
+
+
+def test_lh_image_resolver_skips_placeholder():
+    from collector import lh
+
+    class Resp:
+        status_code = 200
+        text = '<img src="/images/co/na/noImg.gif"><img src="/lhFile/2026/plan_26A.png">'
+    class Session:
+        def get(self, url, params=None, timeout=None):
+            return Resp()
+    item = {"images": [{"label": "단지배치도", "name": "단지배치도.png", "url": "https://apply.lh.or.kr/lhImageView2.do?id=1"}]}
+    lh.resolve_images(Session(), item)
+    assert item["images"][0]["url"] == "https://apply.lh.or.kr/lhFile/2026/plan_26A.png"
+
+    class OnlyPlaceholder:
+        def get(self, url, params=None, timeout=None):
+            class R:
+                status_code = 200
+                text = '<img src="/images/co/na/noImg.gif">'
+            return R()
+    item = {"images": [{"label": "위치도", "name": "위치도.jpg", "url": "https://apply.lh.or.kr/lhImageView2.do?id=2"}]}
+    lh.resolve_images(OnlyPlaceholder(), item)
+    assert item["images"][0]["url"] == "https://apply.lh.or.kr/lhImageView2.do?id=2"

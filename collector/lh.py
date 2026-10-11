@@ -164,7 +164,8 @@ def apply_detail(item: dict, body) -> None:
     for a in _ds(body, "dsSbdAhfl"):
         url, name = str(a.get("AHFL_URL") or ""), clean(a.get("CMN_AHFL_NM")) or ""
         if url.startswith("http") and name.lower().endswith(IMG_EXT):
-            images.append({"label": clean(a.get("SL_PAN_AHFL_DS_CD_NM")) or "이미지", "name": name, "url": url})
+            label = clean(a.get("SL_PAN_AHFL_DS_CD_NM")) or re.sub(r"\.\w+$", "", name)  # 구분이 없으면 파일 이름('단지배치도')
+            images.append({"label": label, "name": name, "url": url})
     if images:
         item["images"] = images[:16]
     _log_fields_once("LH 상세 dsSbd", sbd)
@@ -216,18 +217,26 @@ _IMG_SRC = re.compile(r"<img[^>]+src=[\"']([^\"']+)", re.I)
 
 
 def resolve_images(session, item: dict) -> None:
-    """LH 이미지 뷰어(lhImageView) 주소를 실제 이미지 파일 주소로 바꾼다. 실패하면 뷰어 주소 그대로."""
+    """LH 이미지 뷰어(lhImageView) 주소를 실제 이미지 파일 주소로 바꾼다.
+
+    뷰어 페이지에는 '이미지 없음' 같은 장식 그림도 섞여 있어서 그런 건 건너뛴다.
+    실제 그림을 못 찾으면 뷰어 주소를 그대로 둔다 (화면에서는 썸네일 대신 링크로 보여준다).
+    """
     from urllib.parse import urljoin
     for im in item.get("images", []):
         if "ImageView" not in im["url"]:
             continue
         try:
             resp = get(session, im["url"], attempts=1, timeout=15)
-            found = _IMG_SRC.search(resp.text)
-            if found:
-                im["url"] = urljoin(im["url"], found.group(1))
         except Exception:
-            pass
+            continue
+        srcs = [urljoin(im["url"], m) for m in _IMG_SRC.findall(resp.text)]
+        real = [u for u in srcs if not re.search(r"noImg|/images/co/|logo|icon|btn|blank", u, re.I)]
+        if "viewer" not in _logged_fields:
+            _logged_fields.add("viewer")
+            log.info("LH 이미지 뷰어 그림 후보: %s", srcs[:8])
+        if real:
+            im["url"] = real[0]
 
 
 def _fetch_list(session, key: str, url: str, what: str) -> tuple[list[tuple[dict, str]], list[str]]:
