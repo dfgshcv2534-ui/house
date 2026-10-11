@@ -11,7 +11,7 @@ from datetime import date, timedelta
 
 from bs4 import BeautifulSoup
 
-from .common import SPECIAL, SourceError, clean, get, gu_in_text, kst_today, log, special_kind, to_iso
+from .common import SPECIAL, SourceError, clean, drop_reposts, get, gu_in_text, kst_today, log, special_kind, to_iso
 
 BASE = "https://www.i-sh.co.kr"
 PREFIXES = ["/app", "/main"]  # 같은 게시판이 두 경로로 열린다. 앞의 것이 실패하면 뒤의 것으로
@@ -289,15 +289,3 @@ def collect(session) -> tuple[list[dict], list[str]]:
         raise SourceError("SH 게시판을 하나도 읽지 못했습니다")
     return drop_reposts(out), failed
 
-
-def drop_reposts(items: list[dict]) -> list[dict]:
-    """같은 제목으로 다시 올린 공고는 가장 최근 글만 남긴다 (게시판은 최신순)."""
-    seen: set[str] = set()
-    out = []
-    for item in sorted(items, key=lambda i: i["dates"].get("notice") or "", reverse=True):
-        key = re.sub(r"\W", "", re.sub(r"^\(\s*(?:수정|정정)\s*\)", "", item["name"]))
-        if key in seen:
-            continue
-        seen.add(key)
-        out.append(item)
-    return out

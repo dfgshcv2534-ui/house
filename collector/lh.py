@@ -13,8 +13,8 @@ import re
 from datetime import timedelta
 
 from .common import (
-    SPECIAL, SourceError, clean, get, gu_in_text, is_seoul, kst_today, log, redact, seoul_gu,
-    special_kind, to_int, to_iso, to_month,
+    SPECIAL, SourceError, clean, clean_title, drop_reposts, get, gu_in_text, is_correction, is_seoul,
+    kst_today, log, redact, seoul_gu, special_kind, to_int, to_iso, to_month,
 )
 
 LIST_URL = "https://apis.data.go.kr/B552555/lhLeaseNoticeInfo1/lhLeaseNoticeInfo1"
@@ -60,7 +60,9 @@ def normalize(row: dict, cat: str, *, pre: bool = False) -> dict:
     special = special_kind(kind, clean(row.get("PAN_NM")))
     if special:
         kind, cat = special, SPECIAL
-    name = clean(row.get("PAN_NM"))
+    raw_name = clean(row.get("PAN_NM"))
+    name = clean_title(raw_name)
+    tags = (["사전청약"] if pre else []) + (["정정공고"] if is_correction(raw_name) else [])
     return {
         "id": f"{'lhp' if pre else 'lh'}:{row.get('PAN_ID')}",
         "source": "LH",
@@ -69,7 +71,7 @@ def normalize(row: dict, cat: str, *, pre: bool = False) -> dict:
         "name": name,
         "address": None,
         "gu": gu_in_text(name),
-        "units": to_int(row.get("ALL_CNT")) or None,
+        "units": None,  # 목록의 ALL_CNT는 검색 결과 건수라 세대수가 아니다
         "dates": {k: v for k, v in {
             "notice": to_iso(row.get("PAN_NT_ST_DT")),
             "end": to_iso(row.get("CLSG_DT")),
@@ -80,7 +82,7 @@ def normalize(row: dict, cat: str, *, pre: bool = False) -> dict:
         "models": [],
         "priceMin": None,
         "priceMax": None,
-        "tags": ["사전청약"] if pre else [],
+        "tags": tags,
         "targets": [],
         "builder": None,
         "supplier": "LH",
@@ -98,10 +100,15 @@ def apply_detail(item: dict, body) -> None:
     """상세정보 응답으로 주소·일정·입주 예정·세대수·첨부를 채운다."""
     sbd = (_ds(body, "dsSbd") or [{}])[0]
     address = " ".join(x for x in (clean(sbd.get("LCT_ARA_ADR")), clean(sbd.get("LCT_ARA_DTL_ADR"))) if x)
+    if not address:  # 유형마다 주소 필드 이름이 달라서, 서울 주소가 든 *ADR 필드를 찾는다
+        address = next((clean(v) for k, v in sbd.items() if k.endswith("ADR") and is_seoul(v)), None)
     if address:
         item["address"] = address
         item["gu"] = seoul_gu(address) or item["gu"]
-    item["moveIn"] = to_month(sbd.get("MVIN_XPC_YM")) or item["moveIn"]
+    move_in = to_month(sbd.get("MVIN_XPC_YM"))
+    notice = item["dates"].get("notice") or ""
+    if move_in and move_in >= notice[:7]:  # 이미 입주한 기존 단지(예비입주자 모집)의 과거 입주월은 숨긴다
+        item["moveIn"] = move_in
     item["units"] = to_int(sbd.get("SUM_TOT_HSH_CNT")) or item["units"]
 
     starts, ends, winners, c_starts, c_ends = [], [], [], [], []
@@ -185,6 +192,7 @@ def _collect(session, key: str | None, *, list_url: str, dtl_url: str, pre: bool
             except Exception as e:
                 log.warning("%s 상세 실패(%s): %s", what, row.get("PAN_ID"), e)
         items.append(item)
+    items = drop_reposts(items)
     log.info("%s: 서울 %d건 (상세정보 %s)", what, len(items), "사용" if detail_on else "미사용")
     return items, failed
 

@@ -153,7 +153,41 @@ def gu_in_text(text: str | None) -> str | None:
                 return gu
         elif gu in text:
             return gu
+    # '강서염창', '서울강남'처럼 '구'를 뺀 이름이 단어 앞에 붙은 경우 ('중구'는 '중'이 흔해서 제외)
+    for gu in sorted(SEOUL_GU, key=len, reverse=True):
+        short = gu[:-1]
+        if len(short) >= 2 and re.search(rf"(?:^|[^가-힣]|서울){short}", text):
+            return gu
     return None
+
+
+_REPOST_MARK = re.compile(r"[\[(]\s*(?:정정\s*공고|정정|수정|재공고)\s*[\])]")
+
+
+def clean_title(title: str | None) -> str | None:
+    """'[서울지역본부]', '[정정공고]' 같은 머리말을 뗀 제목."""
+    if not title:
+        return title
+    text = _REPOST_MARK.sub(" ", title)
+    text = re.sub(r"^\s*\[[^\]]*(?:지역본부|본부|센터)\]\s*", "", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def is_correction(title: str | None) -> bool:
+    return bool(title and _REPOST_MARK.search(title))
+
+
+def drop_reposts(items: list[dict]) -> list[dict]:
+    """같은 공고를 정정·재게시한 경우 가장 최근 글 하나만 남긴다."""
+    seen: set[str] = set()
+    out = []
+    for item in sorted(items, key=lambda i: i["dates"].get("notice") or "", reverse=True):
+        key = re.sub(r"\W", "", clean_title(item["name"]) or "")
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(item)
+    return out
 
 
 SPECIAL = "특수형"
@@ -169,8 +203,7 @@ SPECIAL_RULES = [
 def special_kind(*texts) -> str | None:
     """토지임대부·지분적립형·나눔형·분양전환 임대면 그 유형 이름, 아니면 None."""
     text = " ".join(t for t in texts if t)
-    if re.search(r"분양\s*전환\s*불가", text):
-        text = re.sub(r"분양\s*전환\s*불가\S*", "", text)
+    text = re.sub(r"비\s*분양\s*전환\S*|분양\s*전환\s*불가\S*", "", text)
     for pattern, kind in SPECIAL_RULES:
         if re.search(pattern, text):
             return kind

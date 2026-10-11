@@ -159,7 +159,8 @@ def test_sh_drop_reposts_keeps_latest():
     a = {"name": "옥류서원 입주자 모집 공고문", "dates": {"notice": "2026-09-22"}}
     b = {"name": "옥류서원 입주자 모집 공고문", "dates": {"notice": "2026-10-07"}}
     c = {"name": "(수정) 옥류서원 입주자 모집 공고문", "dates": {"notice": "2026-10-01"}}
-    assert sh.drop_reposts([a, b, c]) == [b]
+    from collector.common import drop_reposts
+    assert drop_reposts([a, b, c]) == [b]
 
 
 def test_keep_uses_latest_schedule_date():
@@ -195,7 +196,7 @@ def test_lh_detail_fills_schedule_and_address():
     from collector import lh
     item = lh.normalize({"PAN_ID": "2026000123", "PAN_NM": "서울강남 행복주택 입주자 모집", "AIS_TP_CD_NM": "행복주택",
                          "PAN_NT_ST_DT": "2026.10.01", "CLSG_DT": "2026.10.17", "PAN_SS": "공고중", "DTL_URL": "https://apply.lh.or.kr/x"}, "임대")
-    assert (item["cat"], item["kind"], item["gu"]) == ("임대", "행복주택", None)
+    assert (item["cat"], item["kind"], item["gu"]) == ("임대", "행복주택", "강남구")
     body = [
         {"resHeader": [{"SS_CODE": "Y"}]},
         {"dsSbd": [{"LCT_ARA_ADR": "서울특별시 강남구 세곡동 100", "LCT_ARA_DTL_ADR": "A1블록", "MVIN_XPC_YM": "202803", "SUM_TOT_HSH_CNT": "350"}]},
@@ -219,3 +220,29 @@ def test_lh_preorder_slot_is_skipped_until_configured():
     from collector.common import SourceError
     with pytest.raises(SourceError, match="요청주소"):
         lh.collect_pre(None, "key")
+
+
+def test_lh_real_world_cleanup():
+    from collector import lh
+    from collector.common import drop_reposts, gu_in_text, special_kind
+    a = lh.normalize({"PAN_ID": "1", "PAN_NM": "강서염창 통합공공임대주택 최초 입주자 모집공고", "AIS_TP_CD_NM": "통합공공임대",
+                      "PAN_NT_ST_DT": "2026.09.17", "ALL_CNT": "4"}, "임대")
+    b = lh.normalize({"PAN_ID": "2", "PAN_NM": "[정정공고][정정공고] 강서염창 통합공공임대주택 최초 입주자 모집공고", "AIS_TP_CD_NM": "통합공공임대",
+                      "PAN_NT_ST_DT": "2026.09.21", "ALL_CNT": "4"}, "임대")
+    assert a["units"] is None and a["gu"] == "강서구"
+    assert b["name"] == a["name"] and b["tags"] == ["정정공고"]
+    assert [i["id"] for i in drop_reposts([a, b])] == ["lh:2"]
+    c = lh.normalize({"PAN_ID": "3", "PAN_NM": "[서울지역본부] 26년 2차 비분양전환형 든든전세주택 입주자 모집공고", "AIS_TP_CD_NM": "매입임대",
+                      "PAN_NT_ST_DT": "2026.10.01"}, "임대")
+    assert c["name"] == "26년 2차 비분양전환형 든든전세주택 입주자 모집공고" and c["cat"] == "임대"
+    assert special_kind("비분양전환형 든든전세주택 공공임대") is None
+    assert gu_in_text("서울번동3 행복주택") is None
+    assert gu_in_text("서울강남 행복주택") == "강남구"
+    assert gu_in_text("입구로 이동") is None
+
+
+def test_lh_detail_hides_past_move_in():
+    from collector import lh
+    item = lh.normalize({"PAN_ID": "9", "PAN_NM": "서울번동3 행복주택 예비입주자 모집", "AIS_TP_CD_NM": "행복주택", "PAN_NT_ST_DT": "2026.08.19"}, "임대")
+    lh.apply_detail(item, [{"dsSbd": [{"LGDN_ADR": "서울특별시 강북구 번동 1", "MVIN_XPC_YM": "202304"}]}])
+    assert item["moveIn"] is None and item["gu"] == "강북구"
