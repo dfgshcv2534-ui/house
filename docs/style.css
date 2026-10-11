@@ -246,3 +246,7 @@ button, input, select { font: inherit; color: inherit; }
 .plan-files .btn { justify-content: flex-start; font-weight: 600; font-size: 13.5px; word-break: break-all; }
 .thumb-link { display: block; text-decoration: none; color: inherit; }
 .thumb-link .ph { display: grid; place-items: center; aspect-ratio: 4 / 3; font-size: 28px; background: var(--surface-2); padding: 0; }
+.plan-links { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
+.plan-links .btn { font-size: 13.5px; padding: 10px 8px; }
+.kv div { min-width: 0; }
+.kv dd { overflow-wrap: anywhere; }

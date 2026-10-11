@@ -96,9 +96,11 @@ function moneyShort(man) {
   if (man == null) return "";
   return man >= 10000 ? `${(man / 10000).toFixed(man % 10000 ? 1 : 0).replace(/\.0$/, "")}억` : `${man.toLocaleString()}만`;
 }
+// 평당가: 공급면적 기준. 공급면적이 없으면(무순위·오피스텔 등) 전용면적 기준으로 계산하고 표에 그렇게 적는다
 function perPyeong(m) {
-  if (!m.price || !m.area) return null;
-  return Math.round(m.price / (m.area / 3.3058));
+  const area = m.area || m.excl;
+  if (!m.price || !area) return null;
+  return Math.round(m.price / (area / 3.3058));
 }
 function avgPerPyeong(n) {
   const v = (n.models || []).map(perPyeong).filter(Boolean);
@@ -333,10 +335,22 @@ function modelsHTML(n) {
       <td>${m.units ?? "-"}</td>
       ${hasPrice ? `<td>${m.price ? money(m.price) : "-"}</td><td>${perPyeong(m) ? moneyShort(perPyeong(m)) : "-"}</td>` : ""}</tr>`).join("")}</tbody>
   </table></div>
-  ${hasPlan ? `<p class="note">📐 표시가 있는 타입을 누르면 평면도를 볼 수 있어요.</p>`
-    : safeUrl(n.homepage) ? `<p class="note">평면도는 <a href="${esc(n.homepage)}" target="_blank" rel="noopener">분양 홈페이지</a>나 공고문에서 볼 수 있어요.</p>`
-    : `<p class="note">평면도는 공고문 원문에서 볼 수 있어요.</p>`}
-  ${hasPrice ? `<p class="note">최고가 기준이에요. 평당가는 공급면적(3.3㎡)으로 나눈 추정치예요.</p>` : ""}`;
+  ${hasPlan ? `<p class="note">📐 표시가 있는 타입을 누르면 평면도를 볼 수 있어요.</p>` : planLinksHTML(n)}
+  ${hasPrice ? `<p class="note">최고가 기준이에요. 평당가는 ${ms.every((m) => !m.price || m.area) ? "공급면적" : "공급면적(없으면 전용면적)"} 3.3㎡당 추정치예요.</p>` : ""}`;
+}
+
+// 평면도 이미지가 없을 때: 평면도를 볼 수 있는 곳으로 바로 가는 버튼
+function planLinksHTML(n) {
+  const pdf = (n.files || []).find((f) => typeof f !== "string" && safeUrl(f.url) && /공고|pdf/i.test(f.name));
+  const links = [];
+  if (pdf) links.push(`<a class="btn" href="${esc(pdf.url)}" target="_blank" rel="noopener">📄 모집공고문 (PDF)</a>`);
+  if (safeUrl(n.homepage)) links.push(`<a class="btn" href="${esc(n.homepage)}" target="_blank" rel="noopener">🏠 분양 홈페이지</a>`);
+  if (n.cat !== "임대" || n.source === "청약홈") {
+    links.push(`<a class="btn" href="https://m.land.naver.com/search/result/${encodeURIComponent(n.name)}" target="_blank" rel="noopener">📐 네이버 부동산 평면도</a>`);
+  }
+  if (!links.length) return `<p class="note">평면도는 공고문 원문에서 볼 수 있어요.</p>`;
+  return `<p class="note">이 공고는 평면도 이미지를 제공하지 않아요. 아래에서 타입별 평면도를 볼 수 있어요.</p>
+    <div class="plan-links">${links.join("")}</div>`;
 }
 
 function imagesHTML(n) {
