@@ -15,7 +15,7 @@ import sys
 from datetime import date, timedelta
 from pathlib import Path
 
-from . import applyhome, lh, sh
+from . import applyhome, lh, pdfplans, sh
 from .geo import Geocoder
 from .common import SPECIAL, SourceError, api_key, kst_now, kst_today, log, make_session
 
@@ -142,6 +142,7 @@ def main(argv=None) -> int:
     for n in notices:
         geocoder.locate(n)
     geocoder.save()
+    pdfplans.attach(session, notices, args.out.parent)
     prev_ids = {p["id"] for p in previous}
     new_count = sum(1 for n in notices if n["id"] not in prev_ids)
     meta = {

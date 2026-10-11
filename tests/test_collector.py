@@ -382,3 +382,28 @@ def test_lh_image_resolver_skips_placeholder():
     item = {"images": [{"label": "위치도", "name": "위치도.jpg", "url": "https://apply.lh.or.kr/lhImageView2.do?id=2"}]}
     lh.resolve_images(OnlyPlaceholder(), item)
     assert item["images"][0]["url"] == "https://apply.lh.or.kr/lhImageView2.do?id=2"
+
+
+def test_pdf_plan_page_detection(tmp_path):
+    import pymupdf
+    from collector import pdfplans
+    doc = pymupdf.open()
+    p1 = doc.new_page()
+    p1.insert_text((50, 50), "Floor plan: see model house")      # 안내문뿐인 페이지
+    p2 = doc.new_page()
+    p2.insert_text((50, 50), "84A")
+    for k in range(900):                                        # 선이 아주 많은 페이지 = 평면도
+        p2.draw_line((10 + k % 30, 100), (10 + k % 30, 300))
+    p3 = doc.new_page()
+    p3.insert_text((50, 50), "59")
+    # 한글 키워드는 기본 글꼴로 넣기 어려워 판별 정규식을 잠시 바꿔 시험한다
+    old = pdfplans.PLAN_WORD
+    pdfplans.PLAN_WORD = __import__("re").compile(r"Floor plan|84A|59")
+    try:
+        assert pdfplans.candidate_pages(doc) == [1]
+    finally:
+        pdfplans.PLAN_WORD = old
+    models = [{"type": "84A"}, {"type": "84B"}, {"type": "59"}]
+    assert pdfplans.types_on_page("주택형 084.9800A 평면도", models) == ["84A"]
+    assert pdfplans.types_on_page("59㎡ 타입", models) == ["59"]
+    assert pdfplans.types_on_page("2059년", models) == []
