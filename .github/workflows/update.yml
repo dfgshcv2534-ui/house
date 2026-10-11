@@ -46,5 +46,9 @@ jobs:
             echo "바뀐 공고 없음"
           else
             git commit -m "공고 업데이트 $(TZ=Asia/Seoul date +%Y-%m-%d)"
-            git push
+            # 수집하는 동안 코드가 바뀌었으면 받아서 합친 뒤 올린다 (데이터 파일만 바뀌어서 충돌 없음)
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              sleep 5
+            done
           fi
