@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-11T19:10+09:00",
+ "updatedAt": "2026-10-11T19:24+09:00",
  "baseDate": "2026-10-11",
  "sources": {
   "청약홈": {
@@ -18,9 +18,9 @@
    "failedParts": []
   },
   "LH 사전청약": {
-   "ok": false,
+   "ok": true,
    "count": 0,
-   "message": "LH 사전청약 요청주소가 아직 비어 있습니다 (collector/lh.py PRE_LIST_URL)"
+   "failedParts": []
   }
  },
  "total": 52,
