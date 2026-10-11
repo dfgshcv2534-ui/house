@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-11T17:34+09:00",
+ "updatedAt": "2026-10-11T18:28+09:00",
  "baseDate": "2026-10-11",
  "sources": {
   "청약홈": {
@@ -13,11 +13,16 @@
    "failedParts": []
   },
   "LH": {
+   "ok": true,
+   "count": 8,
+   "failedParts": []
+  },
+  "LH 사전청약": {
    "ok": false,
    "count": 0,
-   "message": "LH API 오류: {'OpenAPI_ServiceResponse': {'cmmMsgHeader': {'errMsg': 'SERVICE_KEY_IS_NOT_REGISTERED_ERROR', 'returnAuthMsg': '등록되지 않은 서비스키', 'returnReasonCode': '30'}}}"
+   "message": "LH 사전청약 요청주소가 아직 비어 있습니다 (collector/lh.py PRE_LIST_URL)"
   }
  },
- "total": 29,
- "newToday": 0
+ "total": 37,
+ "newToday": 8
 }
