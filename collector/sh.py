@@ -27,12 +27,14 @@ BOARDS = [
 # 모집공고가 아닌 글 (결과·발표·안내)
 EXCLUDE = re.compile(
     r"당첨자|당첨\s*결과|발표|계약\s*결과|결과\s*(?:알림|안내|공고)|서류\s*(?:심사|제출)\s*대상|순번|명단|동\s*·?\s*호|"
-    r"추첨\s*결과|합격|선정\s*결과|입주\s*안내|하자|설명회|사전\s*점검|추가\s*서류|개인정보|만족도|채용|입찰|용역"
+    r"추첨\s*결과|합격|선정\s*결과|입주\s*안내|하자|설명회|사전\s*점검|추가\s*서류|개인정보|만족도|채용|입찰|용역|"
+    r"(?:접수|청약|신청)\s*(?:현황|결과)|결과\s*$|경쟁률"
 )
 INCLUDE = re.compile(r"모집|공급|청약|분양|공고")
 
 # (정규식, 유형 이름, 분류) — 위에서부터 먼저 맞는 것
 KIND_RULES = [
+    (r"사회주택", "사회주택", "임대"),
     (r"행복주택", "행복주택", "임대"),
     (r"미리내집|장기전세", "장기전세(미리내집)", "임대"),
     (r"청년\s*안심주택", "청년안심주택", "임대"),
@@ -158,16 +160,19 @@ def extract_schedule(text: str, notice: str | None) -> dict:
     text = _simplify(text)
     base = date.fromisoformat(notice) if notice else None
     out: dict = {}
-    for m in APPLY_KEY.finditer(text):
-        start, end = _range_after(text, m.end())
-        if not start:
-            continue
-        if base and not (base - timedelta(days=14) <= start <= base + timedelta(days=180)):
-            continue
-        if end and end < start:
-            continue
-        out["start"], out["end"] = start.isoformat(), (end or start).isoformat()
-        break
+    for want_range in (True, False):
+        for m in APPLY_KEY.finditer(text):
+            start, end = _range_after(text, m.end())
+            if not start or (want_range and end == start):
+                continue
+            if base and not (base - timedelta(days=14) <= start <= base + timedelta(days=180)):
+                continue
+            if end and end < start:
+                continue
+            out["start"], out["end"] = start.isoformat(), (end or start).isoformat()
+            break
+        if "start" in out:
+            break
     for m in WINNER_KEY.finditer(text):
         fm = FULL_RE.search(text[m.end():m.end() + 60])
         d = _mk(*fm.groups()) if fm else None
@@ -228,7 +233,7 @@ def to_notice(row: dict, board: dict, detail: dict | None, url: str) -> dict:
     sched = extract_schedule(text, row["date"])
     dates = {"notice": row["date"]}
     dates.update({k: v for k, v in sched.items() if k in ("start", "end", "winner")})
-    name = re.sub(r"\s*\(\s*\d{4}[.\-]\s*\d{1,2}[.\-]\s*\d{1,2}\.?\s*(?:공고)?\s*\)\s*$", "", title)
+    name = re.sub(r"\s*\(\s*(?:\d{4}|\d{2})\s*[.\-]\s*\d{1,2}\s*[.\-]\s*\d{1,2}\s*\.?\s*(?:공고)?\s*\)\s*$", "", title)
     return {
         "id": f"sh:{board['key']}:{row['seq']}",
         "source": "SH",
@@ -281,4 +286,17 @@ def collect(session) -> tuple[list[dict], list[str]]:
             time.sleep(0.5)
     if len(failed) == len(BOARDS):
         raise SourceError("SH 게시판을 하나도 읽지 못했습니다")
-    return out, failed
+    return drop_reposts(out), failed
+
+
+def drop_reposts(items: list[dict]) -> list[dict]:
+    """같은 제목으로 다시 올린 공고는 가장 최근 글만 남긴다 (게시판은 최신순)."""
+    seen: set[str] = set()
+    out = []
+    for item in sorted(items, key=lambda i: i["dates"].get("notice") or "", reverse=True):
+        key = re.sub(r"\W", "", re.sub(r"^\(\s*(?:수정|정정)\s*\)", "", item["name"]))
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(item)
+    return out

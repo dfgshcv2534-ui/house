@@ -62,7 +62,7 @@ def dedupe(items: list[dict]) -> list[dict]:
 
 def keep(item: dict, today: date) -> bool:
     d = item.get("dates", {})
-    end = d.get("end") or d.get("winner")
+    end = max((d[k] for k in ("end", "winner", "contract_end") if d.get(k)), default=None)
     if end:
         return end >= (today - timedelta(days=KEEP_AFTER_END_DAYS)).isoformat()
     notice = d.get("notice")

@@ -141,7 +141,8 @@ function renderHeader() {
   $("#updated").textContent = meta.updatedAt
     ? `${meta.updatedAt.slice(5, 10).replace("-", ".")} ${meta.updatedAt.slice(11, 16)} 업데이트 · 매일 오전 6시`
     : "첫 업데이트를 기다리는 중";
-  const bad = Object.entries(meta.sources || {}).filter(([, s]) => !s.ok);
+  // 오늘 실패해서 실제로 지난 데이터를 보여주는 출처만 안내 (한 번도 연결된 적 없는 출처는 조용히)
+  const bad = Object.entries(meta.sources || {}).filter(([k, s]) => !s.ok && notices.some((n) => n.source === k && n.stale));
   const alert = $("#sourceAlert");
   if (bad.length) {
     alert.hidden = false;

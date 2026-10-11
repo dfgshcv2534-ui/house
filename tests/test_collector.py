@@ -140,3 +140,28 @@ def test_redact_hides_service_key():
     from collector.common import redact
     msg = "url: /x?serviceKey=abc%2Bdef%3D%3D&PG_SZ=100 (Caused by ProxyError('x'))"
     assert redact(msg) == "url: /x?serviceKey=***&PG_SZ=100 (Caused by ProxyError('x'))"
+
+
+def test_sh_real_world_titles():
+    assert sh.classify("[토지임대부 사회주택] 옥류서원 입주자 모집 공고문", "분양") == ("사회주택", "임대")
+    assert not sh.is_recruitment("제51차 장기전세주택(2026.08.31.공고) 최종 청약접수 결과")
+    assert not sh.is_recruitment("행복주택 청약접수 현황")
+    row = {"seq": "1", "title": "2026년 신정도시마을 잔여세대 입주자모집공고(26. 9. 23.)", "date": "2026-10-08"}
+    assert sh.to_notice(row, sh.BOARDS[1], None, "u")["name"] == "2026년 신정도시마을 잔여세대 입주자모집공고"
+
+
+def test_sh_prefers_range_over_single_date():
+    text = "신청자격: 공고일 현재 무주택 / 신청일 2026.09.30 기준 소득 / 청약 신청기간: 2026.10.13 ~ 10.15"
+    assert sh.extract_schedule(text, "2026-09-30") == {"start": "2026-10-13", "end": "2026-10-15"}
+
+
+def test_sh_drop_reposts_keeps_latest():
+    a = {"name": "옥류서원 입주자 모집 공고문", "dates": {"notice": "2026-09-22"}}
+    b = {"name": "옥류서원 입주자 모집 공고문", "dates": {"notice": "2026-10-07"}}
+    c = {"name": "(수정) 옥류서원 입주자 모집 공고문", "dates": {"notice": "2026-10-01"}}
+    assert sh.drop_reposts([a, b, c]) == [b]
+
+
+def test_keep_uses_latest_schedule_date():
+    item = {"dates": {"end": "2026-09-01", "contract_end": "2026-10-20"}}
+    assert build.keep(item, date(2026, 10, 11))
