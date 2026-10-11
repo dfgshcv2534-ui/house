@@ -15,8 +15,8 @@ from .common import SPECIAL, SourceError, clean, drop_reposts, get, gu_in_text, 
 
 BASE = "https://www.i-sh.co.kr"
 PREFIXES = ["/app", "/main"]  # 같은 게시판이 두 경로로 열린다. 앞의 것이 실패하면 뒤의 것으로
-LOOKBACK_DAYS = 60
-MAX_PAGES = 8  # 게시판은 한 페이지 10건 고정
+LOOKBACK_DAYS = 120
+MAX_PAGES = 20  # 게시판은 한 페이지 10건 고정
 
 BOARDS = [
     {"key": "sale", "name": "주택분양", "path": "/lay2/program/S1T294C296/www/brd/m_244", "seq": "1", "cat": "분양"},
@@ -238,6 +238,7 @@ def to_notice(row: dict, board: dict, detail: dict | None, url: str) -> dict:
     return {
         "id": f"sh:{board['key']}:{row['seq']}",
         "source": "SH",
+        "sector": "공공",
         "cat": cat,
         "kind": kind,
         "name": name,

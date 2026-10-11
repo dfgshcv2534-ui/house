@@ -218,3 +218,27 @@ button, input, select { font: inherit; color: inherit; }
 
 .foot { color: var(--text-3); font-size: 12.5px; padding-top: 16px; padding-bottom: 40px; border-top: 1px solid var(--line); margin-top: 24px; }
 .foot p { margin: 6px 0; }
+
+/* 공공·민간 */
+.seg.wide { display: flex; width: 100%; }
+.seg.wide button { flex: 1; padding: 8px 6px; }
+.sector { font-size: 11.5px; font-weight: 650; padding: 2px 7px; border-radius: 6px; border: 1px solid var(--line); color: var(--text-2); }
+.sector.pvt { border-style: dashed; }
+
+/* 평면도·이미지 */
+.plan { border: 0; background: var(--accent-soft); color: var(--accent); font-weight: 650; padding: 3px 8px; border-radius: 6px; cursor: pointer; font-size: 13px; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 8px; }
+.thumb { border: 1px solid var(--line); background: var(--surface-2); border-radius: 10px; padding: 0; overflow: hidden; cursor: pointer; text-align: left; }
+.thumb img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: var(--surface-2); }
+.thumb span { display: block; font-size: 12px; padding: 4px 6px; color: var(--text-2); }
+.viewer { border: 0; padding: 0; background: var(--surface); color: var(--text); border-radius: 14px; width: min(960px, 96vw); max-height: 94vh; overflow: auto; }
+.viewer::backdrop { background: rgba(10, 12, 16, .7); }
+.viewer-bar { position: sticky; top: 0; display: flex; align-items: center; gap: 10px; padding: 10px 12px; background: var(--surface); border-bottom: 1px solid var(--line); }
+.viewer-bar p { margin: 0; font-weight: 650; font-size: 14px; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.viewer-bar .close { margin-left: 0; }
+.viewer img { display: block; width: 100%; height: auto; background: #fff; }
+
+/* 지도 */
+.map { height: 220px; border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: var(--surface-2); z-index: 0; }
+.maplinks { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
+.files a { word-break: break-all; }

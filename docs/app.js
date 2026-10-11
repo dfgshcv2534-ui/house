@@ -1,7 +1,7 @@
 "use strict";
 
 const DAY = 86400000;
-const NEW_DAYS = 3;
+const NEW_DAYS = 7;
 const SOON_DAYS = 7;
 const TARGETS = ["청년", "대학생", "신혼·신생아", "고령자", "다자녀", "한부모", "장애인", "예술인", "창업인"];
 const SCHEDULE_STEPS = [
@@ -30,7 +30,7 @@ const KIND_NOTES = {
 const kindClass = (n) => CAT_CLASS[n.cat] || "rent";
 
 const state = {
-  tab: "분양", q: "", kind: "", gu: "", sort: "deadline",
+  tab: "분양", sector: "", q: "", kind: "", gu: "", sort: "deadline",
   statuses: new Set(["open", "upcoming", "check"]), fav: false, targets: new Set(),
   view: "list", stat: "",
 };
@@ -120,8 +120,10 @@ function toggleFav(id) {
 
 /* ---------- 필터 ---------- */
 function inTab(n) { return state.tab === "전체" || n.cat === state.tab; }
+const sectorOf = (n) => n.sector || "공공";
 function matches(n, { ignoreStatus = false } = {}) {
   if (!inTab(n)) return false;
+  if (state.sector && sectorOf(n) !== state.sector) return false;
   if (state.kind && n.kind !== state.kind) return false;
   if (state.gu && n.gu !== state.gu) return false;
   if (state.fav && !favs.has(n.id)) return false;
@@ -165,7 +167,8 @@ function renderHeader() {
   } else alert.hidden = true;
   for (const el of document.querySelectorAll("[data-count]")) {
     const t = el.dataset.count;
-    const c = notices.filter((n) => (t === "전체" || n.cat === t) && statusOf(n).key !== "closed").length;
+    const c = notices.filter((n) => (t === "전체" || n.cat === t) && (!state.sector || sectorOf(n) === state.sector)
+      && statusOf(n).key !== "closed").length;
     el.textContent = c || "";
   }
   for (const b of document.querySelectorAll(".tabs button")) b.setAttribute("aria-selected", b.dataset.tab === state.tab);
@@ -198,7 +201,8 @@ function renderFilterOptions() {
     : "";
   for (const b of document.querySelectorAll("#statusChips [data-status]")) b.setAttribute("aria-pressed", state.statuses.has(b.dataset.status));
   $("#statusChips [data-fav]").setAttribute("aria-pressed", state.fav);
-  for (const b of document.querySelectorAll(".seg button")) b.setAttribute("aria-selected", b.dataset.view === state.view);
+  for (const b of document.querySelectorAll(".seg [data-view]")) b.setAttribute("aria-selected", b.dataset.view === state.view);
+  for (const b of document.querySelectorAll("#sectorSeg button")) b.setAttribute("aria-selected", b.dataset.sector === state.sector);
 }
 
 function cardHTML(n) {
@@ -221,6 +225,7 @@ function cardHTML(n) {
     <div class="card-top">
       <span class="badge ${st.key}">${esc(st.label)}</span>
       <span class="kind ${kindClass(n)}">${esc(n.kind)}</span>
+      <span class="sector ${sectorOf(n) === "민간" ? "pvt" : "pub"}">${sectorOf(n)}</span>
       ${isNew(n) ? `<span class="newtag">NEW</span>` : ""}
       <span class="src">${esc(n.source)}</span>
     </div>
@@ -314,16 +319,98 @@ function modelsHTML(n) {
   const ms = n.models || [];
   if (!ms.length) return "";
   const hasSpecial = ms.some((m) => m.special);
+  const hasPrice = ms.some((m) => m.price);
+  const hasPlan = ms.some((m) => m.plan);
+  const typeCell = (m) => m.plan
+    ? `<button class="plan" data-plan="${esc(m.plan)}" data-title="${esc(n.name)} ${esc(m.type || "")} 평면도">${esc(m.type || "-")} <span aria-hidden="true">📐</span></button>`
+    : esc(m.type || "-");
   return `<div class="table-scroll"><table class="models">
-    <thead><tr><th>타입</th><th>전용</th>${hasSpecial ? "<th>특공</th>" : ""}<th>일반</th><th>최고가</th><th>평당</th></tr></thead>
+    <thead><tr><th>타입</th><th>전용</th>${hasSpecial ? "<th>특공</th><th>일반</th>" : "<th>세대</th>"}${hasPrice ? "<th>최고가</th><th>평당</th>" : ""}</tr></thead>
     <tbody>${ms.map((m) => `<tr>
-      <td>${esc(m.type || "-")}</td>
+      <td>${typeCell(m)}</td>
       <td>${m.excl ? `${m.excl}㎡` : "-"}</td>
       ${hasSpecial ? `<td>${m.special ?? "-"}</td>` : ""}
       <td>${m.units ?? "-"}</td>
-      <td>${m.price ? money(m.price) : "-"}</td>
-      <td>${perPyeong(m) ? moneyShort(perPyeong(m)) : "-"}</td></tr>`).join("")}</tbody>
-  </table></div><p class="note">최고가 기준이에요. 평당가는 공급면적(3.3㎡)으로 나눈 추정치예요.</p>`;
+      ${hasPrice ? `<td>${m.price ? money(m.price) : "-"}</td><td>${perPyeong(m) ? moneyShort(perPyeong(m)) : "-"}</td>` : ""}</tr>`).join("")}</tbody>
+  </table></div>
+  ${hasPlan ? `<p class="note">📐 표시가 있는 타입을 누르면 평면도를 볼 수 있어요.</p>`
+    : safeUrl(n.homepage) ? `<p class="note">평면도는 <a href="${esc(n.homepage)}" target="_blank" rel="noopener">분양 홈페이지</a>나 공고문에서 볼 수 있어요.</p>`
+    : `<p class="note">평면도는 공고문 원문에서 볼 수 있어요.</p>`}
+  ${hasPrice ? `<p class="note">최고가 기준이에요. 평당가는 공급면적(3.3㎡)으로 나눈 추정치예요.</p>` : ""}`;
+}
+
+function imagesHTML(n) {
+  const ims = (n.images || []).filter((im) => safeUrl(im.url));
+  if (!ims.length) return "";
+  return `<div class="gallery">${ims.map((im) => `<button class="thumb" data-plan="${esc(im.url)}" data-title="${esc(im.label)} · ${esc(im.name)}">
+    <img src="${esc(im.url)}" alt="${esc(im.label)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('.thumb').hidden=true">
+    <span>${esc(im.label)}</span></button>`).join("")}</div>`;
+}
+
+function filesHTML(n) {
+  if (!n.files?.length) return "";
+  const row = (f) => typeof f === "string" ? esc(f)
+    : safeUrl(f.url) ? `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.name)} ↗</a>` : esc(f.name);
+  return `<div class="section"><h4>첨부 공고문</h4><p class="note files" style="margin:0">${n.files.map(row).join("<br>")}</p></div>`;
+}
+
+/* ---------- 지도 (Leaflet + OpenStreetMap, 상세를 열 때만 불러옴) ---------- */
+const PRECISION = { "주소": [16, 120, "주소 기준"], "동": [15, 450, "동 기준 대략적인 위치"], "구": [13, 1800, "자치구 중심 — 대략적인 위치"] };
+let leafletReady = null;
+let mapObj = null;
+function loadLeaflet() {
+  if (window.L) return Promise.resolve();
+  if (leafletReady) return leafletReady;
+  leafletReady = new Promise((resolve, reject) => {
+    const css = document.createElement("link");
+    css.rel = "stylesheet";
+    css.href = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css";
+    document.head.appendChild(css);
+    const js = document.createElement("script");
+    js.src = "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js";
+    js.onload = resolve;
+    js.onerror = () => { leafletReady = null; reject(); };
+    document.head.appendChild(js);
+  });
+  return leafletReady;
+}
+function mapQuery(n) { return n.address || [n.gu ? `서울 ${n.gu}` : "서울", n.name].join(" "); }
+function mapHTML(n) {
+  if (!n.geo && !n.address && !n.gu) return "";
+  const q = encodeURIComponent(mapQuery(n));
+  const p = n.geo ? PRECISION[n.geo.precision] || PRECISION["구"] : null;
+  return `<div class="section"><h4>위치</h4>
+    ${n.geo ? `<div id="map" class="map" role="img" aria-label="${esc(n.name)} 위치 지도"></div><p class="note">${p[2]}이에요.</p>` : ""}
+    <div class="maplinks">
+      <a class="btn" href="https://map.kakao.com/?q=${q}" target="_blank" rel="noopener">카카오맵 ↗</a>
+      <a class="btn" href="https://map.naver.com/p/search/${q}" target="_blank" rel="noopener">네이버지도 ↗</a>
+    </div></div>`;
+}
+async function drawMap(n) {
+  if (mapObj) { mapObj.remove(); mapObj = null; }
+  if (!n.geo || !$("#map")) return;
+  try { await loadLeaflet(); } catch { $("#map").hidden = true; return; }
+  const el = $("#map");
+  if (!el || state.open !== n.id) return;
+  const [zoom, radius] = PRECISION[n.geo.precision] || PRECISION["구"];
+  const at = [n.geo.lat, n.geo.lng];
+  mapObj = L.map(el, { scrollWheelZoom: false, zoomControl: true }).setView(at, zoom);
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  }).addTo(mapObj);
+  L.circle(at, { radius, color: "#d6336c", weight: 2, fillOpacity: 0.12 }).addTo(mapObj);
+  if (n.geo.precision === "주소") L.circleMarker(at, { radius: 6, color: "#d6336c", fillOpacity: 1 }).addTo(mapObj);
+  setTimeout(() => mapObj && mapObj.invalidateSize(), 60);
+}
+
+/* ---------- 이미지 보기 ---------- */
+function openViewer(url, title) {
+  const v = $("#viewer");
+  $("#viewerImg").src = url;
+  $("#viewerImg").alt = title;
+  $("#viewerTitle").textContent = title;
+  $("#viewerOpen").href = url;
+  if (!v.open) v.showModal();
 }
 
 function openDetail(id, { push = true } = {}) {
@@ -350,6 +437,7 @@ function openDetail(id, { push = true } = {}) {
         <div class="card-top">
           <span class="badge ${st.key}">${esc(st.label)}</span>
           <span class="kind ${kindClass(n)}">${esc(n.kind)}</span>
+          <span class="sector ${sectorOf(n) === "민간" ? "pvt" : "pub"}">${sectorOf(n)}</span>
           <span class="src" style="margin-left:0">${esc(n.source)}</span>
         </div>
         <h2 id="dTitle">${esc(n.name)}</h2>
@@ -363,8 +451,10 @@ function openDetail(id, { push = true } = {}) {
       ${n.dateBasis === "본문" ? `<p class="note">SH 공고 본문에서 자동으로 읽은 일정이에요. 원문과 꼭 대조해 주세요.</p>` : ""}
       ${n.stale ? `<p class="note">오늘 이 출처를 새로 확인하지 못해 지난 정보를 보여주고 있어요.</p>` : ""}</div>
     ${n.models?.length ? `<div class="section"><h4>주택형별 공급</h4>${modelsHTML(n)}</div>` : ""}
+    ${n.images?.length ? `<div class="section"><h4>단지 이미지</h4>${imagesHTML(n)}</div>` : ""}
+    ${mapHTML(n)}
     ${tags.length ? `<div class="section"><h4>대상·특징</h4><div class="tags-row">${tags.map((t) => `<span>${esc(t)}</span>`).join("")}</div></div>` : ""}
-    ${n.files?.length ? `<div class="section"><h4>첨부 공고문</h4><p class="note" style="margin:0">${n.files.map(esc).join("<br>")}</p></div>` : ""}
+    ${filesHTML(n)}
     <div class="actions">
       ${links.join("")}
       <button class="btn" data-ics="${esc(n.id)}">📅 캘린더에 추가</button>
@@ -376,6 +466,7 @@ function openDetail(id, { push = true } = {}) {
   dlg.scrollTop = 0;
   state.open = id;
   if (push) writeHash();
+  drawMap(n);
 }
 
 function closeDetail() {
@@ -436,6 +527,7 @@ function toast(msg) {
 function writeHash() {
   const p = new URLSearchParams();
   if (state.tab !== "분양") p.set("tab", state.tab);
+  if (state.sector) p.set("sector", state.sector);
   if (state.q) p.set("q", state.q);
   if (state.kind) p.set("kind", state.kind);
   if (state.gu) p.set("gu", state.gu);
@@ -447,6 +539,7 @@ function writeHash() {
 function readHash() {
   const p = new URLSearchParams(location.hash.slice(1));
   if (TABS.includes(p.get("tab"))) state.tab = p.get("tab");
+  if (["공공", "민간"].includes(p.get("sector"))) state.sector = p.get("sector");
   state.q = p.get("q") || "";
   state.kind = p.get("kind") || "";
   state.gu = p.get("gu") || "";
@@ -461,6 +554,11 @@ function bind() {
     state.tab = b.dataset.tab; state.kind = ""; state.stat = ""; render();
   });
   $("#q").addEventListener("input", (e) => { state.q = e.target.value.trim(); render(); });
+  $("#sectorSeg").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-sector]"); if (!b) return;
+    state.sector = b.dataset.sector; state.kind = ""; render();
+  });
+  $("#viewer").addEventListener("click", (e) => { if (e.target === $("#viewer")) $("#viewer").close(); });
   $("#kind").addEventListener("change", (e) => { state.kind = e.target.value; render(); });
   $("#gu").addEventListener("change", (e) => { state.gu = e.target.value; render(); });
   $("#sort").addEventListener("change", (e) => { state.sort = e.target.value; render(); });
@@ -478,7 +576,7 @@ function bind() {
     const b = e.target.closest("[data-target]"); if (!b) return;
     const t = b.dataset.target; state.targets.has(t) ? state.targets.delete(t) : state.targets.add(t); render();
   });
-  document.querySelector(".seg").addEventListener("click", (e) => {
+  document.querySelector(".viewbar .seg").addEventListener("click", (e) => {
     const b = e.target.closest("[data-view]"); if (!b) return;
     state.view = b.dataset.view; render();
   });
@@ -490,6 +588,8 @@ function bind() {
       render(); if (dlgOpen) openDetail(star.dataset.star, { push: false });
       return;
     }
+    const plan = e.target.closest("[data-plan]"); if (plan) return openViewer(plan.dataset.plan, plan.dataset.title);
+    if (e.target.closest("[data-viewer-close]")) return $("#viewer").close();
     const ics = e.target.closest("[data-ics]"); if (ics) return downloadIcs(ics.dataset.ics);
     const sh = e.target.closest("[data-share]"); if (sh) return share(sh.dataset.share);
     if (e.target.closest("[data-close]")) return closeDetail();
@@ -501,7 +601,7 @@ function bind() {
   });
   const dlg = $("#detail");
   dlg.addEventListener("click", (e) => { if (e.target === dlg) closeDetail(); });
-  dlg.addEventListener("close", () => { state.open = null; writeHash(); });
+  dlg.addEventListener("close", () => { state.open = null; if (mapObj) { mapObj.remove(); mapObj = null; } writeHash(); });
 }
 
 async function load() {

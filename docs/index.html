@@ -36,6 +36,11 @@
   <section class="stats" id="stats" aria-label="요약"></section>
 
   <section class="filters" aria-label="필터">
+    <div class="seg wide" id="sectorSeg" role="group" aria-label="공공·민간">
+      <button data-sector="">공공+민간</button>
+      <button data-sector="공공">공공</button>
+      <button data-sector="민간">민간</button>
+    </div>
     <div class="search">
       <input id="q" type="search" placeholder="단지명·지역 검색 (예: 고덕, 마곡)" autocomplete="off">
     </div>
@@ -77,6 +82,15 @@
 
 <dialog id="detail" class="sheet" aria-labelledby="dTitle">
   <div class="sheet-inner" id="detailBody"></div>
+</dialog>
+
+<dialog id="viewer" class="viewer" aria-labelledby="viewerTitle">
+  <div class="viewer-bar">
+    <p id="viewerTitle"></p>
+    <a id="viewerOpen" href="#" target="_blank" rel="noopener">원본 ↗</a>
+    <button class="close" data-viewer-close aria-label="닫기">×</button>
+  </div>
+  <img id="viewerImg" alt="" referrerpolicy="no-referrer">
 </dialog>
 
 <div id="toast" class="toast" role="status" hidden></div>

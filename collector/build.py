@@ -16,11 +16,12 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from . import applyhome, lh, sh
+from .geo import Geocoder
 from .common import SPECIAL, SourceError, api_key, kst_now, kst_today, log, make_session
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "docs" / "data"
 KEEP_AFTER_END_DAYS = 14
-KEEP_UNDATED_DAYS = 60
+KEEP_UNDATED_DAYS = 90
 ID_PREFIX = {"청약홈": "ah:", "SH": "sh:", "LH": "lh:", "LH 사전청약": "lhp:"}
 
 
@@ -127,7 +128,8 @@ def main(argv=None) -> int:
     today = kst_today()
     notices_path = args.out / "notices.json"
     previous = load_json(notices_path, [])
-    results, status = run_sources(make_session(), api_key())
+    session = make_session()
+    results, status = run_sources(session, api_key())
 
     if not results:
         log.error("모든 출처 수집 실패 — 기존 데이터를 그대로 둡니다")
@@ -136,6 +138,10 @@ def main(argv=None) -> int:
         return 1
 
     notices = merge(previous, results, status, today)
+    geocoder = Geocoder(session, args.out / "geocode.json")
+    for n in notices:
+        geocoder.locate(n)
+    geocoder.save()
     prev_ids = {p["id"] for p in previous}
     new_count = sum(1 for n in notices if n["id"] not in prev_ids)
     meta = {

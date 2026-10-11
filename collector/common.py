@@ -208,3 +208,15 @@ def special_kind(*texts) -> str | None:
         if re.search(pattern, text):
             return kind
     return None
+
+
+PUBLIC_SUPPLIER = re.compile(r"주택도시공사|토지주택공사|도시개발공사|도시공사|개발공사|공단|LH|SH|서울특별시|구청")
+
+
+def sector_of(detail_kind: str | None, supplier: str | None) -> str:
+    """공공/민간. 청약홈의 국민/민영 구분을 먼저 보고, 없으면 사업주체 이름으로 판단한다."""
+    if detail_kind == "국민":
+        return "공공"
+    if detail_kind == "민영":
+        return "민간"
+    return "공공" if supplier and PUBLIC_SUPPLIER.search(supplier) else "민간"

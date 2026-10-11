@@ -5,6 +5,7 @@
 
 - 분양임대공고문 조회            → 공고 목록 (공고명·유형·게시일·마감일·상세 URL)
 - 분양임대공고별 상세정보 조회     → 공고마다 주소·접수/발표/계약 일정·입주 예정·세대수·첨부
+- 분양임대공고별 공급정보 조회     → 주택형별 면적·세대수 (공고 전체 세대수는 이 합계)
 - 위 두 서비스의 '(사전청약)' 버전 → 사전청약 공고. 요청주소를 아래 PRE_* 에 넣으면 켜진다.
 """
 from __future__ import annotations
@@ -14,22 +15,34 @@ from datetime import timedelta
 
 from .common import (
     SPECIAL, SourceError, clean, clean_title, drop_reposts, get, gu_in_text, is_correction, is_seoul,
-    kst_today, log, redact, seoul_gu, special_kind, to_int, to_iso, to_month,
+    kst_today, log, redact, seoul_gu, special_kind, to_float, to_int, to_iso, to_month,
 )
 
 LIST_URL = "https://apis.data.go.kr/B552555/lhLeaseNoticeInfo1/lhLeaseNoticeInfo1"
 DTL_URL = "https://apis.data.go.kr/B552555/lhLeaseNoticeDtlInfo1/getLeaseNoticeDtlInfo1"
+SPL_URL = "https://apis.data.go.kr/B552555/lhLeaseNoticeSplInfo1/getLeaseNoticeSplInfo1"  # 공급정보: 주택형별 세대수·면적
 
 # 사전청약 서비스 자리: 활용신청 승인 후 공공데이터포털 상세 페이지의 '요청주소(End Point)' 뒤에
 # 오퍼레이션 이름까지 붙인 전체 주소를 넣는다. 비어 있으면 사전청약은 건너뛴다.
 PRE_LIST_URL = ""
 PRE_DTL_URL = ""
 
-LOOKBACK_DAYS = 90
+LOOKBACK_DAYS = 180
 PER_PAGE = 100
 # 상위 유형: 05 분양주택, 06 임대주택, 39 신혼희망타운, 13 주거복지
 TYPES = {"05": "분양", "06": "임대", "39": "분양", "13": "임대"}
 DETAIL_PARAMS = ("CCR_CNNT_SYS_DS_CD", "SPL_INF_TP_CD", "UPP_AIS_TP_CD", "AIS_TP_CD")
+IMG_EXT = (".jpg", ".jpeg", ".png", ".gif", ".webp")
+_logged_fields: set[str] = set()
+
+
+def _log_fields_once(what: str, row: dict) -> None:
+    """응답 필드 이름을 한 번 남겨 두면 나중에 쓸 만한 항목을 찾기 쉽다 (공개 데이터라 값도 문제없음)."""
+    if row and what not in _logged_fields:
+        _logged_fields.add(what)
+        log.info("%s 필드: %s", what, ", ".join(f"{k}={str(v)[:30]}" for k, v in row.items()))
+
+
 DATE_RE = re.compile(r"20\d{2}\s*[.\-/]\s*\d{1,2}\s*[.\-/]\s*\d{1,2}|20\d{6}")
 
 
@@ -66,6 +79,7 @@ def normalize(row: dict, cat: str, *, pre: bool = False) -> dict:
     return {
         "id": f"{'lhp' if pre else 'lh'}:{row.get('PAN_ID')}",
         "source": "LH",
+        "sector": "공공",
         "cat": cat,
         "kind": kind,
         "name": name,
@@ -131,10 +145,80 @@ def apply_detail(item: dict, body) -> None:
         d["contract_start"] = min(c_starts)
         d["contract_end"] = max(c_ends or c_starts)
 
-    files = [clean(a.get("CMN_AHFL_NM")) for a in _ds(body, "dsAhflInfo")
+    files = [{"name": clean(a.get("CMN_AHFL_NM")), "url": a.get("AHFL_URL")} for a in _ds(body, "dsAhflInfo")
              if str(a.get("AHFL_URL") or "").startswith("http") and clean(a.get("CMN_AHFL_NM"))]
     if files:
         item["files"] = files
+
+    # 단지 이미지(조감도·배치도·평면도 등). lhImageView 주소는 뷰어 페이지라 나중에 실제 이미지로 바꾼다
+    images = []
+    for a in _ds(body, "dsSbdAhfl"):
+        url, name = str(a.get("AHFL_URL") or ""), clean(a.get("CMN_AHFL_NM")) or ""
+        if url.startswith("http") and name.lower().endswith(IMG_EXT):
+            images.append({"label": clean(a.get("SL_PAN_AHFL_DS_CD_NM")) or "이미지", "name": name, "url": url})
+    if images:
+        item["images"] = images[:16]
+    _log_fields_once("LH 상세 dsSbd", sbd)
+
+
+def apply_supply(item: dict, body) -> None:
+    """공급정보(주택형별 면적·세대수)로 models 와 전체 세대수를 채운다."""
+    models = []
+    for r in _ds(body, "dsList01"):
+        _log_fields_once("LH 공급정보", r)
+        ty = clean(r.get("HTY_NNA"))
+        if not ty:
+            continue
+        m = {
+            "type": re.sub(r"^0*(\d+)(?:\.\d+)?", r"\1", ty),
+            "area": to_float(r.get("SPL_AR")),
+            "excl": to_float(r.get("DDO_AR")) or to_float(re.match(r"0*(\d+(?:\.\d+)?)", ty).group(1) if re.match(r"0*\d", ty) else None),
+            "units": to_int(r.get("HSH_CNT")),
+        }
+        models.append({k: v for k, v in m.items() if v not in (None, "")})
+    if models:
+        item["models"] = models
+        total = sum(m.get("units") or 0 for m in models)
+        if total and not item.get("units"):
+            item["units"] = total
+
+
+TYPE_RE = re.compile(r"(\d{2,3})(?:\.\d+)?\s*(?:㎡|m2|형|타입|type)?\s*([A-Za-z])?", re.I)
+
+
+def attach_plans(item: dict) -> None:
+    """'평면'이 붙은 이미지를 파일 이름의 면적·타입(26A, 36 등)으로 주택형과 짝짓는다."""
+    plans = [im for im in item.get("images", []) if "평면" in (im["label"] + im["name"])]
+    for m in item.get("models", []):
+        mt = re.match(r"(\d+)([A-Za-z]?)", m.get("type") or "")
+        if not mt:
+            continue
+        num, letter = mt.group(1), mt.group(2).upper()
+        for im in plans:
+            for found in TYPE_RE.finditer(im["name"]):
+                if found.group(1).lstrip("0") == num.lstrip("0") and (not letter or (found.group(2) or "").upper() == letter):
+                    m["plan"] = im["url"]
+                    break
+            if "plan" in m:
+                break
+
+
+_IMG_SRC = re.compile(r"<img[^>]+src=[\"']([^\"']+)", re.I)
+
+
+def resolve_images(session, item: dict) -> None:
+    """LH 이미지 뷰어(lhImageView) 주소를 실제 이미지 파일 주소로 바꾼다. 실패하면 뷰어 주소 그대로."""
+    from urllib.parse import urljoin
+    for im in item.get("images", []):
+        if "ImageView" not in im["url"]:
+            continue
+        try:
+            resp = get(session, im["url"], attempts=1, timeout=15)
+            found = _IMG_SRC.search(resp.text)
+            if found:
+                im["url"] = urljoin(im["url"], found.group(1))
+        except Exception:
+            pass
 
 
 def _fetch_list(session, key: str, url: str, what: str) -> tuple[list[tuple[dict, str]], list[str]]:
@@ -168,7 +252,7 @@ def _fetch_list(session, key: str, url: str, what: str) -> tuple[list[tuple[dict
     return list(rows_out.values()), failed
 
 
-def _collect(session, key: str | None, *, list_url: str, dtl_url: str, pre: bool) -> tuple[list[dict], list[str]]:
+def _collect(session, key: str | None, *, list_url: str, dtl_url: str, spl_url: str, pre: bool) -> tuple[list[dict], list[str]]:
     what = "LH 사전청약" if pre else "LH"
     if not key:
         raise SourceError(f"DATA_GO_KR_KEY 가 없어 {what}를 건너뜁니다")
@@ -177,29 +261,42 @@ def _collect(session, key: str | None, *, list_url: str, dtl_url: str, pre: bool
     rows, failed = _fetch_list(session, key, list_url, what + " 공고문")
     items = []
     detail_on = bool(dtl_url)
+    supply_on = bool(spl_url)
     for row, cat in rows:
         item = normalize(row, cat, pre=pre)
         if not item["name"]:
             continue
+        params = {"serviceKey": key, "PAN_ID": row["PAN_ID"], **{k: row.get(k) for k in DETAIL_PARAMS}}
         if detail_on:
             try:
-                params = {"serviceKey": key, "PAN_ID": row["PAN_ID"], **{k: row.get(k) for k in DETAIL_PARAMS}}
                 apply_detail(item, _json(get(session, dtl_url, params=params), what + " 상세정보"))
+                resolve_images(session, item)
             except SourceError as e:  # 상세정보 서비스 미신청: 이번 실행에선 목록만
                 log.warning("%s — 목록 정보만 씁니다", e)
                 failed.append("상세")
                 detail_on = False
             except Exception as e:
                 log.warning("%s 상세 실패(%s): %s", what, row.get("PAN_ID"), e)
+        if supply_on:
+            try:
+                apply_supply(item, _json(get(session, spl_url, params=params), what + " 공급정보"))
+            except SourceError as e:  # 공급정보 서비스 미신청
+                log.warning("%s — 세대수·주택형 없이 진행합니다", e)
+                failed.append("공급")
+                supply_on = False
+            except Exception as e:
+                log.warning("%s 공급정보 실패(%s): %s", what, row.get("PAN_ID"), e)
+        attach_plans(item)
         items.append(item)
     items = drop_reposts(items)
-    log.info("%s: 서울 %d건 (상세정보 %s)", what, len(items), "사용" if detail_on else "미사용")
+    log.info("%s: 서울 %d건 (상세정보 %s, 공급정보 %s)", what, len(items),
+             "사용" if detail_on else "미사용", "사용" if supply_on else "미사용")
     return items, failed
 
 
 def collect(session, key: str | None) -> tuple[list[dict], list[str]]:
-    return _collect(session, key, list_url=LIST_URL, dtl_url=DTL_URL, pre=False)
+    return _collect(session, key, list_url=LIST_URL, dtl_url=DTL_URL, spl_url=SPL_URL, pre=False)
 
 
 def collect_pre(session, key: str | None) -> tuple[list[dict], list[str]]:
-    return _collect(session, key, list_url=PRE_LIST_URL, dtl_url=PRE_DTL_URL, pre=True)
+    return _collect(session, key, list_url=PRE_LIST_URL, dtl_url=PRE_DTL_URL, spl_url="", pre=True)

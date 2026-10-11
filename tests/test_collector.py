@@ -98,7 +98,7 @@ def test_applyhome_normalize():
     assert models[0] == {"type": "59A", "area": 84.12, "excl": 59.0, "units": 100, "special": 150, "price": 52300}
     n = applyhome.normalize(APT_ROW, applyhome.SOURCES[0], models)
     assert n["cat"] == "분양" and n["kind"] == "아파트" and n["gu"] == "강동구"
-    assert n["tags"] == ["공공분양", "분양가상한제"]
+    assert n["tags"] == ["분양가상한제"] and n["sector"] == "공공"
     assert n["priceMin"] == 52300 and n["priceMax"] == 71000
     assert n["dates"]["start"] == "2026-10-13" and n["dates"]["rank1_start"] == "2026-10-14"
     assert n["moveIn"] == "2028-12"
@@ -210,7 +210,8 @@ def test_lh_detail_fills_schedule_and_address():
     assert item["address"] == "서울특별시 강남구 세곡동 100 A1블록" and item["gu"] == "강남구"
     assert item["dates"] == {"notice": "2026-10-01", "start": "2026-10-14", "end": "2026-10-17", "winner": "2026-12-24",
                              "contract_start": "2027-02-10", "contract_end": "2027-02-12"}
-    assert item["moveIn"] == "2028-03" and item["units"] == 350 and item["files"] == ["공고문.pdf"]
+    assert item["moveIn"] == "2028-03" and item["units"] == 350
+    assert item["files"] == [{"name": "공고문.pdf", "url": "https://apply.lh.or.kr/f"}]
     assert "statusHint" not in item
 
 
@@ -246,3 +247,64 @@ def test_lh_detail_hides_past_move_in():
     item = lh.normalize({"PAN_ID": "9", "PAN_NM": "서울번동3 행복주택 예비입주자 모집", "AIS_TP_CD_NM": "행복주택", "PAN_NT_ST_DT": "2026.08.19"}, "임대")
     lh.apply_detail(item, [{"dsSbd": [{"LGDN_ADR": "서울특별시 강북구 번동 1", "MVIN_XPC_YM": "202304"}]}])
     assert item["moveIn"] is None and item["gu"] == "강북구"
+
+
+def test_sector():
+    from collector.common import sector_of
+    assert sector_of("국민", None) == "공공"
+    assert sector_of("민영", "서울주택도시공사") == "민간"
+    assert sector_of(None, "서울주택도시개발공사") == "공공"
+    assert sector_of(None, "(주)○○개발") == "민간"
+
+
+def test_lh_supply_and_floor_plans():
+    from collector import lh
+    item = lh.normalize({"PAN_ID": "5", "PAN_NM": "강서염창 통합공공임대주택 모집", "AIS_TP_CD_NM": "통합공공임대", "PAN_NT_ST_DT": "2026.09.17"}, "임대")
+    lh.apply_detail(item, [{"dsSbdAhfl": [
+        {"SL_PAN_AHFL_DS_CD_NM": "평면도", "CMN_AHFL_NM": "26A형 평면도.jpg", "AHFL_URL": "https://apply.lh.or.kr/p26a"},
+        {"SL_PAN_AHFL_DS_CD_NM": "평면도", "CMN_AHFL_NM": "36㎡.png", "AHFL_URL": "https://apply.lh.or.kr/p36"},
+        {"SL_PAN_AHFL_DS_CD_NM": "조감도", "CMN_AHFL_NM": "조감도.jpg", "AHFL_URL": "https://apply.lh.or.kr/bird"},
+        {"SL_PAN_AHFL_DS_CD_NM": "기타", "CMN_AHFL_NM": "다운로드", "AHFL_URL": "x"},
+    ]}])
+    lh.apply_supply(item, [{"dsList01": [
+        {"HTY_NNA": "26A", "SPL_AR": "45.1", "HSH_CNT": "120"},
+        {"HTY_NNA": "36", "SPL_AR": "60.2", "HSH_CNT": "80"},
+        {"HTY_NNA": "46B", "SPL_AR": "70.0", "HSH_CNT": "10"},
+    ]}])
+    lh.attach_plans(item)
+    assert item["units"] == 210
+    assert [im["label"] for im in item["images"]] == ["평면도", "평면도", "조감도"]
+    plans = {m["type"]: m.get("plan") for m in item["models"]}
+    assert plans == {"26A": "https://apply.lh.or.kr/p26a", "36": "https://apply.lh.or.kr/p36", "46B": None}
+
+
+def test_geocoder_queries_and_fallback(tmp_path, monkeypatch):
+    from collector.geo import Geocoder, queries_for
+
+    assert queries_for("서울특별시 강남구 세곡동 100 A1블록") == [
+        ("서울특별시 강남구 세곡동 100 A1블록", "주소"), ("서울특별시 강남구 세곡동 100", "주소"), ("서울특별시 강남구 세곡동", "동")]
+
+    class Resp:
+        def __init__(self, rows): self.status_code, self._rows = 200, rows
+        def json(self): return self._rows
+
+    class Session:
+        def __init__(self): self.calls = []
+        def get(self, url, params=None, headers=None, timeout=None):
+            self.calls.append(params["q"])
+            return Resp([{"lat": "37.47", "lon": "127.10"}] if params["q"].endswith("세곡동") else [])
+
+    import collector.geo as geo
+    monkeypatch.setattr(geo.time, "sleep", lambda s: None)
+    g = Geocoder(Session(), tmp_path / "geo.json")
+    a = {"address": "서울특별시 강남구 세곡동 100 A1블록", "gu": "강남구"}
+    g.locate(a)
+    assert a["geo"] == {"lat": 37.47, "lng": 127.1, "precision": "동"}
+    b = {"address": None, "gu": "중랑구"}
+    g.locate(b)
+    assert b["geo"]["precision"] == "구"
+    g.save()
+    g2 = Geocoder(Session(), tmp_path / "geo.json")   # 캐시가 있으면 다시 묻지 않는다
+    c = {"address": "서울특별시 강남구 세곡동 100 A1블록", "gu": "강남구"}
+    g2.locate(c)
+    assert g2.session.calls == [] and c["geo"]["precision"] == "동"

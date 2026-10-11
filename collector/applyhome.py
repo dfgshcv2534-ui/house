@@ -10,13 +10,13 @@ import time
 from datetime import timedelta
 
 from .common import (
-    SPECIAL, SourceError, clean, first, get, redact, is_seoul, kst_today, log, seoul_gu, special_kind, to_float, to_int, to_iso, to_month,
+    SPECIAL, SourceError, clean, first, get, redact, is_seoul, kst_today, log, sector_of, seoul_gu, special_kind, to_float, to_int, to_iso, to_month,
 )
 
 BASE = "https://api.odcloud.kr/api/ApplyhomeInfoDetailSvc/v1"
 PER_PAGE = 500
 MAX_PAGES = 20
-LOOKBACK_DAYS = 120
+LOOKBACK_DAYS = 180
 
 # kind: 화면에 보이는 유형 이름, cat: 분양/임대
 SOURCES = [
@@ -139,8 +139,6 @@ def normalize(row: dict, src: dict, models: list[dict]) -> dict:
         kind, cat = special, SPECIAL
     tags = [label for field, label in FLAG_TAGS if str(row.get(field) or "").upper() == "Y"]
     detail_kind = clean(row.get("HOUSE_DTL_SECD_NM"))
-    if src["key"] == "apt" and detail_kind:
-        tags.insert(0, "공공분양" if detail_kind == "국민" else "민영")
     if rent_nm and rent_nm != "분양주택":
         tags.append(rent_nm)
 
@@ -149,6 +147,7 @@ def normalize(row: dict, src: dict, models: list[dict]) -> dict:
     return {
         "id": f"ah:{src['key']}:{manage_no}:{clean(row.get('PBLANC_NO')) or ''}",
         "source": "청약홈",
+        "sector": sector_of(detail_kind, clean(row.get("BSNS_MBY_NM"))),
         "cat": cat,
         "kind": kind,
         "name": clean(row.get("HOUSE_NM")),
