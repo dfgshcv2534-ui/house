@@ -347,11 +347,22 @@ function imagesHTML(n) {
     <span>${esc(im.label)}</span></button>`).join("")}</div>`;
 }
 
+const PLAN_FILE = /평면|단위세대|타입별|주택형별/;
+function fileLink(f) {
+  if (typeof f === "string") return esc(f);
+  return safeUrl(f.url) ? `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.name)} ↗</a>` : esc(f.name);
+}
+function plansHTML(n) {
+  const plans = (n.files || []).filter((f) => typeof f !== "string" && PLAN_FILE.test(f.name));
+  if (!plans.length) return "";
+  return `<div class="section"><h4>평면도 첨부</h4><div class="plan-files">${plans.map((f) => safeUrl(f.url)
+    ? `<a class="btn" href="${esc(f.url)}" target="_blank" rel="noopener">📐 ${esc(f.name)}</a>` : `<span class="btn">📐 ${esc(f.name)}</span>`).join("")}</div>
+    <p class="note">공고에 첨부된 평면도 파일이에요. 누르면 미리보기로 열려요.</p></div>`;
+}
 function filesHTML(n) {
-  if (!n.files?.length) return "";
-  const row = (f) => typeof f === "string" ? esc(f)
-    : safeUrl(f.url) ? `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.name)} ↗</a>` : esc(f.name);
-  return `<div class="section"><h4>첨부 공고문</h4><p class="note files" style="margin:0">${n.files.map(row).join("<br>")}</p></div>`;
+  const rest = (n.files || []).filter((f) => typeof f === "string" || !PLAN_FILE.test(f.name));
+  if (!rest.length) return "";
+  return `<div class="section"><h4>첨부 공고문</h4><p class="note files" style="margin:0">${rest.map(fileLink).join("<br>")}</p></div>`;
 }
 
 /* ---------- 지도 (Leaflet + OpenStreetMap, 상세를 열 때만 불러옴) ---------- */
@@ -453,6 +464,7 @@ function openDetail(id, { push = true } = {}) {
       ${n.stale ? `<p class="note">오늘 이 출처를 새로 확인하지 못해 지난 정보를 보여주고 있어요.</p>` : ""}</div>
     ${n.models?.length ? `<div class="section"><h4>주택형별 공급</h4>${modelsHTML(n)}</div>` : ""}
     ${n.images?.length ? `<div class="section"><h4>단지 이미지</h4>${imagesHTML(n)}</div>` : ""}
+    ${plansHTML(n)}
     ${mapHTML(n)}
     ${tags.length ? `<div class="section"><h4>대상·특징</h4><div class="tags-row">${tags.map((t) => `<span>${esc(t)}</span>`).join("")}</div></div>` : ""}
     ${filesHTML(n)}

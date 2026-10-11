@@ -9,6 +9,8 @@ import re
 import time
 from datetime import date, timedelta
 
+from urllib.parse import urljoin
+
 from bs4 import BeautifulSoup
 
 from .common import SPECIAL, SourceError, clean, drop_reposts, get, gu_in_text, kst_today, log, seoul_gu, special_kind, to_iso
@@ -103,11 +105,16 @@ def parse_detail(html: str) -> dict:
     soup = BeautifulSoup(html, "html.parser")
     cont = soup.select_one("td.cont")
     text = clean(cont.get_text(" ")) if cont else ""
-    files = []
-    for a in soup.select("a.btnAttach"):
+    # 첨부: 파일 이름 링크(existFile) 뒤에 '미리보기'(htmlConverter) 링크가 짝으로 붙는다
+    files: list[dict] = []
+    for a in soup.select("a"):
+        onclick, href = a.get("onclick") or "", a.get("href") or ""
         name = clean(a.get_text(" "))
-        if name and not re.fullmatch(r"\.\w{2,5}", name) and "existFile" in (a.get("onclick") or ""):
-            files.append(name)
+        if "btnAttach" in (a.get("class") or []) and "existFile" in onclick:
+            if name and not re.fullmatch(r"\.\w{2,5}", name):
+                files.append({"name": name})
+        elif "htmlConverter.do" in href and files and "url" not in files[-1]:
+            files[-1]["url"] = urljoin(BASE, href)
     return {"text": text or "", "files": files}
 
 

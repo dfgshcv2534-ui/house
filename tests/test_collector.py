@@ -55,7 +55,11 @@ def test_sh_classify():
 
 def test_sh_detail_schedule():
     detail = sh.parse_detail(SH_DETAIL)
-    assert detail["files"] == ["2026년 2차 행복주택 공고문.pdf"]
+    assert detail["files"] == [{"name": "2026년 2차 행복주택 공고문.pdf"}]
+    with_preview = sh.parse_detail(SH_DETAIL.replace("</td></tr>\n<tr><td colspan=\"2\" class=\"cont\">",
+        '<a href="/app/com/util/htmlConverter.do?brd_id=GS0401&amp;seq=1&amp;file_seq=1">미리보기</a></td></tr>\n<tr><td colspan="2" class="cont">', 1))
+    assert with_preview["files"] == [{"name": "2026년 2차 행복주택 공고문.pdf",
+                                      "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=1&file_seq=1"}]
     sched = sh.extract_schedule(detail["text"], "2026-10-02")
     assert sched == {"start": "2026-10-14", "end": "2026-10-16", "winner": "2027-02-06", "moveIn": "2027-05"}
     assert sh.units_of(detail["text"]) == 1234
@@ -220,7 +224,31 @@ def test_lh_preorder_slot_is_skipped_until_configured():
     from collector import lh
     from collector.common import SourceError
     with pytest.raises(SourceError, match="요청주소"):
-        lh.collect_pre(None, "key")
+        lh._collect(None, "key", list_url="", dtl_url="", spl_url="", pre=True)
+
+
+def test_lh_preorder_list_filters_seoul():
+    from collector import lh
+
+    class Resp:
+        status_code = 200
+        def __init__(self, body): self._b = body
+        def json(self): return self._b
+
+    class Session:
+        def __init__(self): self.params = []
+        def get(self, url, params=None, timeout=None):
+            self.params.append(params)
+            return Resp([{"resHeader": [{"SS_CODE": "Y"}]}, {"dsList": [
+                {"PAN_ID": "A1", "PAN_NM": "서울대방 신혼희망타운 사전청약", "CNP_CD_NM": "서울특별시", "UPP_AIS_TP_NM": "신혼희망타운", "PAN_NT_ST_DT": "2026.09.01"},
+                {"PAN_ID": "A2", "PAN_NM": "남양주왕숙 공공분양 사전청약", "CNP_CD_NM": "경기도", "UPP_AIS_TP_NM": "분양주택"},
+            ]}])
+
+    sess = Session()
+    items, failed = lh._collect(sess, "key", list_url="u", dtl_url="", spl_url="", pre=True)
+    assert [(i["id"], i["cat"], i["tags"]) for i in items] == [("lhp:A1", "분양", ["사전청약"])]
+    assert set(sess.params[0]) == {"serviceKey", "PG_SZ", "PAGE", "PAN_ST_DT", "PAN_ED_DT"}
+    assert len(sess.params[0]["PAN_ST_DT"]) == 8
 
 
 def test_lh_real_world_cleanup():

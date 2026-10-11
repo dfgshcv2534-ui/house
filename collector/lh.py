@@ -24,8 +24,8 @@ SPL_URL = "https://apis.data.go.kr/B552555/lhLeaseNoticeSplInfo1/getLeaseNoticeS
 
 # 사전청약 서비스 자리: 활용신청 승인 후 공공데이터포털 상세 페이지의 '요청주소(End Point)' 뒤에
 # 오퍼레이션 이름까지 붙인 전체 주소를 넣는다. 비어 있으면 사전청약은 건너뛴다.
-PRE_LIST_URL = ""
-PRE_DTL_URL = ""
+PRE_LIST_URL = "https://apis.data.go.kr/B552555/lhLeaseNoticeBfhInfo1/lhLeaseNoticeBfhInfo1"
+PRE_DTL_URL = ""  # 사전청약 상세정보 요청주소를 받으면 채운다
 
 LOOKBACK_DAYS = 180
 PER_PAGE = 100
@@ -261,13 +261,38 @@ def _fetch_list(session, key: str, url: str, what: str) -> tuple[list[tuple[dict
     return list(rows_out.values()), failed
 
 
+def _fetch_pre_list(session, key: str, url: str, what: str) -> tuple[list[tuple[dict, str]], list[str]]:
+    """사전청약 목록: 게시일 기간(PAN_ST_DT~PAN_ED_DT, YYYYMMDD)만 받고 지역·유형 조건이 없어 서울은 직접 거른다."""
+    today = kst_today()
+    params = {"serviceKey": key, "PG_SZ": PER_PAGE,
+              "PAN_ST_DT": (today - timedelta(days=LOOKBACK_DAYS)).strftime("%Y%m%d"), "PAN_ED_DT": today.strftime("%Y%m%d")}
+    rows_out: dict[str, tuple[dict, str]] = {}
+    total = 0
+    for page in range(1, 11):
+        rows = _ds(_json(get(session, url, params={**params, "PAGE": page}), what), "dsList")
+        total += len(rows)
+        for row in rows:
+            _log_fields_once(what, row)
+            region = row.get("CNP_CD_NM")
+            if not (is_seoul(region) if region else "서울" in str(row.get("PAN_NM") or "")):
+                continue
+            if row.get("PAN_ID"):
+                kind = f"{row.get('UPP_AIS_TP_NM') or ''} {row.get('AIS_TP_CD_NM') or ''}"
+                rows_out[str(row["PAN_ID"])] = (row, "분양" if "분양" in kind or "신혼희망" in kind else "임대")
+        if len(rows) < PER_PAGE:
+            break
+    log.info("%s: 최근 %d건 중 서울 %d건", what, total, len(rows_out))
+    return list(rows_out.values()), []
+
+
 def _collect(session, key: str | None, *, list_url: str, dtl_url: str, spl_url: str, pre: bool) -> tuple[list[dict], list[str]]:
     what = "LH 사전청약" if pre else "LH"
     if not key:
         raise SourceError(f"DATA_GO_KR_KEY 가 없어 {what}를 건너뜁니다")
     if not list_url:
         raise SourceError(f"{what} 요청주소가 아직 비어 있습니다 (collector/lh.py PRE_LIST_URL)")
-    rows, failed = _fetch_list(session, key, list_url, what + " 공고문")
+    fetch = _fetch_pre_list if pre else _fetch_list
+    rows, failed = fetch(session, key, list_url, what + " 공고문")
     items = []
     detail_on = bool(dtl_url)
     supply_on = bool(spl_url)

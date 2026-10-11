@@ -242,3 +242,5 @@ button, input, select { font: inherit; color: inherit; }
 .map { height: 220px; border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: var(--surface-2); z-index: 0; }
 .maplinks { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
 .files a { word-break: break-all; }
+.plan-files { display: grid; gap: 6px; }
+.plan-files .btn { justify-content: flex-start; font-weight: 600; font-size: 13.5px; word-break: break-all; }
