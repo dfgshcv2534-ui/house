@@ -158,7 +158,7 @@ function sorted(list) {
 /* ---------- 렌더링 ---------- */
 function renderHeader() {
   $("#updated").textContent = meta.updatedAt
-    ? `${meta.updatedAt.slice(5, 10).replace("-", ".")} ${meta.updatedAt.slice(11, 16)} 업데이트 · 매일 오전 6시`
+    ? `${meta.updatedAt.slice(5, 10).replace("-", ".")} ${meta.updatedAt.slice(11, 16)} 업데이트 · 매일 오전·오후 6시`
     : "첫 업데이트를 기다리는 중";
   // 오늘 실패해서 실제로 지난 데이터를 보여주는 출처만 안내 (한 번도 연결된 적 없는 출처는 조용히)
   const bad = Object.entries(meta.sources || {}).filter(([k, s]) => !s.ok && notices.some((n) => n.source === k && n.stale));
@@ -244,7 +244,7 @@ function cardHTML(n) {
 function renderList(list) {
   const el = $("#list");
   if (!notices.length) {
-    el.innerHTML = `<div class="empty"><b>아직 모은 공고가 없어요</b>매일 오전 6시에 자동으로 업데이트돼요.</div>`;
+    el.innerHTML = `<div class="empty"><b>아직 모은 공고가 없어요</b>매일 오전·오후 6시에 자동으로 업데이트돼요.</div>`;
     return;
   }
   el.innerHTML = list.length

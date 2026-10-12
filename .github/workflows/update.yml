@@ -2,7 +2,9 @@ name: 매일 공고 업데이트
 
 on:
   schedule:
-    - cron: "0 21 * * *"   # 매일 06:00 KST (GitHub 사정으로 몇 분~수십 분 늦을 수 있음)
+    - cron: "0 21 * * *"   # 매일 06:00 KST
+    - cron: "0 9 * * *"    # 매일 18:00 KST — 낮에 올라온 공고를 그날 저녁에 반영
+    # GitHub 예약 실행은 몇 분~몇 시간 늦어질 수 있음
   workflow_dispatch:        # Actions 탭에서 'Run workflow'로 바로 실행
 
 permissions:
