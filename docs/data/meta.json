@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-10-11T20:23+09:00",
- "baseDate": "2026-10-11",
+ "updatedAt": "2026-10-12T09:23+09:00",
+ "baseDate": "2026-10-12",
  "sources": {
   "청약홈": {
    "ok": true,
-   "count": 92,
+   "count": 91,
    "failedParts": []
   },
   "SH": {

@@ -1517,12 +1517,6 @@
   "moveIn": "2028-05",
   "models": [
    {
-    "type": "59B",
-    "excl": 59.989,
-    "units": 2,
-    "price": 95460
-   },
-   {
     "type": "59A",
     "excl": 59.945,
     "units": 8,
@@ -1533,6 +1527,12 @@
     "excl": 59.906,
     "units": 1,
     "price": 86400
+   },
+   {
+    "type": "59B",
+    "excl": 59.989,
+    "units": 2,
+    "price": 95460
    }
   ],
   "priceMin": 86400,
