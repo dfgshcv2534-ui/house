@@ -1,5 +1,209 @@
 [
  {
+  "id": "sh:rent:311375",
+  "source": "SH",
+  "sector": "공공",
+  "cat": "임대",
+  "kind": "사회주택",
+  "name": "[토지지원 사회주택]유니버설디자인하우스_장안 입주자 모집 공고",
+  "address": null,
+  "gu": null,
+  "units": 1,
+  "dates": {
+   "notice": "2026-10-13",
+   "start": "2026-10-21",
+   "end": "2026-10-21"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "SH공사 공공개발금융부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=311375",
+  "homepage": null,
+  "files": [
+   {
+    "name": "01_[유니버설디자인하우스_장안] 입주자 모집공고문_26_10_13.pdf",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311375&data_tp=A&file_seq=1"
+   }
+  ],
+  "firstSeen": "2026-10-13"
+ },
+ {
+  "id": "sh:rent:311349",
+  "source": "SH",
+  "sector": "공공",
+  "cat": "임대",
+  "kind": "공공임대",
+  "name": "은평구 홀몸어르신 은빛주택(수요자맞춤형) 잔여세대 모집 공고",
+  "address": null,
+  "gu": "은평구",
+  "units": 2,
+  "dates": {
+   "notice": "2026-10-12",
+   "start": "2026-10-26",
+   "end": "2026-11-06",
+   "winner": "2026-11-19"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [
+   "고령자"
+  ],
+  "builder": null,
+  "supplier": "SH공사 매입주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=311349",
+  "homepage": null,
+  "files": [
+   {
+    "name": "은빛주택 1호점 잔여세대 입주자 모집 공고문.hwpx",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311349&data_tp=A&file_seq=1"
+   }
+  ],
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.6027,
+   "lng": 126.9291,
+   "precision": "구"
+  }
+ },
+ {
+  "id": "ah:remndr:2026910263:2026910263",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "분양",
+  "kind": "무순위·잔여세대",
+  "name": "청계 노르웨이숲(13차)",
+  "address": "서울특별시 중구 황학동 1756번지 일원",
+  "gu": "중구",
+  "units": 10,
+  "dates": {
+   "notice": "2026-10-12",
+   "start": "2026-10-19",
+   "end": "2026-10-19",
+   "winner": "2026-10-22",
+   "contract_start": "2026-10-26",
+   "contract_end": "2026-10-28"
+  },
+  "dateBasis": "api",
+  "moveIn": "2028-07",
+  "models": [
+   {
+    "type": "39",
+    "excl": 39.0,
+    "units": 10,
+    "special": 0,
+    "price": 76112,
+    "plan": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/main/unit_39.png"
+   }
+  ],
+  "priceMin": 76112,
+  "priceMax": 76112,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "황학동청계지역주택조합",
+  "tel": "15550807",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910263&pblancNo=2026910263",
+  "homepage": "https://청계노르웨이숲.com",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910263&pblancNo=2026910263&atchmnflSeqNo=1994058&atchmnflSn=3"
+   }
+  ],
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.56755,
+   "lng": 127.02172,
+   "precision": "동"
+  },
+  "homePlans": [
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/main/unit_59d.png",
+    "type": "59D",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/main/unit-slide-obj.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/main/unit_39.png",
+    "type": "39",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/main/unit_59a.png",
+    "type": "59A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/main/unit_59b.png",
+    "type": "59B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/main/unit_59c.png",
+    "type": "59C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/main/unit-obj.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/sub/unit_39.jpg",
+    "type": "39",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/sub/unit_59a.jpg",
+    "type": "59A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/sub/unit_59b.jpg",
+    "type": "59B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/sub/unit_59c.jpg",
+    "type": "59C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/sub/unit_59d.jpg",
+    "type": "59D",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ {
   "id": "sh:rent:311087",
   "source": "SH",
   "sector": "공공",
@@ -2511,42 +2715,6 @@
    "lng": 126.9019,
    "precision": "구"
   }
- },
- {
-  "id": "sh:rent:306205",
-  "source": "SH",
-  "sector": "공공",
-  "cat": "임대",
-  "kind": "공공임대",
-  "name": "2026-2차 사당동원룸 잔여세대 입주자모집공고",
-  "address": null,
-  "gu": null,
-  "units": 13,
-  "dates": {
-   "notice": "2026-06-26",
-   "start": "2026-07-09",
-   "end": "2026-07-10",
-   "winner": "2026-09-28"
-  },
-  "dateBasis": "본문",
-  "moveIn": null,
-  "models": [],
-  "priceMin": null,
-  "priceMax": null,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "SH공사 맞춤주택공급부",
-  "tel": null,
-  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=306205",
-  "homepage": null,
-  "files": [
-   {
-    "name": "[공고문] 2026-2차 사당동 원룸 잔여세대 입주자모집공고(26_ 6_ 26_).pdf",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=306205&data_tp=A&file_seq=1"
-   }
-  ],
-  "firstSeen": "2026-10-11"
  },
  {
   "id": "sh:rent:306066",
