@@ -250,3 +250,4 @@ button, input, select { font: inherit; color: inherit; }
 .plan-links .btn { font-size: 13.5px; padding: 10px 8px; }
 .kv div { min-width: 0; }
 .kv dd { overflow-wrap: anywhere; }
+.region-seg { margin-top: 14px; }
