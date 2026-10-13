@@ -3732,13 +3732,15 @@
     "type": "84OB",
     "excl": 84.8507,
     "units": 36,
-    "price": 47875
+    "price": 47875,
+    "plan": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit_84.png"
    },
    {
     "type": "84OA",
     "excl": 84.6525,
     "units": 72,
-    "price": 49074
+    "price": 49074,
+    "plan": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit_84.png"
    }
   ],
   "priceMin": 47875,
@@ -3761,7 +3763,69 @@
    "lat": 37.46364,
    "lng": 126.65057,
    "precision": "동"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit-bg.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit_69.png",
+    "type": "69",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit_84.png",
+    "type": "84",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit_84oa.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit_84ob.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit-obj.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/sub/unit_69.jpg",
+    "type": "69",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/sub/unit_84.jpg",
+    "type": "84",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/sub/unit_84oa.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/sub/unit_84ob.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "ah:remndr:2026930040:2026930040",
@@ -4655,7 +4719,39 @@
    "lat": 37.49268,
    "lng": 126.79144,
    "precision": "동"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://brand.hldni.com/bucheon-urbanic/image/sub/information/unit1.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://brand.hldni.com/bucheon-urbanic/image/sub/information/unit2.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://brand.hldni.com/bucheon-urbanic/image/sub/information/unit3.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://brand.hldni.com/bucheon-urbanic/image/sub/information/unit4.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://brand.hldni.com/bucheon-urbanic/image/sub/information/unit5.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "ah:opt:2026940203:2026940203",
@@ -4857,35 +4953,40 @@
     "excl": 84.0,
     "units": 1,
     "special": 0,
-    "price": 66460
+    "price": 66460,
+    "plan": "http://halla-shincheon.co.kr/image/main/unit/unit_84a.jpg"
    },
    {
     "type": "84C",
     "excl": 84.0,
     "units": 2,
     "special": 0,
-    "price": 68060
+    "price": 68060,
+    "plan": "http://halla-shincheon.co.kr/image/main/unit/unit_84c.jpg"
    },
    {
     "type": "84D",
     "excl": 84.0,
     "units": 2,
     "special": 0,
-    "price": 67190
+    "price": 67190,
+    "plan": "http://halla-shincheon.co.kr/image/main/unit/unit_84d.jpg"
    },
    {
     "type": "111A",
     "excl": 111.0,
     "units": 4,
     "special": 0,
-    "price": 84430
+    "price": 84430,
+    "plan": "http://halla-shincheon.co.kr/image/main/unit/unit_111a.jpg"
    },
    {
     "type": "111B",
     "excl": 111.0,
     "units": 6,
     "special": 0,
-    "price": 85290
+    "price": 85290,
+    "plan": "http://halla-shincheon.co.kr/image/main/unit/unit_111b.jpg"
    }
   ],
   "priceMin": 66460,
@@ -4908,7 +5009,99 @@
    "lat": 37.4345,
    "lng": 126.79145,
    "precision": "주소"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84a.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84b.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84c.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84d.jpg",
+    "type": "84D",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84e.jpg",
+    "type": "84E",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111a.jpg",
+    "type": "111A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111b.jpg",
+    "type": "111B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111c.jpg",
+    "type": "111C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111d.jpg",
+    "type": "111D",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84a_img1.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84a_img2.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84a_img3.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84b_img1.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84b_img2.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84b_img3.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "ah:opt:2026940210:2026940210",
@@ -5040,7 +5233,15 @@
    "lat": 37.50144,
    "lng": 126.76601,
    "precision": "구"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://www.xn--2e5bqkuw2tw6b5xac3xm4o.com/img/sub/unitplan_69a.png",
+    "type": "69A",
+    "kind": "평면",
+    "alt": "69A"
+   }
+  ]
  },
  {
   "id": "ah:opt:2026940202:2026940202",
@@ -5404,7 +5605,8 @@
     "excl": 69.0,
     "units": 6,
     "special": 7,
-    "price": 57874
+    "price": 57874,
+    "plan": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit_69.png"
    },
    {
     "type": "84",
@@ -5412,7 +5614,8 @@
     "excl": 84.0,
     "units": 10,
     "special": 12,
-    "price": 73237
+    "price": 73237,
+    "plan": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit_84.png"
    }
   ],
   "priceMin": 57874,
@@ -5435,7 +5638,69 @@
    "lat": 37.46364,
    "lng": 126.65057,
    "precision": "동"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit-bg.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit_69.png",
+    "type": "69",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit_84.png",
+    "type": "84",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit_84oa.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit_84ob.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit-obj.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/sub/unit_69.jpg",
+    "type": "69",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/sub/unit_84.jpg",
+    "type": "84",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/sub/unit_84oa.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/sub/unit_84ob.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "sh:rent:310258",
@@ -5834,7 +6099,69 @@
    "lat": 37.61525,
    "lng": 126.73441,
    "precision": "주소"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://hobansummit-pungmu2.com/final/assets/images/sub/img_plan.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://hobansummit-pungmu2.com/final/assets/images/sub/img_unit_01.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://hobansummit-pungmu2.com/final/assets/images/sub/img_unit_02.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://hobansummit-pungmu2.com/final/assets/images/sub/img_unit_03.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://hobansummit-pungmu2.com/final/assets/images/sub/img_unit_04.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://hobansummit-pungmu2.com/final/assets/images/sub/img_unit_05.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://hobansummit-pungmu2.com/final/assets/images/sub/img_unit_06.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://hobansummit-pungmu2.com/final/assets/images/sub/img_unit_07.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://hobansummit-pungmu2.com/final/assets/images/sub/img_unit_08.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://hobansummit-pungmu2.com/final/assets/images/sub/img_unit_09.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "ah:remndr:2026930031:2026930031",
@@ -7121,7 +7448,12 @@
     "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000449&pblancNo=2026000449&atchmnflSeqNo=1971234&atchmnflSn=2"
    }
   ],
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.27228,
+   "lng": 126.98695,
+   "precision": "동"
+  }
  },
  {
   "id": "ah:apt:2026000438:2026000438",
@@ -7426,9 +7758,9 @@
   ],
   "firstSeen": "2026-10-13",
   "geo": {
-   "lat": 37.42016,
-   "lng": 127.12621,
-   "precision": "구"
+   "lat": 37.36628,
+   "lng": 127.11873,
+   "precision": "동"
   }
  },
  {
@@ -7529,7 +7861,12 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68508315"
    }
   ],
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.7441,
+   "lng": 127.08783,
+   "precision": "주소"
+  }
  },
  {
   "id": "ah:remndr:2026910242:2026910242",
@@ -7576,7 +7913,12 @@
     "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910242&pblancNo=2026910242&atchmnflSeqNo=1972087&atchmnflSn=2"
    }
   ],
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.38515,
+   "lng": 126.64574,
+   "precision": "동"
+  }
  },
  {
   "id": "ah:remndr:2026910238:2026910238",
@@ -7623,7 +7965,12 @@
     "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910238&pblancNo=2026910238&atchmnflSeqNo=1970993&atchmnflSn=3"
    }
   ],
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.17771,
+   "lng": 127.0598,
+   "precision": "동"
+  }
  },
  {
   "id": "ah:apt:2026000314:2026000314",
@@ -7719,9 +8066,9 @@
   ],
   "firstSeen": "2026-10-13",
   "geo": {
-   "lat": 37.50144,
-   "lng": 126.76601,
-   "precision": "구"
+   "lat": 37.48292,
+   "lng": 126.763,
+   "precision": "동"
   }
  },
  {
@@ -7911,7 +8258,12 @@
     "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026850047&pblancNo=2026850047&atchmnflSeqNo=1967999&atchmnflSn=3"
    }
   ],
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.14994,
+   "lng": 127.07746,
+   "precision": "구"
+  }
  },
  {
   "id": "ah:apt:2026000431:2026000431",
@@ -8116,9 +8468,9 @@
   ],
   "firstSeen": "2026-10-13",
   "geo": {
-   "lat": 37.61557,
-   "lng": 126.71578,
-   "precision": "구"
+   "lat": 37.6919,
+   "lng": 126.59621,
+   "precision": "주소"
   }
  },
  {
@@ -8223,41 +8575,12 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68451990"
    }
   ],
-  "firstSeen": "2026-10-13"
- },
- {
-  "id": "ih:rent:4410",
-  "source": "iH",
-  "sector": "공공",
-  "region": "인천",
-  "cat": "임대",
-  "kind": "공공임대",
-  "name": "2026년 임대아파트 단지 내 상가 입점자 모집 공고(청학)",
-  "address": null,
-  "gu": null,
-  "units": null,
-  "dates": {
-   "notice": "2026-09-04"
-  },
-  "dateBasis": "없음",
-  "moveIn": null,
-  "models": [],
-  "priceMin": null,
-  "priceMax": null,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "iH",
-  "tel": null,
-  "url": "https://www.ih.co.kr/main/bbs/bbsMsgDetail.do?msg_seq=4410&cate1=general&bcd=notice&pgdiv=general&pgno=1",
-  "homepage": null,
-  "files": [
-   {
-    "name": "(게시용)임대아파트_단지내_상가_임대_공고문(청학)_260904.pdf",
-    "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDown.do?bcd=notice&msg_seq=4410&fileno=1"
-   }
-  ],
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 36.96091,
+   "lng": 127.24493,
+   "precision": "주소"
+  }
  },
  {
   "id": "ah:apt:2026000393:2026000393",
@@ -8369,7 +8692,12 @@
     "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000393&pblancNo=2026000393&atchmnflSeqNo=1966048&atchmnflSn=9"
    }
   ],
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.43347,
+   "lng": 126.80935,
+   "precision": "동"
+  }
  },
  {
   "id": "ah:urbty:2026950078:2026950078",
@@ -8508,7 +8836,12 @@
     "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000394&pblancNo=2026000394&atchmnflSeqNo=1968026&atchmnflSn=3"
    }
   ],
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.29334,
+   "lng": 127.63757,
+   "precision": "동"
+  }
  },
  {
   "id": "sh:rent:309467",
@@ -8596,7 +8929,12 @@
   "tel": "16001004",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820009&pblancNo=2026820009",
   "homepage": "https://apply.lh.or.kr",
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.70337,
+   "lng": 127.1636,
+   "precision": "주소"
+  }
  },
  {
   "id": "ah:apt:2026000414:2026000414",
@@ -9023,9 +9361,9 @@
   "homepage": "https://apply.lh.or.kr",
   "firstSeen": "2026-10-13",
   "geo": {
-   "lat": 37.78493,
-   "lng": 127.04578,
-   "precision": "구"
+   "lat": 37.84549,
+   "lng": 127.06579,
+   "precision": "동"
   }
  },
  {
@@ -9084,7 +9422,12 @@
   "tel": "0315749144",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000409&pblancNo=2026000409",
   "homepage": "https://apply.lh.or.kr",
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.76328,
+   "lng": 127.03418,
+   "precision": "동"
+  }
  },
  {
   "id": "ih:sale:177",
@@ -9095,7 +9438,7 @@
   "kind": "분양",
   "name": "검암역 푸르지오 프라베뉴(검암B-1BL) 입주자모집공고[정정공고]",
   "address": null,
-  "gu": null,
+  "gu": "서구",
   "units": null,
   "dates": {
    "notice": "2026-08-25"
@@ -9120,7 +9463,12 @@
     "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDown.do?bcd=sale_lease&msg_seq=177&fileno=1"
    }
   ],
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.545,
+   "lng": 126.676,
+   "precision": "구"
+  }
  },
  {
   "id": "sh:rent:308971",
@@ -9206,7 +9554,12 @@
   "tel": null,
   "url": "https://apply.gh.or.kr/sb/sr/sr7150/selectPbancDetailView.do?pbancNo=811",
   "homepage": null,
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 38.0964,
+   "lng": 127.0746,
+   "precision": "구"
+  }
  },
  {
   "id": "sh:rent:308944",
@@ -9422,7 +9775,12 @@
     "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000404&pblancNo=2026000404&atchmnflSeqNo=1954200&atchmnflSn=5"
    }
   ],
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.545,
+   "lng": 126.676,
+   "precision": "구"
+  }
  },
  {
   "id": "sh:rent:308605",
@@ -9667,9 +10025,9 @@
   "homepage": "https://apply.lh.or.kr/",
   "firstSeen": "2026-10-13",
   "geo": {
-   "lat": 37.42016,
-   "lng": 127.12621,
-   "precision": "구"
+   "lat": 37.44668,
+   "lng": 127.14705,
+   "precision": "동"
   }
  },
  {
@@ -9729,7 +10087,12 @@
   "tel": "03180777999",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820006&pblancNo=2026820006",
   "homepage": "https://apply.lh.or.kr/",
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.3553,
+   "lng": 126.77519,
+   "precision": "주소"
+  }
  },
  {
   "id": "sh:rent:308167",
@@ -9859,10 +10222,10 @@
   "sector": "공공",
   "region": "인천",
   "cat": "임대",
-  "kind": "장기전세(미리내집)",
+  "kind": "장기전세",
   "name": "장기전세주택 예비입주자 모집공고 (청학아파트)",
   "address": null,
-  "gu": null,
+  "gu": "연수구",
   "units": null,
   "dates": {
    "notice": "2026-07-23"
@@ -9893,7 +10256,12 @@
     "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDownCompress.do?bcd=notice&msg_seq=4362"
    }
   ],
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.4098,
+   "lng": 126.6787,
+   "precision": "구"
+  }
  },
  {
   "id": "ah:apt:2026820007:2026820007",
@@ -9952,7 +10320,12 @@
   "tel": "0312975229",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820007&pblancNo=2026820007",
   "homepage": "https://apply.lh.or.kr/",
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.2729,
+   "lng": 126.95214,
+   "precision": "주소"
+  }
  },
  {
   "id": "ih:rent:4358",
@@ -9963,7 +10336,7 @@
   "kind": "행복주택",
   "name": "2026년 행복주택 예비입주자 모집 공고 (화수정원마을 1·2단지, 만부마을)",
   "address": null,
-  "gu": null,
+  "gu": "동구",
   "units": null,
   "dates": {
    "notice": "2026-07-21"
@@ -9994,7 +10367,12 @@
     "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDownCompress.do?bcd=notice&msg_seq=4358"
    }
   ],
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.48641,
+   "lng": 126.63388,
+   "precision": "구"
+  }
  },
  {
   "id": "ih:rent:4357",
@@ -10005,7 +10383,7 @@
   "kind": "분양전환 임대",
   "name": "동인천역파크푸르지오 10년 분양전환 공공임대주택 예비입주자 모집공고(자격완화)",
   "address": null,
-  "gu": null,
+  "gu": "동구",
   "units": null,
   "dates": {
    "notice": "2026-07-21"
@@ -10040,7 +10418,12 @@
     "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDownCompress.do?bcd=notice&msg_seq=4357"
    }
   ],
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.48641,
+   "lng": 126.63388,
+   "precision": "구"
+  }
  },
  {
   "id": "ih:rent:4356",
@@ -10051,7 +10434,7 @@
   "kind": "분양전환 임대",
   "name": "더샵부평센트럴시티 10년 분양전환 공공임대주택 예비입주자 모집공고(자격완화)",
   "address": null,
-  "gu": null,
+  "gu": "부평구",
   "units": null,
   "dates": {
    "notice": "2026-07-21"
@@ -10086,7 +10469,12 @@
     "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDownCompress.do?bcd=notice&msg_seq=4356"
    }
   ],
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.50702,
+   "lng": 126.72201,
+   "precision": "구"
+  }
  },
  {
   "id": "ih:rent:4355",
@@ -10097,7 +10485,7 @@
   "kind": "행복주택",
   "name": "행복주택 예비입주자 모집 공고(구월7단지)",
   "address": null,
-  "gu": null,
+  "gu": "남동구",
   "units": null,
   "dates": {
    "notice": "2026-07-21"
@@ -10128,7 +10516,12 @@
     "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDownCompress.do?bcd=notice&msg_seq=4355"
    }
   ],
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.4469,
+   "lng": 126.73151,
+   "precision": "구"
+  }
  },
  {
   "id": "sh:rent:306722",
@@ -10271,7 +10664,12 @@
   "tel": "0319410730",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000320&pblancNo=2026000320",
   "homepage": "https://apply.lh.or.kr",
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.62669,
+   "lng": 126.86185,
+   "precision": "주소"
+  }
  },
  {
   "id": "ah:apt:2026000313:2026000313",
@@ -10362,7 +10760,12 @@
   "tel": "0319464501",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000313&pblancNo=2026000313",
   "homepage": "https://apply.lh.or.kr",
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.62669,
+   "lng": 126.86185,
+   "precision": "주소"
+  }
  },
  {
   "id": "ah:apt:2026000307:2026000307",
@@ -10443,6 +10846,11 @@
    }
   ],
   "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.32851,
+   "lng": 126.91623,
+   "precision": "주소"
+  },
   "planPages": [
    {
     "page": 39,

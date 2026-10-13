@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-13T18:51+09:00",
+ "updatedAt": "2026-10-13T19:07+09:00",
  "baseDate": "2026-10-13",
  "sources": {
   "청약홈": {
@@ -19,7 +19,7 @@
   },
   "iH": {
    "ok": true,
-   "count": 8,
+   "count": 6,
    "failedParts": []
   },
   "LH": {
@@ -33,6 +33,6 @@
    "failedParts": []
   }
  },
- "total": 153,
- "newToday": 103
+ "total": 152,
+ "newToday": 0
 }
