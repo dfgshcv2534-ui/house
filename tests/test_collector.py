@@ -537,3 +537,16 @@ def test_still_relevant_and_lh_sale_supply():
         {"HTY_NM": "84.8600A", "RSDN_DDO_AR": "84.86", "SPL_AR": "114.1", "TOT_HSH_CNT": "530", "SIL_AMT": "462100000"}]}])
     assert [(m["type"], m["excl"], m["units"], m["price"]) for m in item["models"]] == [("59A", 59.74, 262, 35369), ("84A", 84.86, 530, 46210)]
     assert (item["units"], item["priceMin"], item["priceMax"], item["region"], item["gu"]) == (792, 35369, 46210, "경기", "양주시")
+
+
+def test_capital_landmarks_and_exclusions():
+    from collector import gh, ih
+    from collector.common import place_in_text
+    assert place_in_text("장기전세주택 예비입주자 모집공고 (청학아파트)", "인천") == "연수구"
+    assert place_in_text("더샵부평센트럴시티 10년 분양전환 공공임대", "인천") == "부평구"
+    assert place_in_text("동탄2 A-12블록 행복주택", "경기") == "화성시"
+    assert place_in_text("고덕강일 3단지", "서울") is None
+    assert not sh.is_recruitment("2026년 임대아파트 단지 내 상가 입점자 모집 공고(청학)")
+    row = {"seq": "1", "title": "장기전세주택 예비입주자 모집공고 (청학아파트)", "date": "2026-07-23", "href": "u"}
+    n = ih.to_notice(row, ih.BOARDS[1], None)
+    assert (n["kind"], n["gu"]) == ("장기전세", "연수구")

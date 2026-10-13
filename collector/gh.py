@@ -59,6 +59,8 @@ def to_notice(row: dict, board: dict) -> dict:
     elif not kind:
         kind, cat = classify(title, "임대")
     dates = {k: v for k, v in {"notice": row.get("notice"), "end": row.get("end")}.items() if v}
+    if kind == "장기전세(미리내집)" and "미리내집" not in title:
+        kind = "장기전세"  # 미리내집은 서울(SH) 브랜드
     return {
         "id": f"gh:{board['key']}:{row['no']}",
         "source": "GH",

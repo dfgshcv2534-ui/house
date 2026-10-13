@@ -80,6 +80,8 @@ def to_notice(row: dict, board: dict, detail: dict | None) -> dict:
     dates = {"notice": row["date"], **{k: v for k, v in sched.items() if k in ("start", "end", "winner")}}
     gu = sigungu(address) if address else None
     gu = gu if gu in INCHEON else place_in_text(title, "인천")
+    if kind == "장기전세(미리내집)" and "미리내집" not in title:
+        kind = "장기전세"  # 미리내집은 서울(SH) 브랜드
     return {
         "id": f"ih:{board['key']}:{row['seq']}",
         "source": "iH",
