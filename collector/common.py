@@ -282,3 +282,14 @@ def place_in_text(text: str | None, region: str | None) -> str | None:
         if len(short) >= 2 and short != "광주" and re.search(rf"(?:^|[^가-힣]|경기|인천){short}", text):
             return name
     return None
+
+
+def still_relevant(dates: dict, days: int = 14) -> bool:
+    """접수 마감·발표·계약 중 가장 늦은 날이 오늘-days 이후면 True. 끝나는 날이 없으면 True (판단 불가는 살려 둔다).
+
+    build.keep 과 같은 기준이라, 여기서 False 인 공고는 어차피 화면에서 빠진다 → 상세 조회를 아낀다.
+    """
+    ends = [dates[k] for k in ("end", "winner", "contract_end") if dates.get(k)]
+    if not ends:
+        return True
+    return max(ends) >= (kst_today() - timedelta(days=days)).isoformat()

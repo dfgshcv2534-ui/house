@@ -15,7 +15,7 @@ from datetime import timedelta
 
 from .common import (
     SPECIAL, SourceError, clean, clean_title, drop_reposts, get, gu_in_text, is_correction, is_recruitment_title, REGIONS, region_of, sigungu, place_in_text,
-    kst_today, log, redact, special_kind, to_float, to_int, to_iso, to_month,
+    kst_today, log, redact, special_kind, still_relevant, to_float, to_int, to_iso, to_month,
 )
 
 LIST_URL = "https://apis.data.go.kr/B552555/lhLeaseNoticeInfo1/lhLeaseNoticeInfo1"
@@ -129,7 +129,7 @@ def apply_detail(item: dict, body) -> None:
         item["moveIn"] = move_in
     # 세대수: 합계 필드가 있으면 그것, 없으면 단지별 HSH_CNT 합 (공급정보 서비스 없이도 채워진다)
     item["units"] = to_int(sbd.get("SUM_TOT_HSH_CNT")) or (sum(to_int(b.get("HSH_CNT")) or 0 for b in sbds) or None) or item["units"]
-    heat = clean(sbd.get("HTN_FMLA_DESC"))
+    heat = clean(sbd.get("HTN_FMLA_DESC") or sbd.get("HTN_FMLA_DS_CD_NM"))
     if heat and heat not in item["tags"]:
         item["tags"].append(heat)
     area = clean(sbd.get("DDO_AR") or sbd.get("MIN_MAX_RSDN_DDO_AR"))
@@ -179,14 +179,17 @@ def apply_supply(item: dict, body) -> None:
     models = []
     for r in _ds(body, "dsList01"):
         _log_fields_once("LH 공급정보", r)
-        ty = clean(r.get("HTY_NNA"))
+        ty = clean(r.get("HTY_NNA") or r.get("HTY_NM"))  # 임대는 HTY_NNA, 분양은 HTY_NM('59.7400A')
         if not ty:
             continue
+        amount = to_int(r.get("SIL_AMT"))  # 분양 공고의 분양가(원)
         m = {
             "type": re.sub(r"^0*(\d+)(?:\.\d+)?", r"\1", ty),
             "area": to_float(r.get("SPL_AR")),
-            "excl": to_float(r.get("DDO_AR")) or to_float(re.match(r"0*(\d+(?:\.\d+)?)", ty).group(1) if re.match(r"0*\d", ty) else None),
-            "units": to_int(r.get("HSH_CNT")),
+            "excl": to_float(r.get("DDO_AR") or r.get("RSDN_DDO_AR"))
+            or to_float(re.match(r"0*(\d+(?:\.\d+)?)", ty).group(1) if re.match(r"0*\d", ty) else None),
+            "units": to_int(r.get("HSH_CNT") or r.get("TOT_HSH_CNT") or r.get("SIL_HSH_CNT")),
+            "price": round(amount / 10000) if amount and amount > 10_000_000 else None,  # 만원
         }
         models.append({k: v for k, v in m.items() if v not in (None, "")})
     if models:
@@ -194,6 +197,9 @@ def apply_supply(item: dict, body) -> None:
         total = sum(m.get("units") or 0 for m in models)
         if total and not item.get("units"):
             item["units"] = total
+        prices = [m["price"] for m in models if m.get("price")]
+        if prices:
+            item["priceMin"], item["priceMax"] = min(prices), max(prices)
 
 
 TYPE_RE = re.compile(r"(\d{2,3})(?:\.\d+)?\s*(?:㎡|m2|형|타입|type)?\s*([A-Za-z])?", re.I)
@@ -310,12 +316,12 @@ def _collect(session, key: str | None, *, list_url: str, dtl_url: str, spl_url: 
     supply_on = bool(spl_url)
     for row, cat in rows:
         item = normalize(row, cat, pre=pre)
-        if not item["name"] or not is_recruitment_title(row.get("PAN_NM")):
+        if not item["name"] or not is_recruitment_title(row.get("PAN_NM")) or not still_relevant(item["dates"]):
             continue
         params = {"serviceKey": key, "PAN_ID": row["PAN_ID"], **{k: row.get(k) for k in DETAIL_PARAMS}}
         if detail_on:
             try:
-                apply_detail(item, _json(get(session, dtl_url, params=params), what + " 상세정보"))
+                apply_detail(item, _json(get(session, dtl_url, params=params, attempts=2, timeout=15), what + " 상세정보"))
                 resolve_images(session, item)
             except SourceError as e:  # 상세정보 서비스 미신청: 이번 실행에선 목록만
                 log.warning("%s — 목록 정보만 씁니다", e)
@@ -325,7 +331,7 @@ def _collect(session, key: str | None, *, list_url: str, dtl_url: str, spl_url: 
                 log.warning("%s 상세 실패(%s): %s", what, row.get("PAN_ID"), e)
         if supply_on:
             try:
-                apply_supply(item, _json(get(session, spl_url, params=params), what + " 공급정보"))
+                apply_supply(item, _json(get(session, spl_url, params=params, attempts=2, timeout=15), what + " 공급정보"))
             except SourceError as e:  # 공급정보 서비스 미신청
                 log.info("%s — 주택형별 표 없이 진행합니다 (선택 기능)", e)
                 supply_on = False

@@ -520,3 +520,20 @@ def test_ih_list_detail_notice():
     assert (n["region"], n["gu"], n["cat"], n["address"]) == ("인천", "서구", "분양", "인천광역시 서구 검암동 100-1")
     assert n["dates"] == {"notice": "2026-08-25", "start": "2026-09-01", "end": "2026-09-03", "winner": "2026-09-10"}
     assert "정정공고" in n["tags"]
+
+
+def test_still_relevant_and_lh_sale_supply():
+    from collector import lh
+    from collector.common import kst_today, still_relevant
+    from datetime import timedelta
+    today = kst_today()
+    assert still_relevant({"notice": "2020-01-01"})                                   # 끝나는 날 모르면 살림
+    assert not still_relevant({"end": (today - timedelta(days=30)).isoformat()})
+    assert still_relevant({"end": (today - timedelta(days=30)).isoformat(), "contract_end": today.isoformat()})
+    item = lh.normalize({"PAN_ID": "61183", "PAN_NM": "양주회천 A26 공공분양 입주자 모집공고", "AIS_TP_CD_NM": "공공분양",
+                         "CNP_CD_NM": "경기도", "PAN_NT_ST_DT": "2026.10.01"}, "분양")
+    lh.apply_supply(item, [{"dsList01": [
+        {"HTY_NM": "59.7400A", "RSDN_DDO_AR": "59.74", "SPL_AR": "82.6719", "TOT_HSH_CNT": "262", "SIL_AMT": "353694000"},
+        {"HTY_NM": "84.8600A", "RSDN_DDO_AR": "84.86", "SPL_AR": "114.1", "TOT_HSH_CNT": "530", "SIL_AMT": "462100000"}]}])
+    assert [(m["type"], m["excl"], m["units"], m["price"]) for m in item["models"]] == [("59A", 59.74, 262, 35369), ("84A", 84.86, 530, 46210)]
+    assert (item["units"], item["priceMin"], item["priceMax"], item["region"], item["gu"]) == (792, 35369, 46210, "경기", "양주시")

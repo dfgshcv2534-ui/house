@@ -10,7 +10,7 @@ import time
 from datetime import timedelta
 
 from .common import (
-    SPECIAL, SourceError, clean, first, get, redact, REGIONS, kst_today, log, region_of, sector_of, sigungu, special_kind, to_float, to_int, to_iso, to_month,
+    SPECIAL, SourceError, clean, first, get, redact, REGIONS, kst_today, log, region_of, still_relevant, sector_of, sigungu, special_kind, to_float, to_int, to_iso, to_month,
 )
 
 BASE = "https://api.odcloud.kr/api/ApplyhomeInfoDetailSvc/v1"
@@ -225,6 +225,8 @@ def collect(session, key: str | None) -> tuple[list[dict], list[str]]:
         for row in seoul:
             models: list[dict] = []
             manage_no = row.get("HOUSE_MANAGE_NO")
+            if not still_relevant(normalize(row, src, [])["dates"]):
+                continue  # 끝난 지 오래된 공고는 화면에서 빠지므로 주택형 조회도 하지 않는다
             if manage_no:
                 try:
                     models = [normalize_model(m) for m in _fetch_models(session, src["model"], key, manage_no)]
