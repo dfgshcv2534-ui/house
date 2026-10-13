@@ -10,11 +10,11 @@ import re
 import time
 from pathlib import Path
 
-from .common import log
+from .common import REGION_FULL, log
 
 NOMINATIM = "https://nominatim.openstreetmap.org/search"
 CONTACT_UA = "seoul-house-board/1.0 (+https://github.com/dfgshcv2534-ui/house)"
-MAX_LOOKUPS = 60  # 한 번 실행에서 새로 물어보는 최대 횟수
+MAX_LOOKUPS = 120  # 한 번 실행에서 새로 물어보는 최대 횟수
 
 # 자치구 중심(구청 부근) 좌표: 주소를 못 찾을 때 대략적인 위치로 쓴다
 GU_CENTER = {
@@ -37,9 +37,14 @@ def queries_for(address: str) -> list[tuple[str, str]]:
     no_block = re.sub(r"\s*[\w-]*블록.*$|\s*\(.*?\)|\s*외\s*\d+.*$|,.*$", "", address).strip()
     if no_block and no_block != address:
         out.append((no_block, "주소"))
-    dong = re.match(r"(서울\S*\s+\S+구\s+\S+?[동로가길])(?:\s|\d|$)", no_block or address)
-    if dong:
-        out.append((dong.group(1), "동"))
+    # 동·읍·면·도로명까지만 남긴 넓은 검색어 (서울 강동구 고덕동 / 경기도 성남시 분당구 정자동)
+    tokens = (no_block or address).split()
+    for i, t in enumerate(tokens):
+        if i >= 2 and re.search(r"[동읍면로길가리]$", t) and not re.search(r"\d", t):
+            q = " ".join(tokens[:i + 1])
+            if q not in (x for x, _ in out):
+                out.append((q, "동"))
+            break
     return out
 
 
@@ -82,9 +87,15 @@ class Geocoder:
                 if hit:
                     item["geo"] = {"lat": hit[0], "lng": hit[1], "precision": precision}
                     return
-        center = GU_CENTER.get(item.get("gu") or "")
+        gu, region = item.get("gu"), item.get("region") or "서울"
+        center = GU_CENTER.get(gu or "") if region == "서울" else None
         if center:
             item["geo"] = {"lat": center[0], "lng": center[1], "precision": "구"}
+            return
+        if gu:  # 경기·인천은 시·군·구 중심을 지도 검색으로 찾는다 (캐시되므로 한 번만)
+            hit = self._lookup(f"{REGION_FULL.get(region, region)} {gu}")
+            if hit:
+                item["geo"] = {"lat": hit[0], "lng": hit[1], "precision": "구"}
 
     def save(self) -> None:
         self.cache_path.parent.mkdir(parents=True, exist_ok=True)

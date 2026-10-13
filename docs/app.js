@@ -30,7 +30,7 @@ const KIND_NOTES = {
 const kindClass = (n) => CAT_CLASS[n.cat] || "rent";
 
 const state = {
-  tab: "분양", sector: "", q: "", kind: "", gu: "", sort: "deadline",
+  tab: "분양", sector: "", region: "서울", q: "", kind: "", gu: "", sort: "deadline",
   statuses: new Set(["open", "upcoming", "check"]), fav: false, targets: new Set(),
   view: "list", stat: "",
 };
@@ -122,12 +122,16 @@ function toggleFav(id) {
 
 /* ---------- 필터 ---------- */
 function inTab(n) { return state.tab === "전체" || n.cat === state.tab; }
+const regionOf = (n) => n.region || "서울";
+const inRegion = (n) => !state.region || regionOf(n) === state.region;
+const placeKey = (n) => `${regionOf(n)}|${n.gu || ""}`;
 const sectorOf = (n) => n.sector || "공공";
 function matches(n, { ignoreStatus = false } = {}) {
   if (!inTab(n)) return false;
   if (state.sector && sectorOf(n) !== state.sector) return false;
+  if (!inRegion(n)) return false;
   if (state.kind && n.kind !== state.kind) return false;
-  if (state.gu && n.gu !== state.gu) return false;
+  if (state.gu && placeKey(n) !== state.gu) return false;
   if (state.fav && !favs.has(n.id)) return false;
   if (state.targets.size && !(n.targets || []).some((t) => state.targets.has(t))) return false;
   if (state.q) {
@@ -158,7 +162,7 @@ function sorted(list) {
 /* ---------- 렌더링 ---------- */
 function renderHeader() {
   $("#updated").textContent = meta.updatedAt
-    ? `${meta.updatedAt.slice(5, 10).replace("-", ".")} ${meta.updatedAt.slice(11, 16)} 업데이트 · 매일 오전·오후 6시`
+    ? `${meta.updatedAt.slice(5, 10).replace("-", ".")} ${meta.updatedAt.slice(11, 16)} 업데이트 · 매일 아침·저녁`
     : "첫 업데이트를 기다리는 중";
   // 오늘 실패해서 실제로 지난 데이터를 보여주는 출처만 안내 (한 번도 연결된 적 없는 출처는 조용히)
   const bad = Object.entries(meta.sources || {}).filter(([k, s]) => !s.ok && notices.some((n) => n.source === k && n.stale));
@@ -169,7 +173,7 @@ function renderHeader() {
   } else alert.hidden = true;
   for (const el of document.querySelectorAll("[data-count]")) {
     const t = el.dataset.count;
-    const c = notices.filter((n) => (t === "전체" || n.cat === t) && (!state.sector || sectorOf(n) === state.sector)
+    const c = notices.filter((n) => (t === "전체" || n.cat === t) && (!state.sector || sectorOf(n) === state.sector) && inRegion(n)
       && statusOf(n).key !== "closed").length;
     el.textContent = c || "";
   }
@@ -194,8 +198,15 @@ function renderFilterOptions() {
   const kinds = [...new Set(inT.map((n) => n.kind).filter(Boolean))].sort((a, b) => a.localeCompare(b, "ko"));
   if (state.kind && !kinds.includes(state.kind)) state.kind = "";
   $("#kind").innerHTML = `<option value="">모든 유형</option>` + kinds.map((k) => `<option${k === state.kind ? " selected" : ""}>${esc(k)}</option>`).join("");
-  const gus = [...new Set(notices.map((n) => n.gu).filter(Boolean))].sort((a, b) => a.localeCompare(b, "ko"));
-  $("#gu").innerHTML = `<option value="">서울 전체</option>` + gus.map((g) => `<option${g === state.gu ? " selected" : ""}>${esc(g)}</option>`).join("");
+  // 시·군·구: 고른 지역 안에서만. 수도권 전체일 땐 '경기 성남시'처럼 지역을 붙인다 (서울·인천 모두 '중구'가 있어서 값은 '지역|시군구')
+  const places = [...new Set(notices.filter((n) => inRegion(n) && n.gu).map(placeKey))]
+    .sort((a, b) => a.localeCompare(b, "ko"));
+  if (state.gu && !places.includes(state.gu)) state.gu = "";
+  const allLabel = state.region ? `${state.region} 전체` : "수도권 전체";
+  $("#gu").innerHTML = `<option value="">${allLabel}</option>` + places.map((k) => {
+    const [r, g] = k.split("|");
+    return `<option value="${esc(k)}"${k === state.gu ? " selected" : ""}>${esc(state.region ? g : `${r} ${g}`)}</option>`;
+  }).join("");
   $("#sort").value = state.sort;
   const targets = TARGETS.filter((t) => inT.some((n) => (n.targets || []).includes(t)));
   $("#targetChips").innerHTML = targets.length
@@ -205,6 +216,7 @@ function renderFilterOptions() {
   $("#statusChips [data-fav]").setAttribute("aria-pressed", state.fav);
   for (const b of document.querySelectorAll(".seg [data-view]")) b.setAttribute("aria-selected", b.dataset.view === state.view);
   for (const b of document.querySelectorAll("#sectorSeg button")) b.setAttribute("aria-selected", b.dataset.sector === state.sector);
+  for (const b of document.querySelectorAll("#regionSeg button")) b.setAttribute("aria-selected", b.dataset.region === state.region);
 }
 
 function cardHTML(n) {
@@ -222,7 +234,9 @@ function cardHTML(n) {
     price = `<p class="price">${moneyShort(n.priceMin)}${n.priceMax !== n.priceMin ? ` ~ ${moneyShort(n.priceMax)}` : ""}${pp ? `<small>평당 약 ${money(pp)}</small>` : ""}</p>`;
   }
   const tags = [...(n.targets || []), ...(n.tags || []).slice(0, 3)];
-  const where = [n.gu, n.address ? n.address.replace(/^서울\S*\s*/, "").replace(n.gu || "", "").trim() : ""].filter(Boolean).join(" · ");
+  const place = [regionOf(n) !== "서울" || !state.region ? regionOf(n) : "", n.gu].filter(Boolean).join(" ");
+  const rest = n.address ? n.address.replace(/^(서울|경기|인천)\S*\s*/, "").replace(n.gu || "", "").trim() : "";
+  const where = [place, rest].filter(Boolean).join(" · ");
   return `<article class="card ${st.key}" data-id="${esc(n.id)}" tabindex="0" role="button" aria-label="${esc(n.name)} 자세히 보기">
     <div class="card-top">
       <span class="badge ${st.key}">${esc(st.label)}</span>
@@ -244,7 +258,7 @@ function cardHTML(n) {
 function renderList(list) {
   const el = $("#list");
   if (!notices.length) {
-    el.innerHTML = `<div class="empty"><b>아직 모은 공고가 없어요</b>매일 오전·오후 6시에 자동으로 업데이트돼요.</div>`;
+    el.innerHTML = `<div class="empty"><b>아직 모은 공고가 없어요</b>매일 아침·저녁에 자동으로 업데이트돼요.</div>`;
     return;
   }
   el.innerHTML = list.length
@@ -585,6 +599,7 @@ function writeHash() {
   const p = new URLSearchParams();
   if (state.tab !== "분양") p.set("tab", state.tab);
   if (state.sector) p.set("sector", state.sector);
+  if (state.region !== "서울") p.set("region", state.region || "all");
   if (state.q) p.set("q", state.q);
   if (state.kind) p.set("kind", state.kind);
   if (state.gu) p.set("gu", state.gu);
@@ -597,6 +612,8 @@ function readHash() {
   const p = new URLSearchParams(location.hash.slice(1));
   if (TABS.includes(p.get("tab"))) state.tab = p.get("tab");
   if (["공공", "민간"].includes(p.get("sector"))) state.sector = p.get("sector");
+  if (["경기", "인천"].includes(p.get("region"))) state.region = p.get("region");
+  if (p.get("region") === "all") state.region = "";
   state.q = p.get("q") || "";
   state.kind = p.get("kind") || "";
   state.gu = p.get("gu") || "";
@@ -611,6 +628,10 @@ function bind() {
     state.tab = b.dataset.tab; state.kind = ""; state.stat = ""; render();
   });
   $("#q").addEventListener("input", (e) => { state.q = e.target.value.trim(); render(); });
+  $("#regionSeg").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-region]"); if (!b) return;
+    state.region = b.dataset.region; state.gu = ""; state.kind = ""; render();
+  });
   $("#sectorSeg").addEventListener("click", (e) => {
     const b = e.target.closest("[data-sector]"); if (!b) return;
     state.sector = b.dataset.sector; state.kind = ""; render();
@@ -679,5 +700,9 @@ async function load() {
   bind();
   await load();
   render();
-  if (openId) openDetail(openId, { push: false });
+  if (openId) {
+    const target = notices.find((x) => x.id === openId);
+    if (target && state.region && regionOf(target) !== state.region) { state.region = regionOf(target); render(); }
+    openDetail(openId, { push: false });
+  }
 })();

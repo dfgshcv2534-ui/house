@@ -257,6 +257,7 @@ def to_notice(row: dict, board: dict, detail: dict | None, url: str) -> dict:
         "id": f"sh:{board['key']}:{row['seq']}",
         "source": "SH",
         "sector": "공공",
+        "region": "서울",
         "cat": cat,
         "kind": kind,
         "name": name,

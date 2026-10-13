@@ -227,7 +227,7 @@ def test_lh_preorder_slot_is_skipped_until_configured():
         lh._collect(None, "key", list_url="", dtl_url="", spl_url="", pre=True)
 
 
-def test_lh_preorder_list_filters_seoul():
+def test_lh_preorder_list_filters_capital_region():
     from collector import lh
 
     class Resp:
@@ -242,11 +242,14 @@ def test_lh_preorder_list_filters_seoul():
             return Resp([{"resHeader": [{"SS_CODE": "Y"}]}, {"dsList": [
                 {"PAN_ID": "A1", "PAN_NM": "서울대방 신혼희망타운 사전청약", "CNP_CD_NM": "서울특별시", "UPP_AIS_TP_NM": "신혼희망타운", "PAN_NT_ST_DT": "2026.09.01"},
                 {"PAN_ID": "A2", "PAN_NM": "남양주왕숙 공공분양 사전청약", "CNP_CD_NM": "경기도", "UPP_AIS_TP_NM": "분양주택"},
+                {"PAN_ID": "A3", "PAN_NM": "부산에코델타 공공분양 사전청약", "CNP_CD_NM": "부산광역시", "UPP_AIS_TP_NM": "분양주택"},
             ]}])
 
     sess = Session()
     items, failed = lh._collect(sess, "key", list_url="u", dtl_url="", spl_url="", pre=True)
-    assert [(i["id"], i["cat"], i["tags"]) for i in items] == [("lhp:A1", "분양", ["사전청약"])]
+    assert [(i["id"], i["cat"], i["tags"], i["region"]) for i in items] == [
+        ("lhp:A1", "분양", ["사전청약"], "서울"), ("lhp:A2", "분양", ["사전청약"], "경기")]
+    assert items[1]["gu"] == "남양주시"
     assert set(sess.params[0]) == {"serviceKey", "PG_SZ", "PAGE", "PAN_ST_DT", "PAN_ED_DT"}
     assert len(sess.params[0]["PAN_ST_DT"]) == 8
 
@@ -458,3 +461,19 @@ def test_only_recruitment_notices():
     ]
     assert [t for t in keep if not sh.is_recruitment(t)] == []
     assert [t for t in drop if sh.is_recruitment(t)] == []
+
+
+def test_capital_region_helpers():
+    from collector.common import place_in_text, region_of, sigungu
+    assert region_of("경기") == "경기" and region_of(None, "인천광역시 연수구") == "인천" and region_of("부산") is None
+    assert sigungu("경기도 성남시 분당구 정자동 1") == "성남시" and sigungu("인천광역시 연수구 송도동") == "연수구"
+    assert place_in_text("남양주왕숙 A-1블록 신혼희망타운", "경기") == "남양주시"
+    assert place_in_text("하남교산 A2 행복주택", "경기") == "하남시"
+    assert place_in_text("인천 미추홀구 매입임대", "인천") == "미추홀구"
+    assert place_in_text("광주 송정 행복주택", "경기") is None   # '광주'는 광주광역시와 헷갈려서 줄임말로 안 찾음
+
+
+def test_applyhome_keeps_capital_region():
+    row = dict(APT_ROW, SUBSCRPT_AREA_CODE_NM="경기", HSSPLY_ADRES="경기도 하남시 교산동 1")
+    n = applyhome.normalize(row, applyhome.SOURCES[0], [])
+    assert (n["region"], n["gu"]) == ("경기", "하남시")

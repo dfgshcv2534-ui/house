@@ -232,3 +232,53 @@ NOT_RECRUIT = re.compile(
 
 def is_recruitment_title(title: str | None) -> bool:
     return bool(title) and bool(RECRUIT.search(title)) and not NOT_RECRUIT.search(title)
+
+
+# ---- 수도권(서울·경기·인천) 지역·시군구 -----------------------------------------
+
+REGIONS = ("서울", "경기", "인천")
+REGION_FULL = {"서울": "서울특별시", "경기": "경기도", "인천": "인천광역시"}
+GYEONGGI = [
+    "수원시", "성남시", "의정부시", "안양시", "부천시", "광명시", "평택시", "동두천시", "안산시", "고양시", "과천시",
+    "구리시", "남양주시", "오산시", "시흥시", "군포시", "의왕시", "하남시", "용인시", "파주시", "이천시", "안성시",
+    "김포시", "화성시", "광주시", "양주시", "포천시", "여주시", "연천군", "가평군", "양평군",
+]
+INCHEON = ["중구", "동구", "미추홀구", "연수구", "남동구", "부평구", "계양구", "서구", "강화군", "옹진군"]
+
+
+def region_of(*texts) -> str | None:
+    """'서울특별시 …', '경기', '인천광역시' 같은 글에서 수도권 지역 이름. 수도권이 아니면 None."""
+    for t in texts:
+        if not t:
+            continue
+        m = re.match(r"\s*(서울|경기|인천)", str(t))
+        if m:
+            return m.group(1)
+    return None
+
+
+def sigungu(address: str | None) -> str | None:
+    """주소의 시·군·구: 서울·인천은 '강동구'·'연수구', 경기는 '성남시'·'가평군'."""
+    if not address:
+        return None
+    m = re.search(r"(?:서울|경기|인천)\S*\s+(\S+?[시군구])(?:\s|$|,|\()", address)
+    return m.group(1) if m else None
+
+
+def place_in_text(text: str | None, region: str | None) -> str | None:
+    """공고 제목 같은 글에서 시·군·구 찾기 ('남양주왕숙' → '남양주시', '고덕강일' 없음)."""
+    if not text:
+        return None
+    if region in (None, "서울"):
+        found = gu_in_text(text)
+        if found or region == "서울":
+            return found
+    names = GYEONGGI if region == "경기" else INCHEON if region == "인천" else GYEONGGI + INCHEON
+    for name in sorted(names, key=len, reverse=True):
+        if len(name) > 2 and name in text:
+            return name
+    for name in sorted(names, key=len, reverse=True):
+        short = name[:-1]
+        if len(short) >= 2 and short != "광주" and re.search(rf"(?:^|[^가-힣]|경기|인천){short}", text):
+            return name
+    return None

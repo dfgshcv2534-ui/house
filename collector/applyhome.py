@@ -1,7 +1,7 @@
 """한국부동산원 청약홈 분양정보 조회 서비스 (공공데이터포털 15098547, api.odcloud.kr).
 
-APT·무순위·오피스텔/도시형·공공지원민간임대·임의공급 공고를 받아 서울 것만 남긴다.
-공고 목록(Detail)에는 가격이 없어서, 서울 공고마다 주택형(Mdl)을 한 번씩 더 조회한다.
+APT·무순위·오피스텔/도시형·공공지원민간임대·임의공급 공고를 받아 수도권(서울·경기·인천) 것만 남긴다.
+공고 목록(Detail)에는 가격이 없어서, 수도권 공고마다 주택형(Mdl)을 한 번씩 더 조회한다.
 """
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ import time
 from datetime import timedelta
 
 from .common import (
-    SPECIAL, SourceError, clean, first, get, redact, is_seoul, kst_today, log, sector_of, seoul_gu, special_kind, to_float, to_int, to_iso, to_month,
+    SPECIAL, SourceError, clean, first, get, redact, REGIONS, kst_today, log, region_of, sector_of, sigungu, special_kind, to_float, to_int, to_iso, to_month,
 )
 
 BASE = "https://api.odcloud.kr/api/ApplyhomeInfoDetailSvc/v1"
@@ -152,7 +152,8 @@ def normalize(row: dict, src: dict, models: list[dict]) -> dict:
         "kind": kind,
         "name": clean(row.get("HOUSE_NM")),
         "address": address,
-        "gu": seoul_gu(address),
+        "region": region_of(row.get("SUBSCRPT_AREA_CODE_NM"), address),
+        "gu": sigungu(address),
         "units": to_int(row.get("TOT_SUPLY_HSHLDCO")) or (sum(m.get("units", 0) + m.get("special", 0) for m in models) or None),
         "dates": {k: v for k, v in dates.items() if v},
         "dateBasis": "api",
@@ -219,8 +220,8 @@ def collect(session, key: str | None) -> tuple[list[dict], list[str]]:
             log.error("청약홈 %s 실패: %s", src["kind"], e)
             failed.append(src["key"])
             continue
-        seoul = [r for r in rows if is_seoul(r.get("SUBSCRPT_AREA_CODE_NM"), r.get("HSSPLY_ADRES"))]
-        log.info("청약홈 %s: 최근 %d건 중 서울 %d건", src["kind"], len(rows), len(seoul))
+        seoul = [r for r in rows if region_of(r.get("SUBSCRPT_AREA_CODE_NM"), r.get("HSSPLY_ADRES")) in REGIONS]
+        log.info("청약홈 %s: 최근 %d건 중 수도권 %d건", src["kind"], len(rows), len(seoul))
         for row in seoul:
             models: list[dict] = []
             manage_no = row.get("HOUSE_MANAGE_NO")

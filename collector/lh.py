@@ -1,4 +1,4 @@
-"""LH 분양임대공고 (공공데이터포털, apis.data.go.kr/B552555). 서울(지역코드 11)만.
+"""LH 분양임대공고 (공공데이터포털, apis.data.go.kr/B552555). 수도권(서울 11·경기 41·인천 28)만.
 
 공공데이터포털 서비스키 하나로 아래 서비스를 모두 쓴다. 다만 서비스마다 따로 활용신청해야 하고,
 신청하지 않은 서비스는 '등록되지 않은 서비스키' 오류가 나서 그 부분만 건너뛴다.
@@ -14,8 +14,8 @@ import re
 from datetime import timedelta
 
 from .common import (
-    SPECIAL, SourceError, clean, clean_title, drop_reposts, get, gu_in_text, is_correction, is_recruitment_title, is_seoul,
-    kst_today, log, redact, seoul_gu, special_kind, to_float, to_int, to_iso, to_month,
+    SPECIAL, SourceError, clean, clean_title, drop_reposts, get, gu_in_text, is_correction, is_recruitment_title, REGIONS, region_of, sigungu, place_in_text,
+    kst_today, log, redact, special_kind, to_float, to_int, to_iso, to_month,
 )
 
 LIST_URL = "https://apis.data.go.kr/B552555/lhLeaseNoticeInfo1/lhLeaseNoticeInfo1"
@@ -29,6 +29,7 @@ PRE_DTL_URL = ""  # 사전청약 상세정보 요청주소를 받으면 채운�
 
 LOOKBACK_DAYS = 180
 PER_PAGE = 100
+REGION_CODES = {"11": "서울", "41": "경기", "28": "인천"}
 # 상위 유형: 05 분양주택, 06 임대주택, 39 신혼희망타운, 13 주거복지
 TYPES = {"05": "분양", "06": "임대", "39": "분양", "13": "임대"}
 DETAIL_PARAMS = ("CCR_CNNT_SYS_DS_CD", "SPL_INF_TP_CD", "UPP_AIS_TP_CD", "AIS_TP_CD")
@@ -80,11 +81,12 @@ def normalize(row: dict, cat: str, *, pre: bool = False) -> dict:
         "id": f"{'lhp' if pre else 'lh'}:{row.get('PAN_ID')}",
         "source": "LH",
         "sector": "공공",
+        "region": region_of(row.get("CNP_CD_NM")) or region_of(name) or "서울",
         "cat": cat,
         "kind": kind,
         "name": name,
         "address": None,
-        "gu": gu_in_text(name),
+        "gu": place_in_text(name, region_of(row.get("CNP_CD_NM")) or region_of(name)),
         "units": None,  # 목록의 ALL_CNT는 검색 결과 건수라 세대수가 아니다
         "dates": {k: v for k, v in {
             "notice": to_iso(row.get("PAN_NT_ST_DT")),
@@ -116,10 +118,11 @@ def apply_detail(item: dict, body) -> None:
     sbd = sbds[0]
     address = " ".join(x for x in (clean(sbd.get("LCT_ARA_ADR")), clean(sbd.get("LCT_ARA_DTL_ADR"))) if x)
     if not address:  # 유형마다 주소 필드 이름이 달라서, 서울 주소가 든 *ADR 필드를 찾는다
-        address = next((clean(v) for k, v in sbd.items() if k.endswith("ADR") and is_seoul(v)), None)
+        address = next((clean(v) for k, v in sbd.items() if k.endswith("ADR") and region_of(v)), None)
     if address:
         item["address"] = address
-        item["gu"] = seoul_gu(address) or item["gu"]
+        item["gu"] = sigungu(address) or item["gu"]
+        item["region"] = region_of(address) or item["region"]
     move_in = to_month(sbd.get("MVIN_XPC_YM"))
     notice = item["dates"].get("notice") or ""
     if move_in and move_in >= notice[:7]:  # 이미 입주한 기존 단지(예비입주자 모집)의 과거 입주월은 숨긴다
@@ -245,16 +248,17 @@ def _fetch_list(session, key: str, url: str, what: str) -> tuple[list[tuple[dict
     ed = (today + timedelta(days=180)).strftime("%Y.%m.%d")
     rows_out: dict[str, tuple[dict, str]] = {}
     failed: list[str] = []
-    for code, cat in TYPES.items():
+    jobs = [(code, cat, cnp) for code, cat in TYPES.items() for cnp in REGION_CODES]
+    for code, cat, cnp in jobs:
         try:
             for page in range(1, 6):
                 resp = get(session, url, params={
                     "serviceKey": key, "PG_SZ": PER_PAGE, "PAGE": page,
-                    "PAN_NT_ST_DT": st, "CLSG_DT": ed, "UPP_AIS_TP_CD": code, "CNP_CD": "11",
+                    "PAN_NT_ST_DT": st, "CLSG_DT": ed, "UPP_AIS_TP_CD": code, "CNP_CD": cnp,
                 })
                 rows = _ds(_json(resp, what), "dsList")
                 for row in rows:
-                    if row.get("CNP_CD_NM") and not is_seoul(row.get("CNP_CD_NM")):
+                    if row.get("CNP_CD_NM") and region_of(row.get("CNP_CD_NM")) not in REGIONS:
                         continue
                     if row.get("PAN_ID"):
                         rows_out[str(row["PAN_ID"])] = (row, cat)
@@ -263,9 +267,9 @@ def _fetch_list(session, key: str, url: str, what: str) -> tuple[list[tuple[dict
         except SourceError:
             raise
         except Exception as e:
-            log.error("%s 유형 %s 실패: %s", what, code, e)
-            failed.append(code)
-    if len(failed) == len(TYPES):
+            log.error("%s 유형 %s(%s) 실패: %s", what, code, REGION_CODES[cnp], e)
+            failed.append(f"{code}-{cnp}")
+    if len(failed) == len(jobs):
         raise SourceError(f"{what}를 하나도 읽지 못했습니다")
     return list(rows_out.values()), failed
 
@@ -282,15 +286,14 @@ def _fetch_pre_list(session, key: str, url: str, what: str) -> tuple[list[tuple[
         total += len(rows)
         for row in rows:
             _log_fields_once(what, row)
-            region = row.get("CNP_CD_NM")
-            if not (is_seoul(region) if region else "서울" in str(row.get("PAN_NM") or "")):
+            if region_of(row.get("CNP_CD_NM"), row.get("PAN_NM")) not in REGIONS:
                 continue
             if row.get("PAN_ID"):
                 kind = f"{row.get('UPP_AIS_TP_NM') or ''} {row.get('AIS_TP_CD_NM') or ''}"
                 rows_out[str(row["PAN_ID"])] = (row, "분양" if "분양" in kind or "신혼희망" in kind else "임대")
         if len(rows) < PER_PAGE:
             break
-    log.info("%s: 최근 %d건 중 서울 %d건", what, total, len(rows_out))
+    log.info("%s: 최근 %d건 중 수도권 %d건", what, total, len(rows_out))
     return list(rows_out.values()), []
 
 
@@ -331,7 +334,7 @@ def _collect(session, key: str | None, *, list_url: str, dtl_url: str, spl_url: 
         attach_plans(item)
         items.append(item)
     items = drop_reposts(items)
-    log.info("%s: 서울 %d건 (상세정보 %s, 공급정보 %s)", what, len(items),
+    log.info("%s: 수도권 %d건 (상세정보 %s, 공급정보 %s)", what, len(items),
              "사용" if detail_on else "미사용", "사용" if supply_on else "미사용")
     return items, failed
 
