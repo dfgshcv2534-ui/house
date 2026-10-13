@@ -1,5 +1,49 @@
 [
  {
+  "id": "sh:rent:311428",
+  "source": "SH",
+  "sector": "공공",
+  "cat": "임대",
+  "kind": "사회주택",
+  "name": "[토지임대부 사회주택] 옥류서원 입주자 모집 공고문",
+  "address": "서울시 종로구 옥인동 47-334",
+  "gu": "종로구",
+  "units": 3,
+  "dates": {
+   "notice": "2026-10-13",
+   "start": "2026-10-13",
+   "end": "2026-10-20"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "SH공사 빈집사업부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=311428",
+  "homepage": null,
+  "files": [
+   {
+    "name": "옥류서원 입주자모집공고문.pdf",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311428&data_tp=A&file_seq=3"
+   },
+   {
+    "name": "[별지1~3] 옥류서원 입주신청서양식 (261013).docx",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311428&data_tp=A&file_seq=4"
+   }
+  ],
+  "firstSeen": "2026-10-13",
+  "geo": {
+   "lat": 37.58348,
+   "lng": 126.96385,
+   "precision": "동"
+  }
+ },
+ {
   "id": "sh:rent:311375",
   "source": "SH",
   "sector": "공공",
@@ -249,50 +293,6 @@
    "lat": 37.5301,
    "lng": 127.1238,
    "precision": "구"
-  }
- },
- {
-  "id": "sh:rent:310976",
-  "source": "SH",
-  "sector": "공공",
-  "cat": "임대",
-  "kind": "사회주택",
-  "name": "[토지임대부 사회주택] 옥류서원 입주자 모집 공고문",
-  "address": "서울시 종로구 옥인동 47-334",
-  "gu": "종로구",
-  "units": 3,
-  "dates": {
-   "notice": "2026-10-07",
-   "start": "2026-10-02",
-   "end": "2026-10-11"
-  },
-  "dateBasis": "본문",
-  "moveIn": null,
-  "models": [],
-  "priceMin": null,
-  "priceMax": null,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "SH공사 빈집사업부",
-  "tel": null,
-  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=310976",
-  "homepage": null,
-  "files": [
-   {
-    "name": "옥류서원 입주자모집공고문.pdf",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=310976&data_tp=A&file_seq=1"
-   },
-   {
-    "name": "[별지1~3] 옥류서원 입주신청서양식 (261002).docx",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=310976&data_tp=A&file_seq=2"
-   }
-  ],
-  "firstSeen": "2026-10-11",
-  "geo": {
-   "lat": 37.58348,
-   "lng": 126.96385,
-   "precision": "동"
   }
  },
  {
