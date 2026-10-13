@@ -550,3 +550,19 @@ def test_capital_landmarks_and_exclusions():
     row = {"seq": "1", "title": "장기전세주택 예비입주자 모집공고 (청학아파트)", "date": "2026-07-23", "href": "u"}
     n = ih.to_notice(row, ih.BOARDS[1], None)
     assert (n["kind"], n["gu"]) == ("장기전세", "연수구")
+
+
+def test_newlywed_town_rental_is_not_sale_and_dedupe_by_block():
+    from collector import lh
+    rent = lh.normalize({"PAN_ID": "1", "PAN_NM": "하남시 신혼희망타운 행복주택 예비입주자 모집공고(2026.10.01)",
+                         "AIS_TP_CD_NM": "행복주택(신혼희망)", "UPP_AIS_TP_NM": "신혼희망타운", "CNP_CD_NM": "경기도"}, "분양")
+    sale = lh.normalize({"PAN_ID": "2", "PAN_NM": "시흥하중 A-4블록 신혼희망타운(공공분양) 잔여세대 추가입주자모집공고",
+                         "AIS_TP_CD_NM": "공공분양(신혼희망)", "UPP_AIS_TP_NM": "신혼희망타운", "CNP_CD_NM": "경기도"}, "분양")
+    assert (rent["cat"], sale["cat"]) == ("임대", "분양")
+    ah = applyhome.normalize(dict(APT_ROW, HOUSE_NM="시흥하중지구 A-4블록 신혼희망타운(공공분양) 추가입주자모집",
+                                  SUBSCRPT_AREA_CODE_NM="경기", HSSPLY_ADRES="경기도 시흥시 하중동 1"), applyhome.SOURCES[0], [])
+    assert ah["kind"] == "신혼희망타운"
+    out = build.dedupe([ah, sale, rent])
+    assert [i["id"] for i in out] == [ah["id"], rent["id"]] and ah["links"][0]["label"] == "LH 공고"
+    assert build._block_key("역곡지구 하우스토리(부천역곡지구 A-2BL) 신혼희망타운") == ("부천역곡", "A2")
+    assert not build._same_block(build._block_key("수원당수 A-3블록"), build._block_key("수원당수지구 A5블록"))

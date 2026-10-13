@@ -45,15 +45,28 @@ def _norm_name(text: str | None) -> str:
     return text
 
 
+_BLOCK = re.compile(r"([가-힣]{2,}?)(?:택지개발지구|공공주택지구|지구|택지)?\s*\(?\s*([A-Za-z]{1,2})\s*-?\s*(\d{1,2}(?:-\d)?)\s*(?:블록|BL)", re.I)
+
+
+def _block_key(text: str | None) -> tuple[str, str] | None:
+    """'시흥하중지구 A-4블록' / '시흥하중 A-4블록' → ('시흥하중', 'A4'). 같은 단지를 이름이 조금 달라도 알아본다."""
+    m = _BLOCK.search(text or "")
+    return (m.group(1), f"{m.group(2).upper()}{m.group(3)}") if m else None
+
+
+def _same_block(a, b) -> bool:
+    return bool(a and b) and a[1] == b[1] and (a[0].endswith(b[0]) or b[0].endswith(a[0]))
+
+
 def dedupe(items: list[dict]) -> list[dict]:
     """SH·LH 분양 공고 중 청약홈 단지명과 겹치는 것은 청약홈 항목의 '다른 공고 링크'로 합친다."""
     ah = [i for i in items if i["source"] == "청약홈"]
-    keys = [(i, _norm_name(i["name"])) for i in ah]
+    keys = [(i, _norm_name(i["name"]), _block_key(i["name"])) for i in ah]
     out = []
     for item in items:
         if item["source"] != "청약홈" and item["cat"] in ("분양", SPECIAL):
-            mine = _norm_name(item["name"])
-            match = next((a for a, k in keys if len(k) >= 4 and k in mine), None)
+            mine, block = _norm_name(item["name"]), _block_key(item["name"])
+            match = next((a for a, k, b in keys if (len(k) >= 4 and k in mine) or _same_block(b, block)), None)
             if match:
                 match.setdefault("links", []).append({"label": f"{item['source']} 공고", "url": item.get("url")})
                 continue

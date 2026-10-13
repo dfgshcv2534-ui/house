@@ -69,7 +69,11 @@ def _json(resp, what: str):
 
 def normalize(row: dict, cat: str, *, pre: bool = False) -> dict:
     kind = clean(row.get("AIS_TP_CD_NM")) or clean(row.get("UPP_AIS_TP_NM")) or "LH"
-    if "신혼희망" in kind or "분양" in kind:
+    text = f"{kind} {row.get('PAN_NM') or ''}"
+    # 신혼희망타운에는 분양형(공공분양)과 임대형(행복주택)이 함께 있어서, 분류 코드가 아니라 실제 유형으로 나눈다
+    if "행복주택" in text or ("임대" in kind and "분양" not in kind):
+        cat = "임대"
+    elif "신혼희망" in text or "분양" in kind:
         cat = "분양"
     special = special_kind(kind, clean(row.get("PAN_NM")))
     if special:

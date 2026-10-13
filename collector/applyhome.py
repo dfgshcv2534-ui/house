@@ -134,6 +134,8 @@ def normalize(row: dict, src: dict, models: list[dict]) -> dict:
     rent_nm = clean(row.get("RENT_SECD_NM")) or ""
     if "임대" in rent_nm or "임대" in kind:
         cat = "임대"
+    if "신혼희망타운" in (row.get("HOUSE_NM") or ""):
+        kind = "신혼희망타운"
     special = special_kind(rent_nm, clean(row.get("HOUSE_NM")))
     if special:
         kind, cat = special, SPECIAL
