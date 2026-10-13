@@ -477,3 +477,46 @@ def test_applyhome_keeps_capital_region():
     row = dict(APT_ROW, SUBSCRPT_AREA_CODE_NM="경기", HSSPLY_ADRES="경기도 하남시 교산동 1")
     n = applyhome.normalize(row, applyhome.SOURCES[0], [])
     assert (n["region"], n["gu"]) == ("경기", "하남시")
+
+
+GH_LIST = """<table><tbody>
+<tr> <td>1</td> <td> 행복주택 </td> <td> <a class="text_cut" data-biztynm="행복주택" data-pbanckndcd="01" data-pbancno="811" href="#a"> 연천BIX 경기행복주택 기업체 기숙사 추가모집 공고 </a> </td> <td> 연천군 <td> <img alt="pdf파일" src="/images/sub/pdf.png"/> </td> <td> 2026-10-01 </td> <td> 2026-10-20 <td> 접수중 <td> <button class="btn_normal" data-biztycd="01" data-pbancno="811" type="button">확인</button> </td> <td>22606</td></td></td></td></tr>
+<tr> <td>2</td> <td> 장기전세 </td> <td> <a class="text_cut" data-pbancno="790" href="#a"> 경기리츠1호 다산진건데시앙 장기전세주택 예비입주자 모집공고 </a> </td> <td> 남양주시 <td></td> <td> 2026-08-13 </td> <td> 2026-08-24 <td> 접수마감 <td></td> <td>73390</td></td></td></td></tr>
+<tr> <td>3</td> <td> 국민임대 </td> <td> <a data-pbancno="780" href="#a"> 다산센트럴파크6단지 국민임대 당첨자 발표 </a> </td> <td> 남양주시 <td></td> <td> 2026-08-01 </td> <td> - <td> - <td></td> <td>1</td></td></td></td></tr>
+</tbody></table>"""
+
+
+def test_gh_list_and_notice():
+    from collector import gh
+    rows = gh.parse_list(GH_LIST)
+    assert [(r["no"], r["kind"], r["place"], r["notice"], r["end"], r["state"]) for r in rows[:2]] == [
+        ("811", "행복주택", "연천군", "2026-10-01", "2026-10-20", "접수중"),
+        ("790", "장기전세", "남양주시", "2026-08-13", "2026-08-24", "접수마감")]
+    n = gh.to_notice(rows[0], gh.BOARDS[0])
+    assert (n["region"], n["gu"], n["cat"], n["kind"], n["source"]) == ("경기", "연천군", "임대", "행복주택", "GH")
+    assert n["dates"] == {"notice": "2026-10-01", "end": "2026-10-20"} and n["statusHint"] == "접수중"
+    assert not sh.is_recruitment(rows[2]["title"])
+
+
+IH_LIST = """<ul class="nav"><li><a href="/main/bbs/bbsMsgDetail.do?msg_seq=72&bcd=com_regul">안전보건관리규정</a></li></ul>
+<ul class="board_list">
+<li><a href="/main/bbs/bbsMsgDetail.do?msg_seq=177&cate1=a&bcd=sale_lease&pgno=1">검암역 푸르지오 프라베뉴(검암B-1BL) 입주자모집공고[정정공고]</a> <span>2026.08.25</span> <span>마케팅처</span></li>
+<li><a href="/main/bbs/bbsMsgDetail.do?msg_seq=176&cate1=a&bcd=sale_lease&pgno=1">e편한세상 검단 웰카운티(검단AA10-1BL) 소유권이전등기 안내</a> <span>2026.08.24</span></li>
+</ul>"""
+
+IH_DETAIL = """<div class="board_view"><p>■ 공급위치 : 인천광역시 서구 검암동 100-1 일원</p>
+<p>■ 청약접수 : 2026.09.01 ~ 09.03</p><p>■ 당첨자 발표 : 2026.09.10</p>
+<a href="/main/bbs/bbsMsgFileDown.do?bcd=sale_lease&msg_seq=177&fileno=1">입주자모집공고문.pdf [1,024KByte]</a> <a href="/x">미리보기</a></div>"""
+
+
+def test_ih_list_detail_notice():
+    from collector import ih
+    rows = ih.parse_list(IH_LIST, "sale_lease")
+    assert [(r["seq"], r["date"]) for r in rows] == [("177", "2026-08-25"), ("176", "2026-08-24")]
+    assert sh.is_recruitment(rows[0]["title"]) and not sh.is_recruitment(rows[1]["title"])
+    d = ih.parse_detail(IH_DETAIL)
+    assert d["files"] == [{"name": "입주자모집공고문.pdf", "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDown.do?bcd=sale_lease&msg_seq=177&fileno=1"}]
+    n = ih.to_notice(rows[0], ih.BOARDS[0], d)
+    assert (n["region"], n["gu"], n["cat"], n["address"]) == ("인천", "서구", "분양", "인천광역시 서구 검암동 100-1")
+    assert n["dates"] == {"notice": "2026-08-25", "start": "2026-09-01", "end": "2026-09-03", "winner": "2026-09-10"}
+    assert "정정공고" in n["tags"]

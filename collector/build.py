@@ -15,14 +15,14 @@ import sys
 from datetime import date, timedelta
 from pathlib import Path
 
-from . import applyhome, homeplans, lh, pdfplans, sh
+from . import applyhome, gh, homeplans, ih, lh, pdfplans, sh
 from .geo import Geocoder
 from .common import SPECIAL, SourceError, api_key, kst_now, kst_today, log, make_session
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "docs" / "data"
 KEEP_AFTER_END_DAYS = 14
 KEEP_UNDATED_DAYS = 90
-ID_PREFIX = {"청약홈": "ah:", "SH": "sh:", "LH": "lh:", "LH 사전청약": "lhp:"}
+ID_PREFIX = {"청약홈": "ah:", "SH": "sh:", "GH": "gh:", "iH": "ih:", "LH": "lh:", "LH 사전청약": "lhp:"}
 
 
 def load_json(path: Path, default):
@@ -76,6 +76,8 @@ def run_sources(session, key) -> tuple[dict[str, list[dict]], dict[str, dict]]:
     jobs = {
         "청약홈": lambda: applyhome.collect(session, key),
         "SH": lambda: sh.collect(session),
+        "GH": lambda: gh.collect(session),
+        "iH": lambda: ih.collect(session),
         "LH": lambda: lh.collect(session, key),
         "LH 사전청약": lambda: lh.collect_pre(session, key),
     }
