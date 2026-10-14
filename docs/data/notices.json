@@ -1,5 +1,63 @@
 [
  {
+  "id": "sh:rent:311549",
+  "source": "SH",
+  "sector": "공공",
+  "region": "서울",
+  "cat": "임대",
+  "kind": "공공임대",
+  "name": "성북구 도전숙(수요자맞춤) 잔여세대 입주자 모집 공고",
+  "address": null,
+  "gu": "성북구",
+  "units": 41,
+  "dates": {
+   "notice": "2026-10-14",
+   "start": "2026-10-21",
+   "end": "2026-10-28",
+   "winner": "2026-12-23"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "SH공사 매입주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=311549",
+  "homepage": null,
+  "files": [
+   {
+    "name": "★★2026년 하반기 도전숙 공실세대 모집 공고문.pdf",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311549&data_tp=A&file_seq=1"
+   },
+   {
+    "name": "1)입주신청서.hwpx",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311549&data_tp=A&file_seq=2"
+   },
+   {
+    "name": "2)사업계획서(총5매내외로작성).hwpx",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311549&data_tp=A&file_seq=3"
+   },
+   {
+    "name": "3)개인정보수집 및 제3자 이용동의서.hwpx",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311549&data_tp=A&file_seq=4"
+   },
+   {
+    "name": "4)금융정보 등(금융신용보험정보) 제공 동의서.hwpx",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311549&data_tp=A&file_seq=5"
+   }
+  ],
+  "firstSeen": "2026-10-14",
+  "geo": {
+   "lat": 37.5894,
+   "lng": 127.0167,
+   "precision": "구"
+  }
+ },
+ {
   "id": "sh:rent:311428",
   "source": "SH",
   "sector": "공공",
@@ -10652,7 +10710,7 @@
   "builder": null,
   "supplier": "iH",
   "tel": null,
-  "url": "https://www.ih.co.kr/main/bbs/bbsMsgDetail.do?msg_seq=4356&cate1=general&bcd=notice&pgdiv=general&pgno=2",
+  "url": "https://www.ih.co.kr/main/bbs/bbsMsgDetail.do?msg_seq=4356&cate1=general&bcd=notice&pgdiv=general&pgno=3",
   "homepage": null,
   "files": [
    {
