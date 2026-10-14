@@ -247,23 +247,6 @@
    }
   ]
  },
- "https://www.브라운스톤월곡센트럴.com": {
-  "checked": "2026-10-11",
-  "plans": [
-   {
-    "url": "https://www.xn--399a34rlkag5rwmexpc8ulmht30g7oc.com/resources/data/cyber/59A/unit_content.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--399a34rlkag5rwmexpc8ulmht30g7oc.com/resources/data/cyber/59A/unit_content_m.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
- },
  "https://청계노르웨이숲.com": {
   "checked": "2026-10-13",
   "plans": [
@@ -991,71 +974,6 @@
  "https://광명시티프라디움.com": {
   "checked": "2026-10-13",
   "plans": []
- },
- "https://hobansummit-pungmu2.com/": {
-  "checked": "2026-10-13",
-  "plans": [
-   {
-    "url": "https://hobansummit-pungmu2.com/final/assets/images/sub/img_plan.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://hobansummit-pungmu2.com/final/assets/images/sub/img_unit_01.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://hobansummit-pungmu2.com/final/assets/images/sub/img_unit_02.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://hobansummit-pungmu2.com/final/assets/images/sub/img_unit_03.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://hobansummit-pungmu2.com/final/assets/images/sub/img_unit_04.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://hobansummit-pungmu2.com/final/assets/images/sub/img_unit_05.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://hobansummit-pungmu2.com/final/assets/images/sub/img_unit_06.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://hobansummit-pungmu2.com/final/assets/images/sub/img_unit_07.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://hobansummit-pungmu2.com/final/assets/images/sub/img_unit_08.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://hobansummit-pungmu2.com/final/assets/images/sub/img_unit_09.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
  },
  "https://www.xi.co.kr/csx": {
   "checked": "2026-10-13",
@@ -1830,5 +1748,187 @@
  "https://apply.lh.or.kr/": {
   "checked": "2026-10-14",
   "plans": []
+ },
+ "https://xi.co.kr/MDX": {
+  "checked": "2026-10-15",
+  "plans": []
+ },
+ "https://altia.skdefine.com": {
+  "checked": "2026-10-15",
+  "plans": [
+   {
+    "url": "https://altia.skdefine.com/img/comm_unit.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://altia.skdefine.com/img/unit_img01.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://altia.skdefine.com/img/unit_obj01.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://altia.skdefine.com/img/unit_img02.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://altia.skdefine.com/img/unit_obj02.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://altia.skdefine.com/img/unit_img03.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://altia.skdefine.com/sub/unit01.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://altia.skdefine.com/sub/unit02.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://altia.skdefine.com/sub/unit03.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://altia.skdefine.com/sub/unit04.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://altia.skdefine.com/sub/unit05.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://altia.skdefine.com/sub/unit06.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://altia.skdefine.com/sub/unit07.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://altia.skdefine.com/sub/unit08.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://altia.skdefine.com/sub/unit09.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://altia.skdefine.com/sub/unit10.jpg",
+    "type": "10",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://altia.skdefine.com/sub/unit11.jpg",
+    "type": "11",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://altia.skdefine.com/sub/unit12.jpg",
+    "type": "12",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ "http://gd-hausd.com/": {
+  "checked": "2026-10-15",
+  "plans": [
+   {
+    "url": "http://gd-hausd.com/img/common/planning.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://gd-hausd.com/img/unit_tit_img.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://gd-hausd.com/img/unit04.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://gd-hausd.com/img/unit01.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://gd-hausd.com/img/unit02.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://gd-hausd.com/img/unit03.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://gd-hausd.com/sub/unit01.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://gd-hausd.com/sub/unit02.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://gd-hausd.com/sub/unit03.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://gd-hausd.com/sub/unit04.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  }
 }
