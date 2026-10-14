@@ -1225,51 +1225,6 @@
    }
   ]
  },
- "https://www.xi.co.kr/SJX": {
-  "checked": "2026-10-13",
-  "plans": []
- },
- "http://의왕청계역시티프라디움.com": {
-  "checked": "2026-10-13",
-  "plans": [
-   {
-    "url": "https://xn--989ar1n11b10sewd1rasxv0bb11adiphmf.com/img/sub/unitplan_71a_n.jpg",
-    "type": "71A",
-    "kind": "평면",
-    "alt": "71A"
-   },
-   {
-    "url": "https://xn--989ar1n11b10sewd1rasxv0bb11adiphmf.com/img/sub/unitplan_71b_n.jpg",
-    "type": "71B",
-    "kind": "평면",
-    "alt": "71B"
-   },
-   {
-    "url": "https://xn--989ar1n11b10sewd1rasxv0bb11adiphmf.com/img/sub/unitplan_84a_n2.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": "84A"
-   },
-   {
-    "url": "https://xn--989ar1n11b10sewd1rasxv0bb11adiphmf.com/img/sub/unitplan_84b_n.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": "84B"
-   },
-   {
-    "url": "https://xn--989ar1n11b10sewd1rasxv0bb11adiphmf.com/img/sub/floor_n.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--989ar1n11b10sewd1rasxv0bb11adiphmf.com/img/m/m_floor_n.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
- },
  "https://www.화서역아너스빌.com": {
   "checked": "2026-10-13",
   "plans": [
@@ -1463,10 +1418,6 @@
     "alt": ""
    }
   ]
- },
- "https://www.xi.co.kr/osantf": {
-  "checked": "2026-10-13",
-  "plans": []
  },
  "http://중동역다채로움더원.com": {
   "checked": "2026-10-13",
@@ -1735,5 +1686,149 @@
     "alt": ""
    }
   ]
+ },
+ "http://수원역아너스빌.com": {
+  "checked": "2026-10-14",
+  "plans": [
+   {
+    "url": "http://xn--h50bp5wj1cbqa48h72an9b.com/sub/t_unit01.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://xn--h50bp5wj1cbqa48h72an9b.com/sub/t_unit02.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ "https://더샵여주역더퍼스트.kr": {
+  "checked": "2026-10-14",
+  "plans": []
+ },
+ "https://www.prugio.com/hb/2026/pravenue": {
+  "checked": "2026-10-14",
+  "plans": [
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-84c.png",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-60a.png",
+    "type": "60A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-60b.png",
+    "type": "60B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-60c.png",
+    "type": "60C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-84a.png",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-84b.png",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-img.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_60a.jpg",
+    "type": "60A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_60a.jpg",
+    "type": "60A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_60b.jpg",
+    "type": "60B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_60b.jpg",
+    "type": "60B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_60c.jpg",
+    "type": "60C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_60c.jpg",
+    "type": "60C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_84a.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_84a.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_84b.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_84b.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_84c.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_84c.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ "https://apply.lh.or.kr/": {
+  "checked": "2026-10-14",
+  "plans": []
  }
 }
