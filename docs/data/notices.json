@@ -6649,6 +6649,55 @@
   ]
  },
  {
+  "id": "lh:2015122300020769",
+  "source": "LH",
+  "sector": "공공",
+  "region": "경기",
+  "cat": "임대",
+  "kind": "매입임대",
+  "name": "[온라인 접수 불가, 관할 주거복지지사 현장접수] 경기남부지역본부 2026년 일반 매입임대주택 입주자 모집공고",
+  "address": null,
+  "gu": null,
+  "units": null,
+  "dates": {
+   "notice": "2026-09-15",
+   "end": "2026-10-28",
+   "winner": "2026-12-09",
+   "contract_start": "2026-12-09",
+   "contract_end": "2027-01-31"
+  },
+  "dateBasis": "api",
+  "statusHint": "공고중",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [
+   "정정공고"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020769&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+  "homepage": null,
+  "files": [
+   {
+    "name": "[정정][경기남부]2026년일반매입임대주택입주자모집공고문(방문접수).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68615189"
+   },
+   {
+    "name": "[정정][경기남부]2026년일반매입임대주택입주자모집공고문(방문접수).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68615191"
+   },
+   {
+    "name": "★[정정][경기남부]2026년일반매입임대주택입주자모집공고주택목록.xlsx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68615193"
+   }
+  ],
+  "firstSeen": "2026-10-15"
+ },
+ {
   "id": "ah:remndr:2026910244:2026910244",
   "source": "청약홈",
   "sector": "민간",
@@ -9090,7 +9139,8 @@
    "lat": 38.0964,
    "lng": 127.0746,
    "precision": "구"
-  }
+  },
+  "stale": true
  },
  {
   "id": "sh:rent:308944",
