@@ -1,5 +1,554 @@
 [
  {
+  "id": "ah:remndr:2026910264:2026910264",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "분양",
+  "kind": "무순위·잔여세대",
+  "name": "시흥 은계 에피트(조합원 취소분)",
+  "address": "경기도 시흥시 은행동 289-31번지 일원",
+  "region": "경기",
+  "gu": "시흥시",
+  "units": 16,
+  "dates": {
+   "notice": "2026-10-15",
+   "start": "2026-10-20",
+   "end": "2026-10-20",
+   "winner": "2026-10-23",
+   "contract_start": "2026-10-28",
+   "contract_end": "2026-10-28"
+  },
+  "dateBasis": "api",
+  "moveIn": "2026-10",
+  "models": [
+   {
+    "type": "48",
+    "excl": 48.0,
+    "units": 1,
+    "special": 0,
+    "price": 37900,
+    "plan": "http://efete-eungye.com/asset/sub/unit_48.png"
+   },
+   {
+    "type": "52A",
+    "excl": 52.0,
+    "units": 10,
+    "special": 0,
+    "price": 42500,
+    "plan": "http://efete-eungye.com/asset/sub/unit_52a.png"
+   },
+   {
+    "type": "59A",
+    "excl": 59.0,
+    "units": 3,
+    "special": 0,
+    "price": 48500,
+    "plan": "http://efete-eungye.com/asset/sub/unit_59a.png"
+   },
+   {
+    "type": "59C",
+    "excl": 59.0,
+    "units": 2,
+    "special": 0,
+    "price": 45900,
+    "plan": "http://efete-eungye.com/asset/sub/unit_59c.png"
+   }
+  ],
+  "priceMin": 37900,
+  "priceMax": 48500,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "신극동아파트 가로주택정비사업조합",
+  "tel": "0313184998",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910264&pblancNo=2026910264",
+  "homepage": "http://efete-eungye.com/",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910264&pblancNo=2026910264&atchmnflSeqNo=1996222&atchmnflSn=3"
+   }
+  ],
+  "firstSeen": "2026-10-16",
+  "geo": {
+   "lat": 37.43347,
+   "lng": 126.80935,
+   "precision": "동"
+  },
+  "homePlans": [
+   {
+    "url": "http://efete-eungye.com/asset/sec_unit_tit.png",
+    "type": null,
+    "kind": "평면",
+    "alt": "UNIT PLAN"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/unit01.png",
+    "type": null,
+    "kind": "평면",
+    "alt": "39㎡ TYPE"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/unit02.png",
+    "type": null,
+    "kind": "평면",
+    "alt": "48㎡ TYPE"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/unit03.png",
+    "type": null,
+    "kind": "평면",
+    "alt": "52㎡ A TYPE"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/unit04.png",
+    "type": null,
+    "kind": "평면",
+    "alt": "52㎡ B TYPE"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/unit05.png",
+    "type": null,
+    "kind": "평면",
+    "alt": "52㎡ C TYPE"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/unit06.png",
+    "type": null,
+    "kind": "평면",
+    "alt": "59㎡ A TYPE"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/unit07.png",
+    "type": null,
+    "kind": "평면",
+    "alt": "59㎡ B TYPE"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/unit08.png",
+    "type": null,
+    "kind": "평면",
+    "alt": "59㎡ C TYPE"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/sub/unit_39.png",
+    "type": "39",
+    "kind": "평면",
+    "alt": "에피트 시흥 은계 39㎡"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/sub/unit_48.png",
+    "type": "48",
+    "kind": "평면",
+    "alt": "에피트 시흥 은계 48㎡"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/sub/unit_52a.png",
+    "type": "52A",
+    "kind": "평면",
+    "alt": "에피트 시흥 은계 52㎡A"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/sub/unit_52b.png",
+    "type": "52B",
+    "kind": "평면",
+    "alt": "에피트 시흥 은계 52㎡B"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/sub/unit_52c.png",
+    "type": "52C",
+    "kind": "평면",
+    "alt": "에피트 시흥 은계 52㎡C"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/sub/unit_59a.png",
+    "type": "59A",
+    "kind": "평면",
+    "alt": "에피트 시흥 은계 59㎡A"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/sub/unit_59b.png",
+    "type": "59B",
+    "kind": "평면",
+    "alt": "에피트 시흥 은계 59㎡B"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/sub/unit_59c.png",
+    "type": "59C",
+    "kind": "평면",
+    "alt": "에피트 시흥 은계 59㎡C"
+   }
+  ]
+ },
+ {
+  "id": "ah:opt:2026940228:2026940228",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "분양",
+  "kind": "임의공급",
+  "name": "마곡스카이온",
+  "address": "서울특별시 강서구 방화동 584-1",
+  "region": "서울",
+  "gu": "강서구",
+  "units": 24,
+  "dates": {
+   "notice": "2026-10-15",
+   "start": "2026-10-26",
+   "end": "2026-10-28",
+   "winner": "2026-11-02",
+   "contract_start": "2026-11-04",
+   "contract_end": "2026-11-05"
+  },
+  "dateBasis": "api",
+  "moveIn": "2028-01",
+  "models": [
+   {
+    "type": "43",
+    "excl": 43.0,
+    "units": 2,
+    "price": 48600
+   },
+   {
+    "type": "44",
+    "excl": 44.0,
+    "units": 6,
+    "price": 54700
+   },
+   {
+    "type": "59",
+    "excl": 59.0,
+    "units": 1,
+    "price": 71500
+   },
+   {
+    "type": "59",
+    "excl": 59.0,
+    "units": 9,
+    "price": 67400
+   },
+   {
+    "type": "59",
+    "excl": 59.0,
+    "units": 2,
+    "price": 69800
+   },
+   {
+    "type": "59",
+    "excl": 59.0,
+    "units": 3,
+    "price": 68800
+   },
+   {
+    "type": "59N",
+    "excl": 59.0,
+    "units": 1,
+    "price": 60600
+   }
+  ],
+  "priceMin": 48600,
+  "priceMax": 71500,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "서울빌라가로주택정비사업조합",
+  "tel": "024180900",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940228&pblancNo=2026940228",
+  "homepage": "https://www.마곡스카이온.com",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940228&pblancNo=2026940228&atchmnflSeqNo=1996211&atchmnflSn=2"
+   }
+  ],
+  "firstSeen": "2026-10-16",
+  "geo": {
+   "lat": 37.57682,
+   "lng": 126.81422,
+   "precision": "주소"
+  }
+ },
+ {
+  "id": "ah:opt:2026940224:2026940224",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "분양",
+  "kind": "임의공급",
+  "name": "더 리치먼드 미아(2차)",
+  "address": "서울특별시 강북구 미아동 703-13번지",
+  "region": "서울",
+  "gu": "강북구",
+  "units": 16,
+  "dates": {
+   "notice": "2026-10-15",
+   "start": "2026-10-19",
+   "end": "2026-10-19",
+   "winner": "2026-10-26",
+   "contract_start": "2026-10-28",
+   "contract_end": "2026-10-28"
+  },
+  "dateBasis": "api",
+  "moveIn": "2028-09",
+  "models": [
+   {
+    "type": "49A",
+    "excl": 49.0,
+    "units": 16,
+    "price": 80200
+   }
+  ],
+  "priceMin": 80200,
+  "priceMax": 80200,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "우리자산신탁 주식회사",
+  "tel": "15516264",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940224&pblancNo=2026940224",
+  "homepage": "https://www.더리치먼드미아.com",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940224&pblancNo=2026940224&atchmnflSeqNo=1991137&atchmnflSn=5"
+   }
+  ],
+  "firstSeen": "2026-10-16",
+  "geo": {
+   "lat": 37.62208,
+   "lng": 127.02091,
+   "precision": "동"
+  },
+  "homePlans": [
+   {
+    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/main/main_room_type1.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/main/main_room_type2.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/main/main_room_type3.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_type01_img01.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_type01_img04.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_type02_img01.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_type02_img04.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_type03_img01.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_type03_img04.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_material_table01.png?date=20260409",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_material_table02.png?date=20260409",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_material_table03.png?date=20260409",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ {
+  "id": "ah:opt:2026940222:2026940222",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "분양",
+  "kind": "임의공급",
+  "name": "해링턴플레이스 노원 센트럴(3차)",
+  "address": "서울특별시 노원구 노원로 495 (상계동 690)",
+  "region": "서울",
+  "gu": "노원구",
+  "units": 13,
+  "dates": {
+   "notice": "2026-10-15",
+   "start": "2026-10-19",
+   "end": "2026-10-20",
+   "winner": "2026-10-23",
+   "contract_start": "2026-10-24",
+   "contract_end": "2026-10-24"
+  },
+  "dateBasis": "api",
+  "moveIn": "2027-04",
+  "models": [
+   {
+    "type": "59B",
+    "excl": 59.0,
+    "units": 13,
+    "price": 86500,
+    "plan": "https://www.harrington495.kr/images/sub/complex/unit/59-a-type.jpg"
+   }
+  ],
+  "priceMin": 86500,
+  "priceMax": 86500,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "주식회사 엘앤피개발",
+  "tel": "15442101",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940222&pblancNo=2026940222",
+  "homepage": "https://www.harrington495.kr/",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940222&pblancNo=2026940222&atchmnflSeqNo=1988278&atchmnflSn=4"
+   }
+  ],
+  "firstSeen": "2026-10-16",
+  "geo": {
+   "lat": 37.63132,
+   "lng": 127.08318,
+   "precision": "주소"
+  },
+  "homePlans": [
+   {
+    "url": "https://www.harrington495.kr/images/sub/complex/unit/22-a-type.jpg",
+    "type": "22",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.harrington495.kr/images/sub/complex/unit/22-b-type.jpg",
+    "type": "22",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.harrington495.kr/images/sub/complex/unit/23-a-type.jpg",
+    "type": "23",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.harrington495.kr/images/sub/complex/unit/23-b-type.jpg",
+    "type": "23",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.harrington495.kr/images/sub/complex/unit/26-type.jpg",
+    "type": "26",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.harrington495.kr/images/sub/complex/unit/46-type.jpg",
+    "type": "46",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.harrington495.kr/images/sub/complex/unit/48-a-type.jpg",
+    "type": "48",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.harrington495.kr/images/sub/complex/unit/48-b-type.jpg",
+    "type": "48",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.harrington495.kr/images/sub/complex/unit/48-c-type.jpg",
+    "type": "48",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.harrington495.kr/images/sub/complex/unit/48-d-type.jpg",
+    "type": "48",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.harrington495.kr/images/sub/complex/unit/49-a-type.jpg",
+    "type": "49",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.harrington495.kr/images/sub/complex/unit/49-b-type.jpg",
+    "type": "49",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.harrington495.kr/images/sub/complex/unit/51-type.jpg",
+    "type": "51",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.harrington495.kr/images/sub/complex/unit/59-a-type.jpg",
+    "type": "59",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.harrington495.kr/images/sub/complex/unit/59-b-type.jpg",
+    "type": "59",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.harrington495.kr/images/sub/complex/unit/59-c-type.jpg",
+    "type": "59",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.harrington495.kr/images/sub/complex/unit/59-d-type.jpg",
+    "type": "59",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ {
   "id": "sh:rent:311549",
   "source": "SH",
   "sector": "공공",
@@ -1164,6 +1713,18 @@
   "moveIn": "2030-06",
   "models": [
    {
+    "type": "119OB",
+    "excl": 119.8284,
+    "units": 281,
+    "price": 60600
+   },
+   {
+    "type": "119OC",
+    "excl": 119.9734,
+    "units": 282,
+    "price": 64330
+   },
+   {
     "type": "119OA",
     "excl": 119.9569,
     "units": 272,
@@ -1172,8 +1733,8 @@
    {
     "type": "119OB",
     "excl": 119.8284,
-    "units": 281,
-    "price": 60600
+    "units": 6,
+    "price": 77240
    },
    {
     "type": "119OC",
@@ -1186,18 +1747,6 @@
     "excl": 119.9569,
     "units": 6,
     "price": 77890
-   },
-   {
-    "type": "119OB",
-    "excl": 119.8284,
-    "units": 6,
-    "price": 77240
-   },
-   {
-    "type": "119OC",
-    "excl": 119.9734,
-    "units": 282,
-    "price": 64330
    }
   ],
   "priceMin": 60600,
@@ -2801,7 +3350,8 @@
    "lat": 37.50694,
    "lng": 127.16232,
    "precision": "주소"
-  }
+  },
+  "stale": true
  },
  {
   "id": "lh:2015122300020843",
@@ -2850,7 +3400,8 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68775511"
    }
   ],
-  "firstSeen": "2026-10-11"
+  "firstSeen": "2026-10-11",
+  "stale": true
  },
  {
   "id": "lh:2015122300020755",
@@ -2901,7 +3452,8 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68588491"
    }
   ],
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910253:2026910253",
@@ -3324,7 +3876,8 @@
    "lat": 37.50664,
    "lng": 126.67054,
    "precision": "주소"
-  }
+  },
+  "stale": true
  },
  {
   "id": "lh:2015122300020802",
@@ -3375,7 +3928,8 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68799974"
    }
   ],
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "stale": true
  },
  {
   "id": "lh:0000061183",
@@ -3499,7 +4053,8 @@
    "lat": 37.52654,
    "lng": 126.67407,
    "precision": "동"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:urbty:2026950085:2026950085",
@@ -3705,12 +4260,6 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820010&pblancNo=2026820010",
   "homepage": "https://apply.lh.or.kr",
   "firstSeen": "2026-10-13",
-  "links": [
-   {
-    "label": "LH 공고",
-    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061179&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027"
-   }
-  ],
   "geo": {
    "lat": 37.56683,
    "lng": 126.74383,
@@ -3844,7 +4393,8 @@
    "lat": 37.39612,
    "lng": 126.9877,
    "precision": "주소"
-  }
+  },
+  "stale": true
  },
  {
   "id": "lh:0000061181",
@@ -3941,7 +4491,8 @@
    "lat": 37.28633,
    "lng": 126.9414,
    "precision": "주소"
-  }
+  },
+  "stale": true
  },
  {
   "id": "sh:rent:310672",
@@ -4059,7 +4610,8 @@
    "lat": 37.42016,
    "lng": 127.12621,
    "precision": "구"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910251:2026910251",
@@ -4635,7 +5187,8 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68689380"
    }
   ],
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "stale": true
  },
  {
   "id": "lh:2015122300020768",
@@ -4675,7 +5228,8 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68614892"
    }
   ],
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "stale": true
  },
  {
   "id": "lh:2015122300020710",
@@ -4762,7 +5316,8 @@
    "lat": 37.65894,
    "lng": 127.3012,
    "precision": "주소"
-  }
+  },
+  "stale": true
  },
  {
   "id": "sh:rent:310575",
@@ -4892,7 +5447,8 @@
    "lat": 37.54815,
    "lng": 126.87651,
    "precision": "주소"
-  }
+  },
+  "stale": true
  },
  {
   "id": "lh:2015122300020727",
@@ -5006,7 +5562,8 @@
    "lat": 37.80285,
    "lng": 127.07869,
    "precision": "주소"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:opt:2026940212:2026940212",
@@ -5127,107 +5684,6 @@
    "lng": 126.72676,
    "precision": "주소"
   }
- },
- {
-  "id": "ah:opt:2026940208:2026940208",
-  "source": "청약홈",
-  "sector": "민간",
-  "cat": "분양",
-  "kind": "임의공급",
-  "name": "부천역 에피트 어바닉(4차)",
-  "address": "경기도 부천시 원미구 원미동 150-1외 2필지",
-  "region": "경기",
-  "gu": "부천시",
-  "units": 8,
-  "dates": {
-   "notice": "2026-09-21",
-   "start": "2026-09-23",
-   "end": "2026-09-23",
-   "winner": "2026-09-30",
-   "contract_start": "2026-10-01",
-   "contract_end": "2026-10-01"
-  },
-  "dateBasis": "api",
-  "moveIn": "2028-07",
-  "models": [
-   {
-    "type": "52",
-    "excl": 52.0,
-    "units": 2,
-    "price": 43890
-   },
-   {
-    "type": "55",
-    "excl": 55.0,
-    "units": 2,
-    "price": 46564
-   },
-   {
-    "type": "64A",
-    "excl": 64.0,
-    "units": 2,
-    "price": 54755
-   },
-   {
-    "type": "64B",
-    "excl": 64.0,
-    "units": 2,
-    "price": 55332
-   }
-  ],
-  "priceMin": 43890,
-  "priceMax": 55332,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "장미연립가로주택정비사업조합",
-  "tel": "0326110105",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940208&pblancNo=2026940208",
-  "homepage": "https://brand.hldni.com/bucheon-urbanic/",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940208&pblancNo=2026940208&atchmnflSeqNo=1971120&atchmnflSn=2"
-   }
-  ],
-  "firstSeen": "2026-10-13",
-  "geo": {
-   "lat": 37.49268,
-   "lng": 126.79144,
-   "precision": "동"
-  },
-  "homePlans": [
-   {
-    "url": "https://brand.hldni.com/bucheon-urbanic/image/sub/information/unit1.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/bucheon-urbanic/image/sub/information/unit2.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/bucheon-urbanic/image/sub/information/unit3.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/bucheon-urbanic/image/sub/information/unit4.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/bucheon-urbanic/image/sub/information/unit5.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
  },
  {
   "id": "ah:opt:2026940203:2026940203",
@@ -5600,161 +6056,6 @@
     "type": "69A",
     "kind": "평면",
     "alt": "69A"
-   }
-  ]
- },
- {
-  "id": "ah:opt:2026940202:2026940202",
-  "source": "청약홈",
-  "sector": "민간",
-  "cat": "분양",
-  "kind": "임의공급",
-  "name": "서수원 에피트 센트럴마크(M2BL)(3차)",
-  "address": "경기도 수원시 권선구 당수동 3002번지 일원 (수원당수 공공주택지구 M2BL)",
-  "region": "경기",
-  "gu": "수원시",
-  "units": 12,
-  "dates": {
-   "notice": "2026-09-18",
-   "start": "2026-09-22",
-   "end": "2026-09-23",
-   "winner": "2026-09-30",
-   "contract_start": "2026-10-01",
-   "contract_end": "2026-10-01"
-  },
-  "dateBasis": "api",
-  "moveIn": "2028-09",
-  "models": [
-   {
-    "type": "74",
-    "excl": 74.0,
-    "units": 5,
-    "price": 72100
-   },
-   {
-    "type": "84B",
-    "excl": 84.0,
-    "units": 3,
-    "price": 78800
-   },
-   {
-    "type": "103A",
-    "excl": 103.0,
-    "units": 2,
-    "price": 86600
-   },
-   {
-    "type": "103B",
-    "excl": 103.0,
-    "units": 2,
-    "price": 88300
-   }
-  ],
-  "priceMin": 72100,
-  "priceMax": 88300,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "코리아신탁(주)",
-  "tel": "18992888",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940202&pblancNo=2026940202",
-  "homepage": "https://brand.hldni.com/suwon-efete/",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940202&pblancNo=2026940202&atchmnflSeqNo=1973012&atchmnflSn=3"
-   }
-  ],
-  "firstSeen": "2026-10-13",
-  "geo": {
-   "lat": 37.29062,
-   "lng": 126.94474,
-   "precision": "동"
-  },
-  "homePlans": [
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/main/unit_tit.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/main/unit_slide_4.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/main/unit_more.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/main/unit_slide_5.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/main/unit_slide_6.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/main/unit_slide_1.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/main/unit_slide_2.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/main/unit_slide_3.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/sub/about/unit_1.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/sub/about/unit_2.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/sub/about/unit_3.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/sub/about/unit_4.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/sub/about/unit_5.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/sub/about/unit_6.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
    }
   ]
  },
@@ -6359,294 +6660,8 @@
    "lat": 37.40471,
    "lng": 126.71781,
    "precision": "주소"
-  }
- },
- {
-  "id": "ah:remndr:2026910246:2026910246",
-  "source": "청약홈",
-  "sector": "민간",
-  "cat": "분양",
-  "kind": "무순위·잔여세대",
-  "name": "용인반도체클러스터 동일하이빌 파크밸리(D1-1블록)",
-  "address": "경기도 용인시 처인구 원삼면 용인 반도체 클러스터 일반산업단지 D1-1BL",
-  "region": "경기",
-  "gu": "용인시",
-  "units": 126,
-  "dates": {
-   "notice": "2026-09-16",
-   "start": "2026-09-21",
-   "end": "2026-09-21",
-   "winner": "2026-09-28",
-   "contract_start": "2026-10-01",
-   "contract_end": "2026-10-01"
   },
-  "dateBasis": "api",
-  "moveIn": "2029-01",
-  "models": [
-   {
-    "type": "59A",
-    "excl": 59.0,
-    "units": 38,
-    "special": 0,
-    "price": 41600
-   },
-   {
-    "type": "59C",
-    "excl": 59.0,
-    "units": 12,
-    "special": 0,
-    "price": 39700
-   },
-   {
-    "type": "71A",
-    "excl": 71.0,
-    "units": 15,
-    "special": 0,
-    "price": 47800
-   },
-   {
-    "type": "71B",
-    "excl": 71.0,
-    "units": 38,
-    "special": 0,
-    "price": 47600
-   },
-   {
-    "type": "84A",
-    "excl": 84.0,
-    "units": 23,
-    "special": 0,
-    "price": 53400
-   }
-  ],
-  "priceMin": 39700,
-  "priceMax": 53400,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "(주)동일코퍼레이션",
-  "tel": "15330589",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910246&pblancNo=2026910246",
-  "homepage": "https://용인동일하이빌파크밸리.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910246&pblancNo=2026910246&atchmnflSeqNo=1974992&atchmnflSn=3"
-   }
-  ],
-  "firstSeen": "2026-10-13",
-  "geo": {
-   "lat": 37.16651,
-   "lng": 127.31338,
-   "precision": "동"
-  },
-  "homePlans": [
-   {
-    "url": "https://xn--2q1bm4i47b10c27q38a0a7a938p85fz2g.com/sub/unit01.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--2q1bm4i47b10c27q38a0a7a938p85fz2g.com/sub/unit02.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--2q1bm4i47b10c27q38a0a7a938p85fz2g.com/sub/unit03.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--2q1bm4i47b10c27q38a0a7a938p85fz2g.com/sub/unit04.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--2q1bm4i47b10c27q38a0a7a938p85fz2g.com/sub/unit05.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--2q1bm4i47b10c27q38a0a7a938p85fz2g.com/sub/unit06.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
- },
- {
-  "id": "ah:remndr:2026910241:2026910241",
-  "source": "청약홈",
-  "sector": "민간",
-  "cat": "분양",
-  "kind": "무순위·잔여세대",
-  "name": "두산위브더제니스 부천",
-  "address": "경기도 부천시 소사구 소사본동 88-39번지 일대",
-  "region": "경기",
-  "gu": "부천시",
-  "units": 229,
-  "dates": {
-   "notice": "2026-09-16",
-   "start": "2026-09-21",
-   "end": "2026-09-21",
-   "winner": "2026-09-28",
-   "contract_start": "2026-10-01",
-   "contract_end": "2026-10-01"
-  },
-  "dateBasis": "api",
-  "moveIn": "2032-02",
-  "models": [
-   {
-    "type": "59A",
-    "excl": 59.0,
-    "units": 229,
-    "special": 0,
-    "price": 87500,
-    "plan": "https://xn--9i1bjk9y42y6tax0kd8d5ylcqcixr.com/assets/images/main/unit_59a.png"
-   }
-  ],
-  "priceMin": 87500,
-  "priceMax": 87500,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "소사본1의1구역 재개발정비사업조합",
-  "tel": "0323272008",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910241&pblancNo=2026910241",
-  "homepage": "https://두산위브더제니스부천.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910241&pblancNo=2026910241&atchmnflSeqNo=1978005&atchmnflSn=4"
-   }
-  ],
-  "firstSeen": "2026-10-13",
-  "geo": {
-   "lat": 37.47341,
-   "lng": 126.79478,
-   "precision": "동"
-  },
-  "homePlans": [
-   {
-    "url": "https://xn--9i1bjk9y42y6tax0kd8d5ylcqcixr.com/assets/images/main/unit-slide-bg.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--9i1bjk9y42y6tax0kd8d5ylcqcixr.com/assets/images/main/unit_84b.png",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--9i1bjk9y42y6tax0kd8d5ylcqcixr.com/assets/images/main/unit_39oa.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--9i1bjk9y42y6tax0kd8d5ylcqcixr.com/assets/images/main/unit_45oa.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--9i1bjk9y42y6tax0kd8d5ylcqcixr.com/assets/images/main/unit_59a.png",
-    "type": "59A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--9i1bjk9y42y6tax0kd8d5ylcqcixr.com/assets/images/main/unit_59b.png",
-    "type": "59B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--9i1bjk9y42y6tax0kd8d5ylcqcixr.com/assets/images/main/unit_74a.png",
-    "type": "74A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--9i1bjk9y42y6tax0kd8d5ylcqcixr.com/assets/images/main/unit_74b.png",
-    "type": "74B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--9i1bjk9y42y6tax0kd8d5ylcqcixr.com/assets/images/main/unit_84a.png",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--9i1bjk9y42y6tax0kd8d5ylcqcixr.com/assets/images/main/unit-img-02.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--9i1bjk9y42y6tax0kd8d5ylcqcixr.com/assets/images/main/unit-img-03.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--9i1bjk9y42y6tax0kd8d5ylcqcixr.com/assets/images/sub/unit_39oa.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--9i1bjk9y42y6tax0kd8d5ylcqcixr.com/assets/images/sub/unit_45oa.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--9i1bjk9y42y6tax0kd8d5ylcqcixr.com/assets/images/sub/unit_59a.jpg",
-    "type": "59A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--9i1bjk9y42y6tax0kd8d5ylcqcixr.com/assets/images/sub/unit_59b.jpg",
-    "type": "59B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--9i1bjk9y42y6tax0kd8d5ylcqcixr.com/assets/images/sub/unit_74a.jpg",
-    "type": "74A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--9i1bjk9y42y6tax0kd8d5ylcqcixr.com/assets/images/sub/unit_74b.jpg",
-    "type": "74B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--9i1bjk9y42y6tax0kd8d5ylcqcixr.com/assets/images/sub/unit_84a.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--9i1bjk9y42y6tax0kd8d5ylcqcixr.com/assets/images/sub/unit_84b.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
+  "stale": true
  },
  {
   "id": "lh:2015122300020769",
@@ -6695,133 +6710,8 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68615193"
    }
   ],
-  "firstSeen": "2026-10-15"
- },
- {
-  "id": "ah:remndr:2026910244:2026910244",
-  "source": "청약홈",
-  "sector": "민간",
-  "cat": "분양",
-  "kind": "무순위·잔여세대",
-  "name": "더 리치먼드 미아(3차)",
-  "address": "서울특별시 강북구 미아동 703-13번지",
-  "region": "서울",
-  "gu": "강북구",
-  "units": 14,
-  "dates": {
-   "notice": "2026-09-15",
-   "start": "2026-09-22",
-   "end": "2026-09-22",
-   "winner": "2026-09-29",
-   "contract_start": "2026-10-01",
-   "contract_end": "2026-10-01"
-  },
-  "dateBasis": "api",
-  "moveIn": "2028-09",
-  "models": [
-   {
-    "type": "59A",
-    "excl": 59.0,
-    "units": 14,
-    "special": 0,
-    "price": 95300
-   }
-  ],
-  "priceMin": 95300,
-  "priceMax": 95300,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "우리자산신탁 주식회사",
-  "tel": "15516264",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910244&pblancNo=2026910244",
-  "homepage": "https://www.더리치먼드미아.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910244&pblancNo=2026910244&atchmnflSeqNo=1971189&atchmnflSn=3"
-   }
-  ],
-  "firstSeen": "2026-10-11",
-  "geo": {
-   "lat": 37.62208,
-   "lng": 127.02091,
-   "precision": "동"
-  },
-  "homePlans": [
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/main/main_room_type1.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/main/main_room_type2.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/main/main_room_type3.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_type01_img01.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_type01_img04.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_type02_img01.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_type02_img04.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_type03_img01.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_type03_img04.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_material_table01.png?date=20260409",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_material_table02.png?date=20260409",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_material_table03.png?date=20260409",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
+  "firstSeen": "2026-10-15",
+  "stale": true
  },
  {
   "id": "ah:opt:2026940206:2026940206",
@@ -7575,7 +7465,8 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68509361"
    }
   ],
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "stale": true
  },
  {
   "id": "ah:apt:2026000314:2026000314",
@@ -7789,86 +7680,6 @@
     "alt": ""
    }
   ]
- },
- {
-  "id": "ah:pvtrent:2026850047:2026850047",
-  "source": "청약홈",
-  "sector": "민간",
-  "cat": "임대",
-  "kind": "공공지원민간임대",
-  "name": "오산세교2지구 A5BL 우미 린 포레아시티",
-  "address": "경기도 오산시 오산세교2지구 A5BL (오산시 궐동 822번지 일원)",
-  "region": "경기",
-  "gu": "오산시",
-  "units": 195,
-  "dates": {
-   "notice": "2026-09-09",
-   "start": "2026-09-14",
-   "end": "2026-09-15",
-   "winner": "2026-09-18",
-   "contract_start": "2026-09-30",
-   "contract_end": "2026-10-01"
-  },
-  "dateBasis": "api",
-  "moveIn": "2027-01",
-  "models": [
-   {
-    "type": "69B1",
-    "area": 93.7979,
-    "excl": 69.9856,
-    "units": 37,
-    "price": 16100
-   },
-   {
-    "type": "84A1",
-    "area": 111.9572,
-    "excl": 84.9781,
-    "units": 32,
-    "price": 17000
-   },
-   {
-    "type": "84A2",
-    "area": 111.9962,
-    "excl": 84.985,
-    "units": 41,
-    "price": 17000
-   },
-   {
-    "type": "84B",
-    "area": 111.9914,
-    "excl": 84.9958,
-    "units": 66,
-    "price": 17000
-   },
-   {
-    "type": "84C",
-    "area": 112.9355,
-    "excl": 84.9625,
-    "units": 19,
-    "price": 17000
-   }
-  ],
-  "priceMin": 16100,
-  "priceMax": 17000,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "(주)우미대한제33호위탁관리부동산투자회사",
-  "tel": "0313731050",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026850047&pblancNo=2026850047&houseSecd=03",
-  "homepage": "https://os2l.lynn.co.kr",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026850047&pblancNo=2026850047&atchmnflSeqNo=1967999&atchmnflSn=3"
-   }
-  ],
-  "firstSeen": "2026-10-13",
-  "geo": {
-   "lat": 37.14994,
-   "lng": 127.07746,
-   "precision": "구"
-  }
  },
  {
   "id": "ah:apt:2026000431:2026000431",
@@ -8756,12 +8567,6 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000414&pblancNo=2026000414",
   "homepage": "https://apply.lh.or.kr",
   "firstSeen": "2026-10-13",
-  "links": [
-   {
-    "label": "LH 공고",
-    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061174&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027"
-   }
-  ],
   "geo": {
    "lat": 37.56683,
    "lng": 126.74383,
@@ -9139,8 +8944,7 @@
    "lat": 38.0964,
    "lng": 127.0746,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "sh:rent:308944",
