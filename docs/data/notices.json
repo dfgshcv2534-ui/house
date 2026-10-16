@@ -182,7 +182,353 @@
    "lat": 37.42016,
    "lng": 127.12621,
    "precision": "구"
-  }
+  },
+  "stale": true
+ },
+ {
+  "id": "ah:apt:2026000509:2026000509",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "분양",
+  "kind": "아파트",
+  "name": "아크메르 동탄 99",
+  "address": "경기도 화성특례시 동탄구 반송동 99번지[동탄(1) M1-2-2블록]",
+  "region": "경기",
+  "gu": "화성특례시",
+  "units": 996,
+  "dates": {
+   "notice": "2026-10-16",
+   "start": "2026-10-26",
+   "end": "2026-10-28",
+   "special_start": "2026-10-26",
+   "special_end": "2026-10-26",
+   "rank1_start": "2026-10-27",
+   "rank1_end": "2026-10-27",
+   "rank2_start": "2026-10-28",
+   "rank2_end": "2026-10-28",
+   "winner": "2026-11-04",
+   "contract_start": "2026-11-16",
+   "contract_end": "2026-11-18"
+  },
+  "dateBasis": "api",
+  "moveIn": "2032-01",
+  "models": [
+   {
+    "type": "84A",
+    "area": 124.1106,
+    "excl": 84.0,
+    "units": 149,
+    "special": 185,
+    "price": 171420
+   },
+   {
+    "type": "84B",
+    "area": 124.575,
+    "excl": 84.0,
+    "units": 39,
+    "special": 45,
+    "price": 171680
+   },
+   {
+    "type": "84C",
+    "area": 123.3468,
+    "excl": 84.0,
+    "units": 73,
+    "special": 93,
+    "price": 171320,
+    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84c.jpg"
+   },
+   {
+    "type": "84D",
+    "area": 124.081,
+    "excl": 84.0,
+    "units": 76,
+    "special": 88,
+    "price": 171380
+   },
+   {
+    "type": "84E",
+    "area": 124.8977,
+    "excl": 84.0,
+    "units": 76,
+    "special": 88,
+    "price": 171520
+   },
+   {
+    "type": "99A",
+    "area": 146.2861,
+    "excl": 99.0,
+    "units": 68,
+    "special": 10,
+    "price": 191440
+   },
+   {
+    "type": "148E",
+    "area": 219.7294,
+    "excl": 148.0,
+    "units": 1,
+    "special": 0,
+    "price": 316460
+   },
+   {
+    "type": "158D",
+    "area": 234.386,
+    "excl": 158.0,
+    "units": 1,
+    "special": 0,
+    "price": 337600
+   },
+   {
+    "type": "162C",
+    "area": 241.1932,
+    "excl": 162.0,
+    "units": 4,
+    "special": 0,
+    "price": 347450
+   }
+  ],
+  "priceMin": 171320,
+  "priceMax": 347450,
+  "tags": [
+   "투기과열지구",
+   "조정대상지역",
+   "대규모택지"
+  ],
+  "targets": [],
+  "builder": "(주)포스코이앤씨",
+  "supplier": "케이비부동산신탁(주)",
+  "tel": "15228111",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000509&pblancNo=2026000509",
+  "homepage": "https://아크메르동탄.kr",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000509&pblancNo=2026000509&atchmnflSeqNo=2000102&atchmnflSn=5"
+   }
+  ],
+  "firstSeen": "2026-10-17",
+  "homePlans": [
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84c.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84f.jpg",
+    "type": "84F",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/116a.jpg",
+    "type": "116A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/116b.jpg",
+    "type": "116B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/128a.jpg",
+    "type": "128A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/129b.jpg",
+    "type": "129B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/ph184b.jpg",
+    "type": "184B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/ph188a.jpg",
+    "type": "188A",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ {
+  "id": "ah:apt:2026000508:2026000508",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "분양",
+  "kind": "아파트",
+  "name": "아크메르 동탄 95",
+  "address": "경기도 화성특례시 동탄구 반송동 95번지[동탄(1) M1-1-2블록]",
+  "region": "경기",
+  "gu": "화성특례시",
+  "units": 812,
+  "dates": {
+   "notice": "2026-10-16",
+   "start": "2026-10-26",
+   "end": "2026-10-28",
+   "special_start": "2026-10-26",
+   "special_end": "2026-10-26",
+   "rank1_start": "2026-10-27",
+   "rank1_end": "2026-10-27",
+   "rank2_start": "2026-10-28",
+   "rank2_end": "2026-10-28",
+   "winner": "2026-11-03",
+   "contract_start": "2026-11-16",
+   "contract_end": "2026-11-18"
+  },
+  "dateBasis": "api",
+  "moveIn": "2032-01",
+  "models": [
+   {
+    "type": "84C",
+    "area": 115.518,
+    "excl": 84.0,
+    "units": 82,
+    "special": 98,
+    "price": 171210,
+    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84c.jpg"
+   },
+   {
+    "type": "84F",
+    "area": 117.1346,
+    "excl": 84.0,
+    "units": 41,
+    "special": 49,
+    "price": 171530,
+    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84f.jpg"
+   },
+   {
+    "type": "116A",
+    "area": 156.6146,
+    "excl": 116.0,
+    "units": 80,
+    "special": 12,
+    "price": 218670,
+    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/116a.jpg"
+   },
+   {
+    "type": "116B",
+    "area": 158.6444,
+    "excl": 116.0,
+    "units": 157,
+    "special": 23,
+    "price": 221350,
+    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/116b.jpg"
+   },
+   {
+    "type": "128A",
+    "area": 174.3807,
+    "excl": 128.0,
+    "units": 78,
+    "special": 12,
+    "price": 243610,
+    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/128a.jpg"
+   },
+   {
+    "type": "129B",
+    "area": 177.3078,
+    "excl": 129.0,
+    "units": 153,
+    "special": 23,
+    "price": 248290,
+    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/129b.jpg"
+   },
+   {
+    "type": "184B",
+    "area": 253.7585,
+    "excl": 184.0,
+    "units": 2,
+    "special": 0,
+    "price": 391150,
+    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/ph184b.jpg"
+   },
+   {
+    "type": "188A",
+    "area": 260.2614,
+    "excl": 188.0,
+    "units": 2,
+    "special": 0,
+    "price": 401320,
+    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/ph188a.jpg"
+   }
+  ],
+  "priceMin": 171210,
+  "priceMax": 401320,
+  "tags": [
+   "투기과열지구",
+   "조정대상지역",
+   "대규모택지"
+  ],
+  "targets": [],
+  "builder": "(주)포스코이앤씨",
+  "supplier": "케이비부동산신탁(주)",
+  "tel": "15228111",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000508&pblancNo=2026000508",
+  "homepage": "https://아크메르동탄.kr",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000508&pblancNo=2026000508&atchmnflSeqNo=2000101&atchmnflSn=6"
+   }
+  ],
+  "firstSeen": "2026-10-17",
+  "homePlans": [
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84c.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84f.jpg",
+    "type": "84F",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/116a.jpg",
+    "type": "116A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/116b.jpg",
+    "type": "116B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/128a.jpg",
+    "type": "128A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/129b.jpg",
+    "type": "129B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/ph184b.jpg",
+    "type": "184B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/ph188a.jpg",
+    "type": "188A",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "ah:remndr:2026910264:2026910264",
@@ -1898,18 +2244,6 @@
   "moveIn": "2030-06",
   "models": [
    {
-    "type": "119OB",
-    "excl": 119.8284,
-    "units": 281,
-    "price": 60600
-   },
-   {
-    "type": "119OC",
-    "excl": 119.9734,
-    "units": 282,
-    "price": 64330
-   },
-   {
     "type": "119OA",
     "excl": 119.9569,
     "units": 272,
@@ -1918,8 +2252,8 @@
    {
     "type": "119OB",
     "excl": 119.8284,
-    "units": 6,
-    "price": 77240
+    "units": 281,
+    "price": 60600
    },
    {
     "type": "119OC",
@@ -1932,6 +2266,18 @@
     "excl": 119.9569,
     "units": 6,
     "price": 77890
+   },
+   {
+    "type": "119OB",
+    "excl": 119.8284,
+    "units": 6,
+    "price": 77240
+   },
+   {
+    "type": "119OC",
+    "excl": 119.9734,
+    "units": 282,
+    "price": 64330
    }
   ],
   "priceMin": 60600,
@@ -2421,7 +2767,8 @@
   "tel": null,
   "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancDetailView.do?pbancNo=823",
   "homepage": null,
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "stale": true
  },
  {
   "id": "ah:urbty:2026950087:2026950087",
@@ -5473,7 +5820,7 @@
    "contract_end": "2027-03-24"
   },
   "dateBasis": "api",
-  "statusHint": "공고중",
+  "statusHint": "접수마감",
   "moveIn": "2026-09",
   "models": [
    {
@@ -5744,183 +6091,6 @@
    "lng": 127.04578,
    "precision": "구"
   }
- },
- {
-  "id": "ah:remndr:2026910247:2026910247",
-  "source": "청약홈",
-  "sector": "민간",
-  "cat": "분양",
-  "kind": "무순위·잔여세대",
-  "name": "신천역 에피트(2차)",
-  "address": "경기도 시흥시 시흥대로 1110",
-  "region": "경기",
-  "gu": "시흥시",
-  "units": 15,
-  "dates": {
-   "notice": "2026-09-18",
-   "start": "2026-09-23",
-   "end": "2026-09-23",
-   "winner": "2026-09-30",
-   "contract_start": "2026-10-02",
-   "contract_end": "2026-10-02"
-  },
-  "dateBasis": "api",
-  "moveIn": "2026-10",
-  "models": [
-   {
-    "type": "84A",
-    "excl": 84.0,
-    "units": 1,
-    "special": 0,
-    "price": 66460,
-    "plan": "http://halla-shincheon.co.kr/image/main/unit/unit_84a.jpg"
-   },
-   {
-    "type": "84C",
-    "excl": 84.0,
-    "units": 2,
-    "special": 0,
-    "price": 68060,
-    "plan": "http://halla-shincheon.co.kr/image/main/unit/unit_84c.jpg"
-   },
-   {
-    "type": "84D",
-    "excl": 84.0,
-    "units": 2,
-    "special": 0,
-    "price": 67190,
-    "plan": "http://halla-shincheon.co.kr/image/main/unit/unit_84d.jpg"
-   },
-   {
-    "type": "111A",
-    "excl": 111.0,
-    "units": 4,
-    "special": 0,
-    "price": 84430,
-    "plan": "http://halla-shincheon.co.kr/image/main/unit/unit_111a.jpg"
-   },
-   {
-    "type": "111B",
-    "excl": 111.0,
-    "units": 6,
-    "special": 0,
-    "price": 85290,
-    "plan": "http://halla-shincheon.co.kr/image/main/unit/unit_111b.jpg"
-   }
-  ],
-  "priceMin": 66460,
-  "priceMax": 85290,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "(주)다우개발",
-  "tel": "0313110230",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910247&pblancNo=2026910247",
-  "homepage": "http://halla-shincheon.co.kr/",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910247&pblancNo=2026910247&atchmnflSeqNo=1978093&atchmnflSn=8"
-   }
-  ],
-  "firstSeen": "2026-10-13",
-  "geo": {
-   "lat": 37.4345,
-   "lng": 126.79145,
-   "precision": "주소"
-  },
-  "homePlans": [
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84a.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84b.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84c.jpg",
-    "type": "84C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84d.jpg",
-    "type": "84D",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84e.jpg",
-    "type": "84E",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111a.jpg",
-    "type": "111A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111b.jpg",
-    "type": "111B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111c.jpg",
-    "type": "111C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111d.jpg",
-    "type": "111D",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84a_img1.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84a_img2.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84a_img3.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84b_img1.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84b_img2.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84b_img3.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
  },
  {
   "id": "ah:opt:2026940210:2026940210",
@@ -8014,28 +8184,28 @@
   "moveIn": "2029-10",
   "models": [
    {
-    "type": "76A",
-    "excl": 76.9986,
-    "units": 14,
-    "price": 168100
-   },
-   {
     "type": "90C",
     "excl": 90.9834,
     "units": 1,
     "price": 179400
    },
    {
-    "type": "90A",
-    "excl": 90.9868,
-    "units": 2,
-    "price": 185100
+    "type": "76A",
+    "excl": 76.9986,
+    "units": 14,
+    "price": 168100
    },
    {
     "type": "84A",
     "excl": 84.9809,
     "units": 3,
     "price": 170900
+   },
+   {
+    "type": "90A",
+    "excl": 90.9868,
+    "units": 2,
+    "price": 185100
    }
   ],
   "priceMin": 168100,
@@ -8520,12 +8690,6 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000414&pblancNo=2026000414",
   "homepage": "https://apply.lh.or.kr",
   "firstSeen": "2026-10-13",
-  "links": [
-   {
-    "label": "LH 공고",
-    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061174&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027"
-   }
-  ],
   "geo": {
    "lat": 37.56683,
    "lng": 126.74383,
@@ -8903,7 +9067,8 @@
    "lat": 38.0964,
    "lng": 127.0746,
    "precision": "구"
-  }
+  },
+  "stale": true
  },
  {
   "id": "sh:rent:308944",
@@ -9020,7 +9185,8 @@
   "tel": null,
   "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancDetailView.do?pbancNo=812",
   "homepage": null,
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "stale": true
  },
  {
   "id": "ah:apt:2026000404:2026000404",

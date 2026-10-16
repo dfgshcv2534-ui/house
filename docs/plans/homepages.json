@@ -822,101 +822,6 @@
   "checked": "2026-10-13",
   "plans": []
  },
- "http://halla-shincheon.co.kr/": {
-  "checked": "2026-10-13",
-  "plans": [
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84a.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84b.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84c.jpg",
-    "type": "84C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84d.jpg",
-    "type": "84D",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84e.jpg",
-    "type": "84E",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111a.jpg",
-    "type": "111A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111b.jpg",
-    "type": "111B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111c.jpg",
-    "type": "111C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111d.jpg",
-    "type": "111D",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84a_img1.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84a_img2.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84a_img3.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84b_img1.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84b_img2.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84b_img3.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
- },
  "http://www.detre-yj1.co.kr": {
   "checked": "2026-10-13",
   "plans": []
@@ -1838,6 +1743,59 @@
    {
     "url": "https://www.harrington495.kr/images/sub/complex/unit/59-d-type.jpg",
     "type": "59",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ "https://아크메르동탄.kr": {
+  "checked": "2026-10-17",
+  "plans": [
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84c.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84f.jpg",
+    "type": "84F",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/116a.jpg",
+    "type": "116A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/116b.jpg",
+    "type": "116B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/128a.jpg",
+    "type": "128A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/129b.jpg",
+    "type": "129B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/ph184b.jpg",
+    "type": "184B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/ph188a.jpg",
+    "type": "188A",
     "kind": "평면",
     "alt": ""
    }
