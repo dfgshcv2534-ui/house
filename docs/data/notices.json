@@ -1,5 +1,190 @@
 [
  {
+  "id": "sh:sale:311656",
+  "source": "SH",
+  "sector": "공공",
+  "region": "서울",
+  "cat": "특수형",
+  "kind": "토지임대부 분양",
+  "name": "고덕강일지구 3단지 토지임대부 분양주택 입주자모집공고",
+  "address": null,
+  "gu": null,
+  "units": 1305,
+  "dates": {
+   "notice": "2026-10-16",
+   "start": "2026-10-26",
+   "end": "2026-10-27",
+   "winner": "2026-11-26"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "SH공사 분양부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C296/www/brd/m_244/view.do?multi_itm_seq=1&seq=311656",
+  "homepage": null,
+  "files": [
+   {
+    "name": "고덕강일지구 3단지 토지임대부 분양주택 입주자모집공고문.pdf",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311656&data_tp=A&file_seq=1"
+   },
+   {
+    "name": "1_ 위임장.pdf",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311656&data_tp=A&file_seq=2"
+   },
+   {
+    "name": "2-1_ 개인정보 수집·이용 및 제3자 제공 동의서(사전청약 당첨자용).pdf",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311656&data_tp=A&file_seq=3"
+   },
+   {
+    "name": "2-2_ 개인정보 수집·이용 및 제3자 제공 동의서(본청약자용).pdf",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311656&data_tp=A&file_seq=4"
+   }
+  ],
+  "firstSeen": "2026-10-16"
+ },
+ {
+  "id": "sh:rent:311521",
+  "source": "SH",
+  "sector": "공공",
+  "region": "서울",
+  "cat": "임대",
+  "kind": "공공임대",
+  "name": "서초구 청년예술인주택 서리풀 청년아트타운(수요자맞춤형) 잔여세대 모집 공고",
+  "address": null,
+  "gu": "서초구",
+  "units": 6,
+  "dates": {
+   "notice": "2026-10-16",
+   "start": "2026-10-26",
+   "end": "2026-10-30",
+   "winner": "2026-12-30"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [
+   "청년",
+   "예술인"
+  ],
+  "builder": null,
+  "supplier": "SH공사 매입주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=311521",
+  "homepage": null,
+  "files": [
+   {
+    "name": "붙임 2026년 서리풀청년아트타운_잔여세대_입주자모집_공고문.pdf",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311521&data_tp=A&file_seq=3"
+   }
+  ],
+  "firstSeen": "2026-10-16",
+  "geo": {
+   "lat": 37.4837,
+   "lng": 127.0324,
+   "precision": "구"
+  }
+ },
+ {
+  "id": "lh:2015122300020900",
+  "source": "LH",
+  "sector": "공공",
+  "region": "경기",
+  "cat": "임대",
+  "kind": "매입임대",
+  "name": "[경기북부] 청년 매입임대주택 선착순 예비입주자 모집공고 (김포시, 포천시)",
+  "address": null,
+  "gu": "김포시",
+  "units": null,
+  "dates": {
+   "notice": "2026-10-16",
+   "end": "2026-10-29",
+   "winner": "2026-11-24",
+   "contract_start": "2026-12-01",
+   "contract_end": "2026-12-31"
+  },
+  "dateBasis": "api",
+  "statusHint": "공고중",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020900&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+  "homepage": null,
+  "files": [
+   {
+    "name": "(261016)경기북부청년매입임대주택공급대상주택목록.xlsx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68994418"
+   },
+   {
+    "name": "(261016)경기북부청년매입임대주택선착순예비입주자모집공고문.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69008403"
+   },
+   {
+    "name": "(261016)경기북부청년매입임대주택선착순예비입주자모집공고문.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69008404"
+   },
+   {
+    "name": "청년매입임대_QnA.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68993551"
+   }
+  ],
+  "firstSeen": "2026-10-16",
+  "geo": {
+   "lat": 37.61557,
+   "lng": 126.71578,
+   "precision": "구"
+  }
+ },
+ {
+  "id": "gh:rent:839",
+  "source": "GH",
+  "sector": "공공",
+  "region": "경기",
+  "cat": "임대",
+  "kind": "행복주택",
+  "name": "'26년 하반기 경기행복주택 예비입주자 추가모집 공고",
+  "address": null,
+  "gu": "성남시",
+  "units": null,
+  "dates": {
+   "notice": "2026-10-16",
+   "end": "2026-10-28"
+  },
+  "dateBasis": "api",
+  "statusHint": "공고중",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "GH",
+  "tel": null,
+  "url": "https://apply.gh.or.kr/sb/sr/sr7150/selectPbancDetailView.do?pbancNo=839",
+  "homepage": null,
+  "firstSeen": "2026-10-16",
+  "geo": {
+   "lat": 37.42016,
+   "lng": 127.12621,
+   "precision": "구"
+  }
+ },
+ {
   "id": "ah:remndr:2026910264:2026910264",
   "source": "청약홈",
   "sector": "민간",
@@ -3350,8 +3535,7 @@
    "lat": 37.50694,
    "lng": 127.16232,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "lh:2015122300020843",
@@ -3400,8 +3584,7 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68775511"
    }
   ],
-  "firstSeen": "2026-10-11",
-  "stale": true
+  "firstSeen": "2026-10-11"
  },
  {
   "id": "lh:2015122300020755",
@@ -3452,8 +3635,7 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68588491"
    }
   ],
-  "firstSeen": "2026-10-13",
-  "stale": true
+  "firstSeen": "2026-10-13"
  },
  {
   "id": "ah:remndr:2026910253:2026910253",
@@ -3876,8 +4058,7 @@
    "lat": 37.50664,
    "lng": 126.67054,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "lh:2015122300020802",
@@ -3928,8 +4109,7 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68799974"
    }
   ],
-  "firstSeen": "2026-10-13",
-  "stale": true
+  "firstSeen": "2026-10-13"
  },
  {
   "id": "lh:0000061183",
@@ -4053,8 +4233,7 @@
    "lat": 37.52654,
    "lng": 126.67407,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:urbty:2026950085:2026950085",
@@ -4260,6 +4439,12 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820010&pblancNo=2026820010",
   "homepage": "https://apply.lh.or.kr",
   "firstSeen": "2026-10-13",
+  "links": [
+   {
+    "label": "LH 공고",
+    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061179&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027"
+   }
+  ],
   "geo": {
    "lat": 37.56683,
    "lng": 126.74383,
@@ -4393,8 +4578,7 @@
    "lat": 37.39612,
    "lng": 126.9877,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "lh:0000061181",
@@ -4491,8 +4675,7 @@
    "lat": 37.28633,
    "lng": 126.9414,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "sh:rent:310672",
@@ -4610,8 +4793,7 @@
    "lat": 37.42016,
    "lng": 127.12621,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:remndr:2026910251:2026910251",
@@ -5187,8 +5369,7 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68689380"
    }
   ],
-  "firstSeen": "2026-10-13",
-  "stale": true
+  "firstSeen": "2026-10-13"
  },
  {
   "id": "lh:2015122300020768",
@@ -5206,7 +5387,7 @@
    "end": "2026-10-15"
   },
   "dateBasis": "api",
-  "statusHint": "접수중",
+  "statusHint": "접수마감",
   "moveIn": null,
   "models": [],
   "priceMin": null,
@@ -5228,96 +5409,7 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68614892"
    }
   ],
-  "firstSeen": "2026-10-13",
-  "stale": true
- },
- {
-  "id": "lh:2015122300020710",
-  "source": "LH",
-  "sector": "공공",
-  "region": "경기",
-  "cat": "임대",
-  "kind": "국민임대",
-  "name": "남양주마석2단지 국민임대주택 예비입주자 모집공고(2026.9.7.)",
-  "address": "경기도 남양주시 화도읍 맷돌로91번길 7(주공아파트)",
-  "gu": "남양주시",
-  "units": 488,
-  "dates": {
-   "notice": "2026-09-22",
-   "end": "2026-10-01",
-   "start": "2026-09-30",
-   "winner": "2027-01-25",
-   "contract_start": "2027-01-25",
-   "contract_end": "2028-01-24"
-  },
-  "dateBasis": "api",
-  "moveIn": null,
-  "models": [
-   {
-    "type": "51A",
-    "area": 69.6021,
-    "excl": 51.49,
-    "units": 158
-   },
-   {
-    "type": "51B",
-    "area": 70.2239,
-    "excl": 51.95,
-    "units": 210
-   },
-   {
-    "type": "59",
-    "area": 80.6189,
-    "excl": 59.64,
-    "units": 120
-   }
-  ],
-  "priceMin": null,
-  "priceMax": null,
-  "tags": [
-   "정정공고"
-  ],
-  "targets": [],
-  "builder": null,
-  "supplier": "LH",
-  "tel": null,
-  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020710&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-  "homepage": null,
-  "area": "51.49~59.64㎡",
-  "files": [
-   {
-    "name": "국민임대예비입주자표준모집공고문(남양주마석)(최종).hwpx",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68705720"
-   },
-   {
-    "name": "국민임대예비입주자표준모집공고문(남양주마석)(최종).pdf",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68705731"
-   }
-  ],
-  "images": [
-   {
-    "label": "지역위치도",
-    "name": "지역위치도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24545819"
-   },
-   {
-    "label": "단지배치도",
-    "name": "단지배치도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24545804"
-   },
-   {
-    "label": "단지조감도",
-    "name": "단지조감도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24545805"
-   }
-  ],
-  "firstSeen": "2026-10-13",
-  "geo": {
-   "lat": 37.65894,
-   "lng": 127.3012,
-   "precision": "주소"
-  },
-  "stale": true
+  "firstSeen": "2026-10-13"
  },
  {
   "id": "sh:rent:310575",
@@ -5361,94 +5453,6 @@
    "lng": 127.02715,
    "precision": "주소"
   }
- },
- {
-  "id": "lh:2015122300020807",
-  "source": "LH",
-  "sector": "공공",
-  "region": "서울",
-  "cat": "임대",
-  "kind": "통합공공임대",
-  "name": "강서염창 통합공공임대주택 최초 입주자 모집공고",
-  "address": "서울특별시 강서구 공항대로81길 14(염창동)",
-  "gu": "강서구",
-  "units": 14,
-  "dates": {
-   "notice": "2026-09-21",
-   "end": "2026-10-01",
-   "start": "2026-09-29",
-   "winner": "2027-01-28",
-   "contract_start": "2027-02-15",
-   "contract_end": "2027-02-17"
-  },
-  "dateBasis": "api",
-  "moveIn": "2027-02",
-  "models": [
-   {
-    "type": "59A",
-    "area": 76.56,
-    "excl": 59.95,
-    "units": 14
-   }
-  ],
-  "priceMin": null,
-  "priceMax": null,
-  "tags": [
-   "정정공고",
-   "개별난방"
-  ],
-  "targets": [],
-  "builder": null,
-  "supplier": "LH",
-  "tel": null,
-  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020807&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
-  "homepage": null,
-  "area": "59.95㎡",
-  "files": [
-   {
-    "name": "(별첨1)공통제출서류(개인정보동의서,금융정보동의서,자산보유,예비자)_전원필수제출.hwpx",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68684231"
-   },
-   {
-    "name": "(별첨2)예비신혼부부(신청확인서,세대구성확인서).hwpx",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68684232"
-   },
-   {
-    "name": "(별첨3)위임장(현장_대리인_신청시)_해당자만_제출.hwpx",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68684233"
-   },
-   {
-    "name": "강서염창통합공공임대입주자공고문(정정).hwpx",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68684215"
-   },
-   {
-    "name": "강서염창통합공공임대입주자공고문(정정).pdf",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68684216"
-   },
-   {
-    "name": "강서염창통합공공임대팸플릿(최종안).pdf",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68684234"
-   }
-  ],
-  "images": [
-   {
-    "label": "위치도",
-    "name": "위치도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=68586052"
-   },
-   {
-    "label": "단지배치도",
-    "name": "단지배치도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=68585983"
-   }
-  ],
-  "firstSeen": "2026-10-11",
-  "geo": {
-   "lat": 37.54815,
-   "lng": 126.87651,
-   "precision": "주소"
-  },
-  "stale": true
  },
  {
   "id": "lh:2015122300020727",
@@ -5562,8 +5566,7 @@
    "lat": 37.80285,
    "lng": 127.07869,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:opt:2026940212:2026940212",
@@ -6660,8 +6663,7 @@
    "lat": 37.40471,
    "lng": 126.71781,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "lh:2015122300020769",
@@ -6710,8 +6712,7 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68615193"
    }
   ],
-  "firstSeen": "2026-10-15",
-  "stale": true
+  "firstSeen": "2026-10-15"
  },
  {
   "id": "ah:opt:2026940206:2026940206",
@@ -7419,54 +7420,6 @@
     "alt": ""
    }
   ]
- },
- {
-  "id": "lh:2015122300020713",
-  "source": "LH",
-  "sector": "공공",
-  "region": "경기",
-  "cat": "임대",
-  "kind": "매입임대",
-  "name": "[경기북부] 2026년 하반기 일반 매입임대주택 입주자 모집공고",
-  "address": null,
-  "gu": null,
-  "units": null,
-  "dates": {
-   "notice": "2026-09-10",
-   "end": "2026-10-01",
-   "winner": "2026-11-03",
-   "contract_start": "2026-11-04",
-   "contract_end": "2026-12-03"
-  },
-  "dateBasis": "api",
-  "statusHint": "접수마감",
-  "moveIn": null,
-  "models": [],
-  "priceMin": null,
-  "priceMax": null,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "LH",
-  "tel": null,
-  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020713&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-  "homepage": null,
-  "files": [
-   {
-    "name": "(260910)경기북부공급가능주택목록.xlsx",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68512770"
-   },
-   {
-    "name": "(260910)경기북부매입임대주택입주자모집공고문.hwpx",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68509359"
-   },
-   {
-    "name": "(260910)경기북부매입임대주택입주자모집공고문.pdf",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68509361"
-   }
-  ],
-  "firstSeen": "2026-10-13",
-  "stale": true
  },
  {
   "id": "ah:apt:2026000314:2026000314",
@@ -8567,6 +8520,12 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000414&pblancNo=2026000414",
   "homepage": "https://apply.lh.or.kr",
   "firstSeen": "2026-10-13",
+  "links": [
+   {
+    "label": "LH 공고",
+    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061174&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027"
+   }
+  ],
   "geo": {
    "lat": 37.56683,
    "lng": 126.74383,
