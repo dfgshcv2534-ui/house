@@ -147,8 +147,7 @@
    "lat": 37.61557,
    "lng": 126.71578,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "gh:rent:839",
@@ -3881,8 +3880,7 @@
    "lat": 37.50694,
    "lng": 127.16232,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "lh:2015122300020843",
@@ -3931,8 +3929,7 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68775511"
    }
   ],
-  "firstSeen": "2026-10-11",
-  "stale": true
+  "firstSeen": "2026-10-11"
  },
  {
   "id": "lh:2015122300020755",
@@ -3983,8 +3980,7 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68588491"
    }
   ],
-  "firstSeen": "2026-10-13",
-  "stale": true
+  "firstSeen": "2026-10-13"
  },
  {
   "id": "ah:remndr:2026910253:2026910253",
@@ -4407,8 +4403,7 @@
    "lat": 37.50664,
    "lng": 126.67054,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "lh:2015122300020802",
@@ -4459,8 +4454,7 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68799974"
    }
   ],
-  "firstSeen": "2026-10-13",
-  "stale": true
+  "firstSeen": "2026-10-13"
  },
  {
   "id": "lh:0000061183",
@@ -4584,8 +4578,7 @@
    "lat": 37.52654,
    "lng": 126.67407,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:urbty:2026950085:2026950085",
@@ -4791,6 +4784,12 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820010&pblancNo=2026820010",
   "homepage": "https://apply.lh.or.kr",
   "firstSeen": "2026-10-13",
+  "links": [
+   {
+    "label": "LH 공고",
+    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061179&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027"
+   }
+  ],
   "geo": {
    "lat": 37.56683,
    "lng": 126.74383,
@@ -4924,8 +4923,7 @@
    "lat": 37.39612,
    "lng": 126.9877,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "lh:0000061181",
@@ -5022,8 +5020,7 @@
    "lat": 37.28633,
    "lng": 126.9414,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "sh:rent:310672",
@@ -5141,8 +5138,7 @@
    "lat": 37.42016,
    "lng": 127.12621,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:remndr:2026910251:2026910251",
@@ -5718,8 +5714,7 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68689380"
    }
   ],
-  "firstSeen": "2026-10-13",
-  "stale": true
+  "firstSeen": "2026-10-13"
  },
  {
   "id": "lh:2015122300020768",
@@ -5759,8 +5754,7 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68614892"
    }
   ],
-  "firstSeen": "2026-10-13",
-  "stale": true
+  "firstSeen": "2026-10-13"
  },
  {
   "id": "sh:rent:310575",
@@ -5917,8 +5911,7 @@
    "lat": 37.80285,
    "lng": 127.07869,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:opt:2026940212:2026940212",
@@ -5987,57 +5980,6 @@
    "lat": 37.47736,
    "lng": 126.64876,
    "precision": "동"
-  }
- },
- {
-  "id": "ah:opt:2026940209:2026940209",
-  "source": "청약홈",
-  "sector": "민간",
-  "cat": "분양",
-  "kind": "임의공급",
-  "name": "중앙하이츠 갈산역 센트럴",
-  "address": "인천광역시 부평구 갈산동 181-11 외 1필지",
-  "region": "인천",
-  "gu": "부평구",
-  "units": 10,
-  "dates": {
-   "notice": "2026-09-21",
-   "start": "2026-09-23",
-   "end": "2026-09-28",
-   "winner": "2026-10-01",
-   "contract_start": "2026-10-03",
-   "contract_end": "2026-10-03"
-  },
-  "dateBasis": "api",
-  "moveIn": "2026-11",
-  "models": [
-   {
-    "type": "59",
-    "excl": 59.0,
-    "units": 10,
-    "price": 45574
-   }
-  ],
-  "priceMin": 45574,
-  "priceMax": 45574,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "백조아파트소규모재건축정비사업조합",
-  "tel": "18005636",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940209&pblancNo=2026940209",
-  "homepage": "https://www.중앙하이츠갈산역센트럴.kr",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940209&pblancNo=2026940209&atchmnflSeqNo=1980169&atchmnflSn=3"
-   }
-  ],
-  "firstSeen": "2026-10-13",
-  "geo": {
-   "lat": 37.51541,
-   "lng": 126.72676,
-   "precision": "주소"
   }
  },
  {
@@ -6838,8 +6780,7 @@
    "lat": 37.40471,
    "lng": 126.71781,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "lh:2015122300020769",
@@ -6888,8 +6829,7 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68615193"
    }
   ],
-  "firstSeen": "2026-10-15",
-  "stale": true
+  "firstSeen": "2026-10-15"
  },
  {
   "id": "ah:opt:2026940206:2026940206",
@@ -8191,28 +8131,28 @@
   "moveIn": "2029-10",
   "models": [
    {
-    "type": "90C",
-    "excl": 90.9834,
-    "units": 1,
-    "price": 179400
-   },
-   {
     "type": "76A",
     "excl": 76.9986,
     "units": 14,
     "price": 168100
    },
    {
-    "type": "84A",
-    "excl": 84.9809,
-    "units": 3,
-    "price": 170900
+    "type": "90C",
+    "excl": 90.9834,
+    "units": 1,
+    "price": 179400
    },
    {
     "type": "90A",
     "excl": 90.9868,
     "units": 2,
     "price": 185100
+   },
+   {
+    "type": "84A",
+    "excl": 84.9809,
+    "units": 3,
+    "price": 170900
    }
   ],
   "priceMin": 168100,
