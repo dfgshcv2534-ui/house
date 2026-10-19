@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-10-19T07:45+09:00",
- "baseDate": "2026-10-19",
+ "updatedAt": "2026-10-20T01:02+09:00",
+ "baseDate": "2026-10-20",
  "sources": {
   "청약홈": {
    "ok": true,
-   "count": 76,
+   "count": 52,
    "failedParts": []
   },
   "SH": {
@@ -13,9 +13,11 @@
    "failedParts": []
   },
   "GH": {
-   "ok": true,
-   "count": 6,
-   "failedParts": []
+   "ok": false,
+   "count": 2,
+   "failedParts": [
+    "rent"
+   ]
   },
   "iH": {
    "ok": true,
@@ -24,7 +26,7 @@
   },
   "LH": {
    "ok": true,
-   "count": 16,
+   "count": 17,
    "failedParts": []
   },
   "LH 사전청약": {
@@ -33,6 +35,6 @@
    "failedParts": []
   }
  },
- "total": 137,
- "newToday": 0
+ "total": 109,
+ "newToday": 3
 }
