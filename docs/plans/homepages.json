@@ -1617,5 +1617,183 @@
     "alt": ""
    }
   ]
+ },
+ "https://www.acro.co.kr": {
+  "checked": "2026-10-20",
+  "plans": []
+ },
+ "https://www.xi.co.kr/csx": {
+  "checked": "2026-10-20",
+  "plans": []
+ },
+ "https://xi.co.kr/csh": {
+  "checked": "2026-10-20",
+  "plans": []
+ },
+ "https://www.thehive-first.com": {
+  "checked": "2026-10-20",
+  "plans": [
+   {
+    "url": "https://www.thehive-first.com/sub/plan.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.thehive-first.com/sub/unit11.jpg",
+    "type": "11",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ "http://www.해링턴스퀘어과천.com": {
+  "checked": "2026-10-20",
+  "plans": [
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit_b.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit14.png",
+    "type": "14",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit01.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit02.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit03.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit04.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit05.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit06.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit07.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit08.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit09.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit10.png",
+    "type": "10",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit11.png",
+    "type": "11",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit12.png",
+    "type": "12",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit13.png",
+    "type": "13",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/sub/unit.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/sub/m/unit.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/sub/type01.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/sub/type02.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/sub/type03.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/sub/type04.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/sub/type05.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/sub/type06.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/sub/type07.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  }
 }
