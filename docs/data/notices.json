@@ -1,5 +1,123 @@
 [
  {
+  "id": "ih:rent:4469",
+  "source": "iH",
+  "sector": "공공",
+  "region": "인천",
+  "cat": "임대",
+  "kind": "영구임대",
+  "name": "영구임대주택(선학, 연수, 더샵부평) 예비입주자 추가모집 공고 new",
+  "address": null,
+  "gu": "연수구",
+  "units": null,
+  "dates": {
+   "notice": "2026-10-21"
+  },
+  "dateBasis": "없음",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "iH",
+  "tel": null,
+  "url": "https://www.ih.co.kr/main/bbs/bbsMsgDetail.do?msg_seq=4469&cate1=general&bcd=notice&pgdiv=general&pgno=1",
+  "homepage": null,
+  "files": [
+   {
+    "name": "20261021_더샵부평센트럴시티_영구임대_예비입주자_모집공고_최종.hwp",
+    "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDown.do?bcd=notice&msg_seq=4469&fileno=1"
+   },
+   {
+    "name": "20261021_선학연수_영구임대주택_예비입주자_모집공고_최종.hwp",
+    "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDown.do?bcd=notice&msg_seq=4469&fileno=2"
+   },
+   {
+    "name": "20261021_영구임대_신청자_제출서식(선학,_연수,_더샵부평)_최종.hwp",
+    "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDown.do?bcd=notice&msg_seq=4469&fileno=3"
+   },
+   {
+    "name": "전체다운",
+    "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDownCompress.do?bcd=notice&msg_seq=4469"
+   }
+  ],
+  "firstSeen": "2026-10-21",
+  "geo": {
+   "lat": 37.4098,
+   "lng": 126.6787,
+   "precision": "구"
+  }
+ },
+ {
+  "id": "ih:rent:4468",
+  "source": "iH",
+  "sector": "공공",
+  "region": "인천",
+  "cat": "임대",
+  "kind": "영구임대",
+  "name": "우리집 영구임대주택(만석·만석2·만석3, 인현·인현2, 괭이부리마을, 남촌, 덕적, 옥련) 예비입주자 모집 공고 new",
+  "address": null,
+  "gu": "동구",
+  "units": null,
+  "dates": {
+   "notice": "2026-10-21"
+  },
+  "dateBasis": "없음",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "iH",
+  "tel": null,
+  "url": "https://www.ih.co.kr/main/bbs/bbsMsgDetail.do?msg_seq=4468&cate1=general&bcd=notice&pgdiv=general&pgno=1",
+  "homepage": null,
+  "files": [
+   {
+    "name": "괭이부리마을_영구임대주택_예비입주자_모집공고문_제물포구_261021.pdf",
+    "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDown.do?bcd=notice&msg_seq=4468&fileno=1"
+   },
+   {
+    "name": "남촌우리집_영구임대주택_예비입주자_모집공고문_남동구_261021.pdf",
+    "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDown.do?bcd=notice&msg_seq=4468&fileno=2"
+   },
+   {
+    "name": "덕적우리집_영구임대주택_예비입주자_모집공고문_옹진군_261021.pdf",
+    "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDown.do?bcd=notice&msg_seq=4468&fileno=3"
+   },
+   {
+    "name": "만석,_만석2,_만석3우리집_영구임대주택_예비입주자_모집공고문_제물포구_261021.pdf",
+    "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDown.do?bcd=notice&msg_seq=4468&fileno=4"
+   },
+   {
+    "name": "옥련_우리집_영구임대주택_예비입주자_모집공고문_연수구_261021.pdf",
+    "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDown.do?bcd=notice&msg_seq=4468&fileno=5"
+   },
+   {
+    "name": "인현,_인현2_우리집_영구임대주택_예비입주자_모집공고문_제물포구_261021.pdf",
+    "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDown.do?bcd=notice&msg_seq=4468&fileno=6"
+   },
+   {
+    "name": "(양식)신청자_제출서식.hwp",
+    "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDown.do?bcd=notice&msg_seq=4468&fileno=7"
+   },
+   {
+    "name": "전체다운",
+    "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDownCompress.do?bcd=notice&msg_seq=4468"
+   }
+  ],
+  "firstSeen": "2026-10-21",
+  "geo": {
+   "lat": 37.48641,
+   "lng": 126.63388,
+   "precision": "구"
+  }
+ },
+ {
   "id": "ah:urbty:2026950093:2026950093",
   "source": "청약홈",
   "sector": "민간",
@@ -590,7 +708,7 @@
   "files": [
    {
     "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940156&pblancNo=2026940156&atchmnflSeqNo=1928004&atchmnflSn=5"
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940156&pblancNo=2026940156&atchmnflSeqNo=1928004&atchmnflSn=6"
    }
   ],
   "firstSeen": "2026-10-20",
@@ -6810,25 +6928,29 @@
     "type": "59B",
     "excl": 59.0,
     "units": 2,
-    "price": 36800
+    "price": 36800,
+    "plan": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59B_nooption.jpg"
    },
    {
     "type": "59C",
     "excl": 59.0,
     "units": 1,
-    "price": 38500
+    "price": 38500,
+    "plan": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59C_nooption.jpg"
    },
    {
     "type": "74",
     "excl": 74.0,
     "units": 2,
-    "price": 48400
+    "price": 48400,
+    "plan": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_74_nooption.jpg"
    },
    {
     "type": "84B",
     "excl": 84.0,
     "units": 2,
-    "price": 54500
+    "price": 54500,
+    "plan": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_84B_240607_nooption.jpg"
    }
   ],
   "priceMin": 36800,
@@ -6851,7 +6973,93 @@
    "lat": 37.47736,
    "lng": 126.64876,
    "precision": "동"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type3.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type4.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type5.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type6.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type1.png?v=1",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type2.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59A_nooption.jpg",
+    "type": "59A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59B_nooption.jpg",
+    "type": "59B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59C_nooption.jpg",
+    "type": "59C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_74_nooption.jpg",
+    "type": "74",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_84A_240607_nooption.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_84B_240607_nooption.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_42A.jpg",
+    "type": "42A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_42B.jpg",
+    "type": "42B",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "ah:opt:2026940203:2026940203",
@@ -6879,13 +7087,15 @@
     "type": "84A",
     "excl": 84.0,
     "units": 22,
-    "price": 51800
+    "price": 51800,
+    "plan": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/84a.jpg"
    },
    {
     "type": "84B",
     "excl": 84.0,
     "units": 17,
-    "price": 51700
+    "price": 51700,
+    "plan": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/84b.jpg"
    }
   ],
   "priceMin": 51700,
@@ -6908,7 +7118,153 @@
    "lat": 37.78493,
    "lng": 127.04578,
    "precision": "구"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/72.jpg",
+    "type": "72",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/84a.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/84b.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_72_01.jpg",
+    "type": "72",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_72_02.jpg",
+    "type": "72",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_72_03.jpg?v01.jpg",
+    "type": "72",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_72_06.jpg",
+    "type": "72",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_72_08.jpg",
+    "type": "72",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_72_04.jpg",
+    "type": "72",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_72_07.jpg",
+    "type": "72",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_72_05.jpg",
+    "type": "72",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_84a_01.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_84a_02.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_84a_03.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_84a_04.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_84a_08.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_84a_05.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_84a_06.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_84a_07.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_84b_01.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_84b_02.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_84b_03.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_84b_05.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--699ax4rg8k6qas9jqrgy3mx4g.com/bon/img/unit/inte_84b_06.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "ah:opt:2026940210:2026940210",
@@ -7221,7 +7577,21 @@
    "lat": 37.44328,
    "lng": 126.88234,
    "precision": "동"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://xn--hc0bz5m11b1ue95n2zf6zxvzd.com/resources/img/main/unit_bg.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--hc0bz5m11b1ue95n2zf6zxvzd.com/resources/data/cyber/59A/unit_iso.jpg",
+    "type": null,
+    "kind": "입체",
+    "alt": "59A 타입 평면도"
+   }
+  ]
  },
  {
   "id": "ah:apt:2026000448:2026000448",
