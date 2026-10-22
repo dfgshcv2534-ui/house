@@ -1,12 +1,127 @@
 [
  {
+  "id": "lh:2015122300020945",
+  "source": "LH",
+  "sector": "공공",
+  "region": "인천",
+  "cat": "임대",
+  "kind": "매입임대",
+  "name": "일반 매입임대주택 입주자 모집 공고(인천,부천)",
+  "address": null,
+  "gu": null,
+  "units": null,
+  "dates": {
+   "notice": "2026-10-22",
+   "end": "2026-11-03",
+   "winner": "2026-12-02",
+   "contract_start": "2026-12-03",
+   "contract_end": "2026-12-31"
+  },
+  "dateBasis": "api",
+  "statusHint": "공고중",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [
+   "정정공고"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020945&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+  "homepage": null,
+  "files": [
+   {
+    "name": "(261022)(인천본부)공급대상주택목록.xlsx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69110456"
+   },
+   {
+    "name": "(261022)(인천본부)일반매입임대주택입주자모집공고문.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69110458"
+   },
+   {
+    "name": "(261022)(인천본부)일반매입임대주택입주자모집공고문.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69110457"
+   }
+  ],
+  "firstSeen": "2026-10-22"
+ },
+ {
+  "id": "lh:0000061190",
+  "source": "LH",
+  "sector": "공공",
+  "region": "경기",
+  "cat": "특수형",
+  "kind": "분양전환 임대",
+  "name": "구리갈매 S1블록 10년공공임대주택 예비입주자 모집공고",
+  "address": "경기도 구리시 갈매동 갈매중앙로25 (갈매6단지)",
+  "gu": "구리시",
+  "units": 481,
+  "dates": {
+   "notice": "2026-10-22",
+   "end": "2026-11-04",
+   "start": "2026-11-03",
+   "winner": "2026-11-12",
+   "contract_start": "2026-12-22",
+   "contract_end": "2026-12-24"
+  },
+  "dateBasis": "api",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [
+   "지역난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061190&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+  "homepage": null,
+  "area": "59.97~84.96㎡",
+  "files": [
+   {
+    "name": "구리갈매S1블록10년공공임대주택예비입주자모집공고(2026.10.22공고).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69102237"
+   },
+   {
+    "name": "구리갈매S1블록10년공공임대주택예비입주자모집공고(2026.10.22공고).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69102241"
+   },
+   {
+    "name": "구리갈매S1블록팜플렛(게시).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69102278"
+   },
+   {
+    "name": "붙임1.개인정보수집이용및제3자제공동의서.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69102389"
+   }
+  ],
+  "images": [
+   {
+    "label": "단지조감도",
+    "name": "단지조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69088940"
+   }
+  ],
+  "firstSeen": "2026-10-22",
+  "geo": {
+   "lat": 37.63106,
+   "lng": 127.1168,
+   "precision": "동"
+  }
+ },
+ {
   "id": "ih:rent:4469",
   "source": "iH",
   "sector": "공공",
   "region": "인천",
   "cat": "임대",
   "kind": "영구임대",
-  "name": "영구임대주택(선학, 연수, 더샵부평) 예비입주자 추가모집 공고 new",
+  "name": "영구임대주택(선학, 연수, 더샵부평) 예비입주자 추가모집 공고",
   "address": null,
   "gu": "연수구",
   "units": null,
@@ -57,7 +172,7 @@
   "region": "인천",
   "cat": "임대",
   "kind": "영구임대",
-  "name": "우리집 영구임대주택(만석·만석2·만석3, 인현·인현2, 괭이부리마을, 남촌, 덕적, 옥련) 예비입주자 모집 공고 new",
+  "name": "우리집 영구임대주택(만석·만석2·만석3, 인현·인현2, 괭이부리마을, 남촌, 덕적, 옥련) 예비입주자 모집 공고",
   "address": null,
   "gu": "동구",
   "units": null,
@@ -1408,8 +1523,7 @@
    "lat": 37.42016,
    "lng": 127.12621,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:apt:2026000509:2026000509",
@@ -3666,55 +3780,6 @@
   }
  },
  {
-  "id": "sh:rent:311087",
-  "source": "SH",
-  "sector": "공공",
-  "region": "서울",
-  "cat": "임대",
-  "kind": "공공임대",
-  "name": "강동구 청년창업가,예술인주택(수요자맞춤형) 잔여세대 모집 공고",
-  "address": null,
-  "gu": "강동구",
-  "units": null,
-  "dates": {
-   "notice": "2026-10-08",
-   "start": "2026-10-08",
-   "end": "2026-10-22",
-   "winner": "2026-12-30"
-  },
-  "dateBasis": "본문",
-  "moveIn": null,
-  "models": [],
-  "priceMin": null,
-  "priceMax": null,
-  "tags": [],
-  "targets": [
-   "청년",
-   "예술인",
-   "창업인"
-  ],
-  "builder": null,
-  "supplier": "SH공사 매입주택공급부",
-  "tel": null,
-  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=311087",
-  "homepage": null,
-  "files": [
-   {
-    "name": "[붙임1] 2026년 하반기 강동구 청년창업주택 모집 공고문.pdf",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311087&data_tp=A&file_seq=1"
-   },
-   {
-    "name": "[붙임2] 신청서.zip"
-   }
-  ],
-  "firstSeen": "2026-10-11",
-  "geo": {
-   "lat": 37.5301,
-   "lng": 127.1238,
-   "precision": "구"
-  }
- },
- {
   "id": "ah:urbty:2026950077:2026950077",
   "source": "청약홈",
   "sector": "민간",
@@ -4246,8 +4311,7 @@
   "tel": null,
   "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancDetailView.do?pbancNo=823",
   "homepage": null,
-  "firstSeen": "2026-10-13",
-  "stale": true
+  "firstSeen": "2026-10-13"
  },
  {
   "id": "ah:urbty:2026950087:2026950087",
@@ -10164,8 +10228,7 @@
    "lat": 38.0964,
    "lng": 127.0746,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "sh:rent:308944",
@@ -10282,8 +10345,7 @@
   "tel": null,
   "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancDetailView.do?pbancNo=812",
   "homepage": null,
-  "firstSeen": "2026-10-13",
-  "stale": true
+  "firstSeen": "2026-10-13"
  },
  {
   "id": "ah:apt:2026000404:2026000404",
