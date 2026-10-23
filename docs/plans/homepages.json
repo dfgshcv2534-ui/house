@@ -517,10 +517,6 @@
    }
   ]
  },
- "https://www.힐스테이트안양펠루스.com": {
-  "checked": "2026-10-21",
-  "plans": []
- },
  "https://apply.lh.or.kr": {
   "checked": "2026-10-21",
   "plans": []
@@ -1250,11 +1246,11 @@
   ]
  },
  "https://www.마곡스카이온.com": {
-  "checked": "2026-10-16",
+  "checked": "2026-10-24",
   "plans": []
  },
  "https://www.harrington495.kr/": {
-  "checked": "2026-10-16",
+  "checked": "2026-10-24",
   "plans": [
    {
     "url": "https://www.harrington495.kr/images/sub/complex/unit/22-a-type.jpg",
@@ -2326,5 +2322,59 @@
  "https://www.arkone-prugio.com": {
   "checked": "2026-10-23",
   "plans": []
+ },
+ "https://www.여의도더로드캐슬.kr": {
+  "checked": "2026-10-24",
+  "plans": []
+ },
+ "http://개성로니엘.kr": {
+  "checked": "2026-10-24",
+  "plans": [
+   {
+    "url": "http://xn--h49ao0kn4enskhzf.kr/html/images/sub/plan_img.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ "https://www.gy-bando.com": {
+  "checked": "2026-10-24",
+  "plans": []
+ },
+ "https://www.gtx운정중앙역시티프라디움.com": {
+  "checked": "2026-10-24",
+  "plans": [
+   {
+    "url": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261020/unit-60.webp",
+    "type": "60",
+    "kind": "평면",
+    "alt": "60㎡ 확장기본형 평면 및 3·4단지 면적"
+   },
+   {
+    "url": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261020/unit-84a.webp",
+    "type": "84A",
+    "kind": "평면",
+    "alt": "84A 확장기본형 평면 및 3·4단지 면적"
+   },
+   {
+    "url": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261020/unit-84b.webp",
+    "type": "84B",
+    "kind": "평면",
+    "alt": "84B 확장기본형 평면 및 면적"
+   },
+   {
+    "url": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261020/unit-88.webp",
+    "type": "88",
+    "kind": "평면",
+    "alt": "88㎡ 확장기본형 평면 및 면적"
+   },
+   {
+    "url": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261020/unit-115.webp",
+    "type": "115",
+    "kind": "평면",
+    "alt": "115㎡ 확장기본형 평면 및 면적"
+   }
+  ]
  }
 }
