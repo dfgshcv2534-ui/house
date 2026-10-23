@@ -1,5 +1,293 @@
 [
  {
+  "id": "sh:rent:311908",
+  "source": "SH",
+  "sector": "공공",
+  "region": "서울",
+  "cat": "임대",
+  "kind": "공공임대",
+  "name": "노원구 도전숙(수요자맞춤형) 잔여세대 입주자 모집 공고",
+  "address": null,
+  "gu": "노원구",
+  "units": 6,
+  "dates": {
+   "notice": "2026-10-23",
+   "start": "2026-10-23",
+   "end": "2026-11-09",
+   "winner": "2026-12-23"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "SH공사 매입주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=311908",
+  "homepage": null,
+  "files": [
+   {
+    "name": "「노원구 도전숙」 입주자 모집(6세대) 공고(최종)_최적화.pdf",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311908&data_tp=A&file_seq=1"
+   },
+   {
+    "name": "(서식1)신청서.hwp",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311908&data_tp=A&file_seq=2"
+   },
+   {
+    "name": "(서식2)개인정보동의서.hwp",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311908&data_tp=A&file_seq=3"
+   },
+   {
+    "name": "(서식3)금융정보제공동의서.hwp",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311908&data_tp=A&file_seq=4"
+   }
+  ],
+  "firstSeen": "2026-10-23",
+  "geo": {
+   "lat": 37.6542,
+   "lng": 127.0568,
+   "precision": "구"
+  }
+ },
+ {
+  "id": "lh:0000061186",
+  "source": "LH",
+  "sector": "공공",
+  "region": "경기",
+  "cat": "분양",
+  "kind": "분양주택",
+  "name": "시흥거모 S-1블록 공공분양주택 입주자모집공고",
+  "address": "경기도 시흥시 거모동 시흥거모 S-1BL",
+  "gu": "시흥시",
+  "units": 300,
+  "dates": {
+   "notice": "2026-10-23",
+   "end": "2026-11-17",
+   "start": "2026-11-02",
+   "winner": "2026-11-26",
+   "contract_start": "2027-02-01",
+   "contract_end": "2027-02-03"
+  },
+  "dateBasis": "api",
+  "moveIn": "2029-06",
+  "models": [
+   {
+    "type": "59A",
+    "area": 78.7184,
+    "excl": 59.9,
+    "units": 34,
+    "price": 40747
+   },
+   {
+    "type": "59B",
+    "area": 78.587,
+    "excl": 59.8,
+    "units": 52,
+    "price": 40687
+   },
+   {
+    "type": "84A",
+    "area": 111.5594,
+    "excl": 84.89,
+    "units": 214,
+    "price": 56653
+   }
+  ],
+  "priceMin": 40687,
+  "priceMax": 56653,
+  "tags": [
+   "지역난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061186&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
+  "homepage": null,
+  "area": "59.8~84.89㎡",
+  "files": [
+   {
+    "name": "1.위임장.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69115645"
+   },
+   {
+    "name": "2.개인정보수집이용및제3자제공동의서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69115655"
+   },
+   {
+    "name": "3.주택취득자금조달및입주계획서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69115658"
+   },
+   {
+    "name": "4.시흥거모S-1BL공공분양입주자모집공고문(최종).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69118222"
+   },
+   {
+    "name": "5.시흥거모S-1BL공공분양입주자모집공고문(최종).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69118224"
+   },
+   {
+    "name": "6.시흥거모S-1BL공공분양팸플릿(최종).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69118216"
+   }
+  ],
+  "images": [
+   {
+    "label": "토지이용계획도",
+    "name": "시흥거모S-1블록공공분양_토지이용계획도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69101172"
+   },
+   {
+    "label": "단지배치도",
+    "name": "시흥거모S-1블록공공분양_단지배치도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69101177"
+   },
+   {
+    "label": "단지조감도",
+    "name": "시흥거모S-1블록공공분양_단지조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69101495"
+   },
+   {
+    "label": "지역위치도",
+    "name": "시흥거모S-1블록공공분양_지역조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69105603"
+   }
+  ],
+  "firstSeen": "2026-10-23",
+  "geo": {
+   "lat": 37.3553,
+   "lng": 126.77519,
+   "precision": "동"
+  }
+ },
+ {
+  "id": "lh:0000061165",
+  "source": "LH",
+  "sector": "공공",
+  "region": "경기",
+  "cat": "분양",
+  "kind": "공공분양(신혼희망)",
+  "name": "시흥하중 A1블록 신혼희망타운(공공분양) 잔여세대 추가입주자모집공고",
+  "address": "경기도 시흥시 하중동 시흥하중 A1블록",
+  "gu": "시흥시",
+  "units": 600,
+  "dates": {
+   "notice": "2026-10-23",
+   "end": "2026-11-03",
+   "start": "2026-11-02",
+   "winner": "2026-11-12",
+   "contract_start": "2027-02-16",
+   "contract_end": "2027-02-18"
+  },
+  "dateBasis": "api",
+  "moveIn": "2029-03",
+  "models": [
+   {
+    "type": "55A",
+    "area": 81.0064,
+    "excl": 55.95,
+    "units": 533,
+    "price": 41950
+   },
+   {
+    "type": "55B",
+    "area": 80.7024,
+    "excl": 55.74,
+    "units": 42,
+    "price": 42215
+   },
+   {
+    "type": "55C",
+    "area": 80.8616,
+    "excl": 55.85,
+    "units": 25,
+    "price": 41790
+   }
+  ],
+  "priceMin": 41790,
+  "priceMax": 42215,
+  "tags": [
+   "지역난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061165&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+  "homepage": null,
+  "area": "55.74~55.95㎡",
+  "files": [
+   {
+    "name": "1.위임장.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68957502"
+   },
+   {
+    "name": "2.개인정보수집이용및제3자제공동의서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68957506"
+   },
+   {
+    "name": "3-1.금융정보등(금융ㆍ신용ㆍ보험정보)제공동의서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68957516"
+   },
+   {
+    "name": "3-2.금융정보등(금융ㆍ신용ㆍ보험정보)제공동의서-작성방법.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68957522"
+   },
+   {
+    "name": "4.자산보유사실확인서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68957527"
+   },
+   {
+    "name": "시흥하중A1블록신혼희망타운(공공분양)잔여세대추가입주자모집공고.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69083288"
+   },
+   {
+    "name": "시흥하중A1블록신혼희망타운(공공분양)잔여세대추가입주자모집공고.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69083286"
+   },
+   {
+    "name": "시흥하중A1블록신혼희망타운(공공분양)팸플릿.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68957484"
+   },
+   {
+    "name": "시흥하중A1블록잔여세대동호배치도.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68957496"
+   }
+  ],
+  "images": [
+   {
+    "label": "토지이용계획도",
+    "name": "시흥하중A1토지이용계획도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=68931591"
+   },
+   {
+    "label": "단지조감도",
+    "name": "시흥하중A1조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=68931592"
+   },
+   {
+    "label": "지역위치도",
+    "name": "시흥하중A1지역조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=68931593"
+   },
+   {
+    "label": "단지배치도",
+    "name": "시흥하중A1단지배치도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=68931594"
+   }
+  ],
+  "firstSeen": "2026-10-23",
+  "geo": {
+   "lat": 37.39111,
+   "lng": 126.8063,
+   "precision": "주소"
+  }
+ },
+ {
   "id": "lh:2015122300020945",
   "source": "LH",
   "sector": "공공",
@@ -278,12 +566,6 @@
   "tel": "028415950",
   "url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950088&pblancNo=2026950088&houseSecd=02",
   "homepage": "https://gdmetro.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026950088&pblancNo=2026950088&atchmnflSeqNo=1999280&atchmnflSn=4"
-   }
-  ],
   "firstSeen": "2026-10-23",
   "geo": {
    "lat": 37.49576,
@@ -497,12 +779,6 @@
   "tel": "0328348890",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910271&pblancNo=2026910271",
   "homepage": null,
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910271&pblancNo=2026910271&atchmnflSeqNo=2001042&atchmnflSn=3"
-   }
-  ],
   "firstSeen": "2026-10-23",
   "geo": {
    "lat": 37.38515,
@@ -550,12 +826,6 @@
   "tel": "16601245",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910270&pblancNo=2026910270",
   "homepage": "https://충정로역자이르네.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910270&pblancNo=2026910270&atchmnflSeqNo=2002061&atchmnflSn=5"
-   }
-  ],
   "firstSeen": "2026-10-23",
   "geo": {
    "lat": 37.55676,
@@ -681,12 +951,6 @@
   "tel": "18333341",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940227&pblancNo=2026940227",
   "homepage": null,
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940227&pblancNo=2026940227&atchmnflSeqNo=1996026&atchmnflSn=4"
-   }
-  ],
   "firstSeen": "2026-10-23",
   "geo": {
    "lat": 37.53544,
@@ -783,12 +1047,6 @@
   "tel": "15516881",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000496&pblancNo=2026000496",
   "homepage": "https://www.arkone-prugio.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000496&pblancNo=2026000496&atchmnflSeqNo=1999033&atchmnflSn=20"
-   }
-  ],
   "firstSeen": "2026-10-23",
   "geo": {
    "lat": 37.53307,
@@ -956,12 +1214,6 @@
   "tel": "0318989447",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026930044&pblancNo=2026930044",
   "homepage": null,
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026930044&pblancNo=2026930044&atchmnflSeqNo=2002159&atchmnflSn=3"
-   }
-  ],
   "firstSeen": "2026-10-22",
   "geo": {
    "lat": 37.27355,
@@ -1041,12 +1293,6 @@
   "tel": "0313110230",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910268&pblancNo=2026910268",
   "homepage": "http://halla-shincheon.co.kr/",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910268&pblancNo=2026910268&atchmnflSeqNo=1998046&atchmnflSn=3"
-   }
-  ],
   "firstSeen": "2026-10-22",
   "geo": {
    "lat": 37.4345,
@@ -1185,12 +1431,6 @@
   "tel": "0318989447",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910265&pblancNo=2026910265",
   "homepage": null,
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910265&pblancNo=2026910265&atchmnflSeqNo=2002157&atchmnflSn=3"
-   }
-  ],
   "firstSeen": "2026-10-22",
   "geo": {
    "lat": 37.27355,
@@ -1248,12 +1488,6 @@
   "tel": "16603255",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940235&pblancNo=2026940235",
   "homepage": "https://unjeong-iparkcity.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940235&pblancNo=2026940235&atchmnflSeqNo=2001021&atchmnflSn=3"
-   }
-  ],
   "firstSeen": "2026-10-22",
   "geo": {
    "lat": 37.7599,
@@ -1311,12 +1545,6 @@
   "tel": "0326782399",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940233&pblancNo=2026940233",
   "homepage": "https://www.중앙하이츠원종역.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940233&pblancNo=2026940233&atchmnflSeqNo=1999040&atchmnflSn=4"
-   }
-  ],
   "firstSeen": "2026-10-22",
   "geo": {
    "lat": 37.50144,
@@ -1450,25 +1678,12 @@
   "tel": "15511542",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000502&pblancNo=2026000502",
   "homepage": "https://www.hwaseong-lottecastlesignature.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000502&pblancNo=2026000502&atchmnflSeqNo=2001080&atchmnflSn=3"
-   }
-  ],
   "firstSeen": "2026-10-22",
   "geo": {
    "lat": 37.13246,
    "lng": 126.92033,
    "precision": "동"
-  },
-  "planPages": [
-   {
-    "page": 59,
-    "url": "plans/ah_apt_2026000502_2026000502-p59.jpg",
-    "types": []
-   }
-  ]
+  }
  },
  {
   "id": "ah:urbty:2026950093:2026950093",
@@ -1508,12 +1723,6 @@
   "tel": "01025677778",
   "url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950093&pblancNo=2026950093&houseSecd=02",
   "homepage": null,
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026950093&pblancNo=2026950093&atchmnflSeqNo=1999305&atchmnflSn=7"
-   }
-  ],
   "firstSeen": "2026-10-21",
   "geo": {
    "lat": 37.25715,
@@ -1567,12 +1776,6 @@
   "tel": "15660431",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940231&pblancNo=2026940231",
   "homepage": "https://www.i-park.com/uijeongbucentral",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940231&pblancNo=2026940231&atchmnflSeqNo=1996145&atchmnflSn=2"
-   }
-  ],
   "firstSeen": "2026-10-21",
   "geo": {
    "lat": 37.73935,
@@ -1995,12 +2198,6 @@
   "tel": "0325670187",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940225&pblancNo=2026940225",
   "homepage": "https://www.엘리프검단포레듀.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940225&pblancNo=2026940225&atchmnflSeqNo=1997027&atchmnflSn=3"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.59723,
@@ -2058,12 +2255,6 @@
   "tel": "0264085300",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940156&pblancNo=2026940156",
   "homepage": "http://www.foreapt.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940156&pblancNo=2026940156&atchmnflSeqNo=1928004&atchmnflSn=6"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.48329,
@@ -2322,12 +2513,6 @@
   "tel": "15228111",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000509&pblancNo=2026000509",
   "homepage": "https://아크메르동탄.kr",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000509&pblancNo=2026000509&atchmnflSeqNo=2000102&atchmnflSn=5"
-   }
-  ],
   "firstSeen": "2026-10-17",
   "homePlans": [
    {
@@ -2494,12 +2679,6 @@
   "tel": "15228111",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000508&pblancNo=2026000508",
   "homepage": "https://아크메르동탄.kr",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000508&pblancNo=2026000508&atchmnflSeqNo=2000101&atchmnflSn=6"
-   }
-  ],
   "firstSeen": "2026-10-17",
   "homePlans": [
    {
@@ -2584,8 +2763,7 @@
     "excl": 49.0,
     "units": 5,
     "special": 18,
-    "price": 30800,
-    "plan": "plans/ah_apt_2026000373_2026000373-p15.jpg"
+    "price": 30800
    },
    {
     "type": "49B",
@@ -2593,8 +2771,7 @@
     "excl": 49.0,
     "units": 2,
     "special": 6,
-    "price": 30800,
-    "plan": "plans/ah_apt_2026000373_2026000373-p16.jpg"
+    "price": 30800
    },
    {
     "type": "49C",
@@ -2602,8 +2779,7 @@
     "excl": 49.0,
     "units": 19,
     "special": 74,
-    "price": 31416,
-    "plan": "plans/ah_apt_2026000373_2026000373-p17.jpg"
+    "price": 31416
    },
    {
     "type": "49D",
@@ -2758,66 +2934,18 @@
   "tel": "16003456",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000373&pblancNo=2026000373",
   "homepage": "https://www.i-sh.co.kr/main/index.do",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000373&pblancNo=2026000373&atchmnflSeqNo=2001204&atchmnflSn=3"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "links": [
    {
     "label": "SH 공고",
-    "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C296/www/brd/m_244/view.do?multi_itm_seq=1&seq=311656"
+    "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C296/www/brd/m_244/view.do?multi_itm_seq=1&seq=312005"
    }
   ],
   "geo": {
    "lat": 37.56723,
    "lng": 127.1713,
    "precision": "동"
-  },
-  "planPages": [
-   {
-    "page": 4,
-    "url": "plans/ah_apt_2026000373_2026000373-p4.jpg",
-    "types": []
-   },
-   {
-    "page": 15,
-    "url": "plans/ah_apt_2026000373_2026000373-p15.jpg",
-    "types": [
-     "49A"
-    ]
-   },
-   {
-    "page": 16,
-    "url": "plans/ah_apt_2026000373_2026000373-p16.jpg",
-    "types": [
-     "49B"
-    ]
-   },
-   {
-    "page": 17,
-    "url": "plans/ah_apt_2026000373_2026000373-p17.jpg",
-    "types": [
-     "49C"
-    ]
-   },
-   {
-    "page": 18,
-    "url": "plans/ah_apt_2026000373_2026000373-p18.jpg",
-    "types": [
-     "49C"
-    ]
-   },
-   {
-    "page": 19,
-    "url": "plans/ah_apt_2026000373_2026000373-p19.jpg",
-    "types": [
-     "49C"
-    ]
-   }
-  ]
+  }
  },
  {
   "id": "ah:remndr:2026910264:2026910264",
@@ -2883,12 +3011,6 @@
   "tel": "0313184998",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910264&pblancNo=2026910264",
   "homepage": "http://efete-eungye.com/",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910264&pblancNo=2026910264&atchmnflSeqNo=1996222&atchmnflSn=3"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.43347,
@@ -3074,12 +3196,6 @@
   "tel": "024180900",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940228&pblancNo=2026940228",
   "homepage": "https://www.마곡스카이온.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940228&pblancNo=2026940228&atchmnflSeqNo=1996211&atchmnflSn=2"
-   }
-  ],
   "firstSeen": "2026-10-16",
   "geo": {
    "lat": 37.57682,
@@ -3125,12 +3241,6 @@
   "tel": "15516264",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940224&pblancNo=2026940224",
   "homepage": "https://www.더리치먼드미아.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940224&pblancNo=2026940224&atchmnflSeqNo=1991137&atchmnflSn=5"
-   }
-  ],
   "firstSeen": "2026-10-16",
   "geo": {
    "lat": 37.62208,
@@ -3251,12 +3361,6 @@
   "tel": "15442101",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940222&pblancNo=2026940222",
   "homepage": "https://www.harrington495.kr/",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940222&pblancNo=2026940222&atchmnflSeqNo=1988278&atchmnflSn=4"
-   }
-  ],
   "firstSeen": "2026-10-16",
   "geo": {
    "lat": 37.63132,
@@ -3470,12 +3574,6 @@
   "tel": "18336515",
   "url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950092&pblancNo=2026950092&houseSecd=02",
   "homepage": "https://xi.co.kr/MDX",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026950092&pblancNo=2026950092&atchmnflSeqNo=2000014&atchmnflSn=1"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.53608,
@@ -3543,12 +3641,6 @@
   "tel": "0516304110",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910262&pblancNo=2026910262",
   "homepage": null,
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910262&pblancNo=2026910262&atchmnflSeqNo=1998997&atchmnflSn=3"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.20857,
@@ -3594,12 +3686,6 @@
   "tel": "16444041",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940229&pblancNo=2026940229",
   "homepage": "https://altia.skdefine.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940229&pblancNo=2026940229&atchmnflSeqNo=1998092&atchmnflSn=2"
-   }
-  ],
   "firstSeen": "2026-10-15",
   "geo": {
    "lat": 37.51261,
@@ -3755,12 +3841,6 @@
   "tel": "15880466",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940226&pblancNo=2026940226",
   "homepage": "http://gd-hausd.com/",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940226&pblancNo=2026940226&atchmnflSeqNo=1998126&atchmnflSn=4"
-   }
-  ],
   "firstSeen": "2026-10-15",
   "geo": {
    "lat": 37.04809,
@@ -3949,12 +4029,6 @@
   "tel": "0312270401",
   "url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950091&pblancNo=2026950091&houseSecd=02",
   "homepage": "http://수원역아너스빌.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026950091&pblancNo=2026950091&atchmnflSeqNo=1988332&atchmnflSn=4"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.27348,
@@ -4060,12 +4134,6 @@
   "tel": "15550807",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910263&pblancNo=2026910263",
   "homepage": "https://청계노르웨이숲.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910263&pblancNo=2026910263&atchmnflSeqNo=1994058&atchmnflSn=3"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.56755,
@@ -4193,12 +4261,6 @@
   "tel": "15660879",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910260&pblancNo=2026910260",
   "homepage": "https://의왕역한신더휴.kr",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910260&pblancNo=2026910260&atchmnflSeqNo=1994055&atchmnflSn=3"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.31948,
@@ -4246,12 +4308,6 @@
   "tel": "0328311141",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910259&pblancNo=2026910259",
   "homepage": "https://cityociel9.com/",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910259&pblancNo=2026910259&atchmnflSeqNo=1992035&atchmnflSn=3"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.4379,
@@ -4365,12 +4421,6 @@
   "tel": "15511710",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940221&pblancNo=2026940221",
   "homepage": "https://www.sujain-pm2.co.kr",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940221&pblancNo=2026940221&atchmnflSeqNo=1994020&atchmnflSn=2"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.61557,
@@ -4448,12 +4498,6 @@
   "tel": "18336301",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940218&pblancNo=2026940218",
   "homepage": "https://www.arteragd.co.kr",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940218&pblancNo=2026940218&atchmnflSeqNo=1989057&atchmnflSn=5"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.04809,
@@ -4529,12 +4573,6 @@
   "tel": "16887002",
   "url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950077&pblancNo=2026950077&houseSecd=02",
   "homepage": "https://detre-ojop.co.kr",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026950077&pblancNo=2026950077&atchmnflSeqNo=1963143&atchmnflSn=9"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.82075,
@@ -4612,12 +4650,6 @@
   "tel": "18992888",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940223&pblancNo=2026940223",
   "homepage": "https://brand.hldni.com/suwon-efete/",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940223&pblancNo=2026940223&atchmnflSeqNo=1992034&atchmnflSn=1"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.29062,
@@ -4755,12 +4787,6 @@
   "tel": "15446236",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940219&pblancNo=2026940219",
   "homepage": "https://www.수원역아너스빌.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940219&pblancNo=2026940219&atchmnflSeqNo=1994126&atchmnflSn=2"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.25486,
@@ -4894,12 +4920,6 @@
   "tel": "18332563",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000458&pblancNo=2026000458",
   "homepage": "https://www.xi.co.kr/sangokxi",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000458&pblancNo=2026000458&atchmnflSeqNo=1995089&atchmnflSn=2"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.49918,
@@ -4951,12 +4971,6 @@
   "tel": "18660533",
   "url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950086&pblancNo=2026950086&houseSecd=02",
   "homepage": "https://www.더샵오산역아크시티.kr",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026950086&pblancNo=2026950086&atchmnflSeqNo=1988108&atchmnflSn=5"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.14608,
@@ -5033,12 +5047,6 @@
   "tel": "16685468",
   "url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950087&pblancNo=2026950087&houseSecd=02",
   "homepage": "https://www.더클래스한강.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026950087&pblancNo=2026950087&atchmnflSeqNo=1988261&atchmnflSn=4"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.5264,
@@ -5127,12 +5135,6 @@
   "tel": "15513555",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910256&pblancNo=2026910256",
   "homepage": "https://www.lottecastle.co.kr/APT/AT00430/main/index.do",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910256&pblancNo=2026910256&atchmnflSeqNo=1991039&atchmnflSn=2"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.50584,
@@ -5200,12 +5202,6 @@
   "tel": "0316380518",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940220&pblancNo=2026940220",
   "homepage": "https://ic-yemizi.com/",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940220&pblancNo=2026940220&atchmnflSeqNo=1988096&atchmnflSn=4"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.28088,
@@ -5319,12 +5315,6 @@
   "tel": "0226443339",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940214&pblancNo=2026940214",
   "homepage": "https://www.브라운스톤목동.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940214&pblancNo=2026940214&atchmnflSeqNo=1988031&atchmnflSn=3"
-   }
-  ],
   "firstSeen": "2026-10-11",
   "geo": {
    "lat": 37.52612,
@@ -5478,12 +5468,6 @@
   "tel": "023035741",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026930038&pblancNo=2026930038",
   "homepage": "https://www.arteragy.co.kr",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026930038&pblancNo=2026930038&atchmnflSeqNo=1990056&atchmnflSn=4"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.6495,
@@ -5535,12 +5519,6 @@
   "tel": "0318529805",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940213&pblancNo=2026940213",
   "homepage": null,
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940213&pblancNo=2026940213&atchmnflSeqNo=1980024&atchmnflSn=4"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.75708,
@@ -5634,12 +5612,6 @@
   "tel": "18660333",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000468&pblancNo=2026000468",
   "homepage": "http://쌍용더플래티넘한강.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000468&pblancNo=2026000468&atchmnflSeqNo=1990183&atchmnflSn=2"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.54339,
@@ -5787,12 +5759,6 @@
   "tel": "18441050",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000463&pblancNo=2026000463",
   "homepage": "https://향남역스위첸.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000463&pblancNo=2026000463&atchmnflSeqNo=1978209&atchmnflSn=6"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "homePlans": [
    {
@@ -5947,12 +5913,6 @@
   "tel": "15447885",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000386&pblancNo=2026000386",
   "homepage": "https://www.starhills-yg.co.kr",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000386&pblancNo=2026000386&atchmnflSeqNo=1961129&atchmnflSn=6"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.23549,
@@ -6248,12 +6208,6 @@
   "tel": "15550074",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910253&pblancNo=2026910253",
   "homepage": "https://www.오남역서희스타힐스1단지.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910253&pblancNo=2026910253&atchmnflSeqNo=1988120&atchmnflSn=3"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.69388,
@@ -6314,12 +6268,6 @@
   "tel": "028779273",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910250&pblancNo=2026910250",
   "homepage": null,
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910250&pblancNo=2026910250&atchmnflSeqNo=1978039&atchmnflSn=2"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.47175,
@@ -6371,12 +6319,6 @@
   "tel": "18335255",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940211&pblancNo=2026940211",
   "homepage": "https://더샵분당센트로.kr",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940211&pblancNo=2026940211&atchmnflSeqNo=1989078&atchmnflSn=2"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.35341,
@@ -6798,12 +6740,6 @@
   "tel": "15225914",
   "url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950085&pblancNo=2026950085&houseSecd=02",
   "homepage": null,
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026950085&pblancNo=2026950085&atchmnflSeqNo=1977178&atchmnflSn=3"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.5113,
@@ -6867,12 +6803,6 @@
   "tel": "18993690",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940215&pblancNo=2026940215",
   "homepage": "https://www.힐스테이트안양펠루스.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940215&pblancNo=2026940215&atchmnflSeqNo=1990060&atchmnflSn=1"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.39769,
@@ -7350,12 +7280,6 @@
   "tel": "16601245",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910251&pblancNo=2026910251",
   "homepage": "https://충정로역자이르네.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910251&pblancNo=2026910251&atchmnflSeqNo=1986036&atchmnflSn=2"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.55676,
@@ -7517,25 +7441,12 @@
   "tel": "15513560",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026930040&pblancNo=2026930040",
   "homepage": "https://www.i-park.com/gangbyeon",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026930040&pblancNo=2026930040&atchmnflSeqNo=1982993&atchmnflSn=5"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.54449,
    "lng": 127.08747,
    "precision": "동"
   },
-  "planPages": [
-   {
-    "page": 10,
-    "url": "plans/ah_remndr_2026930040_2026930040-p10.jpg",
-    "types": []
-   }
-  ],
   "homePlans": [
    {
     "url": "https://cdn.i-park.com/ipark/gangbyeon_grand/img/sub/05/plane_84c_01.jpg",
@@ -7599,12 +7510,6 @@
   "tel": "16701000",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026930037&pblancNo=2026930037",
   "homepage": null,
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026930037&pblancNo=2026930037&atchmnflSeqNo=1980252&atchmnflSn=3"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.4289,
@@ -7654,12 +7559,6 @@
   "tel": "16701000",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026930036&pblancNo=2026930036",
   "homepage": null,
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026930036&pblancNo=2026930036&atchmnflSeqNo=1980253&atchmnflSn=4"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.4289,
@@ -7706,12 +7605,6 @@
   "tel": "025290205",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910220&pblancNo=2026910220",
   "homepage": "https://www.acro.co.kr",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910220&pblancNo=2026910220&atchmnflSeqNo=1953024&atchmnflSn=5"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.5068,
@@ -7976,12 +7869,6 @@
   "tel": "15515758",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940212&pblancNo=2026940212",
   "homepage": "https://www.리아츠더인천.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940212&pblancNo=2026940212&atchmnflSeqNo=1980128&atchmnflSn=2"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.47736,
@@ -8119,12 +8006,6 @@
   "tel": "0326782399",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940207&pblancNo=2026940207",
   "homepage": "https://중앙하이츠원종역.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940207&pblancNo=2026940207&atchmnflSeqNo=1974020&atchmnflSn=2"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.50144,
@@ -8300,12 +8181,6 @@
   "tel": "18996851",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000453&pblancNo=2026000453",
   "homepage": "https://광명시티프라디움.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000453&pblancNo=2026000453&atchmnflSeqNo=1971127&atchmnflSn=7"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.44328,
@@ -8383,12 +8258,6 @@
   "tel": "16614229",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000448&pblancNo=2026000448",
   "homepage": "https://숭의역노르웨이숲더스카이.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000448&pblancNo=2026000448&atchmnflSeqNo=1966343&atchmnflSn=4"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.46364,
@@ -8601,12 +8470,6 @@
   "tel": "0222966521",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940206&pblancNo=2026940206",
   "homepage": "http://cheonggye-elitz.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940206&pblancNo=2026940206&atchmnflSeqNo=1973020&atchmnflSn=3"
-   }
-  ],
   "firstSeen": "2026-10-11",
   "geo": {
    "lat": 37.56743,
@@ -8750,12 +8613,6 @@
   "tel": "15511480",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000449&pblancNo=2026000449",
   "homepage": "https://www.화서역아너스빌.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000449&pblancNo=2026000449&atchmnflSeqNo=1971234&atchmnflSn=2"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.27228,
@@ -8967,12 +8824,6 @@
   "tel": "03180941260",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000438&pblancNo=2026000438",
   "homepage": "https://hillstate.co.kr/s/gd12",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000438&pblancNo=2026000438&atchmnflSeqNo=1973016&atchmnflSn=5"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.04809,
@@ -9046,12 +8897,6 @@
   "tel": "03180941260",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000437&pblancNo=2026000437",
   "homepage": "https://hillstate.co.kr/s/gd12",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000437&pblancNo=2026000437&atchmnflSeqNo=1971201&atchmnflSn=6"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.04809,
@@ -9204,12 +9049,6 @@
   "tel": "18001430",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000103&pblancNo=2026000103",
   "homepage": "https://더샵분당하이스트.kr",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000103&pblancNo=2026000103&atchmnflSeqNo=1797255&atchmnflSn=9"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.36628,
@@ -9341,12 +9180,6 @@
   "tel": "0326132355",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000314&pblancNo=2026000314",
   "homepage": "http://중동역다채로움더원.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000314&pblancNo=2026000314&atchmnflSeqNo=1870113&atchmnflSn=10"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.48292,
@@ -9441,12 +9274,6 @@
   "tel": "16003990",
   "url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950082&pblancNo=2026950082&houseSecd=02",
   "homepage": "https://www.thehive-first.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026950082&pblancNo=2026950082&atchmnflSeqNo=1966110&atchmnflSn=5"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.4869,
@@ -9538,12 +9365,6 @@
   "tel": "15550074",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000431&pblancNo=2026000431",
   "homepage": "https://www.오남역서희스타힐스여의재.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000431&pblancNo=2026000431&atchmnflSeqNo=1959146&atchmnflSn=5"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.69388,
@@ -9652,12 +9473,6 @@
   "tel": "0215510359",
   "url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950078&pblancNo=2026950078&houseSecd=02",
   "homepage": "http://www.해링턴스퀘어과천.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026950078&pblancNo=2026950078&atchmnflSeqNo=1954379&atchmnflSn=10"
-   }
-  ],
   "firstSeen": "2026-10-20",
   "geo": {
    "lat": 37.4289,
@@ -10643,12 +10458,6 @@
   "tel": "18000441",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000404&pblancNo=2026000404",
   "homepage": "https://www.prugio.com/hb/2026/pravenue",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000404&pblancNo=2026000404&atchmnflSeqNo=1954200&atchmnflSn=5"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.545,
@@ -11470,25 +11279,12 @@
   "tel": "0312975229",
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000307&pblancNo=2026000307",
   "homepage": "https://apply.lh.or.kr/",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000307&pblancNo=2026000307&atchmnflSeqNo=1876017&atchmnflSn=3"
-   }
-  ],
   "firstSeen": "2026-10-13",
   "geo": {
    "lat": 37.32851,
    "lng": 126.91623,
    "precision": "주소"
-  },
-  "planPages": [
-   {
-    "page": 39,
-    "url": "plans/ah_apt_2026000307_2026000307-p39.jpg",
-    "types": []
-   }
-  ]
+  }
  },
  {
   "id": "sh:rent:306218",
