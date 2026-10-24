@@ -93,35 +93,6 @@
    }
   ]
  },
- "http://cheonggye-elitz.com": {
-  "checked": "2026-10-19",
-  "plans": [
-   {
-    "url": "https://cheonggye-elitz.com/assets/plan-81a.webp?v=bc7e754d",
-    "type": "81A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://cheonggye-elitz.com/assets/plan-81b.webp?v=3cedf774",
-    "type": "81B",
-    "kind": "평면",
-    "alt": "81B타입 평면도"
-   },
-   {
-    "url": "https://cheonggye-elitz.com/assets/plan-76.webp?v=d2e5873f",
-    "type": "76",
-    "kind": "평면",
-    "alt": "76타입 평면도"
-   },
-   {
-    "url": "https://cheonggye-elitz.com/assets/plan-75.webp?v=78d6978e",
-    "type": "75",
-    "kind": "평면",
-    "alt": "75타입 주거용 오피스텔 평면도"
-   }
-  ]
- },
  "https://www.sujain-pm2.co.kr": {
   "checked": "2026-10-21",
   "plans": [
@@ -581,95 +552,6 @@
    {
     "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/sub/unit_84ob.jpg",
     "type": null,
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
- },
- "https://www.리아츠더인천.com": {
-  "checked": "2026-10-21",
-  "plans": [
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type3.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type4.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type5.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type6.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type1.png?v=1",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type2.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59A_nooption.jpg",
-    "type": "59A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59B_nooption.jpg",
-    "type": "59B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59C_nooption.jpg",
-    "type": "59C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_74_nooption.jpg",
-    "type": "74",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_84A_240607_nooption.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_84B_240607_nooption.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_42A.jpg",
-    "type": "42A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_42B.jpg",
-    "type": "42B",
     "kind": "평면",
     "alt": ""
    }
@@ -1357,7 +1239,7 @@
   ]
  },
  "https://아크메르동탄.kr": {
-  "checked": "2026-10-17",
+  "checked": "2026-10-25",
   "plans": [
    {
     "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84c.jpg",

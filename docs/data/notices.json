@@ -240,6 +240,12 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820012&pblancNo=2026820012",
   "homepage": "https://apply.lh.or.kr/",
   "firstSeen": "2026-10-24",
+  "links": [
+   {
+    "label": "LH 공고",
+    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061165&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027"
+   }
+  ],
   "geo": {
    "lat": 37.39744,
    "lng": 126.80001,
@@ -423,6 +429,12 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000531&pblancNo=2026000531",
   "homepage": "https://apply.lh.or.kr/",
   "firstSeen": "2026-10-24",
+  "links": [
+   {
+    "label": "LH 공고",
+    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061186&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027"
+   }
+  ],
   "geo": {
    "lat": 37.3553,
    "lng": 126.77519,
@@ -830,8 +842,7 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69110457"
    }
   ],
-  "firstSeen": "2026-10-22",
-  "stale": true
+  "firstSeen": "2026-10-22"
  },
  {
   "id": "lh:0000061190",
@@ -897,8 +908,7 @@
    "lat": 37.63106,
    "lng": 127.1168,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:urbty:2026950088:2026950088",
@@ -2563,8 +2573,7 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69043887"
    }
   ],
-  "firstSeen": "2026-10-20",
-  "stale": true
+  "firstSeen": "2026-10-20"
  },
  {
   "id": "lh:2015122300020925",
@@ -2706,8 +2715,7 @@
    "lat": 37.4907,
    "lng": 126.72382,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:opt:2026940225:2026940225",
@@ -2958,8 +2966,7 @@
    "lat": 37.61557,
    "lng": 126.71578,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "gh:rent:839",
@@ -2994,7 +3001,8 @@
    "lat": 37.42016,
    "lng": 127.12621,
    "precision": "구"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:apt:2026000509:2026000509",
@@ -5228,16 +5236,16 @@
   "moveIn": "2030-06",
   "models": [
    {
+    "type": "119OA",
+    "excl": 119.9569,
+    "units": 272,
+    "price": 61110
+   },
+   {
     "type": "119OB",
     "excl": 119.8284,
     "units": 281,
     "price": 60600
-   },
-   {
-    "type": "119OC",
-    "excl": 119.9734,
-    "units": 282,
-    "price": 64330
    },
    {
     "type": "119OC",
@@ -5258,10 +5266,10 @@
     "price": 77240
    },
    {
-    "type": "119OA",
-    "excl": 119.9569,
-    "units": 272,
-    "price": 61110
+    "type": "119OC",
+    "excl": 119.9734,
+    "units": 282,
+    "price": 64330
    }
   ],
   "priceMin": 60600,
@@ -5737,7 +5745,8 @@
   "tel": null,
   "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancDetailView.do?pbancNo=823",
   "homepage": null,
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "stale": true
  },
  {
   "id": "ah:urbty:2026950087:2026950087",
@@ -6851,8 +6860,7 @@
    "lat": 37.50694,
    "lng": 127.16232,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "lh:2015122300020843",
@@ -6901,8 +6909,7 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68775511"
    }
   ],
-  "firstSeen": "2026-10-11",
-  "stale": true
+  "firstSeen": "2026-10-11"
  },
  {
   "id": "lh:2015122300020755",
@@ -6953,8 +6960,7 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68588491"
    }
   ],
-  "firstSeen": "2026-10-13",
-  "stale": true
+  "firstSeen": "2026-10-13"
  },
  {
   "id": "ah:remndr:2026910253:2026910253",
@@ -7487,8 +7493,7 @@
    "lat": 37.50664,
    "lng": 126.67054,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:urbty:2026950085:2026950085",
@@ -7625,6 +7630,12 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820010&pblancNo=2026820010",
   "homepage": "https://apply.lh.or.kr",
   "firstSeen": "2026-10-13",
+  "links": [
+   {
+    "label": "LH 공고",
+    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061179&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027"
+   }
+  ],
   "geo": {
    "lat": 37.56683,
    "lng": 126.74383,
@@ -7758,8 +7769,7 @@
    "lat": 37.39612,
    "lng": 126.9877,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "lh:0000061181",
@@ -7856,8 +7866,7 @@
    "lat": 37.28633,
    "lng": 126.9414,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "sh:rent:310672",
@@ -7975,8 +7984,7 @@
    "lat": 37.42016,
    "lng": 127.12621,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:remndr:2026910251:2026910251",
@@ -8433,8 +8441,7 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68614892"
    }
   ],
-  "firstSeen": "2026-10-13",
-  "stale": true
+  "firstSeen": "2026-10-13"
  },
  {
   "id": "sh:rent:310575",
@@ -8591,167 +8598,7 @@
    "lat": 37.80285,
    "lng": 127.07869,
    "precision": "주소"
-  },
-  "stale": true
- },
- {
-  "id": "ah:opt:2026940212:2026940212",
-  "source": "청약홈",
-  "sector": "민간",
-  "cat": "분양",
-  "kind": "임의공급",
-  "name": "리아츠 더 인천(23차)",
-  "address": "인천광역시 제물포구 송림동 31-3번지 일원",
-  "region": "인천",
-  "gu": "제물포구",
-  "units": 7,
-  "dates": {
-   "notice": "2026-09-21",
-   "start": "2026-09-23",
-   "end": "2026-10-01",
-   "winner": "2026-10-07",
-   "contract_start": "2026-10-10",
-   "contract_end": "2026-10-10"
-  },
-  "dateBasis": "api",
-  "moveIn": "2027-10",
-  "models": [
-   {
-    "type": "59B",
-    "excl": 59.0,
-    "units": 2,
-    "price": 36800,
-    "plan": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59B_nooption.jpg"
-   },
-   {
-    "type": "59C",
-    "excl": 59.0,
-    "units": 1,
-    "price": 38500,
-    "plan": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59C_nooption.jpg"
-   },
-   {
-    "type": "74",
-    "excl": 74.0,
-    "units": 2,
-    "price": 48400,
-    "plan": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_74_nooption.jpg"
-   },
-   {
-    "type": "84B",
-    "excl": 84.0,
-    "units": 2,
-    "price": 54500,
-    "plan": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_84B_240607_nooption.jpg"
-   }
-  ],
-  "priceMin": 36800,
-  "priceMax": 54500,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "송림6구역재개발정비사업조합",
-  "tel": "15515758",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940212&pblancNo=2026940212",
-  "homepage": "https://www.리아츠더인천.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940212&pblancNo=2026940212&atchmnflSeqNo=1980128&atchmnflSn=2"
-   }
-  ],
-  "firstSeen": "2026-10-13",
-  "geo": {
-   "lat": 37.47736,
-   "lng": 126.64876,
-   "precision": "동"
-  },
-  "homePlans": [
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type3.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type4.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type5.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type6.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type1.png?v=1",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type2.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59A_nooption.jpg",
-    "type": "59A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59B_nooption.jpg",
-    "type": "59B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59C_nooption.jpg",
-    "type": "59C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_74_nooption.jpg",
-    "type": "74",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_84A_240607_nooption.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_84B_240607_nooption.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_42A.jpg",
-    "type": "42A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_42B.jpg",
-    "type": "42B",
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
+  }
  },
  {
   "id": "ah:opt:2026940207:2026940207",
@@ -9224,100 +9071,7 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68615193"
    }
   ],
-  "firstSeen": "2026-10-15",
-  "stale": true
- },
- {
-  "id": "ah:opt:2026940206:2026940206",
-  "source": "청약홈",
-  "sector": "민간",
-  "cat": "분양",
-  "kind": "임의공급",
-  "name": "청계백상앨리츠(3차)",
-  "address": "서울특별시 성동구 마장동 767-56",
-  "region": "서울",
-  "gu": "성동구",
-  "units": 11,
-  "dates": {
-   "notice": "2026-09-15",
-   "start": "2026-09-17",
-   "end": "2026-09-18",
-   "winner": "2026-09-30",
-   "contract_start": "2026-10-06",
-   "contract_end": "2026-10-10"
-  },
-  "dateBasis": "api",
-  "moveIn": "2028-05",
-  "models": [
-   {
-    "type": "76",
-    "excl": 76.0,
-    "units": 1,
-    "price": 125000,
-    "plan": "https://cheonggye-elitz.com/assets/plan-76.webp?v=d2e5873f"
-   },
-   {
-    "type": "81",
-    "excl": 81.0,
-    "units": 7,
-    "price": 134800,
-    "plan": "https://cheonggye-elitz.com/assets/plan-81a.webp?v=bc7e754d"
-   },
-   {
-    "type": "81",
-    "excl": 81.0,
-    "units": 3,
-    "price": 135200,
-    "plan": "https://cheonggye-elitz.com/assets/plan-81a.webp?v=bc7e754d"
-   }
-  ],
-  "priceMin": 125000,
-  "priceMax": 135200,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "미성주택 소규모재건축사업조합",
-  "tel": "0222966521",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940206&pblancNo=2026940206",
-  "homepage": "http://cheonggye-elitz.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940206&pblancNo=2026940206&atchmnflSeqNo=1973020&atchmnflSn=3"
-   }
-  ],
-  "firstSeen": "2026-10-11",
-  "geo": {
-   "lat": 37.56743,
-   "lng": 127.04045,
-   "precision": "주소"
-  },
-  "homePlans": [
-   {
-    "url": "https://cheonggye-elitz.com/assets/plan-81a.webp?v=bc7e754d",
-    "type": "81A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://cheonggye-elitz.com/assets/plan-81b.webp?v=3cedf774",
-    "type": "81B",
-    "kind": "평면",
-    "alt": "81B타입 평면도"
-   },
-   {
-    "url": "https://cheonggye-elitz.com/assets/plan-76.webp?v=d2e5873f",
-    "type": "76",
-    "kind": "평면",
-    "alt": "76타입 평면도"
-   },
-   {
-    "url": "https://cheonggye-elitz.com/assets/plan-75.webp?v=78d6978e",
-    "type": "75",
-    "kind": "평면",
-    "alt": "75타입 주거용 오피스텔 평면도"
-   }
-  ]
+  "firstSeen": "2026-10-15"
  },
  {
   "id": "ah:apt:2026000449:2026000449",
@@ -10298,10 +10052,10 @@
   "moveIn": "2029-10",
   "models": [
    {
-    "type": "90A",
-    "excl": 90.9868,
-    "units": 2,
-    "price": 185100
+    "type": "76A",
+    "excl": 76.9986,
+    "units": 14,
+    "price": 168100
    },
    {
     "type": "90C",
@@ -10310,10 +10064,10 @@
     "price": 179400
    },
    {
-    "type": "76A",
-    "excl": 76.9986,
-    "units": 14,
-    "price": 168100
+    "type": "90A",
+    "excl": 90.9868,
+    "units": 2,
+    "price": 185100
    },
    {
     "type": "84A",
@@ -11106,7 +10860,8 @@
    "lat": 38.0964,
    "lng": 127.0746,
    "precision": "구"
-  }
+  },
+  "stale": true
  },
  {
   "id": "sh:rent:308944",
@@ -11223,7 +10978,8 @@
   "tel": null,
   "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancDetailView.do?pbancNo=812",
   "homepage": null,
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "stale": true
  },
  {
   "id": "ah:apt:2026000404:2026000404",
@@ -12168,113 +11924,6 @@
     "types": []
    }
   ]
- },
- {
-  "id": "sh:rent:306218",
-  "source": "SH",
-  "sector": "공공",
-  "region": "서울",
-  "cat": "임대",
-  "kind": "공공임대",
-  "name": "2026년 1차 기숙사형 청년주택 입주자모집 공고",
-  "address": null,
-  "gu": null,
-  "units": 56,
-  "dates": {
-   "notice": "2026-06-26",
-   "start": "2026-07-13",
-   "end": "2026-07-15",
-   "winner": "2026-12-07"
-  },
-  "dateBasis": "본문",
-  "moveIn": null,
-  "models": [],
-  "priceMin": null,
-  "priceMax": null,
-  "tags": [],
-  "targets": [
-   "청년"
-  ],
-  "builder": null,
-  "supplier": "SH공사 매입주택공급부",
-  "tel": null,
-  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=306218",
-  "homepage": null,
-  "files": [
-   {
-    "name": "[공고문] 2026년 1차 기숙사형 청년주택 모집공고문(홈페이지)_1.pdf",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=306218&data_tp=A&file_seq=5"
-   },
-   {
-    "name": "[주택목록] 2026-1차 기숙사형 청년주택 주택목록(홈페이지 공개용).pdf",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=306218&data_tp=A&file_seq=6"
-   },
-   {
-    "name": "[도면] 수유동 392-125 T K수유1.pdf",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=306218&data_tp=A&file_seq=7"
-   },
-   {
-    "name": "[사진] 수유동 392-125 T K수유1.pdf",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=306218&data_tp=A&file_seq=8"
-   }
-  ],
-  "firstSeen": "2026-10-11"
- },
- {
-  "id": "sh:rent:306214",
-  "source": "SH",
-  "sector": "공공",
-  "region": "서울",
-  "cat": "임대",
-  "kind": "매입임대",
-  "name": "2026년 1차 청년 매입임대주택 입주자 모집공고",
-  "address": null,
-  "gu": "마포구",
-  "units": 849,
-  "dates": {
-   "notice": "2026-06-26",
-   "start": "2026-07-13",
-   "end": "2026-07-15",
-   "winner": "2026-12-07"
-  },
-  "dateBasis": "본문",
-  "moveIn": null,
-  "models": [],
-  "priceMin": null,
-  "priceMax": null,
-  "tags": [],
-  "targets": [
-   "청년"
-  ],
-  "builder": null,
-  "supplier": "SH공사 매입주택공급부",
-  "tel": null,
-  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=306214",
-  "homepage": null,
-  "files": [
-   {
-    "name": "1_ [공고문] 2026년 1차 청년 매입임대주택 입주자 모집공고.pdf",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=306214&data_tp=A&file_seq=5"
-   },
-   {
-    "name": "2_ [주택목록] 2026년 1차 청년 매입임대주택 입주자 모집공고(홈페이지 공개용).pdf",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=306214&data_tp=A&file_seq=6"
-   },
-   {
-    "name": "3_ [첨부] 도면 및 사진(링크).pdf",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=306214&data_tp=A&file_seq=7"
-   },
-   {
-    "name": "4_ [첨부] 청년 매입임대주택 신청 관련 부모 범위 기준.pdf",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=306214&data_tp=A&file_seq=8"
-   }
-  ],
-  "firstSeen": "2026-10-11",
-  "geo": {
-   "lat": 37.5663,
-   "lng": 126.9019,
-   "precision": "구"
-  }
  },
  {
   "id": "ah:apt:2026820005:2026820005",
