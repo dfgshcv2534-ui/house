@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-24T08:42+09:00",
+ "updatedAt": "2026-10-24T22:22+09:00",
  "baseDate": "2026-10-24",
  "sources": {
   "청약홈": {
@@ -23,16 +23,16 @@
    "failedParts": []
   },
   "LH": {
-   "ok": true,
-   "count": 18,
-   "failedParts": []
+   "ok": false,
+   "count": 0,
+   "message": "LH 공고문를 하나도 읽지 못했습니다"
   },
   "LH 사전청약": {
-   "ok": true,
+   "ok": false,
    "count": 0,
-   "failedParts": []
+   "message": "RuntimeError: https://apis.data.go.kr/B552555/lhLeaseNoticeBfhInfo1/lhLeaseNoticeBfhInfo1 요청 실패: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /B552555/lhLeaseNoticeBfhInfo1/lhLeaseNoticeBfhInfo1?serviceKey=***&PG_SZ=100&PAN_ST_DT=20260427&PAN_ED_DT=20261024&PAGE=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='apis.data.go.kr', port=443) at 0x7f7842c8d5b0>, 'Connection to apis.data.go.kr timed out. (connect timeout=30)'))"
   }
  },
  "total": 144,
- "newToday": 8
+ "newToday": 0
 }
