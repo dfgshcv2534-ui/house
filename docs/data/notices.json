@@ -3001,8 +3001,7 @@
    "lat": 37.42016,
    "lng": 127.12621,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:apt:2026000509:2026000509",
@@ -5745,8 +5744,7 @@
   "tel": null,
   "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancDetailView.do?pbancNo=823",
   "homepage": null,
-  "firstSeen": "2026-10-13",
-  "stale": true
+  "firstSeen": "2026-10-13"
  },
  {
   "id": "ah:urbty:2026950087:2026950087",
@@ -10860,8 +10858,7 @@
    "lat": 38.0964,
    "lng": 127.0746,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "sh:rent:308944",
@@ -10978,8 +10975,7 @@
   "tel": null,
   "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancDetailView.do?pbancNo=812",
   "homepage": null,
-  "firstSeen": "2026-10-13",
-  "stale": true
+  "firstSeen": "2026-10-13"
  },
  {
   "id": "ah:apt:2026000404:2026000404",
