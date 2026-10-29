@@ -833,11 +833,11 @@
   ]
  },
  "https://unjeong-iparkcity.com": {
-  "checked": "2026-10-22",
+  "checked": "2026-10-30",
   "plans": []
  },
  "https://www.중앙하이츠원종역.com": {
-  "checked": "2026-10-22",
+  "checked": "2026-10-30",
   "plans": [
    {
     "url": "https://www.xn--2e5bqkuw2tw6b5xac3xm4o.com/img/sub/unitplan_69a.png",
@@ -904,10 +904,6 @@
    }
   ]
  },
- "http://www.detre-gc.co.kr/": {
-  "checked": "2026-10-29",
-  "plans": []
- },
  "https://숭의역노르웨이숲더스카이.com": {
   "checked": "2026-10-29",
   "plans": [
@@ -973,204 +969,6 @@
    }
   ]
  },
- "https://더샵분당하이스트.kr": {
-  "checked": "2026-10-29",
-  "plans": [
-   {
-    "url": "https://xn--ok1btgm3zxqdwrcgyl3jvsze.kr/img/unit_iso01.png",
-    "type": null,
-    "kind": "입체",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--ok1btgm3zxqdwrcgyl3jvsze.kr/img/unit_iso02.png",
-    "type": null,
-    "kind": "입체",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--ok1btgm3zxqdwrcgyl3jvsze.kr/img/unit_iso03.png",
-    "type": null,
-    "kind": "입체",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--ok1btgm3zxqdwrcgyl3jvsze.kr/sub/unit01.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--ok1btgm3zxqdwrcgyl3jvsze.kr/sub/unit02.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--ok1btgm3zxqdwrcgyl3jvsze.kr/sub/unit03.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
- },
- "https://www.lynn.co.kr": {
-  "checked": "2026-10-29",
-  "plans": []
- },
- "https://www.화서역아너스빌.com": {
-  "checked": "2026-10-29",
-  "plans": [
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_84a_01.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_84a_03.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_84a_04.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_84b_01.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_84b_03.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_84b_04.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_84c_01.jpg",
-    "type": "84C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_84c_03.jpg",
-    "type": "84C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_84c_04.jpg",
-    "type": "84C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_84d_01.jpg",
-    "type": "84D",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_84d_03.jpg",
-    "type": "84D",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_84d_04.jpg",
-    "type": "84D",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_84e_01.jpg",
-    "type": "84E",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_84e_03.jpg",
-    "type": "84E",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_84e_04.jpg",
-    "type": "84E",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_94a_01.jpg",
-    "type": "94A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_94a_03.jpg",
-    "type": "94A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_94a_04.jpg",
-    "type": "94A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_94b_01.jpg",
-    "type": "94B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_94b_03.jpg",
-    "type": "94B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_94b_04.jpg",
-    "type": "94B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_99a_01.jpg",
-    "type": "99A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_99a_03.jpg",
-    "type": "99A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_99a_04.jpg",
-    "type": "99A",
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
- },
- "https://www.여의도더로드캐슬.kr": {
-  "checked": "2026-10-29",
-  "plans": []
- },
  "https://apply.lh.or.kr/": {
   "checked": "2026-10-29",
   "plans": []
@@ -1214,330 +1012,9 @@
    }
   ]
  },
- "https://gdmetro.com": {
-  "checked": "2026-10-29",
-  "plans": [
-   {
-    "url": "https://gdmetro.com/grand/images/type_24a.jpg?v=2026102993844347249",
-    "type": "24A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_mo_24a.jpg?v=2026102993844347249",
-    "type": "24A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_24b.jpg?v=2026102993844347249",
-    "type": "24B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_mo_24b.jpg?v=2026102993844347249",
-    "type": "24B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_24c.jpg?v=2026102993844347249",
-    "type": "24C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_mo_24c.jpg?v=2026102993844347249",
-    "type": "24C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_24d.jpg?v=2026102993844347249",
-    "type": "24D",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_mo_24d.jpg?v=2026102993844347249",
-    "type": "24D",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_28a.jpg?v=2026102993844347249",
-    "type": "28A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_mo_28a.jpg?v=2026102993844347249",
-    "type": "28A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_28b.jpg?v=2026102993844347249",
-    "type": "28B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_mo_28b.jpg?v=2026102993844347249",
-    "type": "28B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_28c.jpg?v=2026102993844347249",
-    "type": "28C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_mo_28c.jpg?v=2026102993844347249",
-    "type": "28C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_28d.jpg?v=2026102993844347249",
-    "type": "28D",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_mo_28d.jpg?v=2026102993844347249",
-    "type": "28D",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_28e.jpg?v=2026102993844347249",
-    "type": "28E",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_mo_28e.jpg?v=2026102993844347249",
-    "type": "28E",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_28f.jpg?v=2026102993844347249",
-    "type": "28F",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_mo_28f.jpg?v=2026102993844347249",
-    "type": "28F",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_29a.jpg?v=2026102993844347249",
-    "type": "29A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_mo_29a.jpg?v=2026102993844347249",
-    "type": "29A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_29b.jpg?v=2026102993844347249",
-    "type": "29B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://gdmetro.com/grand/images/type_mo_29b.jpg?v=2026102993844347249",
-    "type": "29B",
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
- },
- "https://충정로역자이르네.com": {
-  "checked": "2026-10-29",
-  "plans": [
-   {
-    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_39a.jpg?v=20261029938543473406",
-    "type": "39A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_39a_m.jpg?v=20261029938543473406",
-    "type": "39A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_39b.jpg?v=20261029938543473406",
-    "type": "39B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_39b_m.jpg?v=20261029938543473406",
-    "type": "39B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_59.jpg?v=20261029938543473406",
-    "type": "59",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_59_m.jpg?v=20261029938543473406",
-    "type": "59",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_84a.jpg?v=20261029938543473406",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_84a_m.jpg?v=20261029938543473406",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_84b.jpg?v=20261029938543473406",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_84b_m.jpg?v=20261029938543473406",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_materials_01.jpg?v=20261029938573473706",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_materials_02.jpg?v=20261029938573473706",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
- },
  "https://www.arkone-prugio.com": {
   "checked": "2026-10-29",
   "plans": []
- },
- "http://halla-shincheon.co.kr/": {
-  "checked": "2026-10-29",
-  "plans": [
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84a.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84b.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84c.jpg",
-    "type": "84C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84d.jpg",
-    "type": "84D",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84e.jpg",
-    "type": "84E",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111a.jpg",
-    "type": "111A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111b.jpg",
-    "type": "111B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111c.jpg",
-    "type": "111C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111d.jpg",
-    "type": "111D",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84a_img1.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84a_img2.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84a_img3.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84b_img1.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84b_img2.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84b_img3.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
  },
  "https://www.hwaseong-lottecastlesignature.com": {
   "checked": "2026-10-29",
@@ -1734,5 +1211,186 @@
     "alt": ""
    }
   ]
+ },
+ "https://www.중앙하이츠구성플랫폼시티.com": {
+  "checked": "2026-10-30",
+  "plans": [
+   {
+    "url": "https://xn--2e0b97q70h3ub54eo3dtwdc4o60ksscp5d6za.com/assets/site/project/unit/plan/plan_59A_ext.png?v=20261028plan145d",
+    "type": "59A",
+    "kind": "입체",
+    "alt": "59㎡ A 확장기본형 평면도"
+   },
+   {
+    "url": "https://xn--2e0b97q70h3ub54eo3dtwdc4o60ksscp5d6za.com/assets/site/project/unit/plan/plan_59B_ext.png?v=20261028plan145d",
+    "type": "59B",
+    "kind": "입체",
+    "alt": "59㎡ B 확장기본형 평면도"
+   },
+   {
+    "url": "https://xn--2e0b97q70h3ub54eo3dtwdc4o60ksscp5d6za.com/assets/site/project/unit/plan/plan_68_ext.png?v=20261028plan145d",
+    "type": "68",
+    "kind": "입체",
+    "alt": "68㎡ 확장기본형 평면도"
+   },
+   {
+    "url": "https://xn--2e0b97q70h3ub54eo3dtwdc4o60ksscp5d6za.com/assets/site/project/unit/plan/plan_74_ext.png?v=20261028plan145d",
+    "type": "74",
+    "kind": "입체",
+    "alt": "74㎡ 확장기본형 평면도"
+   },
+   {
+    "url": "https://xn--2e0b97q70h3ub54eo3dtwdc4o60ksscp5d6za.com/assets/site/project/unit/plan/plan_79_ext.png?v=20261028plan145d",
+    "type": "79",
+    "kind": "입체",
+    "alt": "79㎡ 확장기본형 평면도"
+   },
+   {
+    "url": "https://xn--2e0b97q70h3ub54eo3dtwdc4o60ksscp5d6za.com/assets/site/project/unit/plan/plan_84_ext.png?v=20261028plan145d",
+    "type": "84",
+    "kind": "입체",
+    "alt": "84㎡ 확장기본형 평면도"
+   },
+   {
+    "url": "https://xn--2e0b97q70h3ub54eo3dtwdc4o60ksscp5d6za.com/assets/site/project/unit/plan/plan_145_ext.png?v=20261028plan145d",
+    "type": "145",
+    "kind": "입체",
+    "alt": "145㎡ 확장기본형 평면도"
+   }
+  ]
+ },
+ "https://www.엘리프시흥더프라임.com": {
+  "checked": "2026-10-30",
+  "plans": []
+ },
+ "https://jije.forena.co.kr/": {
+  "checked": "2026-10-30",
+  "plans": []
+ },
+ "https://www.i-sh.co.kr/main/index.do": {
+  "checked": "2026-10-30",
+  "plans": []
+ },
+ "https://www.xi.co.kr/sangokxi": {
+  "checked": "2026-10-30",
+  "plans": []
+ },
+ "http://쌍용더플래티넘한강.com": {
+  "checked": "2026-10-30",
+  "plans": [
+   {
+    "url": "http://xn--939a18g91b22g78qo8ex2yn1dxua.com/sub/unit01.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://xn--939a18g91b22g78qo8ex2yn1dxua.com/sub/unit02.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://xn--939a18g91b22g78qo8ex2yn1dxua.com/sub/unit03.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://xn--939a18g91b22g78qo8ex2yn1dxua.com/sub/unit04.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://xn--939a18g91b22g78qo8ex2yn1dxua.com/sub/unit05.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://xn--939a18g91b22g78qo8ex2yn1dxua.com/sub/unit06.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ "https://향남역스위첸.com": {
+  "checked": "2026-10-30",
+  "plans": [
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit01.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit02.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit03.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit04.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit05.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit06.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit07.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit08.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ "https://www.starhills-yg.co.kr": {
+  "checked": "2026-10-30",
+  "plans": []
+ },
+ "https://apply.lh.or.kr": {
+  "checked": "2026-10-30",
+  "plans": []
+ },
+ "https://www.apply.lh.or.kr": {
+  "checked": "2026-10-30",
+  "plans": []
+ },
+ "https://광명시티프라디움.com": {
+  "checked": "2026-10-30",
+  "plans": []
+ },
+ "https://hillstate.co.kr/s/gd12": {
+  "checked": "2026-10-30",
+  "plans": []
+ },
+ "http://중동역다채로움더원.com": {
+  "checked": "2026-10-30",
+  "plans": []
  }
 }
