@@ -4068,7 +4068,8 @@
     "excl": 60.0,
     "units": 33,
     "special": 59,
-    "price": 60100
+    "price": 60100,
+    "plan": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261028/unit-60-20261028.webp"
    },
    {
     "type": "84",
@@ -4076,7 +4077,8 @@
     "excl": 84.0,
     "units": 95,
     "special": 171,
-    "price": 81400
+    "price": 81400,
+    "plan": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261028/unit-84a-20261028.webp"
    }
   ],
   "priceMin": 60100,
@@ -4102,7 +4104,39 @@
    "lat": 37.7599,
    "lng": 126.78015,
    "precision": "구"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261028/unit-60-20261028.webp",
+    "type": "60",
+    "kind": "평면",
+    "alt": "60㎡ 확장기본형 평면 및 3·4단지 면적"
+   },
+   {
+    "url": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261028/unit-84a-20261028.webp",
+    "type": "84A",
+    "kind": "평면",
+    "alt": "84A 확장기본형 평면 및 3·4단지 면적"
+   },
+   {
+    "url": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261028/unit-84b-20261028.webp",
+    "type": "84B",
+    "kind": "평면",
+    "alt": "84B 확장기본형 평면 및 면적"
+   },
+   {
+    "url": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261028/unit-88-20261028.webp",
+    "type": "88",
+    "kind": "평면",
+    "alt": "88㎡ 확장기본형 평면 및 면적"
+   },
+   {
+    "url": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261028/unit-115-20261028.webp",
+    "type": "115",
+    "kind": "평면",
+    "alt": "115㎡ 확장기본형 평면 및 면적"
+   }
+  ]
  },
  {
   "id": "ah:apt:2026000517:2026000517",
@@ -4138,7 +4172,8 @@
     "excl": 60.0,
     "units": 12,
     "special": 21,
-    "price": 58900
+    "price": 58900,
+    "plan": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261028/unit-60-20261028.webp"
    },
    {
     "type": "84",
@@ -4146,7 +4181,8 @@
     "excl": 84.0,
     "units": 29,
     "special": 48,
-    "price": 79800
+    "price": 79800,
+    "plan": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261028/unit-84a-20261028.webp"
    },
    {
     "type": "84",
@@ -4154,7 +4190,8 @@
     "excl": 84.0,
     "units": 31,
     "special": 55,
-    "price": 79400
+    "price": 79400,
+    "plan": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261028/unit-84a-20261028.webp"
    },
    {
     "type": "88",
@@ -4162,7 +4199,8 @@
     "excl": 88.0,
     "units": 55,
     "special": 7,
-    "price": 84100
+    "price": 84100,
+    "plan": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261028/unit-88-20261028.webp"
    },
    {
     "type": "115",
@@ -4170,7 +4208,8 @@
     "excl": 115.0,
     "units": 69,
     "special": 10,
-    "price": 99400
+    "price": 99400,
+    "plan": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261028/unit-115-20261028.webp"
    }
   ],
   "priceMin": 58900,
@@ -4196,7 +4235,39 @@
    "lat": 37.7599,
    "lng": 126.78015,
    "precision": "구"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261028/unit-60-20261028.webp",
+    "type": "60",
+    "kind": "평면",
+    "alt": "60㎡ 확장기본형 평면 및 3·4단지 면적"
+   },
+   {
+    "url": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261028/unit-84a-20261028.webp",
+    "type": "84A",
+    "kind": "평면",
+    "alt": "84A 확장기본형 평면 및 3·4단지 면적"
+   },
+   {
+    "url": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261028/unit-84b-20261028.webp",
+    "type": "84B",
+    "kind": "평면",
+    "alt": "84B 확장기본형 평면 및 면적"
+   },
+   {
+    "url": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261028/unit-88-20261028.webp",
+    "type": "88",
+    "kind": "평면",
+    "alt": "88㎡ 확장기본형 평면 및 면적"
+   },
+   {
+    "url": "https://www.xn--gtx-k74mh0hgtyn8d37ae1cudt6noxdy02c2cg.com/assets/images/final-20261028/unit-115-20261028.webp",
+    "type": "115",
+    "kind": "평면",
+    "alt": "115㎡ 확장기본형 평면 및 면적"
+   }
+  ]
  },
  {
   "id": "lh:2015122300020945",
@@ -4578,7 +4649,8 @@
     "excl": 84.0,
     "units": 9,
     "special": 0,
-    "price": 243300
+    "price": 243300,
+    "plan": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_84a.jpg?v=20261031235398598915"
    }
   ],
   "priceMin": 243300,
@@ -4601,7 +4673,81 @@
    "lat": 37.55676,
    "lng": 126.9663,
    "precision": "동"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_39a.jpg?v=20261031235398598915",
+    "type": "39A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_39a_m.jpg?v=20261031235398598915",
+    "type": "39A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_39b.jpg?v=20261031235398598915",
+    "type": "39B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_39b_m.jpg?v=20261031235398598915",
+    "type": "39B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_59.jpg?v=20261031235398598915",
+    "type": "59",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_59_m.jpg?v=20261031235398598915",
+    "type": "59",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_84a.jpg?v=20261031235398598915",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_84a_m.jpg?v=20261031235398598915",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_84b.jpg?v=20261031235398598915",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_84b_m.jpg?v=20261031235398598915",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_materials_01.jpg?v=202610312353128599226",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_materials_02.jpg?v=202610312353128599226",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "ah:opt:2026940227:2026940227",
@@ -4760,7 +4906,75 @@
    "lat": 37.53307,
    "lng": 126.6299,
    "precision": "동"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://www.arkone-prugio.com/resources/img/pages/masterplan/01.v100.jpg",
+    "type": "100",
+    "kind": "평면",
+    "alt": "펫파크"
+   },
+   {
+    "url": "https://www.arkone-prugio.com/resources/img/pages/masterplan/02.v100.jpg",
+    "type": "100",
+    "kind": "평면",
+    "alt": "리빙가든"
+   },
+   {
+    "url": "https://www.arkone-prugio.com/resources/img/pages/masterplan/03.v100.jpg",
+    "type": "100",
+    "kind": "평면",
+    "alt": "잔디광장"
+   },
+   {
+    "url": "https://www.arkone-prugio.com/resources/img/pages/masterplan/04.v100.jpg",
+    "type": "100",
+    "kind": "평면",
+    "alt": "포레스트 북 가든"
+   },
+   {
+    "url": "https://www.arkone-prugio.com/resources/img/pages/unit/info_bg.v100.jpg",
+    "type": "100",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.arkone-prugio.com/resources/data/cyber/84A/unit_plan.jpg?v=.v100",
+    "type": null,
+    "kind": "평면",
+    "alt": "84㎡A 평면 및 라이프업 옵션 안내"
+   },
+   {
+    "url": "https://www.arkone-prugio.com/resources/data/cyber/84B/unit_plan.jpg?v=.v100",
+    "type": null,
+    "kind": "평면",
+    "alt": "84㎡B 평면 및 라이프업 옵션 안내"
+   },
+   {
+    "url": "https://www.arkone-prugio.com/resources/data/cyber/84C/unit_plan.jpg?v=.v100",
+    "type": null,
+    "kind": "평면",
+    "alt": "84㎡C 평면 및 라이프업 옵션 안내"
+   },
+   {
+    "url": "https://www.arkone-prugio.com/resources/data/cyber/84D/unit_plan.jpg?v=.v100",
+    "type": null,
+    "kind": "평면",
+    "alt": "84㎡D 평면 및 라이프업 옵션 안내"
+   },
+   {
+    "url": "https://www.arkone-prugio.com/resources/data/cyber/103A/unit_plan.jpg?v=.v100",
+    "type": null,
+    "kind": "평면",
+    "alt": "103㎡A 평면 및 라이프업 옵션 안내"
+   },
+   {
+    "url": "https://www.arkone-prugio.com/resources/data/cyber/103B/unit_plan.jpg?v=.v100",
+    "type": null,
+    "kind": "평면",
+    "alt": "103㎡B 평면 및 라이프업 옵션 안내"
+   }
+  ]
  },
  {
   "id": "ih:rent:4469",
@@ -4962,35 +5176,40 @@
     "excl": 84.0,
     "units": 3,
     "special": 0,
-    "price": 68060
+    "price": 68060,
+    "plan": "http://halla-shincheon.co.kr/image/main/unit/unit_84c.jpg"
    },
    {
     "type": "84D",
     "excl": 84.0,
     "units": 2,
     "special": 0,
-    "price": 67190
+    "price": 67190,
+    "plan": "http://halla-shincheon.co.kr/image/main/unit/unit_84d.jpg"
    },
    {
     "type": "84E",
     "excl": 84.0,
     "units": 1,
     "special": 0,
-    "price": 64630
+    "price": 64630,
+    "plan": "http://halla-shincheon.co.kr/image/main/unit/unit_84e.jpg"
    },
    {
     "type": "111A",
     "excl": 111.0,
     "units": 1,
     "special": 0,
-    "price": 84430
+    "price": 84430,
+    "plan": "http://halla-shincheon.co.kr/image/main/unit/unit_111a.jpg"
    },
    {
     "type": "111B",
     "excl": 111.0,
     "units": 1,
     "special": 0,
-    "price": 81000
+    "price": 81000,
+    "plan": "http://halla-shincheon.co.kr/image/main/unit/unit_111b.jpg"
    }
   ],
   "priceMin": 64630,
@@ -5013,7 +5232,99 @@
    "lat": 37.4345,
    "lng": 126.79145,
    "precision": "주소"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84a.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84b.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84c.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84d.jpg",
+    "type": "84D",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84e.jpg",
+    "type": "84E",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111a.jpg",
+    "type": "111A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111b.jpg",
+    "type": "111B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111c.jpg",
+    "type": "111C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111d.jpg",
+    "type": "111D",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84a_img1.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84a_img2.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84a_img3.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84b_img1.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84b_img2.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84b_img3.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "ah:remndr:2026910265:2026910265",
@@ -5235,7 +5546,8 @@
     "excl": 84.0,
     "units": 132,
     "special": 159,
-    "price": 53600
+    "price": 53600,
+    "plan": "https://www.hwaseong-lottecastlesignature.com/assets/images/sub/unit_84a.jpg"
    },
    {
     "type": "84B",
@@ -5243,7 +5555,8 @@
     "excl": 84.0,
     "units": 64,
     "special": 72,
-    "price": 54300
+    "price": 54300,
+    "plan": "https://www.hwaseong-lottecastlesignature.com/assets/images/sub/unit_84b.jpg"
    },
    {
     "type": "84C",
@@ -5251,7 +5564,8 @@
     "excl": 84.0,
     "units": 187,
     "special": 225,
-    "price": 53500
+    "price": 53500,
+    "plan": "https://www.hwaseong-lottecastlesignature.com/assets/images/sub/unit_84c.jpg"
    },
    {
     "type": "84D",
@@ -5259,7 +5573,8 @@
     "excl": 84.0,
     "units": 40,
     "special": 49,
-    "price": 53900
+    "price": 53900,
+    "plan": "https://www.hwaseong-lottecastlesignature.com/assets/images/sub/unit_84d.jpg"
    },
    {
     "type": "84E",
@@ -5267,7 +5582,8 @@
     "excl": 84.0,
     "units": 136,
     "special": 165,
-    "price": 54200
+    "price": 54200,
+    "plan": "https://www.hwaseong-lottecastlesignature.com/assets/images/sub/unit_84e.jpg"
    },
    {
     "type": "84F",
@@ -5275,7 +5591,8 @@
     "excl": 84.0,
     "units": 38,
     "special": 45,
-    "price": 54600
+    "price": 54600,
+    "plan": "https://www.hwaseong-lottecastlesignature.com/assets/images/sub/unit_84f.jpg"
    },
    {
     "type": "84G",
@@ -5283,7 +5600,8 @@
     "excl": 84.0,
     "units": 8,
     "special": 11,
-    "price": 53200
+    "price": 53200,
+    "plan": "https://www.hwaseong-lottecastlesignature.com/assets/images/sub/unit_84g.jpg"
    },
    {
     "type": "102",
@@ -5291,7 +5609,8 @@
     "excl": 102.0,
     "units": 49,
     "special": 7,
-    "price": 64000
+    "price": 64000,
+    "plan": "https://www.hwaseong-lottecastlesignature.com/assets/images/sub/unit_102.jpg"
    },
    {
     "type": "112",
@@ -5299,7 +5618,8 @@
     "excl": 112.0,
     "units": 69,
     "special": 9,
-    "price": 67800
+    "price": 67800,
+    "plan": "https://www.hwaseong-lottecastlesignature.com/assets/images/sub/unit_112.jpg"
    },
    {
     "type": "120",
@@ -5307,7 +5627,8 @@
     "excl": 120.0,
     "units": 68,
     "special": 9,
-    "price": 72700
+    "price": 72700,
+    "plan": "https://www.hwaseong-lottecastlesignature.com/assets/images/sub/unit_120.jpg"
    }
   ],
   "priceMin": 53200,
@@ -5336,6 +5657,146 @@
     "page": 60,
     "url": "plans/ah_apt_2026000502_2026000502-p60.jpg",
     "types": []
+   }
+  ],
+  "homePlans": [
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/assets/images/main/unit-bg.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/assets/images/main/unit-img-01.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/assets/images/main/unit-img-02.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/assets/images/sub/unit_84a.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/m/assets/images/sub/m_unit_84a.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/assets/images/sub/unit_84b.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/m/assets/images/sub/m_unit_84b.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/assets/images/sub/unit_84c.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/m/assets/images/sub/m_unit_84c.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/assets/images/sub/unit_84d.jpg",
+    "type": "84D",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/m/assets/images/sub/m_unit_84d.jpg",
+    "type": "84D",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/assets/images/sub/unit_84e.jpg",
+    "type": "84E",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/m/assets/images/sub/m_unit_84e.jpg",
+    "type": "84E",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/assets/images/sub/unit_84f.jpg",
+    "type": "84F",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/m/assets/images/sub/m_unit_84f.jpg",
+    "type": "84F",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/assets/images/sub/unit_84g.jpg",
+    "type": "84G",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/m/assets/images/sub/m_unit_84g.jpg",
+    "type": "84G",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/assets/images/sub/unit_102.jpg",
+    "type": "102",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/m/assets/images/sub/m_unit_102.jpg?v=1",
+    "type": "102",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/assets/images/sub/unit_112.jpg",
+    "type": "112",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/m/assets/images/sub/m_unit_112.jpg",
+    "type": "112",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/assets/images/sub/unit_120.jpg",
+    "type": "120",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.hwaseong-lottecastlesignature.com/m/assets/images/sub/m_unit_120.jpg",
+    "type": "120",
+    "kind": "평면",
+    "alt": ""
    }
   ]
  },
@@ -6081,7 +6542,8 @@
     "excl": 84.0,
     "units": 73,
     "special": 93,
-    "price": 171320
+    "price": 171320,
+    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84c.jpg"
    },
    {
     "type": "84D",
@@ -6151,7 +6613,57 @@
     "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000509&pblancNo=2026000509&atchmnflSeqNo=2000102&atchmnflSn=5"
    }
   ],
-  "firstSeen": "2026-10-31"
+  "firstSeen": "2026-10-31",
+  "homePlans": [
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84c.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84f.jpg",
+    "type": "84F",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/116a.jpg",
+    "type": "116A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/116b.jpg",
+    "type": "116B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/128a.jpg",
+    "type": "128A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/129b.jpg",
+    "type": "129B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/ph184b.jpg",
+    "type": "184B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/ph188a.jpg",
+    "type": "188A",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "ah:apt:2026000508:2026000508",
@@ -6187,7 +6699,8 @@
     "excl": 84.0,
     "units": 82,
     "special": 98,
-    "price": 171210
+    "price": 171210,
+    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84c.jpg"
    },
    {
     "type": "84F",
@@ -6195,7 +6708,8 @@
     "excl": 84.0,
     "units": 41,
     "special": 49,
-    "price": 171530
+    "price": 171530,
+    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84f.jpg"
    },
    {
     "type": "116A",
@@ -6203,7 +6717,8 @@
     "excl": 116.0,
     "units": 80,
     "special": 12,
-    "price": 218670
+    "price": 218670,
+    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/116a.jpg"
    },
    {
     "type": "116B",
@@ -6211,7 +6726,8 @@
     "excl": 116.0,
     "units": 157,
     "special": 23,
-    "price": 221350
+    "price": 221350,
+    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/116b.jpg"
    },
    {
     "type": "128A",
@@ -6219,7 +6735,8 @@
     "excl": 128.0,
     "units": 78,
     "special": 12,
-    "price": 243610
+    "price": 243610,
+    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/128a.jpg"
    },
    {
     "type": "129B",
@@ -6227,7 +6744,8 @@
     "excl": 129.0,
     "units": 153,
     "special": 23,
-    "price": 248290
+    "price": 248290,
+    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/129b.jpg"
    },
    {
     "type": "184B",
@@ -6235,7 +6753,8 @@
     "excl": 184.0,
     "units": 2,
     "special": 0,
-    "price": 391150
+    "price": 391150,
+    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/ph184b.jpg"
    },
    {
     "type": "188A",
@@ -6243,7 +6762,8 @@
     "excl": 188.0,
     "units": 2,
     "special": 0,
-    "price": 401320
+    "price": 401320,
+    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/ph188a.jpg"
    }
   ],
   "priceMin": 171210,
@@ -6265,7 +6785,57 @@
     "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000508&pblancNo=2026000508&atchmnflSeqNo=2000101&atchmnflSn=6"
    }
   ],
-  "firstSeen": "2026-10-31"
+  "firstSeen": "2026-10-31",
+  "homePlans": [
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84c.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84f.jpg",
+    "type": "84F",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/116a.jpg",
+    "type": "116A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/116b.jpg",
+    "type": "116B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/128a.jpg",
+    "type": "128A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/129b.jpg",
+    "type": "129B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/ph184b.jpg",
+    "type": "184B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/ph188a.jpg",
+    "type": "188A",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "ah:apt:2026000373:2026000373",
@@ -6516,28 +7086,32 @@
     "excl": 48.0,
     "units": 1,
     "special": 0,
-    "price": 37900
+    "price": 37900,
+    "plan": "http://efete-eungye.com/asset/sub/unit_48.png"
    },
    {
     "type": "52A",
     "excl": 52.0,
     "units": 10,
     "special": 0,
-    "price": 42500
+    "price": 42500,
+    "plan": "http://efete-eungye.com/asset/sub/unit_52a.png"
    },
    {
     "type": "59A",
     "excl": 59.0,
     "units": 3,
     "special": 0,
-    "price": 48500
+    "price": 48500,
+    "plan": "http://efete-eungye.com/asset/sub/unit_59a.png"
    },
    {
     "type": "59C",
     "excl": 59.0,
     "units": 2,
     "special": 0,
-    "price": 45900
+    "price": 45900,
+    "plan": "http://efete-eungye.com/asset/sub/unit_59c.png"
    }
   ],
   "priceMin": 37900,
@@ -6560,7 +7134,111 @@
    "lat": 37.43347,
    "lng": 126.80935,
    "precision": "동"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "http://efete-eungye.com/asset/sec_unit_tit.png",
+    "type": null,
+    "kind": "평면",
+    "alt": "UNIT PLAN"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/unit01.png",
+    "type": null,
+    "kind": "평면",
+    "alt": "39㎡ TYPE"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/unit02.png",
+    "type": null,
+    "kind": "평면",
+    "alt": "48㎡ TYPE"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/unit03.png",
+    "type": null,
+    "kind": "평면",
+    "alt": "52㎡ A TYPE"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/unit04.png",
+    "type": null,
+    "kind": "평면",
+    "alt": "52㎡ B TYPE"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/unit05.png",
+    "type": null,
+    "kind": "평면",
+    "alt": "52㎡ C TYPE"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/unit06.png",
+    "type": null,
+    "kind": "평면",
+    "alt": "59㎡ A TYPE"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/unit07.png",
+    "type": null,
+    "kind": "평면",
+    "alt": "59㎡ B TYPE"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/unit08.png",
+    "type": null,
+    "kind": "평면",
+    "alt": "59㎡ C TYPE"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/sub/unit_39.png",
+    "type": "39",
+    "kind": "평면",
+    "alt": "에피트 시흥 은계 39㎡"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/sub/unit_48.png",
+    "type": "48",
+    "kind": "평면",
+    "alt": "에피트 시흥 은계 48㎡"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/sub/unit_52a.png",
+    "type": "52A",
+    "kind": "평면",
+    "alt": "에피트 시흥 은계 52㎡A"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/sub/unit_52b.png",
+    "type": "52B",
+    "kind": "평면",
+    "alt": "에피트 시흥 은계 52㎡B"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/sub/unit_52c.png",
+    "type": "52C",
+    "kind": "평면",
+    "alt": "에피트 시흥 은계 52㎡C"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/sub/unit_59a.png",
+    "type": "59A",
+    "kind": "평면",
+    "alt": "에피트 시흥 은계 59㎡A"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/sub/unit_59b.png",
+    "type": "59B",
+    "kind": "평면",
+    "alt": "에피트 시흥 은계 59㎡B"
+   },
+   {
+    "url": "http://efete-eungye.com/asset/sub/unit_59c.png",
+    "type": "59C",
+    "kind": "평면",
+    "alt": "에피트 시흥 은계 59㎡C"
+   }
+  ]
  },
  {
   "id": "ah:opt:2026940228:2026940228",
@@ -7383,7 +8061,21 @@
    "lat": 37.27348,
    "lng": 127.00317,
    "precision": "동"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "http://xn--h50bp5wj1cbqa48h72an9b.com/sub/t_unit01.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://xn--h50bp5wj1cbqa48h72an9b.com/sub/t_unit02.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "sh:rent:311349",
@@ -7456,7 +8148,8 @@
     "excl": 39.0,
     "units": 10,
     "special": 0,
-    "price": 76112
+    "price": 76112,
+    "plan": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/main/unit_39.png"
    }
   ],
   "priceMin": 76112,
@@ -7479,7 +8172,81 @@
    "lat": 37.56755,
    "lng": 127.02172,
    "precision": "동"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/main/unit_59d.png",
+    "type": "59D",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/main/unit-slide-obj.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/main/unit_39.png",
+    "type": "39",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/main/unit_59a.png",
+    "type": "59A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/main/unit_59b.png",
+    "type": "59B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/main/unit_59c.png",
+    "type": "59C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/main/unit-obj.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/sub/unit_39.jpg",
+    "type": "39",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/sub/unit_59a.jpg",
+    "type": "59A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/sub/unit_59b.jpg",
+    "type": "59B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/sub/unit_59c.jpg",
+    "type": "59C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/sub/unit_59d.jpg",
+    "type": "59D",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "ah:remndr:2026910260:2026910260",
@@ -7567,7 +8334,8 @@
     "excl": 75.0,
     "units": 68,
     "special": 0,
-    "price": 60090
+    "price": 60090,
+    "plan": "https://cityociel9.com/images/type_75.jpg?v=202610312355148611494"
    }
   ],
   "priceMin": 60090,
@@ -7590,7 +8358,75 @@
    "lat": 37.4379,
    "lng": 126.64836,
    "precision": "주소"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://cityociel9.com/images/feature_plan.jpg?v=20261031235578610711",
+    "type": null,
+    "kind": "평면",
+    "alt": "PLAN"
+   },
+   {
+    "url": "https://cityociel9.com/images/type_59.jpg?v=202610312355148611494",
+    "type": "59",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cityociel9.com/images/type_75.jpg?v=202610312355148611494",
+    "type": "75",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cityociel9.com/images/type_84a.jpg?v=202610312355148611494",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cityociel9.com/images/type_84b.jpg?v=202610312355148611494",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cityociel9.com/images/type_95.jpg?v=202610312355148611494",
+    "type": "95",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cityociel9.com/images/type_101a.jpg?v=202610312355148611494",
+    "type": "101A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cityociel9.com/images/type_101b.jpg?v=202610312355148611494",
+    "type": "101B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cityociel9.com/images/type_110.jpg?v=202610312355148611494",
+    "type": "110",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cityociel9.com/images/type_133p.jpg?v=202610312355148611494",
+    "type": "133P",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cityociel9.com/images/type_136p.jpg?v=202610312355148611494",
+    "type": "136P",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "ah:opt:2026940221:2026940221",
@@ -7805,7 +8641,27 @@
    "lat": 37.82075,
    "lng": 127.08698,
    "precision": "동"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://detre-ojop.co.kr/img/unit/06cont01.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://detre-ojop.co.kr/img/unit/119oa.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://detre-ojop.co.kr/img/unit/119ob.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "ah:opt:2026940223:2026940223",
@@ -9462,14 +10318,16 @@
     "excl": 84.0,
     "units": 21,
     "special": 0,
-    "price": 243300
+    "price": 243300,
+    "plan": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_84a.jpg?v=20261031235398598915"
    },
    {
     "type": "84B",
     "excl": 84.0,
     "units": 14,
     "special": 0,
-    "price": 229500
+    "price": 229500,
+    "plan": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_84b.jpg?v=20261031235398598915"
    }
   ],
   "priceMin": 229500,
@@ -9492,7 +10350,81 @@
    "lat": 37.55676,
    "lng": 126.9663,
    "precision": "동"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_39a.jpg?v=20261031235398598915",
+    "type": "39A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_39a_m.jpg?v=20261031235398598915",
+    "type": "39A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_39b.jpg?v=20261031235398598915",
+    "type": "39B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_39b_m.jpg?v=20261031235398598915",
+    "type": "39B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_59.jpg?v=20261031235398598915",
+    "type": "59",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_59_m.jpg?v=20261031235398598915",
+    "type": "59",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_84a.jpg?v=20261031235398598915",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_84a_m.jpg?v=20261031235398598915",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_84b.jpg?v=20261031235398598915",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_info_84b_m.jpg?v=20261031235398598915",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_materials_01.jpg?v=202610312353128599226",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--950bx0l9xa587a4zb1e20bn04a.com/grand/images/type_materials_02.jpg?v=202610312353128599226",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "sh:rent:310673",
