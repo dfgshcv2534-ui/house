@@ -1,21 +1,4 @@
 {
- "https://www.브라운스톤목동.com": {
-  "checked": "2026-10-27",
-  "plans": [
-   {
-    "url": "http://www.xn--2q1bz2ey7cbxebohjwgbov.com/images/type-38-plan.png",
-    "type": "38",
-    "kind": "평면",
-    "alt": "38㎡ 평면도"
-   },
-   {
-    "url": "http://www.xn--2q1bz2ey7cbxebohjwgbov.com/images/type-38-iso.png",
-    "type": "38",
-    "kind": "입체",
-    "alt": "38㎡ 입체 평면도"
-   }
-  ]
- },
  "https://www.더리치먼드미아.com": {
   "checked": "2026-10-27",
   "plans": [
@@ -114,112 +97,6 @@
   "checked": "2026-10-29",
   "plans": []
  },
- "https://brand.hldni.com/suwon-efete/": {
-  "checked": "2026-10-29",
-  "plans": [
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/main/unit_tit.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/main/unit_slide_4.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/main/unit_more.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/main/unit_slide_5.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/main/unit_slide_6.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/main/unit_slide_1.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/main/unit_slide_2.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/main/unit_slide_3.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/sub/about/unit_1.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/sub/about/unit_2.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/sub/about/unit_3.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/sub/about/unit_4.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/sub/about/unit_5.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/suwon-efete/image/sub/about/unit_6.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
- },
- "https://www.수원역아너스빌.com": {
-  "checked": "2026-10-29",
-  "plans": [
-   {
-    "url": "https://www.xn--h50bp5wj1cbqa48h72an9b.com/sub/t_unit01.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--h50bp5wj1cbqa48h72an9b.com/sub/t_unit02.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
- },
  "https://ic-yemizi.com/": {
   "checked": "2026-10-29",
   "plans": [
@@ -270,119 +147,6 @@
     "type": "59A",
     "kind": "평면",
     "alt": "unit_59a"
-   }
-  ]
- },
- "https://더샵분당센트로.kr": {
-  "checked": "2026-10-29",
-  "plans": [
-   {
-    "url": "https://xn--ok1btg31l29f3zeimw42h.kr/resources/img/main/showroom02_02.png",
-    "type": null,
-    "kind": "평면",
-    "alt": "분당센트로 78㎡ N 평면도"
-   },
-   {
-    "url": "https://xn--ok1btg31l29f3zeimw42h.kr/resources/img/main/showroom03_01.png",
-    "type": null,
-    "kind": "평면",
-    "alt": "분당센트로 84㎡ N 평면도"
-   },
-   {
-    "url": "https://xn--ok1btg31l29f3zeimw42h.kr/resources/img/sub/unit1.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--ok1btg31l29f3zeimw42h.kr/resources/img/sub/m_unit1.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--ok1btg31l29f3zeimw42h.kr/resources/img/sub/unit2.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--ok1btg31l29f3zeimw42h.kr/resources/img/sub/m_unit2.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--ok1btg31l29f3zeimw42h.kr/resources/img/sub/unit3.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--ok1btg31l29f3zeimw42h.kr/resources/img/sub/m_unit3.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--ok1btg31l29f3zeimw42h.kr/resources/img/sub/unit4.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--ok1btg31l29f3zeimw42h.kr/resources/img/sub/m_unit4.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--ok1btg31l29f3zeimw42h.kr/resources/img/sub/unit5.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--ok1btg31l29f3zeimw42h.kr/resources/img/sub/m_unit5.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--ok1btg31l29f3zeimw42h.kr/resources/img/sub/unit6.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--ok1btg31l29f3zeimw42h.kr/resources/img/sub/m_unit6.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--ok1btg31l29f3zeimw42h.kr/resources/img/sub/unit7.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--ok1btg31l29f3zeimw42h.kr/resources/img/sub/m_unit7.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--ok1btg31l29f3zeimw42h.kr/resources/img/sub/unit8.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--ok1btg31l29f3zeimw42h.kr/resources/img/sub/m_unit8.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
    }
   ]
  },
@@ -565,11 +329,11 @@
   ]
  },
  "https://www.마곡스카이온.com": {
-  "checked": "2026-10-24",
+  "checked": "2026-11-01",
   "plans": []
  },
  "https://www.harrington495.kr/": {
-  "checked": "2026-10-24",
+  "checked": "2026-11-01",
   "plans": [
    {
     "url": "https://www.harrington495.kr/images/sub/complex/unit/22-a-type.jpg",
@@ -848,15 +612,8 @@
   ]
  },
  "http://개성로니엘.kr": {
-  "checked": "2026-10-24",
-  "plans": [
-   {
-    "url": "http://xn--h49ao0kn4enskhzf.kr/html/images/sub/plan_img.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
+  "checked": "2026-11-01",
+  "plans": []
  },
  "https://ay-yemizi.com/": {
   "checked": "2026-10-27",
@@ -2178,5 +1935,171 @@
     "alt": ""
    }
   ]
+ },
+ "https://www.xi.co.kr/sangokxi": {
+  "checked": "2026-11-01",
+  "plans": []
+ },
+ "https://www.더클래스한강.com": {
+  "checked": "2026-11-01",
+  "plans": []
+ },
+ "https://www.arteragy.co.kr": {
+  "checked": "2026-11-01",
+  "plans": []
+ },
+ "http://쌍용더플래티넘한강.com": {
+  "checked": "2026-11-01",
+  "plans": [
+   {
+    "url": "http://xn--939a18g91b22g78qo8ex2yn1dxua.com/sub/unit01.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://xn--939a18g91b22g78qo8ex2yn1dxua.com/sub/unit02.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://xn--939a18g91b22g78qo8ex2yn1dxua.com/sub/unit03.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://xn--939a18g91b22g78qo8ex2yn1dxua.com/sub/unit04.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://xn--939a18g91b22g78qo8ex2yn1dxua.com/sub/unit05.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://xn--939a18g91b22g78qo8ex2yn1dxua.com/sub/unit06.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ "https://향남역스위첸.com": {
+  "checked": "2026-11-01",
+  "plans": [
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit01.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit02.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit03.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit04.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit05.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit06.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit07.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit08.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ "https://www.starhills-yg.co.kr": {
+  "checked": "2026-11-01",
+  "plans": []
+ },
+ "https://www.i-park.com/gangbyeon": {
+  "checked": "2026-11-01",
+  "plans": [
+   {
+    "url": "https://cdn.i-park.com/ipark/gangbyeon_grand/img/sub/05/plane_84c_01.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cdn.i-park.com/ipark/gangbyeon_grand/img/sub/05/plane_84c_02.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cdn.i-park.com/ipark/gangbyeon/img/sub/05/plane_84c_03.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ "https://www.apply.lh.or.kr": {
+  "checked": "2026-11-01",
+  "plans": []
+ },
+ "https://광명시티프라디움.com": {
+  "checked": "2026-11-01",
+  "plans": [
+   {
+    "url": "https://xn--hc0bz5m11b1ue95n2zf6zxvzd.com/resources/img/main/unit_bg.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--hc0bz5m11b1ue95n2zf6zxvzd.com/resources/data/cyber/59A/unit_iso.jpg",
+    "type": null,
+    "kind": "입체",
+    "alt": "59A 타입 평면도"
+   }
+  ]
+ },
+ "https://hillstate.co.kr/s/gd12": {
+  "checked": "2026-11-01",
+  "plans": []
+ },
+ "http://중동역다채로움더원.com": {
+  "checked": "2026-11-01",
+  "plans": []
+ },
+ "https://www.오남역서희스타힐스여의재.com": {
+  "checked": "2026-11-01",
+  "plans": []
  }
 }
