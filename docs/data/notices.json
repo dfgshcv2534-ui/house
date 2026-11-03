@@ -2150,12 +2150,12 @@
   "dates": {
    "notice": "2026-10-28",
    "end": "2026-11-12",
+   "start": "2026-11-10",
    "winner": "2027-03-24",
    "contract_start": "2027-04-06",
    "contract_end": "2027-04-08"
   },
   "dateBasis": "api",
-  "statusHint": "공고중",
   "moveIn": "2027-07",
   "models": [
    {
@@ -5666,7 +5666,8 @@
    "lat": 37.4098,
    "lng": 126.6787,
    "precision": "구"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ih:rent:4468",
@@ -5733,7 +5734,8 @@
    "lat": 37.48641,
    "lng": 126.63388,
    "precision": "구"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:remndr:2026930044:2026930044",
@@ -9020,7 +9022,8 @@
     "excl": 75.0,
     "units": 68,
     "special": 0,
-    "price": 60090
+    "price": 60090,
+    "plan": "https://cityociel9.com/images/type_75.jpg?v=20261103114914254117"
    }
   ],
   "priceMin": 60090,
@@ -9043,7 +9046,75 @@
    "lat": 37.4379,
    "lng": 126.64836,
    "precision": "주소"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://cityociel9.com/images/feature_plan.jpg?v=202611031148524253294",
+    "type": null,
+    "kind": "평면",
+    "alt": "PLAN"
+   },
+   {
+    "url": "https://cityociel9.com/images/type_59.jpg?v=20261103114914254117",
+    "type": "59",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cityociel9.com/images/type_75.jpg?v=20261103114914254117",
+    "type": "75",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cityociel9.com/images/type_84a.jpg?v=20261103114914254117",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cityociel9.com/images/type_84b.jpg?v=20261103114914254117",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cityociel9.com/images/type_95.jpg?v=20261103114914254117",
+    "type": "95",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cityociel9.com/images/type_101a.jpg?v=20261103114914254117",
+    "type": "101A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cityociel9.com/images/type_101b.jpg?v=20261103114914254117",
+    "type": "101B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cityociel9.com/images/type_110.jpg?v=20261103114914254117",
+    "type": "110",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cityociel9.com/images/type_133p.jpg?v=20261103114914254117",
+    "type": "133P",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cityociel9.com/images/type_136p.jpg?v=20261103114914254117",
+    "type": "136P",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "ah:opt:2026940221:2026940221",
@@ -9258,7 +9329,27 @@
    "lat": 37.82075,
    "lng": 127.08698,
    "precision": "동"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://detre-ojop.co.kr/img/unit/06cont01.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://detre-ojop.co.kr/img/unit/119oa.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://detre-ojop.co.kr/img/unit/119ob.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "ah:apt:2026000458:2026000458",
@@ -9670,7 +9761,45 @@
    "lat": 37.54339,
    "lng": 127.32317,
    "precision": "동"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "http://xn--939a18g91b22g78qo8ex2yn1dxua.com/sub/unit01.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://xn--939a18g91b22g78qo8ex2yn1dxua.com/sub/unit02.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://xn--939a18g91b22g78qo8ex2yn1dxua.com/sub/unit03.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://xn--939a18g91b22g78qo8ex2yn1dxua.com/sub/unit04.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://xn--939a18g91b22g78qo8ex2yn1dxua.com/sub/unit05.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://xn--939a18g91b22g78qo8ex2yn1dxua.com/sub/unit06.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "ah:apt:2026000463:2026000463",
@@ -9780,7 +9909,57 @@
     "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000463&pblancNo=2026000463&atchmnflSeqNo=1978209&atchmnflSn=6"
    }
   ],
-  "firstSeen": "2026-11-02"
+  "firstSeen": "2026-11-02",
+  "homePlans": [
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit01.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit02.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit03.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit04.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit05.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit06.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit07.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit08.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "ah:apt:2026000386:2026000386",
@@ -10226,7 +10405,8 @@
     "excl": 84.0,
     "units": 1,
     "special": 0,
-    "price": 122202
+    "price": 122202,
+    "plan": "https://cdn.i-park.com/ipark/gangbyeon_grand/img/sub/05/plane_84c_01.jpg"
    }
   ],
   "priceMin": 122202,
@@ -10255,6 +10435,26 @@
     "page": 10,
     "url": "plans/ah_remndr_2026930040_2026930040-p10.jpg",
     "types": []
+   }
+  ],
+  "homePlans": [
+   {
+    "url": "https://cdn.i-park.com/ipark/gangbyeon_grand/img/sub/05/plane_84c_01.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cdn.i-park.com/ipark/gangbyeon_grand/img/sub/05/plane_84c_02.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://cdn.i-park.com/ipark/gangbyeon/img/sub/05/plane_84c_03.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
    }
   ]
  },
@@ -10472,7 +10672,21 @@
    "lat": 37.44328,
    "lng": 126.88234,
    "precision": "동"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://xn--hc0bz5m11b1ue95n2zf6zxvzd.com/resources/img/main/unit_bg.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--hc0bz5m11b1ue95n2zf6zxvzd.com/resources/data/cyber/59A/unit_iso.jpg",
+    "type": null,
+    "kind": "입체",
+    "alt": "59A 타입 평면도"
+   }
+  ]
  },
  {
   "id": "ah:apt:2026000448:2026000448",
@@ -11048,7 +11262,153 @@
    "lat": 37.4289,
    "lng": 126.98817,
    "precision": "구"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit_b.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit14.png",
+    "type": "14",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit01.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit02.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit03.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit04.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit05.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit06.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit07.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit08.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit09.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit10.png",
+    "type": "10",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit11.png",
+    "type": "11",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit12.png",
+    "type": "12",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/img/unit13.png",
+    "type": "13",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/sub/unit.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/sub/m/unit.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/sub/type01.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/sub/type02.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/sub/type03.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/sub/type04.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/sub/type05.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/sub/type06.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/sub/type07.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "sh:rent:309467",
@@ -11575,7 +11935,8 @@
    "lat": 37.545,
    "lng": 126.676,
    "precision": "구"
-  }
+  },
+  "stale": true
  },
  {
   "id": "sh:rent:308971",
