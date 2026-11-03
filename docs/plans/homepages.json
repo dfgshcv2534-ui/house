@@ -1,6 +1,6 @@
 {
  "https://www.더리치먼드미아.com": {
-  "checked": "2026-10-27",
+  "checked": "2026-11-04",
   "plans": [
    {
     "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/main/main_room_type1.png",
@@ -616,7 +616,7 @@
   "plans": []
  },
  "https://ay-yemizi.com/": {
-  "checked": "2026-10-27",
+  "checked": "2026-11-04",
   "plans": [
    {
     "url": "https://ay-yemizi.com/assets/images/sub/unit_84.jpg",
@@ -627,7 +627,7 @@
   ]
  },
  "https://brand.hldni.com/bucheon-urbanic/": {
-  "checked": "2026-10-27",
+  "checked": "2026-11-04",
   "plans": [
    {
     "url": "https://brand.hldni.com/bucheon-urbanic/image/sub/information/unit1.jpg",
@@ -2430,6 +2430,125 @@
    {
     "url": "http://www.xn--vb0b45v90gv9cvvl3mf05bwyo.com/sub/type07.jpg",
     "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ "https://www.prugio.com/hb/2026/pravenue": {
+  "checked": "2026-11-04",
+  "plans": [
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-84c.png",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-60a.png",
+    "type": "60A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-60b.png",
+    "type": "60B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-60c.png",
+    "type": "60C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-84a.png",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-84b.png",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-img.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_60a.jpg",
+    "type": "60A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_60a.jpg",
+    "type": "60A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_60b.jpg",
+    "type": "60B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_60b.jpg",
+    "type": "60B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_60c.jpg",
+    "type": "60C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_60c.jpg",
+    "type": "60C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_84a.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_84a.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_84b.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_84b.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_84c.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_84c.jpg",
+    "type": "84C",
     "kind": "평면",
     "alt": ""
    }

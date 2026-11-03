@@ -1,5 +1,345 @@
 [
  {
+  "id": "lh:0000061200",
+  "source": "LH",
+  "sector": "공공",
+  "region": "경기",
+  "cat": "분양",
+  "kind": "분양주택",
+  "name": "고양지축 B-1블록 공공분양주택 잔여세대 추가입주자모집공고",
+  "address": "경기도 고양시 덕양구 지축동 875",
+  "gu": "고양시",
+  "units": 612,
+  "dates": {
+   "notice": "2026-11-03",
+   "end": "2026-11-13",
+   "start": "2026-11-12",
+   "winner": "2026-11-19",
+   "contract_start": "2026-12-22",
+   "contract_end": "2026-12-23"
+  },
+  "dateBasis": "api",
+  "moveIn": null,
+  "models": [
+   {
+    "type": "59B",
+    "area": 83.194,
+    "excl": 59.93,
+    "units": 98,
+    "price": 46406
+   },
+   {
+    "type": "84A",
+    "area": 117.8292,
+    "excl": 84.88,
+    "units": 168,
+    "price": 65583
+   }
+  ],
+  "priceMin": 46406,
+  "priceMax": 65583,
+  "tags": [
+   "지역난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061200&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
+  "homepage": null,
+  "area": "59.91~84.88㎡",
+  "files": [
+   {
+    "name": "(210929-최초공고)고양지축B-1블록팜플렛.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69272993"
+   },
+   {
+    "name": "(261103공고)고양지축B-1블록공공분양주택추가입주자모집공고문.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69272971"
+   },
+   {
+    "name": "(261103공고)고양지축B-1블록공공분양주택추가입주자모집공고문.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69272976"
+   },
+   {
+    "name": "개인정보수집이용및제3자제공동의서(추가모집).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69273047"
+   },
+   {
+    "name": "위임장(고양지축공공분양주택).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69273068"
+   }
+  ],
+  "images": [
+   {
+    "label": "토지이용계획도",
+    "name": "210928_고양지축B-1블록_토지이용계획도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69254833"
+   },
+   {
+    "label": "단지조감도",
+    "name": "210928_고양지축B-1블록_단지조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69254834"
+   },
+   {
+    "label": "지역위치도",
+    "name": "210928_고양지축B-1블록_지역도(2).jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69254835"
+   },
+   {
+    "label": "단지배치도",
+    "name": "210928_고양지축B-1블록_단지배치도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69254836"
+   },
+   {
+    "label": "동호배치도",
+    "name": "210928_고양지축B-1블록_동호배치도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69254838"
+   }
+  ],
+  "firstSeen": "2026-11-04",
+  "geo": {
+   "lat": 37.6545,
+   "lng": 126.92421,
+   "precision": "동"
+  }
+ },
+ {
+  "id": "lh:0000061199",
+  "source": "LH",
+  "sector": "공공",
+  "region": "경기",
+  "cat": "분양",
+  "kind": "공공분양(신혼희망)",
+  "name": "고양장항 A-2, A-4, A-5블록 신혼희망타운(공공분양) 잔여세대 추가입주자모집공고",
+  "address": "경기도 고양시 일산동구 장항동 장항동 일원 고양장항 공공주택지구내 A-4블록",
+  "gu": "고양시",
+  "units": 1566,
+  "dates": {
+   "notice": "2026-11-03",
+   "end": "2026-11-13",
+   "start": "2026-11-12",
+   "winner": "2026-11-18",
+   "contract_start": "2026-12-22",
+   "contract_end": "2026-12-23"
+  },
+  "dateBasis": "api",
+  "moveIn": null,
+  "models": [
+   {
+    "type": "56A",
+    "area": 80.6021,
+    "excl": 56.82,
+    "units": 1566,
+    "price": 36196
+   },
+   {
+    "type": "56A",
+    "area": 80.5014,
+    "excl": 56.82,
+    "units": 759,
+    "price": 34387
+   },
+   {
+    "type": "46A",
+    "area": 67.0681,
+    "excl": 46.7,
+    "units": 112,
+    "price": 34254
+   },
+   {
+    "type": "55A",
+    "area": 80.3094,
+    "excl": 55.92,
+    "units": 495,
+    "price": 39992
+   },
+   {
+    "type": "55B",
+    "area": 80.1658,
+    "excl": 55.82,
+    "units": 43,
+    "price": 40943
+   }
+  ],
+  "priceMin": 34254,
+  "priceMax": 40943,
+  "tags": [
+   "지역난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061199&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+  "homepage": null,
+  "area": "56.82㎡",
+  "files": [
+   {
+    "name": "(201229-최초공고)고양장항A-4,A-5블록신혼희망타운(공공분양)_팜플렛.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69272344"
+   },
+   {
+    "name": "(230915-최초공고)고양장항A-2블록팸플릿.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69272340"
+   },
+   {
+    "name": "(261103공고)고양장항A-2,A-4,A-5블록신혼희망타운(공공분양)잔여세대추가입주자모집공고문.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69272294"
+   },
+   {
+    "name": "(261103공고)고양장항A-2,A-4,A-5블록신혼희망타운(공공분양)잔여세대추가입주자모집공고문.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69272304"
+   },
+   {
+    "name": "개인정보수집이용및제3자제공동의서(추가모집).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69272358"
+   },
+   {
+    "name": "위임장(고양장항신혼희망타운).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69272356"
+   }
+  ],
+  "images": [
+   {
+    "label": "단지조감도",
+    "name": "고양장항_A4_단지조감도_저용량.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69236600"
+   },
+   {
+    "label": "지역위치도",
+    "name": "고양장항_지구조감도_저용량.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69236602"
+   },
+   {
+    "label": "토지이용계획도",
+    "name": "(게시)고양장항토지이용계획도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69236604"
+   },
+   {
+    "label": "단지배치도",
+    "name": "고양장항_A4_단지배치도_저용량.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69236605"
+   },
+   {
+    "label": "단지조감도",
+    "name": "고양장항_A5_단지조감도_저용량.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69236606"
+   },
+   {
+    "label": "지역위치도",
+    "name": "고양장항_지구조감도_저용량.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69236607"
+   },
+   {
+    "label": "단지배치도",
+    "name": "고양장항_A5_단지배치도_저용량.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69236608"
+   },
+   {
+    "label": "토지이용계획도",
+    "name": "(게시)고양장항토지이용계획도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69236611"
+   },
+   {
+    "label": "단지조감도",
+    "name": "단지조감도.png",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69236595"
+   },
+   {
+    "label": "단지배치도",
+    "name": "단지배치도.png",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69236596"
+   },
+   {
+    "label": "지역위치도",
+    "name": "지역위치도.png",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69236598"
+   },
+   {
+    "label": "토지이용계획도",
+    "name": "(게시)고양장항토지이용계획도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69236599"
+   }
+  ],
+  "firstSeen": "2026-11-04",
+  "geo": {
+   "lat": 37.6495,
+   "lng": 126.76539,
+   "precision": "동"
+  }
+ },
+ {
+  "id": "ah:apt:2026820014:2026820014",
+  "source": "청약홈",
+  "sector": "공공",
+  "cat": "분양",
+  "kind": "신혼희망타운",
+  "name": "남양주왕숙 A-2블록 신혼희망타운(공공분양) 잔여세대 추가입주자모집공고",
+  "address": "경기도 남양주시 진접읍, 진건읍, 퇴계원읍 일원, 남양주왕숙 공공주택지구 내 A-2블록",
+  "region": "경기",
+  "gu": "남양주시",
+  "units": 32,
+  "dates": {
+   "notice": "2026-11-03",
+   "start": "2026-11-11",
+   "end": "2026-11-12",
+   "rank1_start": "2026-11-11",
+   "rank1_end": "2026-11-11",
+   "rank2_start": "2026-11-12",
+   "rank2_end": "2026-11-12",
+   "winner": "2026-11-19",
+   "contract_start": "2027-02-01",
+   "contract_end": "2027-02-02"
+  },
+  "dateBasis": "api",
+  "moveIn": "2028-08",
+  "models": [
+   {
+    "type": "46O",
+    "area": 67.1669,
+    "excl": 46.0,
+    "units": 0,
+    "special": 18,
+    "price": 35276
+   },
+   {
+    "type": "55O",
+    "area": 79.7936,
+    "excl": 55.0,
+    "units": 0,
+    "special": 14,
+    "price": 41908
+   }
+  ],
+  "priceMin": 35276,
+  "priceMax": 41908,
+  "tags": [
+   "분양가상한제",
+   "공공주택지구",
+   "대규모택지",
+   "공공주택특별법"
+  ],
+  "targets": [],
+  "builder": "계룡건설산업(주), 미래이앤시(주), (주)오스코",
+  "supplier": "한국토지주택공사 경기북부지역본부",
+  "tel": "16001004",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820014&pblancNo=2026820014",
+  "homepage": "https://apply.lh.or.kr",
+  "firstSeen": "2026-11-04",
+  "links": [
+   {
+    "label": "LH 공고",
+    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061192&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027"
+   }
+  ],
+  "geo": {
+   "lat": 37.72284,
+   "lng": 127.19764,
+   "precision": "주소"
+  }
+ },
+ {
   "id": "sh:rent:312658",
   "source": "SH",
   "sector": "공공",
@@ -4771,7 +5111,7 @@
    "contract_end": "2026-12-31"
   },
   "dateBasis": "api",
-  "statusHint": "접수중",
+  "statusHint": "접수마감",
   "moveIn": null,
   "models": [],
   "priceMin": null,
@@ -9273,28 +9613,22 @@
   "moveIn": "2030-06",
   "models": [
    {
-    "type": "119OB",
-    "excl": 119.8284,
-    "units": 281,
-    "price": 60600
-   },
-   {
-    "type": "119OA",
-    "excl": 119.9569,
-    "units": 272,
-    "price": 61110
-   },
-   {
     "type": "119OC",
     "excl": 119.9734,
     "units": 282,
     "price": 64330
    },
    {
+    "type": "119OA",
+    "excl": 119.9569,
+    "units": 6,
+    "price": 77890
+   },
+   {
     "type": "119OB",
     "excl": 119.8284,
-    "units": 6,
-    "price": 77240
+    "units": 281,
+    "price": 60600
    },
    {
     "type": "119OC",
@@ -9305,8 +9639,14 @@
    {
     "type": "119OA",
     "excl": 119.9569,
+    "units": 272,
+    "price": 61110
+   },
+   {
+    "type": "119OB",
+    "excl": 119.8284,
     "units": 6,
-    "price": 77890
+    "price": 77240
    }
   ],
   "priceMin": 60600,
@@ -11218,18 +11558,6 @@
   "moveIn": "2029-10",
   "models": [
    {
-    "type": "76A",
-    "excl": 76.9986,
-    "units": 14,
-    "price": 168100
-   },
-   {
-    "type": "90C",
-    "excl": 90.9834,
-    "units": 1,
-    "price": 179400
-   },
-   {
     "type": "90A",
     "excl": 90.9868,
     "units": 2,
@@ -11240,6 +11568,18 @@
     "excl": 84.9809,
     "units": 3,
     "price": 170900
+   },
+   {
+    "type": "76A",
+    "excl": 76.9986,
+    "units": 14,
+    "price": 168100
+   },
+   {
+    "type": "90C",
+    "excl": 90.9834,
+    "units": 1,
+    "price": 179400
    }
   ],
   "priceMin": 168100,
@@ -12180,7 +12520,8 @@
     "excl": 60.0,
     "units": 2,
     "special": 23,
-    "price": 48630
+    "price": 48630,
+    "plan": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-60a.png"
    },
    {
     "type": "60B",
@@ -12188,7 +12529,8 @@
     "excl": 60.0,
     "units": 11,
     "special": 39,
-    "price": 47930
+    "price": 47930,
+    "plan": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-60b.png"
    },
    {
     "type": "60C",
@@ -12196,7 +12538,8 @@
     "excl": 60.0,
     "units": 16,
     "special": 59,
-    "price": 46250
+    "price": 46250,
+    "plan": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-60c.png"
    },
    {
     "type": "84A",
@@ -12204,7 +12547,8 @@
     "excl": 84.0,
     "units": 63,
     "special": 153,
-    "price": 63910
+    "price": 63910,
+    "plan": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-84a.png"
    },
    {
     "type": "84B",
@@ -12212,7 +12556,8 @@
     "excl": 84.0,
     "units": 10,
     "special": 40,
-    "price": 62940
+    "price": 62940,
+    "plan": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-84b.png"
    },
    {
     "type": "84C",
@@ -12220,7 +12565,8 @@
     "excl": 84.0,
     "units": 3,
     "special": 22,
-    "price": 62340
+    "price": 62340,
+    "plan": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-84c.png"
    }
   ],
   "priceMin": 46250,
@@ -12248,7 +12594,123 @@
    "lat": 37.545,
    "lng": 126.676,
    "precision": "구"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-84c.png",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-60a.png",
+    "type": "60A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-60b.png",
+    "type": "60B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-60c.png",
+    "type": "60C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-84a.png",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-84b.png",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-img.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_60a.jpg",
+    "type": "60A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_60a.jpg",
+    "type": "60A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_60b.jpg",
+    "type": "60B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_60b.jpg",
+    "type": "60B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_60c.jpg",
+    "type": "60C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_60c.jpg",
+    "type": "60C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_84a.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_84a.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_84b.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_84b.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_84c.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_84c.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "sh:rent:308605",
