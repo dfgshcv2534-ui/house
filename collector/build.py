@@ -113,7 +113,8 @@ def _part_of(item_id: str) -> str:
     return parts[1] if len(parts) > 2 else parts[-1]
 
 
-def merge(previous: list[dict], results: dict[str, list[dict]], status: dict[str, dict], today: date) -> list[dict]:
+def merge(previous: list[dict], results: dict[str, list[dict]], status: dict[str, dict], today: date,
+          seen: dict[str, str] | None = None) -> list[dict]:
     prev_by_id = {p["id"]: p for p in previous}
     merged: list[dict] = []
     for name, prefix in ID_PREFIX.items():
@@ -127,7 +128,11 @@ def merge(previous: list[dict], results: dict[str, list[dict]], status: dict[str
         fresh_ids = {f["id"] for f in fresh}
         merged.extend(dict(p, stale=True) for p in old if p["id"] not in fresh_ids and _part_of(p["id"]) in failed_parts)
     for item in merged:
-        item["firstSeen"] = prev_by_id.get(item["id"], {}).get("firstSeen") or today.isoformat()
+        # 잠깐 목록에서 빠졌다 돌아온 공고가 '새 공고'로 다시 잡히지 않게 처음 본 날을 따로 기억한다
+        item["firstSeen"] = min(filter(None, [prev_by_id.get(item["id"], {}).get("firstSeen"),
+                                              (seen or {}).get(item["id"])]), default=today.isoformat())
+        if seen is not None:
+            seen.setdefault(item["id"], item["firstSeen"])
     merged = [i for i in dedupe(merged) if keep(i, today)]
     merged.sort(key=lambda i: (i.get("dates", {}).get("notice") or "", i["id"]), reverse=True)
     return merged
@@ -152,15 +157,18 @@ def main(argv=None) -> int:
             print(f"::error::{name}: {st.get('message', '실패')}")
         return 1
 
-    notices = merge(previous, results, status, today)
+    seen_path = args.out / "seen.json"
+    seen = load_json(seen_path, {})
+    notices = merge(previous, results, status, today, seen)
+    cutoff = (today - timedelta(days=400)).isoformat()
+    write_json(seen_path, {k: v for k, v in seen.items() if v >= cutoff})
     geocoder = Geocoder(session, args.out / "geocode.json")
     for n in notices:
         geocoder.locate(n)
     geocoder.save()
     pdfplans.attach(session, notices, args.out.parent)
     homeplans.attach(notices, args.out.parent)
-    prev_ids = {p["id"] for p in previous}
-    new_count = sum(1 for n in notices if n["id"] not in prev_ids)
+    new_count = sum(1 for n in notices if n["firstSeen"] == today.isoformat())
     meta = {
         "updatedAt": kst_now().isoformat(timespec="minutes"),
         "baseDate": today.isoformat(),

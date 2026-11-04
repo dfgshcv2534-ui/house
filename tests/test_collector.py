@@ -566,3 +566,28 @@ def test_newlywed_town_rental_is_not_sale_and_dedupe_by_block():
     assert [i["id"] for i in out] == [ah["id"], rent["id"]] and ah["links"][0]["label"] == "LH 공고"
     assert build._block_key("역곡지구 하우스토리(부천역곡지구 A-2BL) 신혼희망타운") == ("부천역곡", "A2")
     assert not build._same_block(build._block_key("수원당수 A-3블록"), build._block_key("수원당수지구 A5블록"))
+
+
+def test_seen_registry_keeps_first_seen_after_gap():
+    today = date(2026, 11, 2)
+    seen = {"ah:apt:1:1": "2026-07-10"}
+    fresh = {"청약홈": [{"id": "ah:apt:1:1", "source": "청약홈", "cat": "분양", "name": "a", "dates": {"end": "2026-11-20"}},
+                       {"id": "ah:apt:2:2", "source": "청약홈", "cat": "분양", "name": "b", "dates": {"end": "2026-11-20"}}]}
+    out = {n["id"]: n for n in build.merge([], fresh, {"청약홈": {"ok": True}}, today, seen)}
+    assert out["ah:apt:1:1"]["firstSeen"] == "2026-07-10"     # 전날 목록에 없었어도 예전에 본 공고
+    assert out["ah:apt:2:2"]["firstSeen"] == "2026-11-02" and seen["ah:apt:2:2"] == "2026-11-02"
+
+
+def test_applyhome_empty_list_counts_as_failure(monkeypatch):
+    import pytest
+    from collector.common import SourceError
+    monkeypatch.setattr(applyhome, "_fetch_details", lambda *a, **k: [])
+    monkeypatch.setattr(applyhome.time, "sleep", lambda s: None)
+    with pytest.raises(SourceError, match="하나도"):   # 모든 종류가 빈 응답이면 출처 전체 실패 → 지난 데이터 유지
+        applyhome.collect(None, "key")
+
+
+def test_job_postings_excluded():
+    assert not sh.is_recruitment("2027년 강남주거안심종합센터 희망돌보미(사무지원) 모집공고")
+    assert not sh.is_recruitment("주거복지 기간제 근로자 채용 공고")
+    assert sh.is_recruitment("2026년 3차 희망하우징(공공기숙사) 잔여세대 입주자 모집공고")

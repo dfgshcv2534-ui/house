@@ -216,6 +216,11 @@ def collect(session, key: str | None) -> tuple[list[dict], list[str]]:
     for src in SOURCES:
         try:
             rows = _fetch_details(session, src["detail"], key, since)
+            if not rows:  # 전국 180일치가 0건일 리 없다: API가 가끔 오류 없이 빈 목록을 준다 → 잠시 뒤 한 번 더
+                time.sleep(10)
+                rows = _fetch_details(session, src["detail"], key, since)
+            if not rows:
+                raise RuntimeError("최근 공고가 0건으로 왔습니다 (일시적인 빈 응답으로 보고 지난 데이터를 유지)")
         except SourceError:
             raise
         except Exception as e:  # 한 종류가 실패해도 나머지는 계속
