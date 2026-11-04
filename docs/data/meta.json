@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T10:05+09:00",
+ "updatedAt": "2026-11-04T18:06+09:00",
  "baseDate": "2026-11-04",
  "sources": {
   "청약홈": {
@@ -9,13 +9,13 @@
   },
   "SH": {
    "ok": true,
-   "count": 35,
+   "count": 33,
    "failedParts": []
   },
   "GH": {
-   "ok": true,
-   "count": 6,
-   "failedParts": []
+   "ok": false,
+   "count": 0,
+   "message": "GH 게시판을 하나도 읽지 못했습니다"
   },
   "iH": {
    "ok": false,
@@ -24,7 +24,7 @@
   },
   "LH": {
    "ok": true,
-   "count": 20,
+   "count": 21,
    "failedParts": []
   },
   "LH 사전청약": {
@@ -33,6 +33,6 @@
    "failedParts": []
   }
  },
- "total": 146,
- "newToday": 0
+ "total": 145,
+ "newToday": 5
 }
