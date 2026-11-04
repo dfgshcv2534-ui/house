@@ -591,3 +591,12 @@ def test_job_postings_excluded():
     assert not sh.is_recruitment("2027년 강남주거안심종합센터 희망돌보미(사무지원) 모집공고")
     assert not sh.is_recruitment("주거복지 기간제 근로자 채용 공고")
     assert sh.is_recruitment("2026년 3차 희망하우징(공공기숙사) 잔여세대 입주자 모집공고")
+
+
+def test_block_key_with_district_number_and_non_housing():
+    from collector.common import is_recruitment_title
+    assert build._same_block(build._block_key("안산신길2 B-1블록 공공분양주택 입주자 모집공고"),
+                             build._block_key("안산신길2지구 B-1블록 공공분양주택(본청약)"))
+    assert not build._same_block(build._block_key("안산신길2 B-1블록"), build._block_key("안산신길2 A-6블록"))
+    assert not is_recruitment_title("인천계양 A3블록 가정어린이집 운영예정자 모집공고(1회차)")
+    assert is_recruitment_title("[청년형] 특화형 매입임대주택 입주자 모집 공고(운영기관 : 한지붕 협동조합)")

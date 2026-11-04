@@ -230,8 +230,15 @@ NOT_RECRUIT = re.compile(
 )
 
 
+# 주택이 아닌 모집: 상가·어린이집 운영자·직원 채용 등 (모든 출처 공통)
+NON_HOUSING = re.compile(
+    r"상가|입점자|점포|근린생활|어린이집|보육|운영\s*예정자|운영자\s*(?:모집|선정)|사업자\s*(?:모집|선정)|"
+    r"돌보미|사무\s*지원|직원|기간제|근로자|채용|봉사자|서포터즈|활동가|강사"
+)
+
+
 def is_recruitment_title(title: str | None) -> bool:
-    return bool(title) and bool(RECRUIT.search(title)) and not NOT_RECRUIT.search(title)
+    return bool(title) and bool(RECRUIT.search(title)) and not NOT_RECRUIT.search(title) and not NON_HOUSING.search(title)
 
 
 # ---- 수도권(서울·경기·인천) 지역·시군구 -----------------------------------------

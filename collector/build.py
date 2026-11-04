@@ -45,7 +45,7 @@ def _norm_name(text: str | None) -> str:
     return text
 
 
-_BLOCK = re.compile(r"([가-힣]{2,}?)(?:택지개발지구|공공주택지구|지구|택지)?\s*\(?\s*([A-Za-z]{1,2})\s*-?\s*(\d{1,2}(?:-\d)?)\s*(?:블록|BL)", re.I)
+_BLOCK = re.compile(r"([가-힣]{2,}?\d{0,2})(?:택지개발지구|공공주택지구|지구|택지)?\s*\(?\s*([A-Za-z]{1,2})\s*-?\s*(\d{1,2}(?:-\d)?)\s*(?:블록|BL)", re.I)
 
 
 def _block_key(text: str | None) -> tuple[str, str] | None:
