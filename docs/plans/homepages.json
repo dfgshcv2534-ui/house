@@ -440,11 +440,11 @@
   ]
  },
  "https://www.엘리프검단포레듀.com": {
-  "checked": "2026-10-28",
+  "checked": "2026-11-05",
   "plans": []
  },
  "http://www.foreapt.com": {
-  "checked": "2026-10-28",
+  "checked": "2026-11-05",
   "plans": []
  },
  "https://www.i-park.com/uijeongbucentral": {
@@ -2132,10 +2132,6 @@
   "checked": "2026-11-03",
   "plans": []
  },
- "https://www.arteragy.co.kr": {
-  "checked": "2026-11-03",
-  "plans": []
- },
  "http://쌍용더플래티넘한강.com": {
   "checked": "2026-11-03",
   "plans": [
@@ -2279,10 +2275,6 @@
   ]
  },
  "https://hillstate.co.kr/s/gd12": {
-  "checked": "2026-11-03",
-  "plans": []
- },
- "http://중동역다채로움더원.com": {
   "checked": "2026-11-03",
   "plans": []
  },
@@ -2553,5 +2545,9 @@
     "alt": ""
    }
   ]
+ },
+ "https://더샵송도그란테르.kr": {
+  "checked": "2026-11-05",
+  "plans": []
  }
 }

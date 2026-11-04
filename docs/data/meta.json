@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-11-04T18:22+09:00",
- "baseDate": "2026-11-04",
+ "updatedAt": "2026-11-05T01:44+09:00",
+ "baseDate": "2026-11-05",
  "sources": {
   "청약홈": {
    "ok": true,
-   "count": 94,
+   "count": 93,
    "failedParts": []
   },
   "SH": {
@@ -13,9 +13,9 @@
    "failedParts": []
   },
   "GH": {
-   "ok": false,
-   "count": 0,
-   "message": "GH 게시판을 하나도 읽지 못했습니다"
+   "ok": true,
+   "count": 6,
+   "failedParts": []
   },
   "iH": {
    "ok": false,
@@ -33,6 +33,6 @@
    "failedParts": []
   }
  },
- "total": 143,
- "newToday": 3
+ "total": 141,
+ "newToday": 2
 }
