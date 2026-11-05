@@ -1,5 +1,63 @@
 [
  {
+  "id": "lh:2015122300020996",
+  "source": "LH",
+  "sector": "공공",
+  "region": "경기",
+  "cat": "임대",
+  "kind": "국민임대",
+  "name": "연천전곡1단지 국민임대주택 예비입주자 모집공고(2026.11.05.)",
+  "address": "경기도 연천군 전곡읍 밤골로 8(휴먼시아)",
+  "gu": "연천군",
+  "units": 428,
+  "dates": {
+   "notice": "2026-11-05",
+   "end": "2026-11-17",
+   "start": "2026-11-16",
+   "winner": "2027-03-26",
+   "contract_start": "2027-03-31",
+   "contract_end": "2027-04-30"
+  },
+  "dateBasis": "api",
+  "moveIn": null,
+  "models": [
+   {
+    "type": "46",
+    "area": 67.4455,
+    "excl": 46.6,
+    "units": 164
+   }
+  ],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [
+   "개별가스난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020996&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+  "homepage": null,
+  "area": "46.6~51.53㎡",
+  "files": [
+   {
+    "name": "(26.11.05공고)국민임대예비입주자표준모집공고문(연천전곡1).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69278300"
+   },
+   {
+    "name": "(26.11.05공고)국민임대예비입주자표준모집공고문(연천전곡1).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69278305"
+   }
+  ],
+  "firstSeen": "2026-11-05",
+  "geo": {
+   "lat": 37.99501,
+   "lng": 127.03744,
+   "precision": "동"
+  }
+ },
+ {
   "id": "ah:urbty:2026950096:2026950096",
   "source": "청약홈",
   "sector": "민간",
