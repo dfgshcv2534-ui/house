@@ -77,7 +77,7 @@
   ]
  },
  "https://www.sujain-pm2.co.kr": {
-  "checked": "2026-10-29",
+  "checked": "2026-11-06",
   "plans": [
    {
     "url": "https://www.sujain-pm2.co.kr/sub/unit01.jpg",
@@ -94,11 +94,11 @@
   ]
  },
  "https://www.arteragd.co.kr": {
-  "checked": "2026-10-29",
+  "checked": "2026-11-06",
   "plans": []
  },
  "https://ic-yemizi.com/": {
-  "checked": "2026-10-29",
+  "checked": "2026-11-06",
   "plans": [
    {
     "url": "https://ic-yemizi.com/assets/images/main/unit-bg.jpg",
@@ -147,119 +147,6 @@
     "type": "59A",
     "kind": "평면",
     "alt": "unit_59a"
-   }
-  ]
- },
- "https://altia.skdefine.com": {
-  "checked": "2026-10-31",
-  "plans": [
-   {
-    "url": "https://altia.skdefine.com/img/comm_unit.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/img/unit_img01.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/img/unit_obj01.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/img/unit_img02.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/img/unit_obj02.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/img/unit_img03.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit01.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit02.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit03.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit04.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit05.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit06.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit07.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit08.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit09.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit10.jpg",
-    "type": "10",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit11.jpg",
-    "type": "11",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit12.jpg",
-    "type": "12",
-    "kind": "평면",
-    "alt": ""
    }
   ]
  },
@@ -448,7 +335,7 @@
   "plans": []
  },
  "https://www.i-park.com/uijeongbucentral": {
-  "checked": "2026-10-29",
+  "checked": "2026-11-06",
   "plans": [
    {
     "url": "https://cdn.i-park.com/ipark/uijeongbucentral2_grand/img/main/unit_01_v2.png",
@@ -2548,6 +2435,14 @@
  },
  "https://더샵송도그란테르.kr": {
   "checked": "2026-11-05",
+  "plans": []
+ },
+ "https://www.idsd.co.kr": {
+  "checked": "2026-11-06",
+  "plans": []
+ },
+ "https://hillstate.co.kr/SALE/1030/main/index": {
+  "checked": "2026-11-06",
   "plans": []
  }
 }

@@ -1,5 +1,86 @@
 [
  {
+  "id": "lh:2015122300021026",
+  "source": "LH",
+  "sector": "공공",
+  "region": "인천",
+  "cat": "임대",
+  "kind": "국민임대",
+  "name": "인천논현2단지 국임임대주택 예비입주자 모집 공고",
+  "address": "인천광역시 남동구 은봉로166번길 27(논현동,논현휴먼시아 범마을)",
+  "gu": "남동구",
+  "units": 1278,
+  "dates": {
+   "notice": "2026-11-05",
+   "end": "2026-11-20",
+   "winner": "2027-03-26",
+   "contract_start": "2027-03-27",
+   "contract_end": "2028-03-26"
+  },
+  "dateBasis": "api",
+  "statusHint": "공고중",
+  "moveIn": null,
+  "models": [
+   {
+    "type": "51형",
+    "area": 75.9336,
+    "excl": 51.93,
+    "units": 547
+   }
+  ],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [
+   "정정공고",
+   "지역난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021026&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+  "homepage": null,
+  "area": "39.72~51.93㎡",
+  "files": [
+   {
+    "name": "인천논현2단지국민임대예비입주자모집공고문(2026.11.05).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69314329"
+   },
+   {
+    "name": "인천논현2단지국민임대예비입주자모집공고문(2026.11.05).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69314336"
+   }
+  ],
+  "images": [
+   {
+    "label": "지역조감도(2)",
+    "name": "지역조감도(2).jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24546483"
+   },
+   {
+    "label": "토지이용계획도",
+    "name": "토지이용계획도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24546484"
+   },
+   {
+    "label": "2단지 조감도(2)",
+    "name": "2단지 조감도(2).jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24546481"
+   },
+   {
+    "label": "2단지배치도",
+    "name": "2단지배치도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24546482"
+   }
+  ],
+  "firstSeen": "2026-11-06",
+  "geo": {
+   "lat": 37.40547,
+   "lng": 126.70827,
+   "precision": "주소"
+  }
+ },
+ {
   "id": "lh:2015122300020996",
   "source": "LH",
   "sector": "공공",
@@ -55,6 +136,490 @@
    "lat": 37.99501,
    "lng": 127.03744,
    "precision": "동"
+  }
+ },
+ {
+  "id": "lh:2015122300020987",
+  "source": "LH",
+  "sector": "공공",
+  "region": "인천",
+  "cat": "임대",
+  "kind": "국민임대",
+  "name": "'26년 11월 인천시 남동구 국민임대주택 예비입주자 모집 공고(2026.11.05.)",
+  "address": "인천광역시 남동구 논현로 45(논현동,논현휴먼시아 하늘마을)",
+  "gu": "남동구",
+  "units": 2148,
+  "dates": {
+   "notice": "2026-11-05",
+   "end": "2026-11-17",
+   "start": "2026-11-16",
+   "winner": "2027-03-11"
+  },
+  "dateBasis": "api",
+  "moveIn": null,
+  "models": [
+   {
+    "type": "39",
+    "area": 58.0635,
+    "excl": 39.72,
+    "units": 552
+   }
+  ],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [
+   "지역난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020987&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+  "homepage": null,
+  "area": "39.72~59.88㎡",
+  "files": [
+   {
+    "name": "마이마이서비스고객매뉴얼(v6).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69190890"
+   },
+   {
+    "name": "마이마이서비스고객매뉴얼(v6).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69190891"
+   },
+   {
+    "name": "인천시남동구지역국민임대예비입주자모집(26.11.05.).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69190884"
+   },
+   {
+    "name": "인천시남동구지역국민임대예비입주자모집(26.11.05.).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69190885"
+   },
+   {
+    "name": "제출서류양식(현장대행).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69190887"
+   },
+   {
+    "name": "제출서류양식(현장대행).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69190889"
+   }
+  ],
+  "images": [
+   {
+    "label": "논현3지역조감도",
+    "name": "논현3지역조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=26746555"
+   },
+   {
+    "label": "논현3토지이용계획도",
+    "name": "논현3토지이용계획도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=26746556"
+   },
+   {
+    "label": "논현3단지조감도(2)",
+    "name": "논현3단지조감도(2).jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=26746553"
+   },
+   {
+    "label": "논현3단지배치도",
+    "name": "논현3단지배치도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=26746554"
+   }
+  ],
+  "firstSeen": "2026-11-06",
+  "geo": {
+   "lat": 37.40613,
+   "lng": 126.73167,
+   "precision": "주소"
+  }
+ },
+ {
+  "id": "lh:2015122300020973",
+  "source": "LH",
+  "sector": "공공",
+  "region": "경기",
+  "cat": "임대",
+  "kind": "국민임대",
+  "name": "평택시 평택송화 국민임대 예비입주자 모집공고(2026.11.05)",
+  "address": "경기도 평택시 팽성읍 팽성송화로 163(주공아파트)",
+  "gu": "평택시",
+  "units": 481,
+  "dates": {
+   "notice": "2026-11-05",
+   "end": "2026-11-27",
+   "start": "2026-11-25",
+   "winner": "2027-04-02",
+   "contract_start": "2027-04-03",
+   "contract_end": "2029-04-30"
+  },
+  "dateBasis": "api",
+  "moveIn": null,
+  "models": [
+   {
+    "type": "36형",
+    "area": 53.149,
+    "excl": 36.63,
+    "units": 228
+   },
+   {
+    "type": "46형",
+    "area": 66.4399,
+    "excl": 45.79,
+    "units": 266
+   }
+  ],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [
+   "개별난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020973&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+  "homepage": null,
+  "area": "36.63~46.22㎡",
+  "files": [
+   {
+    "name": "(261105)평택시국민임대주택예비입주자표준모집공고문_20261030.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69227273"
+   },
+   {
+    "name": "(261105)평택시국민임대주택예비입주자표준모집공고문_20261030.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69227274"
+   }
+  ],
+  "images": [
+   {
+    "label": "평택송화 위치도6.60%",
+    "name": "평택송화 위치도6.60%.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24545616"
+   },
+   {
+    "label": "조감도최종[2]",
+    "name": "조감도최종[2].jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24545611"
+   },
+   {
+    "label": "배치도1.7",
+    "name": "배치도1.7.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24545615"
+   }
+  ],
+  "firstSeen": "2026-11-06",
+  "geo": {
+   "lat": 36.96127,
+   "lng": 127.04395,
+   "precision": "동"
+  }
+ },
+ {
+  "id": "lh:0000061201",
+  "source": "LH",
+  "sector": "공공",
+  "region": "경기",
+  "cat": "특수형",
+  "kind": "분양전환 임대",
+  "name": "평택시.안성시 지역 10년 공공임대주택[리츠] 예비입주자 모집공고(2026.11.05)",
+  "address": "경기도 안성시 아양로 73 (아양동,서희스타힐스 NHF)",
+  "gu": "안성시",
+  "units": 963,
+  "dates": {
+   "notice": "2026-11-05",
+   "end": "2026-11-16",
+   "start": "2026-11-16",
+   "winner": "2026-11-23"
+  },
+  "dateBasis": "api",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [
+   "개별난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061201&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+  "homepage": null,
+  "area": "74.93~84.91㎡",
+  "files": [
+   {
+    "name": "결재_261030_평택시.안성시지역10년공공임대주택예비입주자모집공고문(261030).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69270206"
+   },
+   {
+    "name": "결재_261030_평택시.안성시지역10년공공임대주택예비입주자모집공고문(261030).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69270187"
+   },
+   {
+    "name": "공고문첨부_팜플렛자료(261105공고)리츠5개지구.zip",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69270227"
+   }
+  ],
+  "images": [
+   {
+    "label": "단지배치도",
+    "name": "단지배치도.JPG",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69271296"
+   },
+   {
+    "label": "단지조감도",
+    "name": "단지조감도.JPG",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69271297"
+   },
+   {
+    "label": "지역위치도",
+    "name": "지역위치도.JPG",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69271298"
+   },
+   {
+    "label": "토지이용계획도",
+    "name": "토지이용계획도.JPG",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69271299"
+   },
+   {
+    "label": "단지조감도",
+    "name": "안성아양B-6블록단지조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69271491"
+   },
+   {
+    "label": "단지배치도",
+    "name": "안성아양B-6블록단지배치도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69271492"
+   },
+   {
+    "label": "단지배치도",
+    "name": "단지배치도.png",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69271326"
+   },
+   {
+    "label": "단지조감도",
+    "name": "단지조감도.png",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69271327"
+   }
+  ],
+  "firstSeen": "2026-11-06",
+  "geo": {
+   "lat": 37.00326,
+   "lng": 127.26038,
+   "precision": "주소"
+  }
+ },
+ {
+  "id": "ah:remndr:2026910282:2026910282",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "분양",
+  "kind": "무순위·잔여세대",
+  "name": "광명 시티프라디움 에듀하임",
+  "address": "경기도 광명시 소하동 광명 구름산지구 도시개발사업지구 A6BL",
+  "region": "경기",
+  "gu": "광명시",
+  "units": 21,
+  "dates": {
+   "notice": "2026-11-05",
+   "start": "2026-11-10",
+   "end": "2026-11-10",
+   "winner": "2026-11-13",
+   "contract_start": "2026-11-20",
+   "contract_end": "2026-11-20"
+  },
+  "dateBasis": "api",
+  "moveIn": "2029-03",
+  "models": [
+   {
+    "type": "59B",
+    "excl": 59.0,
+    "units": 4,
+    "special": 0,
+    "price": 82700
+   },
+   {
+    "type": "84D",
+    "excl": 84.0,
+    "units": 17,
+    "special": 0,
+    "price": 119800
+   }
+  ],
+  "priceMin": 82700,
+  "priceMax": 119800,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "(주)시티글로벌",
+  "tel": "18996851",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910282&pblancNo=2026910282",
+  "homepage": "https://광명시티프라디움.com",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910282&pblancNo=2026910282&atchmnflSeqNo=2013002&atchmnflSn=4"
+   }
+  ],
+  "firstSeen": "2026-11-06",
+  "geo": {
+   "lat": 37.44328,
+   "lng": 126.88234,
+   "precision": "동"
+  },
+  "homePlans": [
+   {
+    "url": "https://xn--hc0bz5m11b1ue95n2zf6zxvzd.com/resources/img/main/unit_bg.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--hc0bz5m11b1ue95n2zf6zxvzd.com/resources/data/cyber/59A/unit_iso.jpg",
+    "type": null,
+    "kind": "입체",
+    "alt": "59A 타입 평면도"
+   }
+  ]
+ },
+ {
+  "id": "ah:remndr:2026910279:2026910279",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "분양",
+  "kind": "무순위·잔여세대",
+  "name": "봉담자이 프라이드시티",
+  "address": "경기도 화성특례시 효행구 봉담읍 삼봉안길 30 (봉담내리지구 A1블록 봉담자이 프라이드시티)",
+  "region": "경기",
+  "gu": "화성특례시",
+  "units": 2,
+  "dates": {
+   "notice": "2026-11-05",
+   "start": "2026-11-10",
+   "end": "2026-11-10",
+   "winner": "2026-11-13",
+   "contract_start": "2026-11-20",
+   "contract_end": "2026-11-20"
+  },
+  "dateBasis": "api",
+  "moveIn": "2026-12",
+  "models": [
+   {
+    "type": "84A",
+    "excl": 84.0,
+    "units": 1,
+    "special": 0,
+    "price": 46220
+   },
+   {
+    "type": "84B",
+    "excl": 84.0,
+    "units": 1,
+    "special": 0,
+    "price": 45770
+   }
+  ],
+  "priceMin": 45770,
+  "priceMax": 46220,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "디에스디삼호(주)",
+  "tel": "0312784145",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910279&pblancNo=2026910279",
+  "homepage": "https://www.idsd.co.kr",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910279&pblancNo=2026910279&atchmnflSeqNo=2013033&atchmnflSn=3"
+   }
+  ],
+  "firstSeen": "2026-11-06"
+ },
+ {
+  "id": "ah:pvtrent:2026850055:2026850055",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "임대",
+  "kind": "공공지원민간임대",
+  "name": "힐스테이트 회룡역파크뷰",
+  "address": "경기도 의정부시 신흥로 43",
+  "region": "경기",
+  "gu": "의정부시",
+  "units": 909,
+  "dates": {
+   "notice": "2026-11-05",
+   "start": "2026-11-10",
+   "end": "2026-11-10",
+   "winner": "2026-11-13",
+   "contract_start": "2026-11-23",
+   "contract_end": "2026-11-25"
+  },
+  "dateBasis": "api",
+  "moveIn": "2027-01",
+  "models": [
+   {
+    "type": "49",
+    "area": 67.0208,
+    "excl": 49.9522,
+    "units": 115,
+    "price": 29282
+   },
+   {
+    "type": "59A",
+    "area": 80.6838,
+    "excl": 59.9936,
+    "units": 181,
+    "price": 42417
+   },
+   {
+    "type": "59B",
+    "area": 80.1689,
+    "excl": 59.9934,
+    "units": 37,
+    "price": 37272
+   },
+   {
+    "type": "59C",
+    "area": 80.6032,
+    "excl": 59.8626,
+    "units": 30,
+    "price": 36337
+   },
+   {
+    "type": "84A",
+    "area": 112.9202,
+    "excl": 84.9771,
+    "units": 250,
+    "price": 57427
+   },
+   {
+    "type": "84B",
+    "area": 112.7353,
+    "excl": 84.9626,
+    "units": 296,
+    "price": 56430
+   }
+  ],
+  "priceMin": 29282,
+  "priceMax": 57427,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "신한자산신탁 주식회사",
+  "tel": "0318271800",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026850055&pblancNo=2026850055&houseSecd=03",
+  "homepage": "https://hillstate.co.kr/SALE/1030/main/index",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026850055&pblancNo=2026850055&atchmnflSeqNo=2014164&atchmnflSn=3"
+   }
+  ],
+  "firstSeen": "2026-11-06",
+  "geo": {
+   "lat": 37.73548,
+   "lng": 127.04345,
+   "precision": "주소"
   }
  },
  {
@@ -8718,167 +9283,6 @@
   }
  },
  {
-  "id": "ah:opt:2026940229:2026940229",
-  "source": "청약홈",
-  "sector": "민간",
-  "cat": "분양",
-  "kind": "임의공급",
-  "name": "드파인 아르티아",
-  "address": "서울특별시 동작구 노량진동 312-75번지 일대",
-  "region": "서울",
-  "gu": "동작구",
-  "units": 1,
-  "dates": {
-   "notice": "2026-10-14",
-   "start": "2026-10-16",
-   "end": "2026-10-16",
-   "winner": "2026-10-21",
-   "contract_start": "2026-10-22",
-   "contract_end": "2026-10-22"
-  },
-  "dateBasis": "api",
-  "moveIn": "2029-11",
-  "models": [
-   {
-    "type": "109A",
-    "excl": 109.0,
-    "units": 1,
-    "price": 295000
-   }
-  ],
-  "priceMin": 295000,
-  "priceMax": 295000,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "노량진2재정비촉진구역재개발정비사업조합",
-  "tel": "16444041",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940229&pblancNo=2026940229",
-  "homepage": "https://altia.skdefine.com",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940229&pblancNo=2026940229&atchmnflSeqNo=1998092&atchmnflSn=2"
-   }
-  ],
-  "firstSeen": "2026-10-15",
-  "geo": {
-   "lat": 37.51261,
-   "lng": 126.94212,
-   "precision": "동"
-  },
-  "homePlans": [
-   {
-    "url": "https://altia.skdefine.com/img/comm_unit.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/img/unit_img01.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/img/unit_obj01.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/img/unit_img02.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/img/unit_obj02.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/img/unit_img03.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit01.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit02.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit03.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit04.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit05.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit06.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit07.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit08.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit09.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit10.jpg",
-    "type": "10",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit11.jpg",
-    "type": "11",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://altia.skdefine.com/sub/unit12.jpg",
-    "type": "12",
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
- },
- {
   "id": "ah:opt:2026940226:2026940226",
   "source": "청약홈",
   "sector": "공공",
@@ -9055,50 +9459,6 @@
     "alt": ""
    }
   ]
- },
- {
-  "id": "sh:rent:311349",
-  "source": "SH",
-  "sector": "공공",
-  "region": "서울",
-  "cat": "임대",
-  "kind": "공공임대",
-  "name": "은평구 홀몸어르신 은빛주택(수요자맞춤형) 잔여세대 모집 공고",
-  "address": null,
-  "gu": "은평구",
-  "units": 2,
-  "dates": {
-   "notice": "2026-10-12",
-   "start": "2026-10-26",
-   "end": "2026-11-06",
-   "winner": "2026-11-19"
-  },
-  "dateBasis": "본문",
-  "moveIn": null,
-  "models": [],
-  "priceMin": null,
-  "priceMax": null,
-  "tags": [],
-  "targets": [
-   "고령자"
-  ],
-  "builder": null,
-  "supplier": "SH공사 매입주택공급부",
-  "tel": null,
-  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=311349",
-  "homepage": null,
-  "files": [
-   {
-    "name": "은빛주택 1호점 잔여세대 입주자 모집 공고문.hwpx",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311349&data_tp=A&file_seq=1"
-   }
-  ],
-  "firstSeen": "2026-10-13",
-  "geo": {
-   "lat": 37.6027,
-   "lng": 126.9291,
-   "precision": "구"
-  }
  },
  {
   "id": "ah:remndr:2026910263:2026910263",
@@ -9408,71 +9768,6 @@
   ]
  },
  {
-  "id": "ah:opt:2026940221:2026940221",
-  "source": "청약홈",
-  "sector": "민간",
-  "cat": "분양",
-  "kind": "임의공급",
-  "name": "풍무역세권 수자인 그라센트 2차(4차)",
-  "address": "경기도 김포시 풍무역세권도시개발사업 B1BL(김포시 사우동 167-1번지)",
-  "region": "경기",
-  "gu": "김포시",
-  "units": 6,
-  "dates": {
-   "notice": "2026-10-12",
-   "start": "2026-10-14",
-   "end": "2026-10-15",
-   "winner": "2026-10-20",
-   "contract_start": "2026-10-22",
-   "contract_end": "2026-10-22"
-  },
-  "dateBasis": "api",
-  "moveIn": "2029-01",
-  "models": [
-   {
-    "type": "105",
-    "excl": 105.0,
-    "units": 6,
-    "price": 82530
-   }
-  ],
-  "priceMin": 82530,
-  "priceMax": 82530,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "주식회사비에스한양,주식회사비에스산업",
-  "tel": "15511710",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940221&pblancNo=2026940221",
-  "homepage": "https://www.sujain-pm2.co.kr",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940221&pblancNo=2026940221&atchmnflSeqNo=1994020&atchmnflSn=2"
-   }
-  ],
-  "firstSeen": "2026-10-13",
-  "geo": {
-   "lat": 37.61557,
-   "lng": 126.71578,
-   "precision": "구"
-  },
-  "homePlans": [
-   {
-    "url": "https://www.sujain-pm2.co.kr/sub/unit01.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.sujain-pm2.co.kr/sub/unit02.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
- },
- {
   "id": "ah:opt:2026940218:2026940218",
   "source": "청약홈",
   "sector": "공공",
@@ -9564,24 +9859,6 @@
   "moveIn": "2030-06",
   "models": [
    {
-    "type": "119OB",
-    "excl": 119.8284,
-    "units": 281,
-    "price": 60600
-   },
-   {
-    "type": "119OC",
-    "excl": 119.9734,
-    "units": 282,
-    "price": 64330
-   },
-   {
-    "type": "119OC",
-    "excl": 119.9734,
-    "units": 6,
-    "price": 81990
-   },
-   {
     "type": "119OA",
     "excl": 119.9569,
     "units": 6,
@@ -9594,10 +9871,28 @@
     "price": 77240
    },
    {
+    "type": "119OC",
+    "excl": 119.9734,
+    "units": 282,
+    "price": 64330
+   },
+   {
     "type": "119OA",
     "excl": 119.9569,
     "units": 272,
     "price": 61110
+   },
+   {
+    "type": "119OB",
+    "excl": 119.8284,
+    "units": 281,
+    "price": 60600
+   },
+   {
+    "type": "119OC",
+    "excl": 119.9734,
+    "units": 6,
+    "price": 81990
    }
   ],
   "priceMin": 60600,
@@ -11214,6 +11509,12 @@
   "moveIn": "2029-10",
   "models": [
    {
+    "type": "90C",
+    "excl": 90.9834,
+    "units": 1,
+    "price": 179400
+   },
+   {
     "type": "90A",
     "excl": 90.9868,
     "units": 2,
@@ -11230,12 +11531,6 @@
     "excl": 76.9986,
     "units": 14,
     "price": 168100
-   },
-   {
-    "type": "90C",
-    "excl": 90.9834,
-    "units": 1,
-    "price": 179400
    }
   ],
   "priceMin": 168100,
