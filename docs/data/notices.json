@@ -1,5 +1,135 @@
 [
  {
+  "id": "lh:0000061204",
+  "source": "LH",
+  "sector": "공공",
+  "region": "경기",
+  "cat": "분양",
+  "kind": "공공분양(신혼희망)",
+  "name": "시흥 거모 아테라(시흥거모 A-6BL) 신혼희망타운(공공분양) 입주자모집공고",
+  "address": "경기도 시흥시 거모동 시흥거모A-6BL",
+  "gu": "시흥시",
+  "units": 720,
+  "dates": {
+   "notice": "2026-11-06",
+   "end": "2026-11-27",
+   "start": "2026-11-16",
+   "winner": "2026-12-08",
+   "contract_start": "2027-03-11",
+   "contract_end": "2027-03-14"
+  },
+  "dateBasis": "api",
+  "moveIn": "2029-09",
+  "models": [
+   {
+    "type": "55A",
+    "area": 79.047,
+    "excl": 55.66,
+    "units": 477,
+    "price": 42868
+   },
+   {
+    "type": "59A",
+    "area": 84.6567,
+    "excl": 59.61,
+    "units": 80,
+    "price": 45881
+   },
+   {
+    "type": "59B",
+    "area": 84.6141,
+    "excl": 59.58,
+    "units": 74,
+    "price": 45830
+   },
+   {
+    "type": "59C",
+    "area": 84.5005,
+    "excl": 59.5,
+    "units": 89,
+    "price": 45788
+   }
+  ],
+  "priceMin": 42868,
+  "priceMax": 45881,
+  "tags": [
+   "지역난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061204&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
+  "homepage": null,
+  "area": "55.66~59.91㎡",
+  "files": [
+   {
+    "name": "1.위임장.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69312243"
+   },
+   {
+    "name": "2-1.개인정보수집이용및제3자제공동의서(사전청약당첨자용).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69312245"
+   },
+   {
+    "name": "2-2.개인정보수집이용및제3자제공동의서(본청약자용).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69312248"
+   },
+   {
+    "name": "3-1.금융정보등(금융ㆍ신용ㆍ보험정보)제공동의서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69312254"
+   },
+   {
+    "name": "3-2.금융정보등(금융ㆍ신용ㆍ보험정보)제공동의서-작성방법.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69312256"
+   },
+   {
+    "name": "4.자산보유사실확인서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69312258"
+   },
+   {
+    "name": "시흥거모아테라모집공고_최종(안).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69314268"
+   },
+   {
+    "name": "시흥거모아테라모집공고_최종(안).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69314535"
+   },
+   {
+    "name": "시흥거모아테라팸플릿_최종(안).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69312192"
+   }
+  ],
+  "images": [
+   {
+    "label": "토지이용계획도",
+    "name": "시흥거모A-6BL_토지이용계획도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69295687"
+   },
+   {
+    "label": "단지배치도",
+    "name": "시흥거모A-6BL_단지배치도V2.png",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69295717"
+   },
+   {
+    "label": "지역위치도",
+    "name": "시흥거모A-6BL_지역도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69295729"
+   },
+   {
+    "label": "단지조감도",
+    "name": "시흥거모A-6BL_조감도V2.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69295790"
+   }
+  ],
+  "firstSeen": "2026-11-06",
+  "geo": {
+   "lat": 37.3553,
+   "lng": 126.77519,
+   "precision": "동"
+  }
+ },
+ {
   "id": "lh:2015122300021026",
   "source": "LH",
   "sector": "공공",
@@ -282,11 +412,11 @@
   "files": [
    {
     "name": "(261105)평택시국민임대주택예비입주자표준모집공고문_20261030.hwpx",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69227273"
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69320239"
    },
    {
     "name": "(261105)평택시국민임대주택예비입주자표준모집공고문_20261030.pdf",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69227274"
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69320242"
    }
   ],
   "images": [
