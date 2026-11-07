@@ -93,6 +93,42 @@
    "lat": 37.00326,
    "lng": 127.26038,
    "precision": "주소"
+  },
+  "stale": true
+ },
+ {
+  "id": "gh:rent:845",
+  "source": "GH",
+  "sector": "공공",
+  "region": "경기",
+  "cat": "임대",
+  "kind": "장기전세",
+  "name": "(의정부)탑석센트럴자이(49형) 장기전세주택 입주자 및 예비입주자 모집",
+  "address": null,
+  "gu": "의정부시",
+  "units": null,
+  "dates": {
+   "notice": "2026-11-06",
+   "end": "2026-11-19"
+  },
+  "dateBasis": "api",
+  "statusHint": "공고중",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "GH",
+  "tel": null,
+  "url": "https://apply.gh.or.kr/sb/sr/sr7150/selectPbancDetailView.do?pbancNo=845",
+  "homepage": null,
+  "firstSeen": "2026-11-07",
+  "geo": {
+   "lat": 37.73807,
+   "lng": 127.03397,
+   "precision": "구"
   }
  },
  {
@@ -434,12 +470,6 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820015&pblancNo=2026820015",
   "homepage": "https://apply.lh.or.kr",
   "firstSeen": "2026-11-07",
-  "links": [
-   {
-    "label": "LH 공고",
-    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061204&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027"
-   }
-  ],
   "geo": {
    "lat": 37.37989,
    "lng": 126.80323,
@@ -930,7 +960,8 @@
    "lat": 37.40547,
    "lng": 126.70827,
    "precision": "주소"
-  }
+  },
+  "stale": true
  },
  {
   "id": "lh:2015122300020996",
@@ -988,7 +1019,8 @@
    "lat": 37.99501,
    "lng": 127.03744,
    "precision": "동"
-  }
+  },
+  "stale": true
  },
  {
   "id": "lh:2015122300020987",
@@ -1082,7 +1114,8 @@
    "lat": 37.40613,
    "lng": 126.73167,
    "precision": "주소"
-  }
+  },
+  "stale": true
  },
  {
   "id": "lh:2015122300020973",
@@ -1163,7 +1196,8 @@
    "lat": 36.96127,
    "lng": 127.04395,
    "precision": "동"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910282:2026910282",
@@ -1617,7 +1651,8 @@
    "lat": 37.6545,
    "lng": 126.92421,
    "precision": "동"
-  }
+  },
+  "stale": true
  },
  {
   "id": "lh:0000061199",
@@ -1782,7 +1817,8 @@
    "lat": 37.6495,
    "lng": 126.76539,
    "precision": "동"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:apt:2026820014:2026820014",
@@ -1842,12 +1878,6 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820014&pblancNo=2026820014",
   "homepage": "https://apply.lh.or.kr",
   "firstSeen": "2026-11-04",
-  "links": [
-   {
-    "label": "LH 공고",
-    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061192&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027"
-   }
-  ],
   "geo": {
    "lat": 37.72284,
    "lng": 127.19764,
@@ -2022,7 +2052,8 @@
    "lat": 37.14994,
    "lng": 127.07746,
    "precision": "구"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910281:2026910281",
@@ -2357,7 +2388,8 @@
    "lat": 37.52654,
    "lng": 126.67407,
    "precision": "동"
-  }
+  },
+  "stale": true
  },
  {
   "id": "lh:0000061197",
@@ -2458,7 +2490,8 @@
    "lat": 37.52654,
    "lng": 126.67407,
    "precision": "동"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:apt:2026820013:2026820013",
@@ -2518,12 +2551,6 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820013&pblancNo=2026820013",
   "homepage": "https://apply.lh.or.kr/",
   "firstSeen": "2026-10-31",
-  "links": [
-   {
-    "label": "LH 공고",
-    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061189&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027"
-   }
-  ],
   "geo": {
    "lat": 37.33352,
    "lng": 126.77378,
@@ -2636,12 +2663,6 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000533&pblancNo=2026000533",
   "homepage": "https://apply.lh.or.kr",
   "firstSeen": "2026-10-31",
-  "links": [
-   {
-    "label": "LH 공고",
-    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061205&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027"
-   }
-  ],
   "geo": {
    "lat": 37.33352,
    "lng": 126.77378,
@@ -3922,7 +3943,8 @@
    "lat": 37.41491,
    "lng": 126.98243,
    "precision": "주소"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:remndr:2026930043:2026930043",
@@ -4607,7 +4629,8 @@
    "lat": 37.19947,
    "lng": 126.83126,
    "precision": "구"
-  }
+  },
+  "stale": true
  },
  {
   "id": "lh:2015122300020936",
@@ -4756,7 +4779,8 @@
    "lat": 37.63106,
    "lng": 127.1168,
    "precision": "주소"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910275:2026910275",
@@ -5810,12 +5834,6 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820012&pblancNo=2026820012",
   "homepage": "https://apply.lh.or.kr/",
   "firstSeen": "2026-10-24",
-  "links": [
-   {
-    "label": "LH 공고",
-    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061165&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027"
-   }
-  ],
   "geo": {
    "lat": 37.39744,
    "lng": 126.80001,
@@ -5999,12 +6017,6 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000531&pblancNo=2026000531",
   "homepage": "https://apply.lh.or.kr/",
   "firstSeen": "2026-10-24",
-  "links": [
-   {
-    "label": "LH 공고",
-    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061195&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027"
-   }
-  ],
   "geo": {
    "lat": 37.3553,
    "lng": 126.77519,
@@ -6412,7 +6424,8 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69110457"
    }
   ],
-  "firstSeen": "2026-10-22"
+  "firstSeen": "2026-10-22",
+  "stale": true
  },
  {
   "id": "lh:0000061190",
@@ -6478,7 +6491,8 @@
    "lat": 37.63106,
    "lng": 127.1168,
    "precision": "동"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:urbty:2026950088:2026950088",
@@ -8452,7 +8466,8 @@
    "lat": 37.4907,
    "lng": 126.72382,
    "precision": "주소"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:opt:2026940225:2026940225",
@@ -8658,7 +8673,8 @@
    "lat": 37.61557,
    "lng": 126.71578,
    "precision": "구"
-  }
+  },
+  "stale": true
  },
  {
   "id": "gh:rent:839",
@@ -8693,8 +8709,7 @@
    "lat": 37.42016,
    "lng": 127.12621,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:apt:2026000509:2026000509",
@@ -11365,12 +11380,6 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820010&pblancNo=2026820010",
   "homepage": "https://apply.lh.or.kr",
   "firstSeen": "2026-10-13",
-  "links": [
-   {
-    "label": "LH 공고",
-    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061179&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027"
-   }
-  ],
   "geo": {
    "lat": 37.56683,
    "lng": 126.74383,
@@ -11732,7 +11741,8 @@
     "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68615193"
    }
   ],
-  "firstSeen": "2026-10-15"
+  "firstSeen": "2026-10-15",
+  "stale": true
  },
  {
   "id": "ah:apt:2026000438:2026000438",
@@ -12753,8 +12763,7 @@
    "lat": 38.0964,
    "lng": 127.0746,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "sh:rent:308944",

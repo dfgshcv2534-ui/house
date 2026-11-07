@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T01:31+09:00",
+ "updatedAt": "2026-11-07T09:52+09:00",
  "baseDate": "2026-11-07",
  "sources": {
   "청약홈": {
@@ -13,11 +13,9 @@
    "failedParts": []
   },
   "GH": {
-   "ok": false,
-   "count": 2,
-   "failedParts": [
-    "rent"
-   ]
+   "ok": true,
+   "count": 7,
+   "failedParts": []
   },
   "iH": {
    "ok": false,
@@ -25,16 +23,16 @@
    "message": "iH 게시판을 하나도 읽지 못했습니다"
   },
   "LH": {
-   "ok": true,
-   "count": 25,
-   "failedParts": []
+   "ok": false,
+   "count": 0,
+   "message": "LH 공고문를 하나도 읽지 못했습니다"
   },
   "LH 사전청약": {
-   "ok": true,
+   "ok": false,
    "count": 0,
-   "failedParts": []
+   "message": "RuntimeError: https://apis.data.go.kr/B552555/lhLeaseNoticeBfhInfo1/lhLeaseNoticeBfhInfo1 요청 실패: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Read timed out. (read timeout=30)"
   }
  },
- "total": 150,
- "newToday": 9
+ "total": 151,
+ "newToday": 10
 }
