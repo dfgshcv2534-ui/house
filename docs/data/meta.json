@@ -1,11 +1,15 @@
 {
- "updatedAt": "2026-11-07T09:52+09:00",
- "baseDate": "2026-11-07",
+ "updatedAt": "2026-11-08T00:17+09:00",
+ "baseDate": "2026-11-08",
  "sources": {
   "청약홈": {
-   "ok": true,
-   "count": 99,
-   "failedParts": []
+   "ok": false,
+   "count": 17,
+   "failedParts": [
+    "apt",
+    "remndr",
+    "urbty"
+   ]
   },
   "SH": {
    "ok": true,
@@ -14,7 +18,7 @@
   },
   "GH": {
    "ok": true,
-   "count": 7,
+   "count": 6,
    "failedParts": []
   },
   "iH": {
@@ -23,16 +27,16 @@
    "message": "iH 게시판을 하나도 읽지 못했습니다"
   },
   "LH": {
-   "ok": false,
-   "count": 0,
-   "message": "LH 공고문를 하나도 읽지 못했습니다"
+   "ok": true,
+   "count": 25,
+   "failedParts": []
   },
   "LH 사전청약": {
-   "ok": false,
+   "ok": true,
    "count": 0,
-   "message": "RuntimeError: https://apis.data.go.kr/B552555/lhLeaseNoticeBfhInfo1/lhLeaseNoticeBfhInfo1 요청 실패: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Read timed out. (read timeout=30)"
+   "failedParts": []
   }
  },
- "total": 151,
- "newToday": 10
+ "total": 146,
+ "newToday": 0
 }

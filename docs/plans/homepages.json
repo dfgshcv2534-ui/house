@@ -93,10 +93,6 @@
    }
   ]
  },
- "https://www.arteragd.co.kr": {
-  "checked": "2026-11-06",
-  "plans": []
- },
  "https://ic-yemizi.com/": {
   "checked": "2026-11-06",
   "plans": [
@@ -150,181 +146,9 @@
    }
   ]
  },
- "http://gd-hausd.com/": {
-  "checked": "2026-10-31",
-  "plans": [
-   {
-    "url": "http://gd-hausd.com/img/common/planning.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://gd-hausd.com/img/unit_tit_img.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://gd-hausd.com/img/unit04.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://gd-hausd.com/img/unit01.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://gd-hausd.com/img/unit02.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://gd-hausd.com/img/unit03.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://gd-hausd.com/sub/unit01.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://gd-hausd.com/sub/unit02.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://gd-hausd.com/sub/unit03.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://gd-hausd.com/sub/unit04.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
- },
  "https://www.마곡스카이온.com": {
   "checked": "2026-11-01",
   "plans": []
- },
- "https://www.harrington495.kr/": {
-  "checked": "2026-11-01",
-  "plans": [
-   {
-    "url": "https://www.harrington495.kr/images/sub/complex/unit/22-a-type.jpg",
-    "type": "22",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.harrington495.kr/images/sub/complex/unit/22-b-type.jpg",
-    "type": "22",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.harrington495.kr/images/sub/complex/unit/23-a-type.jpg",
-    "type": "23",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.harrington495.kr/images/sub/complex/unit/23-b-type.jpg",
-    "type": "23",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.harrington495.kr/images/sub/complex/unit/26-type.jpg",
-    "type": "26",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.harrington495.kr/images/sub/complex/unit/46-type.jpg",
-    "type": "46",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.harrington495.kr/images/sub/complex/unit/48-a-type.jpg",
-    "type": "48",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.harrington495.kr/images/sub/complex/unit/48-b-type.jpg",
-    "type": "48",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.harrington495.kr/images/sub/complex/unit/48-c-type.jpg",
-    "type": "48",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.harrington495.kr/images/sub/complex/unit/48-d-type.jpg",
-    "type": "48",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.harrington495.kr/images/sub/complex/unit/49-a-type.jpg",
-    "type": "49",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.harrington495.kr/images/sub/complex/unit/49-b-type.jpg",
-    "type": "49",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.harrington495.kr/images/sub/complex/unit/51-type.jpg",
-    "type": "51",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.harrington495.kr/images/sub/complex/unit/59-a-type.jpg",
-    "type": "59",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.harrington495.kr/images/sub/complex/unit/59-b-type.jpg",
-    "type": "59",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.harrington495.kr/images/sub/complex/unit/59-c-type.jpg",
-    "type": "59",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.harrington495.kr/images/sub/complex/unit/59-d-type.jpg",
-    "type": "59",
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
  },
  "https://www.엘리프검단포레듀.com": {
   "checked": "2026-11-05",
@@ -1812,27 +1636,6 @@
     "type": "59C",
     "kind": "평면",
     "alt": "에피트 시흥 은계 59㎡C"
-   }
-  ]
- },
- "https://xi.co.kr/MDX": {
-  "checked": "2026-11-03",
-  "plans": []
- },
- "http://수원역아너스빌.com": {
-  "checked": "2026-11-03",
-  "plans": [
-   {
-    "url": "http://xn--h50bp5wj1cbqa48h72an9b.com/sub/t_unit01.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://xn--h50bp5wj1cbqa48h72an9b.com/sub/t_unit02.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
    }
   ]
  },
