@@ -1,15 +1,11 @@
 {
- "updatedAt": "2026-11-08T00:17+09:00",
+ "updatedAt": "2026-11-08T09:10+09:00",
  "baseDate": "2026-11-08",
  "sources": {
   "청약홈": {
-   "ok": false,
-   "count": 17,
-   "failedParts": [
-    "apt",
-    "remndr",
-    "urbty"
-   ]
+   "ok": true,
+   "count": 94,
+   "failedParts": []
   },
   "SH": {
    "ok": true,

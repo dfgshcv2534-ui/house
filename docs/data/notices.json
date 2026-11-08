@@ -235,8 +235,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:remndr:2026910283:2026910283",
@@ -288,8 +287,7 @@
    "lat": 37.48822,
    "lng": 126.5335,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:remndr:2026910280:2026910280",
@@ -348,8 +346,7 @@
    "lat": 37.69388,
    "lng": 127.22304,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:remndr:2026910276:2026910276",
@@ -396,8 +393,7 @@
     "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910276&pblancNo=2026910276&atchmnflSeqNo=2008508&atchmnflSn=2"
    }
   ],
-  "firstSeen": "2026-11-07",
-  "stale": true
+  "firstSeen": "2026-11-07"
  },
  {
   "id": "ah:apt:2026820015:2026820015",
@@ -473,18 +469,17 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820015&pblancNo=2026820015",
   "homepage": "https://apply.lh.or.kr",
   "firstSeen": "2026-11-07",
-  "geo": {
-   "lat": 37.37989,
-   "lng": 126.80323,
-   "precision": "구"
-  },
-  "stale": true,
   "links": [
    {
     "label": "LH 공고",
     "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061204&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027"
    }
-  ]
+  ],
+  "geo": {
+   "lat": 37.37989,
+   "lng": 126.80323,
+   "precision": "구"
+  }
  },
  {
   "id": "ah:apt:2026000557:2026000557",
@@ -551,8 +546,7 @@
    "lat": 37.4319,
    "lng": 127.22279,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:apt:2026000553:2026000553",
@@ -665,8 +659,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:apt:2026000497:2026000497",
@@ -891,8 +884,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "lh:2015122300021026",
@@ -1279,8 +1271,7 @@
     "kind": "입체",
     "alt": "59A 타입 평면도"
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:remndr:2026910279:2026910279",
@@ -1334,8 +1325,7 @@
     "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910279&pblancNo=2026910279&atchmnflSeqNo=2013033&atchmnflSn=3"
    }
   ],
-  "firstSeen": "2026-11-06",
-  "stale": true
+  "firstSeen": "2026-11-06"
  },
  {
   "id": "ah:pvtrent:2026850055:2026850055",
@@ -1505,8 +1495,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:remndr:2026910285:2026910285",
@@ -1558,8 +1547,7 @@
    "lat": 37.38515,
    "lng": 126.64574,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "lh:0000061200",
@@ -1889,18 +1877,17 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820014&pblancNo=2026820014",
   "homepage": "https://apply.lh.or.kr",
   "firstSeen": "2026-11-04",
-  "geo": {
-   "lat": 37.72284,
-   "lng": 127.19764,
-   "precision": "주소"
-  },
-  "stale": true,
   "links": [
    {
     "label": "LH 공고",
     "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061192&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027"
    }
-  ]
+  ],
+  "geo": {
+   "lat": 37.72284,
+   "lng": 127.19764,
+   "precision": "주소"
+  }
  },
  {
   "id": "sh:rent:312351",
@@ -2129,8 +2116,7 @@
    "lat": 37.65383,
    "lng": 127.31968,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:opt:2026940246:2026940246",
@@ -2567,18 +2553,17 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820013&pblancNo=2026820013",
   "homepage": "https://apply.lh.or.kr/",
   "firstSeen": "2026-10-31",
-  "geo": {
-   "lat": 37.33352,
-   "lng": 126.77378,
-   "precision": "동"
-  },
-  "stale": true,
   "links": [
    {
     "label": "LH 공고",
     "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061189&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027"
    }
-  ]
+  ],
+  "geo": {
+   "lat": 37.33352,
+   "lng": 126.77378,
+   "precision": "동"
+  }
  },
  {
   "id": "ah:apt:2026000533:2026000533",
@@ -2686,18 +2671,17 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000533&pblancNo=2026000533",
   "homepage": "https://apply.lh.or.kr",
   "firstSeen": "2026-10-31",
-  "geo": {
-   "lat": 37.33352,
-   "lng": 126.77378,
-   "precision": "동"
-  },
-  "stale": true,
   "links": [
    {
     "label": "LH 공고",
     "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061205&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027"
    }
-  ]
+  ],
+  "geo": {
+   "lat": 37.33352,
+   "lng": 126.77378,
+   "precision": "동"
+  }
  },
  {
   "id": "ah:apt:2026000528:2026000528",
@@ -2831,8 +2815,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:apt:2026000527:2026000527",
@@ -2975,8 +2958,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:apt:2026000515:2026000515",
@@ -3110,8 +3092,7 @@
    "lat": 36.9925,
    "lng": 127.11272,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:apt:2026000472:2026000472",
@@ -3184,8 +3165,7 @@
    "lat": 37.59359,
    "lng": 127.12979,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:opt:2026940237:2026940237",
@@ -3496,8 +3476,7 @@
     "kind": "입체",
     "alt": "145㎡ 확장기본형 평면도"
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:apt:2026000525:2026000525",
@@ -3578,8 +3557,7 @@
      "84B"
     ]
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:apt:2026000499:2026000499",
@@ -3672,8 +3650,7 @@
    "lat": 37.00615,
    "lng": 127.08347,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "sh:rent:312339",
@@ -4035,8 +4012,7 @@
    "lat": 37.4289,
    "lng": 126.98817,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:remndr:2026910278:2026910278",
@@ -4151,8 +4127,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:opt:2026940241:2026940241",
@@ -4969,8 +4944,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:opt:2026940239:2026940239",
@@ -5207,8 +5181,7 @@
    "lat": 37.7599,
    "lng": 126.78015,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:remndr:2026910269:2026910269",
@@ -5423,8 +5396,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:remndr:2026910257:2026910257",
@@ -5483,8 +5455,7 @@
    "lat": 37.7599,
    "lng": 126.78015,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:opt:2026940238:2026940238",
@@ -5750,8 +5721,7 @@
    "lat": 37.50652,
    "lng": 126.91191,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:opt:2026940232:2026940232",
@@ -5875,18 +5845,17 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820012&pblancNo=2026820012",
   "homepage": "https://apply.lh.or.kr/",
   "firstSeen": "2026-10-24",
-  "geo": {
-   "lat": 37.39744,
-   "lng": 126.80001,
-   "precision": "동"
-  },
-  "stale": true,
   "links": [
    {
     "label": "LH 공고",
     "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061165&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027"
    }
-  ]
+  ],
+  "geo": {
+   "lat": 37.39744,
+   "lng": 126.80001,
+   "precision": "동"
+  }
  },
  {
   "id": "ah:apt:2026000532:2026000532",
@@ -5997,8 +5966,7 @@
    "lat": 37.55679,
    "lng": 126.75714,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:apt:2026000531:2026000531",
@@ -6066,18 +6034,17 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000531&pblancNo=2026000531",
   "homepage": "https://apply.lh.or.kr/",
   "firstSeen": "2026-10-24",
-  "geo": {
-   "lat": 37.3553,
-   "lng": 126.77519,
-   "precision": "주소"
-  },
-  "stale": true,
   "links": [
    {
     "label": "LH 공고",
     "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061195&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027"
    }
-  ]
+  ],
+  "geo": {
+   "lat": 37.3553,
+   "lng": 126.77519,
+   "precision": "주소"
+  }
  },
  {
   "id": "ah:apt:2026000530:2026000530",
@@ -6196,8 +6163,7 @@
    "lat": 37.55679,
    "lng": 126.75714,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:apt:2026000518:2026000518",
@@ -6301,8 +6267,7 @@
     "kind": "평면",
     "alt": "115㎡ 확장기본형 평면 및 면적"
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:apt:2026000517:2026000517",
@@ -6433,8 +6398,7 @@
     "kind": "평면",
     "alt": "115㎡ 확장기본형 평면 및 면적"
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "lh:2015122300020945",
@@ -6574,18 +6538,6 @@
   "moveIn": "2031-03",
   "models": [
    {
-    "type": "53C",
-    "excl": 53.8542,
-    "units": 2,
-    "price": 78608
-   },
-   {
-    "type": "53B",
-    "excl": 53.45,
-    "units": 26,
-    "price": 78018
-   },
-   {
     "type": "24A",
     "excl": 24.6107,
     "units": 160,
@@ -6593,11 +6545,10 @@
     "plan": "https://gdmetro.com/grand/images/type_24a.jpg?v=202611033564014200"
    },
    {
-    "type": "24B",
-    "excl": 24.5135,
-    "units": 104,
-    "price": 35693,
-    "plan": "https://gdmetro.com/grand/images/type_24b.jpg?v=202611033564014200"
+    "type": "53D",
+    "excl": 53.9742,
+    "units": 2,
+    "price": 88422
    },
    {
     "type": "24C",
@@ -6700,10 +6651,23 @@
     "price": 87760
    },
    {
-    "type": "53D",
-    "excl": 53.9742,
+    "type": "53B",
+    "excl": 53.45,
+    "units": 26,
+    "price": 78018
+   },
+   {
+    "type": "53C",
+    "excl": 53.8542,
     "units": 2,
-    "price": 88422
+    "price": 78608
+   },
+   {
+    "type": "24B",
+    "excl": 24.5135,
+    "units": 104,
+    "price": 35693,
+    "plan": "https://gdmetro.com/grand/images/type_24b.jpg?v=202611033564014200"
    }
   ],
   "priceMin": 35693,
@@ -6872,8 +6836,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:remndr:2026910271:2026910271",
@@ -6946,8 +6909,7 @@
    "lat": 37.38515,
    "lng": 126.64574,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:remndr:2026910270:2026910270",
@@ -7074,8 +7036,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:opt:2026940227:2026940227",
@@ -7302,8 +7263,7 @@
     "kind": "평면",
     "alt": "103㎡B 평면 및 라이프업 옵션 안내"
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ih:rent:4469",
@@ -7478,8 +7438,7 @@
    "lat": 37.27355,
    "lng": 127.05915,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:remndr:2026910268:2026910268",
@@ -7656,8 +7615,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:remndr:2026910265:2026910265",
@@ -7709,8 +7667,7 @@
    "lat": 37.27355,
    "lng": 127.05915,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:opt:2026940235:2026940235",
@@ -8132,8 +8089,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:urbty:2026950093:2026950093",
@@ -8184,8 +8140,7 @@
    "lat": 37.25715,
    "lng": 127.01241,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:opt:2026940231:2026940231",
@@ -8946,8 +8901,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:apt:2026000508:2026000508",
@@ -9119,8 +9073,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:apt:2026000373:2026000373",
@@ -9339,10 +9292,6 @@
    {
     "label": "SH 공고",
     "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C296/www/brd/m_244/view.do?multi_itm_seq=1&seq=312005"
-   },
-   {
-    "label": "SH 공고",
-    "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C296/www/brd/m_244/view.do?multi_itm_seq=1&seq=312005"
    }
   ],
   "geo": {
@@ -9391,8 +9340,7 @@
      "49C"
     ]
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:remndr:2026910264:2026910264",
@@ -9573,8 +9521,7 @@
     "kind": "평면",
     "alt": "에피트 시흥 은계 59㎡C"
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:opt:2026940228:2026940228",
@@ -9859,8 +9806,7 @@
    "lat": 37.20857,
    "lng": 127.01288,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:remndr:2026910263:2026910263",
@@ -9987,8 +9933,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:remndr:2026910260:2026910260",
@@ -10047,8 +9992,7 @@
    "lat": 37.31948,
    "lng": 126.95704,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:urbty:2026950077:2026950077",
@@ -10149,8 +10093,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:apt:2026000458:2026000458",
@@ -10275,8 +10218,7 @@
    "lat": 37.49918,
    "lng": 126.70242,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "gh:buy:823",
@@ -10358,8 +10300,7 @@
    "lat": 37.5264,
    "lng": 126.8962,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "sh:rent:310950",
@@ -10537,8 +10478,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:apt:2026000463:2026000463",
@@ -10698,8 +10638,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:apt:2026000386:2026000386",
@@ -10814,8 +10753,7 @@
    "lat": 37.23549,
    "lng": 127.27986,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "sh:rent:310653",
@@ -11001,18 +10939,17 @@
   "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026820010&pblancNo=2026820010",
   "homepage": "https://apply.lh.or.kr",
   "firstSeen": "2026-10-13",
-  "geo": {
-   "lat": 37.56683,
-   "lng": 126.74383,
-   "precision": "주소"
-  },
-  "stale": true,
   "links": [
    {
     "label": "LH 공고",
     "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061179&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027"
    }
-  ]
+  ],
+  "geo": {
+   "lat": 37.56683,
+   "lng": 126.74383,
+   "precision": "주소"
+  }
  },
  {
   "id": "sh:rent:310673",
@@ -11155,8 +11092,7 @@
    "lat": 37.39744,
    "lng": 126.80001,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:apt:2026000453:2026000453",
@@ -11280,8 +11216,7 @@
     "kind": "입체",
     "alt": "59A 타입 평면도"
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "sh:rent:310258",
@@ -11442,8 +11377,7 @@
    "lat": 37.04809,
    "lng": 127.03636,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:apt:2026000437:2026000437",
@@ -11522,8 +11456,7 @@
    "lat": 37.04809,
    "lng": 127.03636,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "sh:rent:310041",
@@ -11775,8 +11708,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "sh:rent:309467",
@@ -11869,8 +11801,7 @@
    "lat": 37.70337,
    "lng": 127.1636,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:apt:2026000414:2026000414",
@@ -12022,8 +11953,7 @@
    "lat": 37.56683,
    "lng": 126.74383,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "sh:rent:310107",
@@ -12201,8 +12131,7 @@
    "lat": 37.84549,
    "lng": 127.06579,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:apt:2026000409:2026000409",
@@ -12265,8 +12194,7 @@
    "lat": 37.76328,
    "lng": 127.03418,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ih:sale:177",
@@ -12691,8 +12619,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "sh:rent:308605",
@@ -12940,8 +12867,7 @@
    "lat": 37.44668,
    "lng": 127.14705,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:apt:2026820006:2026820006",
@@ -13005,8 +12931,7 @@
    "lat": 37.3553,
    "lng": 126.77519,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "sh:rent:308167",
@@ -13156,8 +13081,7 @@
    "lat": 37.2729,
    "lng": 126.95214,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:apt:2026000320:2026000320",
@@ -13261,8 +13185,7 @@
    "lat": 37.62669,
    "lng": 126.86185,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:apt:2026000313:2026000313",
@@ -13358,8 +13281,7 @@
    "lat": 37.62669,
    "lng": 126.86185,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:apt:2026000307:2026000307",
@@ -13451,8 +13373,7 @@
     "url": "plans/ah_apt_2026000307_2026000307-p39.jpg",
     "types": []
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:apt:2026820005:2026820005",
@@ -13548,8 +13469,7 @@
    "lat": 37.50144,
    "lng": 126.76601,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:apt:2026820004:2026820004",
@@ -13638,7 +13558,6 @@
    "lat": 37.42016,
    "lng": 127.12621,
    "precision": "구"
-  },
-  "stale": true
+  }
  }
 ]
