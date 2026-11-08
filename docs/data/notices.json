@@ -235,7 +235,8 @@
     "kind": "평면",
     "alt": ""
    }
-  ]
+  ],
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910283:2026910283",
@@ -287,7 +288,8 @@
    "lat": 37.48822,
    "lng": 126.5335,
    "precision": "동"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910280:2026910280",
@@ -346,7 +348,8 @@
    "lat": 37.69388,
    "lng": 127.22304,
    "precision": "동"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910276:2026910276",
@@ -393,7 +396,8 @@
     "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910276&pblancNo=2026910276&atchmnflSeqNo=2008508&atchmnflSn=2"
    }
   ],
-  "firstSeen": "2026-11-07"
+  "firstSeen": "2026-11-07",
+  "stale": true
  },
  {
   "id": "ah:apt:2026820015:2026820015",
@@ -1271,7 +1275,8 @@
     "kind": "입체",
     "alt": "59A 타입 평면도"
    }
-  ]
+  ],
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910279:2026910279",
@@ -1325,7 +1330,8 @@
     "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910279&pblancNo=2026910279&atchmnflSeqNo=2013033&atchmnflSn=3"
    }
   ],
-  "firstSeen": "2026-11-06"
+  "firstSeen": "2026-11-06",
+  "stale": true
  },
  {
   "id": "ah:pvtrent:2026850055:2026850055",
@@ -1495,7 +1501,8 @@
     "kind": "평면",
     "alt": ""
    }
-  ]
+  ],
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910285:2026910285",
@@ -1547,7 +1554,8 @@
    "lat": 37.38515,
    "lng": 126.64574,
    "precision": "주소"
-  }
+  },
+  "stale": true
  },
  {
   "id": "lh:0000061200",
@@ -2116,7 +2124,8 @@
    "lat": 37.65383,
    "lng": 127.31968,
    "precision": "동"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:opt:2026940246:2026940246",
@@ -4012,7 +4021,8 @@
    "lat": 37.4289,
    "lng": 126.98817,
    "precision": "구"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910278:2026910278",
@@ -4127,7 +4137,8 @@
     "kind": "평면",
     "alt": ""
    }
-  ]
+  ],
+  "stale": true
  },
  {
   "id": "ah:opt:2026940241:2026940241",
@@ -4944,7 +4955,8 @@
     "kind": "평면",
     "alt": ""
    }
-  ]
+  ],
+  "stale": true
  },
  {
   "id": "ah:opt:2026940239:2026940239",
@@ -5181,7 +5193,8 @@
    "lat": 37.7599,
    "lng": 126.78015,
    "precision": "구"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910269:2026910269",
@@ -5396,7 +5409,8 @@
     "kind": "평면",
     "alt": ""
    }
-  ]
+  ],
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910257:2026910257",
@@ -5455,7 +5469,8 @@
    "lat": 37.7599,
    "lng": 126.78015,
    "precision": "구"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:opt:2026940238:2026940238",
@@ -5613,60 +5628,6 @@
   ]
  },
  {
-  "id": "sh:rent:311908",
-  "source": "SH",
-  "sector": "공공",
-  "region": "서울",
-  "cat": "임대",
-  "kind": "공공임대",
-  "name": "노원구 도전숙(수요자맞춤형) 잔여세대 입주자 모집 공고",
-  "address": null,
-  "gu": "노원구",
-  "units": 6,
-  "dates": {
-   "notice": "2026-10-23",
-   "start": "2026-10-23",
-   "end": "2026-11-09",
-   "winner": "2026-12-23"
-  },
-  "dateBasis": "본문",
-  "moveIn": null,
-  "models": [],
-  "priceMin": null,
-  "priceMax": null,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "SH공사 매입주택공급부",
-  "tel": null,
-  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=311908",
-  "homepage": null,
-  "files": [
-   {
-    "name": "「노원구 도전숙」 입주자 모집(6세대) 공고(최종)_최적화.pdf",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311908&data_tp=A&file_seq=1"
-   },
-   {
-    "name": "(서식1)신청서.hwp",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311908&data_tp=A&file_seq=2"
-   },
-   {
-    "name": "(서식2)개인정보동의서.hwp",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311908&data_tp=A&file_seq=3"
-   },
-   {
-    "name": "(서식3)금융정보제공동의서.hwp",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311908&data_tp=A&file_seq=4"
-   }
-  ],
-  "firstSeen": "2026-10-23",
-  "geo": {
-   "lat": 37.6542,
-   "lng": 127.0568,
-   "precision": "구"
-  }
- },
- {
   "id": "ah:urbty:2026950094:2026950094",
   "source": "청약홈",
   "sector": "민간",
@@ -5721,7 +5682,8 @@
    "lat": 37.50652,
    "lng": 126.91191,
    "precision": "동"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:opt:2026940232:2026940232",
@@ -5778,7 +5740,15 @@
    "lat": 37.36535,
    "lng": 126.93934,
    "precision": "동"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://xn--h49ao0kn4enskhzf.kr/html/images/sub/plan_img.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  {
   "id": "ah:apt:2026820012:2026820012",
@@ -6836,7 +6806,8 @@
     "kind": "평면",
     "alt": ""
    }
-  ]
+  ],
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910271:2026910271",
@@ -6909,7 +6880,8 @@
    "lat": 37.38515,
    "lng": 126.64574,
    "precision": "주소"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910270:2026910270",
@@ -7036,7 +7008,8 @@
     "kind": "평면",
     "alt": ""
    }
-  ]
+  ],
+  "stale": true
  },
  {
   "id": "ah:opt:2026940227:2026940227",
@@ -7438,7 +7411,8 @@
    "lat": 37.27355,
    "lng": 127.05915,
    "precision": "동"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910268:2026910268",
@@ -7615,7 +7589,8 @@
     "kind": "평면",
     "alt": ""
    }
-  ]
+  ],
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910265:2026910265",
@@ -7667,7 +7642,8 @@
    "lat": 37.27355,
    "lng": 127.05915,
    "precision": "동"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:opt:2026940235:2026940235",
@@ -8140,7 +8116,8 @@
    "lat": 37.25715,
    "lng": 127.01241,
    "precision": "동"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:opt:2026940231:2026940231",
@@ -9521,7 +9498,8 @@
     "kind": "평면",
     "alt": "에피트 시흥 은계 59㎡C"
    }
-  ]
+  ],
+  "stale": true
  },
  {
   "id": "ah:opt:2026940228:2026940228",
@@ -9806,7 +9784,8 @@
    "lat": 37.20857,
    "lng": 127.01288,
    "precision": "동"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910263:2026910263",
@@ -9933,7 +9912,8 @@
     "kind": "평면",
     "alt": ""
    }
-  ]
+  ],
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910260:2026910260",
@@ -9992,7 +9972,8 @@
    "lat": 37.31948,
    "lng": 126.95704,
    "precision": "동"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:urbty:2026950077:2026950077",
@@ -10093,7 +10074,8 @@
     "kind": "평면",
     "alt": ""
    }
-  ]
+  ],
+  "stale": true
  },
  {
   "id": "ah:apt:2026000458:2026000458",
@@ -10300,7 +10282,8 @@
    "lat": 37.5264,
    "lng": 126.8962,
    "precision": "구"
-  }
+  },
+  "stale": true
  },
  {
   "id": "sh:rent:310950",
@@ -11708,7 +11691,8 @@
     "kind": "평면",
     "alt": ""
    }
-  ]
+  ],
+  "stale": true
  },
  {
   "id": "sh:rent:309467",

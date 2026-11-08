@@ -147,7 +147,7 @@
   ]
  },
  "https://www.마곡스카이온.com": {
-  "checked": "2026-11-01",
+  "checked": "2026-11-09",
   "plans": []
  },
  "https://www.엘리프검단포레듀.com": {
@@ -323,8 +323,15 @@
   ]
  },
  "http://개성로니엘.kr": {
-  "checked": "2026-11-01",
-  "plans": []
+  "checked": "2026-11-09",
+  "plans": [
+   {
+    "url": "https://xn--h49ao0kn4enskhzf.kr/html/images/sub/plan_img.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  "https://ay-yemizi.com/": {
   "checked": "2026-11-04",
