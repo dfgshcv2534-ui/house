@@ -235,8 +235,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:remndr:2026910283:2026910283",
@@ -288,8 +287,7 @@
    "lat": 37.48822,
    "lng": 126.5335,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:remndr:2026910280:2026910280",
@@ -348,8 +346,7 @@
    "lat": 37.69388,
    "lng": 127.22304,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:remndr:2026910276:2026910276",
@@ -396,8 +393,7 @@
     "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910276&pblancNo=2026910276&atchmnflSeqNo=2008508&atchmnflSn=2"
    }
   ],
-  "firstSeen": "2026-11-07",
-  "stale": true
+  "firstSeen": "2026-11-07"
  },
  {
   "id": "ah:apt:2026820015:2026820015",
@@ -1275,8 +1271,7 @@
     "kind": "입체",
     "alt": "59A 타입 평면도"
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:remndr:2026910279:2026910279",
@@ -1330,8 +1325,7 @@
     "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910279&pblancNo=2026910279&atchmnflSeqNo=2013033&atchmnflSn=3"
    }
   ],
-  "firstSeen": "2026-11-06",
-  "stale": true
+  "firstSeen": "2026-11-06"
  },
  {
   "id": "ah:pvtrent:2026850055:2026850055",
@@ -1501,8 +1495,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:remndr:2026910285:2026910285",
@@ -1554,8 +1547,7 @@
    "lat": 37.38515,
    "lng": 126.64574,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "lh:0000061200",
@@ -2124,8 +2116,7 @@
    "lat": 37.65383,
    "lng": 127.31968,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:opt:2026940246:2026940246",
@@ -4021,8 +4012,7 @@
    "lat": 37.4289,
    "lng": 126.98817,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:remndr:2026910278:2026910278",
@@ -4137,8 +4127,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:opt:2026940241:2026940241",
@@ -4955,8 +4944,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:opt:2026940239:2026940239",
@@ -5193,8 +5181,7 @@
    "lat": 37.7599,
    "lng": 126.78015,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:remndr:2026910269:2026910269",
@@ -5409,8 +5396,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:remndr:2026910257:2026910257",
@@ -5469,8 +5455,7 @@
    "lat": 37.7599,
    "lng": 126.78015,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:opt:2026940238:2026940238",
@@ -5682,8 +5667,7 @@
    "lat": 37.50652,
    "lng": 126.91191,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:opt:2026940232:2026940232",
@@ -6508,61 +6492,6 @@
   "moveIn": "2031-03",
   "models": [
    {
-    "type": "24A",
-    "excl": 24.6107,
-    "units": 160,
-    "price": 40218,
-    "plan": "https://gdmetro.com/grand/images/type_24a.jpg?v=202611033564014200"
-   },
-   {
-    "type": "53D",
-    "excl": 53.9742,
-    "units": 2,
-    "price": 88422
-   },
-   {
-    "type": "24C",
-    "excl": 24.9177,
-    "units": 8,
-    "price": 36281,
-    "plan": "https://gdmetro.com/grand/images/type_24c.jpg?v=202611033564014200"
-   },
-   {
-    "type": "24D",
-    "excl": 25.0149,
-    "units": 8,
-    "price": 40879,
-    "plan": "https://gdmetro.com/grand/images/type_24d.jpg?v=202611033564014200"
-   },
-   {
-    "type": "28A",
-    "excl": 28.9709,
-    "units": 160,
-    "price": 46625,
-    "plan": "https://gdmetro.com/grand/images/type_28a.jpg?v=202611033564014200"
-   },
-   {
-    "type": "28B",
-    "excl": 28.8737,
-    "units": 104,
-    "price": 41403,
-    "plan": "https://gdmetro.com/grand/images/type_28b.jpg?v=202611033564014200"
-   },
-   {
-    "type": "28C",
-    "excl": 28.5943,
-    "units": 40,
-    "price": 44656,
-    "plan": "https://gdmetro.com/grand/images/type_28c.jpg?v=202611033564014200"
-   },
-   {
-    "type": "28D",
-    "excl": 28.3999,
-    "units": 26,
-    "price": 38356,
-    "plan": "https://gdmetro.com/grand/images/type_28d.jpg?v=202611033564014200"
-   },
-   {
     "type": "28E",
     "excl": 28.8041,
     "units": 2,
@@ -6570,11 +6499,11 @@
     "plan": "https://gdmetro.com/grand/images/type_28e.jpg?v=202611033564014200"
    },
    {
-    "type": "28F",
-    "excl": 28.9985,
-    "units": 2,
-    "price": 45288,
-    "plan": "https://gdmetro.com/grand/images/type_28f.jpg?v=202611033564014200"
+    "type": "28D",
+    "excl": 28.3999,
+    "units": 26,
+    "price": 38356,
+    "plan": "https://gdmetro.com/grand/images/type_28d.jpg?v=202611033564014200"
    },
    {
     "type": "29A",
@@ -6633,11 +6562,66 @@
     "price": 78608
    },
    {
+    "type": "53D",
+    "excl": 53.9742,
+    "units": 2,
+    "price": 88422
+   },
+   {
+    "type": "24A",
+    "excl": 24.6107,
+    "units": 160,
+    "price": 40218,
+    "plan": "https://gdmetro.com/grand/images/type_24a.jpg?v=202611033564014200"
+   },
+   {
     "type": "24B",
     "excl": 24.5135,
     "units": 104,
     "price": 35693,
     "plan": "https://gdmetro.com/grand/images/type_24b.jpg?v=202611033564014200"
+   },
+   {
+    "type": "24C",
+    "excl": 24.9177,
+    "units": 8,
+    "price": 36281,
+    "plan": "https://gdmetro.com/grand/images/type_24c.jpg?v=202611033564014200"
+   },
+   {
+    "type": "24D",
+    "excl": 25.0149,
+    "units": 8,
+    "price": 40879,
+    "plan": "https://gdmetro.com/grand/images/type_24d.jpg?v=202611033564014200"
+   },
+   {
+    "type": "28A",
+    "excl": 28.9709,
+    "units": 160,
+    "price": 46625,
+    "plan": "https://gdmetro.com/grand/images/type_28a.jpg?v=202611033564014200"
+   },
+   {
+    "type": "28B",
+    "excl": 28.8737,
+    "units": 104,
+    "price": 41403,
+    "plan": "https://gdmetro.com/grand/images/type_28b.jpg?v=202611033564014200"
+   },
+   {
+    "type": "28C",
+    "excl": 28.5943,
+    "units": 40,
+    "price": 44656,
+    "plan": "https://gdmetro.com/grand/images/type_28c.jpg?v=202611033564014200"
+   },
+   {
+    "type": "28F",
+    "excl": 28.9985,
+    "units": 2,
+    "price": 45288,
+    "plan": "https://gdmetro.com/grand/images/type_28f.jpg?v=202611033564014200"
    }
   ],
   "priceMin": 35693,
@@ -6806,8 +6790,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:remndr:2026910271:2026910271",
@@ -6880,8 +6863,7 @@
    "lat": 37.38515,
    "lng": 126.64574,
    "precision": "주소"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:remndr:2026910270:2026910270",
@@ -7008,8 +6990,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:opt:2026940227:2026940227",
@@ -7411,8 +7392,7 @@
    "lat": 37.27355,
    "lng": 127.05915,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:remndr:2026910268:2026910268",
@@ -7589,8 +7569,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:remndr:2026910265:2026910265",
@@ -7642,8 +7621,7 @@
    "lat": 37.27355,
    "lng": 127.05915,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:opt:2026940235:2026940235",
@@ -8116,8 +8094,7 @@
    "lat": 37.25715,
    "lng": 127.01241,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:opt:2026940231:2026940231",
@@ -9498,8 +9475,7 @@
     "kind": "평면",
     "alt": "에피트 시흥 은계 59㎡C"
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:opt:2026940228:2026940228",
@@ -9784,8 +9760,7 @@
    "lat": 37.20857,
    "lng": 127.01288,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:remndr:2026910263:2026910263",
@@ -9912,8 +9887,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:remndr:2026910260:2026910260",
@@ -9972,8 +9946,7 @@
    "lat": 37.31948,
    "lng": 126.95704,
    "precision": "동"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:urbty:2026950077:2026950077",
@@ -10000,24 +9973,6 @@
    {
     "type": "119OA",
     "excl": 119.9569,
-    "units": 272,
-    "price": 61110
-   },
-   {
-    "type": "119OB",
-    "excl": 119.8284,
-    "units": 281,
-    "price": 60600
-   },
-   {
-    "type": "119OC",
-    "excl": 119.9734,
-    "units": 6,
-    "price": 81990
-   },
-   {
-    "type": "119OA",
-    "excl": 119.9569,
     "units": 6,
     "price": 77890
    },
@@ -10032,6 +9987,24 @@
     "excl": 119.9734,
     "units": 282,
     "price": 64330
+   },
+   {
+    "type": "119OA",
+    "excl": 119.9569,
+    "units": 272,
+    "price": 61110
+   },
+   {
+    "type": "119OB",
+    "excl": 119.8284,
+    "units": 281,
+    "price": 60600
+   },
+   {
+    "type": "119OC",
+    "excl": 119.9734,
+    "units": 6,
+    "price": 81990
    }
   ],
   "priceMin": 60600,
@@ -10074,8 +10047,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "ah:apt:2026000458:2026000458",
@@ -10282,8 +10254,7 @@
    "lat": 37.5264,
    "lng": 126.8962,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "sh:rent:310950",
@@ -11691,8 +11662,7 @@
     "kind": "평면",
     "alt": ""
    }
-  ],
-  "stale": true
+  ]
  },
  {
   "id": "sh:rent:309467",

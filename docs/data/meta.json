@@ -1,14 +1,11 @@
 {
- "updatedAt": "2026-11-09T00:44+09:00",
+ "updatedAt": "2026-11-09T09:13+09:00",
  "baseDate": "2026-11-09",
  "sources": {
   "청약홈": {
-   "ok": false,
-   "count": 64,
-   "failedParts": [
-    "remndr",
-    "urbty"
-   ]
+   "ok": true,
+   "count": 94,
+   "failedParts": []
   },
   "SH": {
    "ok": true,
