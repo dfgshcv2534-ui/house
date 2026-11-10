@@ -22,11 +22,15 @@ for name, url in PAGES.items():
             print("host", sj.get("host"), "basePath", sj.get("basePath"), "servers", sj.get("servers"))
             for path, ops in (sj.get("paths") or {}).items():
                 for verb, op in ops.items():
+                    if not isinstance(op, dict):
+                        continue
                     print("PATH", verb.upper(), path, "|", op.get("summary"))
                     for p in op.get("parameters", []):
-                        print("   param", p.get("name"), p.get("required"), (p.get("description") or "")[:60])
-                    resp = (op.get("responses") or {}).get("200", {})
-                    print("   resp", json.dumps(resp)[:600])
+                        print("   param", p.get("name"), "필수" if p.get("required") else "선택", p.get("type"), "|", (p.get("description") or "")[:80])
+            for name2, d in (sj.get("definitions") or {}).items():
+                props = d.get("properties") or {}
+                print("DEF", name2, {k: (v.get("description") or v.get("$ref") or v.get("type")) for k, v in props.items()})
+            print("응답 예시 일부:", json.dumps(sj.get("paths"), ensure_ascii=False)[:1500])
         except Exception as e:
             print("스웨거 파싱 실패", e, m.group(1)[:500])
     else:
