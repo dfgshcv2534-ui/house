@@ -106,6 +106,15 @@ function avgPerPyeong(n) {
   const v = (n.models || []).map(perPyeong).filter(Boolean);
   return v.length ? Math.round(v.reduce((a, b) => a + b, 0) / v.length) : null;
 }
+// 임대 보증금(만원)·월 임대료(원) → '보증금 1,520만 · 월 18만'
+function rentText(n) {
+  const r = n.rent;
+  if (!r || (!r.deposit && !r.monthly)) return "";
+  const parts = [];
+  if (r.deposit) parts.push(`보증금 ${money(r.deposit)}`);
+  if (r.monthly) parts.push(`월 ${r.monthly >= 10000 ? `${(r.monthly / 10000).toFixed(1).replace(/\.0$/, "")}만` : `${r.monthly.toLocaleString()}원`}`);
+  return parts.join(" · ");
+}
 function esc(s) {
   return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
@@ -232,6 +241,8 @@ function cardHTML(n) {
   if (n.priceMin) {
     const pp = avgPerPyeong(n);
     price = `<p class="price">${moneyShort(n.priceMin)}${n.priceMax !== n.priceMin ? ` ~ ${moneyShort(n.priceMax)}` : ""}${pp ? `<small>평당 약 ${money(pp)}</small>` : ""}</p>`;
+  } else if (rentText(n)) {
+    price = `<p class="price">${esc(rentText(n))}<small>최소 기준</small></p>`;
   }
   const tags = [...(n.targets || []), ...(n.tags || []).slice(0, 3)];
   const place = [regionOf(n) !== "서울" || !state.region ? regionOf(n) : "", n.gu].filter(Boolean).join(" ");
@@ -486,6 +497,8 @@ function openDetail(id, { push = true } = {}) {
   const st = statusOf(n);
   const kv = [];
   if (n.units) kv.push(["공급 세대", `${n.units.toLocaleString()}세대`]);
+  if (rentText(n)) kv.push(["임대 조건(최소)", rentText(n)]);
+  if (n.complexes?.length) kv.push(["단지", n.complexes.join(", ")]);
   if (n.priceMin) kv.push(["분양가", n.priceMin === n.priceMax ? money(n.priceMin) : `${moneyShort(n.priceMin)} ~ ${moneyShort(n.priceMax)}`]);
   if (n.area) kv.push(["전용면적", n.area]);
   if (n.moveIn) kv.push(["입주 예정", fmtMonth(n.moveIn)]);

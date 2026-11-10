@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 
 from .common import (
     INCHEON, SPECIAL, SourceError, clean, drop_reposts, get, is_recruitment_title, kst_today, log, place_in_text,
-    sigungu, special_kind, to_iso,
+    redact, sigungu, special_kind, to_iso,
 )
 from .sh import EXCLUDE, classify, extract_schedule, targets_of, units_of
 
@@ -110,8 +110,82 @@ def to_notice(row: dict, board: dict, detail: dict | None) -> dict:
     }
 
 
-def collect(session) -> tuple[list[dict], list[str]]:
+API_URL = "https://apis.data.go.kr/B552831/ih/slls-posts"  # 인천도시공사_분양임대 관련 공고문 조회 서비스 (공공데이터포털)
+
+
+def _api_body(resp) -> dict:
+    """JSON({response:{header,body}} 또는 {header,body}) / XML 둘 다 받아서 body 를 돌려준다."""
+    try:
+        data = resp.json()
+    except ValueError:
+        import xml.etree.ElementTree as ET
+        try:
+            root = ET.fromstring(resp.text)
+        except ET.ParseError:
+            raise SourceError(redact(f"iH API 응답을 읽지 못함 (HTTP {resp.status_code}): {resp.text[:150]}"))
+        code = root.findtext(".//resultCode") or root.findtext(".//returnReasonCode")
+        if code and code not in ("00", "0", "200"):
+            raise SourceError(redact(f"iH API 오류 {code}: {root.findtext('.//resultMsg') or root.findtext('.//returnAuthMsg')}"))
+        posts = [{c.tag: c.text for c in el} for el in root.iter() if el.find("sj") is not None]
+        return {"posts": posts, "totalCount": root.findtext(".//totalCount")}
+    data = data.get("response", data)
+    header = data.get("header") or {}
+    if header.get("resultCode") not in (None, "00", "0", "200", 0, 200):
+        raise SourceError(redact(f"iH API 오류 {header.get('resultCode')}: {header.get('resultMsg')}"))
+    return data.get("body") or {}
+
+
+def api_rows(posts: list[dict]) -> dict[str, list[dict]]:
+    """API 공고 → 게시판과 같은 모양의 행. 링크의 msg_seq 를 써서 게시판에서 받던 공고와 같은 id 가 되게 한다."""
+    out = {"sale": [], "rent": []}
+    for p in posts:
+        title, link = clean(p.get("sj")), clean(p.get("link")) or ""
+        date = to_iso(p.get("crtYmd"))
+        if not title or not date:
+            continue
+        m = re.search(r"msg_seq=(\d+)", link)
+        seq = m.group(1) if m else f"api{abs(hash((title, date))) % 10**8}"
+        key = "sale" if "분양" in (p.get("seNm") or "") else "rent"
+        out[key].append({"seq": seq, "title": title, "date": date, "href": urljoin(BASE, link) if link else BASE})
+    return out
+
+
+def _collect_api(session, key: str | None, since: str) -> dict[str, list[dict]]:
+    if not key:
+        raise SourceError("DATA_GO_KR_KEY 가 없어 iH API를 쓸 수 없습니다")
+    posts = []
+    for page in range(1, 6):
+        body = _api_body(get(session, API_URL, params={"serviceKey": key, "pageNo": page, "numOfRows": 100, "type": "json"},
+                             attempts=2, timeout=20))
+        page_posts = body.get("posts") or body.get("items") or []
+        if isinstance(page_posts, dict):
+            page_posts = page_posts.get("item") or []
+        posts.extend(page_posts)
+        if len(page_posts) < 100 or all((to_iso(p.get("crtYmd")) or "9999") < since for p in page_posts):
+            break
+    return api_rows(posts)
+
+
+def _board_reachable(session) -> bool:
+    try:
+        return get(session, LIST, params={**BOARDS[0]["params"], "pgno": 1}, attempts=1, timeout=15).status_code == 200
+    except Exception:
+        return False
+
+
+def collect(session, key: str | None = None) -> tuple[list[dict], list[str]]:
+    """게시판이 열리면 게시판(상세 본문 포함), 막혀 있으면 공공데이터포털 iH API 목록으로 받는다."""
     since = (kst_today() - timedelta(days=LOOKBACK_DAYS)).isoformat()
+    if not _board_reachable(session):
+        log.warning("iH 홈페이지에 접속되지 않아 공공데이터포털 iH API로 목록을 받습니다")
+        by_board = _collect_api(session, key, since)
+        out = []
+        for board in BOARDS:
+            recent = [r for r in by_board[board["key"]] if r["date"] >= since]
+            picked = [r for r in recent if is_recruitment_title(r["title"]) and not EXCLUDE.search(r["title"])]
+            log.info("iH(API) %s: 최근 %d건 중 모집공고 %d건", board["name"], len(recent), len(picked))
+            out.extend(to_notice(r, board, None) for r in picked)
+        return drop_reposts(out), []
     out, failed = [], []
     for board in BOARDS:
         try:

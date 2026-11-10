@@ -600,3 +600,46 @@ def test_block_key_with_district_number_and_non_housing():
     assert not build._same_block(build._block_key("안산신길2 B-1블록"), build._block_key("안산신길2 A-6블록"))
     assert not is_recruitment_title("인천계양 A3블록 가정어린이집 운영예정자 모집공고(1회차)")
     assert is_recruitment_title("[청년형] 특화형 매입임대주택 입주자 모집 공고(운영기관 : 한지붕 협동조합)")
+
+
+MYHOME_ROWS = [
+    {"pblancId": "18001", "houseSn": "1", "pblancNm": "2026년 하반기 경기행복주택 예비입주자 추가모집 공고", "suplyInsttNm": "경기주택도시공사",
+     "suplyTyNm": "행복주택", "houseTyNm": "아파트", "rcritPblancDe": "20261016", "beginDe": "20261105", "endDe": "20261107",
+     "przwnerPresnatnDe": "20261228", "brtcNm": "경기도", "signguNm": "수원시 권선구", "fullAdres": "경기도 수원시 권선구 호매실동 1",
+     "hsmpNm": "수원호매실 A1", "sumSuplyCo": "30", "rentGtn": "15200000", "mtRntchrg": "182000", "url": "https://apply.gh.or.kr/x"},
+    {"pblancId": "18001", "houseSn": "2", "pblancNm": "2026년 하반기 경기행복주택 예비입주자 추가모집 공고", "suplyInsttNm": "경기주택도시공사",
+     "suplyTyNm": "행복주택", "rcritPblancDe": "20261016", "beginDe": "20261105", "endDe": "20261108", "brtcNm": "경기도",
+     "signguNm": "화성시", "hsmpNm": "화성동탄 A2", "sumSuplyCo": "20", "rentGtn": "12000000", "mtRntchrg": "150000"},
+    {"pblancId": "18002", "pblancNm": "하남교산 A1 행복주택 입주자 모집", "suplyInsttNm": "LH", "brtcNm": "경기도", "rcritPblancDe": "20261016"},
+    {"pblancId": "18003", "pblancNm": "용인 기흥 행복주택 입주자 모집공고", "suplyInsttNm": "용인도시공사", "suplyTyNm": "행복주택",
+     "brtcNm": "경기도", "signguNm": "용인시 기흥구", "rcritPblancDe": "20261020", "endDe": "20261120"},
+]
+
+
+def test_myhome_grouping_and_board_merge():
+    from collector import myhome
+    items = {i["id"]: i for i in myhome.group_notices(MYHOME_ROWS, "임대")}
+    assert set(items) == {"mh:18001", "mh:18003"}                    # LH 공고는 뺀다
+    gh = items["mh:18001"]
+    assert (gh["source"], gh["region"], gh["gu"], gh["kind"], gh["units"]) == ("GH", "경기", "수원시", "행복주택", 50)
+    assert gh["dates"] == {"notice": "2026-10-16", "start": "2026-11-05", "end": "2026-11-08", "winner": "2026-12-28"}
+    assert gh["rent"] == {"deposit": 1200, "monthly": 150000} and gh["complexes"] == ["수원호매실 A1", "화성동탄 A2"]
+    assert items["mh:18003"]["source"] == "용인도시공사"
+    board = {"id": "gh:rent:811", "source": "GH", "cat": "임대", "name": "26년 하반기 경기행복주택 예비입주자 추가모집 공고",
+             "url": "https://apply.gh.or.kr/b", "dates": {"notice": "2026-10-16"}}
+    out = build.merge_board_into_myhome([gh, board])
+    assert [i["id"] for i in out] == ["mh:18001"] and gh["links"] == [{"label": "GH 공고", "url": "https://apply.gh.or.kr/b"}]
+
+
+def test_ih_api_rows_keep_board_ids():
+    from collector import ih
+    rows = ih.api_rows([
+        {"tyNm": "임대", "seNm": "임대", "crtYmd": "2026-11-03", "sj": "2026년 행복주택 예비입주자 모집 공고(구월7단지)",
+         "link": "https://www.ih.co.kr/main/bbs/bbsMsgDetail.do?msg_seq=4501&cate1=general&bcd=notice&pgdiv=general"},
+        {"tyNm": "분양", "seNm": "분양", "crtYmd": "20261101", "sj": "검단 AA21 입주자모집공고",
+         "link": "/main/bbs/bbsMsgDetail.do?msg_seq=180&cate1=a&bcd=sale_lease"},
+    ])
+    assert [(r["seq"], r["date"]) for r in rows["rent"]] == [("4501", "2026-11-03")]
+    assert rows["sale"][0]["href"].startswith("https://www.ih.co.kr/main/bbs/bbsMsgDetail.do?msg_seq=180")
+    n = ih.to_notice(rows["rent"][0], ih.BOARDS[1], None)
+    assert n["id"] == "ih:rent:4501" and n["gu"] == "남동구"

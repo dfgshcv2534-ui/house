@@ -15,14 +15,14 @@ import sys
 from datetime import date, timedelta
 from pathlib import Path
 
-from . import applyhome, gh, homeplans, ih, lh, pdfplans, sh
+from . import applyhome, gh, homeplans, ih, lh, myhome, pdfplans, sh
 from .geo import Geocoder
 from .common import SPECIAL, SourceError, api_key, kst_now, kst_today, log, make_session
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "docs" / "data"
 KEEP_AFTER_END_DAYS = 14
 KEEP_UNDATED_DAYS = 90
-ID_PREFIX = {"청약홈": "ah:", "SH": "sh:", "GH": "gh:", "iH": "ih:", "LH": "lh:", "LH 사전청약": "lhp:"}
+ID_PREFIX = {"청약홈": "ah:", "SH": "sh:", "GH": "gh:", "iH": "ih:", "LH": "lh:", "LH 사전청약": "lhp:", "마이홈": "mh:"}
 
 
 def load_json(path: Path, default):
@@ -58,6 +58,24 @@ def _same_block(a, b) -> bool:
     return bool(a and b) and a[1] == b[1] and (a[0].endswith(b[0]) or b[0].endswith(a[0]))
 
 
+def merge_board_into_myhome(items: list[dict]) -> list[dict]:
+    """GH·iH 게시판에서 받은 공고와 마이홈에서 받은 같은 공고가 둘 다 있으면, 일정·주소·보증금이 있는 마이홈 쪽을 남긴다."""
+    mh = [(i, _norm_name(i["name"])) for i in items if i["id"].startswith("mh:")]
+    out = []
+    for item in items:
+        if item["id"].startswith(("gh:", "ih:")):
+            mine = _norm_name(item["name"])
+            match = next((m for m, k in mh if m["source"] == item["source"] and min(len(k), len(mine)) >= 6
+                          and (k in mine or mine in k)), None)
+            if match:
+                match.setdefault("links", []).append({"label": f"{item['source']} 공고", "url": item.get("url")})
+                if item.get("files") and not match.get("files"):
+                    match["files"] = item["files"]
+                continue
+        out.append(item)
+    return out
+
+
 def dedupe(items: list[dict]) -> list[dict]:
     """SH·LH 분양 공고 중 청약홈 단지명과 겹치는 것은 청약홈 항목의 '다른 공고 링크'로 합친다."""
     ah = [i for i in items if i["source"] == "청약홈"]
@@ -90,9 +108,10 @@ def run_sources(session, key) -> tuple[dict[str, list[dict]], dict[str, dict]]:
         "청약홈": lambda: applyhome.collect(session, key),
         "SH": lambda: sh.collect(session),
         "GH": lambda: gh.collect(session),
-        "iH": lambda: ih.collect(session),
+        "iH": lambda: ih.collect(session, key),
         "LH": lambda: lh.collect(session, key),
         "LH 사전청약": lambda: lh.collect_pre(session, key),
+        "마이홈": lambda: myhome.collect(session, key),
     }
     for name, job in jobs.items():
         try:
@@ -133,7 +152,7 @@ def merge(previous: list[dict], results: dict[str, list[dict]], status: dict[str
                                               (seen or {}).get(item["id"])]), default=today.isoformat())
         if seen is not None:
             seen.setdefault(item["id"], item["firstSeen"])
-    merged = [i for i in dedupe(merged) if keep(i, today)]
+    merged = [i for i in dedupe(merge_board_into_myhome(merged)) if keep(i, today)]
     merged.sort(key=lambda i: (i.get("dates", {}).get("notice") or "", i["id"]), reverse=True)
     return merged
 
