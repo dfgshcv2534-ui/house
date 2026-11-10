@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T12:09+09:00",
+ "updatedAt": "2026-11-10T15:56+09:00",
  "baseDate": "2026-11-10",
  "sources": {
   "청약홈": {
@@ -18,9 +18,9 @@
    "failedParts": []
   },
   "iH": {
-   "ok": false,
+   "ok": true,
    "count": 0,
-   "message": "iH 게시판을 하나도 읽지 못했습니다"
+   "failedParts": []
   },
   "LH": {
    "ok": true,
@@ -31,8 +31,13 @@
    "ok": true,
    "count": 0,
    "failedParts": []
+  },
+  "마이홈": {
+   "ok": false,
+   "count": 0,
+   "message": "마이홈 API 오류: {'OpenAPI_ServiceResponse': {'cmmMsgHeader': {'errMsg': 'SERVICE_KEY_IS_NOT_REGISTERED_ERROR', 'returnAuthMsg': '등록되지 않은 서비스키', 'returnReasonCode': '30'}}}"
   }
  },
- "total": 145,
+ "total": 142,
  "newToday": 4
 }
