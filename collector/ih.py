@@ -155,8 +155,8 @@ def _collect_api(session, key: str | None, since: str) -> dict[str, list[dict]]:
         raise SourceError("DATA_GO_KR_KEY 가 없어 iH API를 쓸 수 없습니다")
     posts = []
     for page in range(1, 6):
-        resp = get(session, API_URL, params={"serviceKey": key, "pageNo": page, "numOfRows": 100, "type": "json"},
-                   attempts=2, timeout=20)
+        resp = get(session, API_URL, params={"serviceKey": key, "pageNo": page, "numOfRows": 50, "type": "json"},
+                   attempts=3, timeout=60)
         body = _api_body(resp)
         page_posts = body.get("posts") or body.get("items") or []
         if isinstance(page_posts, dict):
@@ -164,7 +164,7 @@ def _collect_api(session, key: str | None, since: str) -> dict[str, list[dict]]:
         posts.extend(page_posts)
         if not posts:  # 미신청 키 등은 오류 형식이 제각각이라, 공고가 하나도 없으면 실패로 본다
             raise SourceError(redact(f"iH API에서 공고를 받지 못했습니다 (활용신청 확인). 응답 앞부분: {resp.text[:200]}"))
-        if len(page_posts) < 100 or all((to_iso(p.get("crtYmd")) or "9999") < since for p in page_posts):
+        if len(page_posts) < 50 or all((to_iso(p.get("crtYmd")) or "9999") < since for p in page_posts):
             break
     return api_rows(posts)
 
