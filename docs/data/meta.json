@@ -1,10 +1,10 @@
 {
- "updatedAt": "2026-11-10T17:15+09:00",
- "baseDate": "2026-11-10",
+ "updatedAt": "2026-11-11T01:47+09:00",
+ "baseDate": "2026-11-11",
  "sources": {
   "청약홈": {
    "ok": true,
-   "count": 93,
+   "count": 97,
    "failedParts": []
   },
   "SH": {
@@ -20,11 +20,11 @@
   "iH": {
    "ok": false,
    "count": 0,
-   "message": "RuntimeError: https://apis.data.go.kr/B552831/ih/slls-posts 요청 실패: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /B552831/ih/slls-posts?serviceKey=***&pageNo=1&numOfRows=50&type=json (Caused by ConnectTimeoutError(<HTTPSConnection(host='apis.data.go.kr', port=443) at 0x78aaf8b99f10>, 'Connection to apis.data.go.kr timed out. (connect timeout=60)'))"
+   "message": "RuntimeError: https://apis.data.go.kr/B552831/ih/slls-posts 요청 실패: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Read timed out. (read timeout=30)"
   },
   "LH": {
    "ok": true,
-   "count": 25,
+   "count": 24,
    "failedParts": []
   },
   "LH 사전청약": {
@@ -38,6 +38,6 @@
    "failedParts": []
   }
  },
- "total": 146,
- "newToday": 5
+ "total": 150,
+ "newToday": 4
 }
