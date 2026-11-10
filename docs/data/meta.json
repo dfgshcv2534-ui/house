@@ -18,9 +18,9 @@
    "failedParts": []
   },
   "iH": {
-   "ok": true,
+   "ok": false,
    "count": 0,
-   "failedParts": []
+   "message": "iH 홈페이지 접속 불가, iH API 활용신청 대기"
   },
   "LH": {
    "ok": true,
@@ -38,6 +38,6 @@
    "message": "마이홈 API 오류: {'OpenAPI_ServiceResponse': {'cmmMsgHeader': {'errMsg': 'SERVICE_KEY_IS_NOT_REGISTERED_ERROR', 'returnAuthMsg': '등록되지 않은 서비스키', 'returnReasonCode': '30'}}}"
   }
  },
- "total": 142,
+ "total": 145,
  "newToday": 4
 }

@@ -643,3 +643,20 @@ def test_ih_api_rows_keep_board_ids():
     assert rows["sale"][0]["href"].startswith("https://www.ih.co.kr/main/bbs/bbsMsgDetail.do?msg_seq=180")
     n = ih.to_notice(rows["rent"][0], ih.BOARDS[1], None)
     assert n["id"] == "ih:rent:4501" and n["gu"] == "남동구"
+
+
+def test_ih_api_empty_response_is_failure():
+    import pytest
+    from collector import ih
+    from collector.common import SourceError
+
+    class Resp:
+        status_code = 200
+        text = '{"response":{"header":{"resultCode":"00"},"body":{"posts":[]}}}'
+        def json(self): return {"response": {"header": {"resultCode": "00"}, "body": {"posts": []}}}
+
+    class Session:
+        def get(self, url, params=None, timeout=None): return Resp()
+
+    with pytest.raises(SourceError, match="받지 못했습니다"):
+        ih._collect_api(Session(), "key", "2026-07-01")
