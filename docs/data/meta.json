@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T15:56+09:00",
+ "updatedAt": "2026-11-10T17:02+09:00",
  "baseDate": "2026-11-10",
  "sources": {
   "청약홈": {
@@ -20,7 +20,7 @@
   "iH": {
    "ok": false,
    "count": 0,
-   "message": "iH 홈페이지 접속 불가, iH API 활용신청 대기"
+   "message": "RuntimeError: https://apis.data.go.kr/B552831/ih/slls-posts 요청 실패: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Read timed out. (read timeout=20)"
   },
   "LH": {
    "ok": true,
@@ -33,11 +33,11 @@
    "failedParts": []
   },
   "마이홈": {
-   "ok": false,
-   "count": 0,
-   "message": "마이홈 API 오류: {'OpenAPI_ServiceResponse': {'cmmMsgHeader': {'errMsg': 'SERVICE_KEY_IS_NOT_REGISTERED_ERROR', 'returnAuthMsg': '등록되지 않은 서비스키', 'returnReasonCode': '30'}}}"
+   "ok": true,
+   "count": 1,
+   "failedParts": []
   }
  },
- "total": 145,
- "newToday": 4
+ "total": 146,
+ "newToday": 5
 }

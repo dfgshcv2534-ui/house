@@ -4142,6 +4142,50 @@
   }
  },
  {
+  "id": "mh:21471",
+  "source": "한국자산관리공사",
+  "sector": "공공",
+  "region": "서울",
+  "cat": "임대",
+  "kind": "행복주택",
+  "name": "나라키움영등포복합청사 예비입주자 모집공고(21형)",
+  "address": "서울특별시 영등포구 버드나루로 112",
+  "gu": "영등포구",
+  "units": null,
+  "dates": {
+   "notice": "2026-10-28",
+   "start": "2026-11-09",
+   "end": "2026-11-13",
+   "winner": "2027-03-05"
+  },
+  "dateBasis": "api",
+  "statusHint": "일반공고",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [
+   "개별난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "한국자산관리공사",
+  "tel": "02-6265-0620",
+  "url": "https://www.kohom.or.kr/web/mainComm/HM001002002.do?mode=view&p_idx=16068",
+  "homepage": null,
+  "via": "마이홈",
+  "rent": {
+   "deposit": 4650,
+   "monthly": 225000
+  },
+  "firstSeen": "2026-11-10",
+  "geo": {
+   "lat": 37.52867,
+   "lng": 126.90793,
+   "precision": "주소"
+  }
+ },
+ {
   "id": "lh:2015122300020960",
   "source": "LH",
   "sector": "공공",
