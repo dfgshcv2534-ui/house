@@ -149,10 +149,6 @@ def collect(session, key: str | None) -> tuple[list[dict], list[str]]:
             from collections import Counter
             log.info("마이홈 %s(%s) 공급기관: %s", cat, region,
                      dict(Counter(clean(r.get("suplyInsttNm")) for r in recent)))
-            for r in recent:
-                if not SKIP_SUPPLIER.search(clean(r.get("suplyInsttNm")) or ""):
-                    log.info("  - %s | %s | 공고 %s ~ %s | %s", r.get("suplyInsttNm"), r.get("pblancNm"), r.get("beginDe"),
-                             r.get("endDe"), r.get("sttusNm"))
             items = [i for i in group_notices(recent, cat) if still_relevant(i["dates"])]
             log.info("마이홈 %s(%s): 최근 %d줄 → LH·SH 제외 공고 %d건", cat, region, len(recent), len(items))
             out.extend(items)

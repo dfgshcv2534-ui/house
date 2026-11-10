@@ -156,7 +156,7 @@ def _collect_api(session, key: str | None, since: str) -> dict[str, list[dict]]:
     posts = []
     for page in range(1, 6):
         resp = get(session, API_URL, params={"serviceKey": key, "pageNo": page, "numOfRows": 50, "type": "json"},
-                   attempts=3, timeout=60)
+                   attempts=2, timeout=30)
         body = _api_body(resp)
         page_posts = body.get("posts") or body.get("items") or []
         if isinstance(page_posts, dict):
