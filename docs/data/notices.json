@@ -1,5 +1,99 @@
 [
  {
+  "id": "sh:rent:313161",
+  "source": "SH",
+  "sector": "공공",
+  "region": "서울",
+  "cat": "임대",
+  "kind": "사회주택",
+  "name": "[토지임대부 사회주택] 옥류서원 입주자 모집 공고문",
+  "address": "서울시 종로구 옥인동 47-334",
+  "gu": "종로구",
+  "units": 2,
+  "dates": {
+   "notice": "2026-11-11",
+   "start": "2026-11-11",
+   "end": "2026-11-18"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "SH공사 빈집사업부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=313161",
+  "homepage": null,
+  "files": [
+   {
+    "name": "옥류서원 입주자모집공고문.pdf",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=313161&data_tp=A&file_seq=1"
+   },
+   {
+    "name": "[별지1~3] 옥류서원 입주신청서양식 (261111).docx",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=313161&data_tp=A&file_seq=2"
+   }
+  ],
+  "firstSeen": "2026-11-11",
+  "geo": {
+   "lat": 37.58348,
+   "lng": 126.96385,
+   "precision": "동"
+  }
+ },
+ {
+  "id": "sh:rent:312903",
+  "source": "SH",
+  "sector": "공공",
+  "region": "서울",
+  "cat": "임대",
+  "kind": "매입임대",
+  "name": "[청년형] 특화형 매입임대주택 입주자 모집 공고(운영기관 : 한지붕 협동조합)",
+  "address": null,
+  "gu": "강동구",
+  "units": null,
+  "dates": {
+   "notice": "2026-11-11"
+  },
+  "dateBasis": "없음",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [
+   "청년"
+  ],
+  "builder": null,
+  "supplier": "SH공사 매입주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=312903",
+  "homepage": null,
+  "files": [
+   {
+    "name": "[한지붕협동조합]SH특화형 매입임대주택(청년) 입주자 모집 공고문_구천면로 46길 38 리츠하우스 401호.pdf",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=312903&data_tp=A&file_seq=1"
+   },
+   {
+    "name": "[한지붕협동조합]SH특화형 매입임대주택(청년) 입주자 모집 공고문_독산로22길 75 은행나무 A동 302호.pdf",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=312903&data_tp=A&file_seq=2"
+   },
+   {
+    "name": "[한지붕협동조합]SH특화형 매입임대주택(청년) 입주자 모집 공고문_은행나무로12길 50 파크빌오나동 203호.pdf",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=312903&data_tp=A&file_seq=3"
+   }
+  ],
+  "firstSeen": "2026-11-11",
+  "geo": {
+   "lat": 37.5301,
+   "lng": 127.1238,
+   "precision": "구"
+  }
+ },
+ {
   "id": "ah:remndr:2026910284:2026910284",
   "source": "청약홈",
   "sector": "민간",
@@ -4527,51 +4621,6 @@
    }
   ],
   "firstSeen": "2026-10-29"
- },
- {
-  "id": "sh:rent:312325",
-  "source": "SH",
-  "sector": "공공",
-  "region": "서울",
-  "cat": "임대",
-  "kind": "사회주택",
-  "name": "[토지임대부 사회주택] 옥류서원 입주자 모집 공고문",
-  "address": "서울시 종로구 옥인동 47-334",
-  "gu": "종로구",
-  "units": 2,
-  "dates": {
-   "notice": "2026-10-28",
-   "start": "2026-10-28",
-   "end": "2026-11-03"
-  },
-  "dateBasis": "본문",
-  "moveIn": null,
-  "models": [],
-  "priceMin": null,
-  "priceMax": null,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "SH공사 빈집사업부",
-  "tel": null,
-  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=312325",
-  "homepage": null,
-  "files": [
-   {
-    "name": "옥류서원 입주자모집공고문.pdf",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=312325&data_tp=A&file_seq=3"
-   },
-   {
-    "name": "[별지1~3] 옥류서원 입주신청서양식 (261027 ).docx",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=312325&data_tp=A&file_seq=4"
-   }
-  ],
-  "firstSeen": "2026-10-29",
-  "geo": {
-   "lat": 37.58348,
-   "lng": 126.96385,
-   "precision": "동"
-  }
  },
  {
   "id": "sh:rent:311962",
