@@ -1,81 +1,4 @@
 {
- "https://www.더리치먼드미아.com": {
-  "checked": "2026-11-04",
-  "plans": [
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/main/main_room_type1.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/main/main_room_type2.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/main/main_room_type3.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_type01_img01.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_type01_img04.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_type02_img01.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_type02_img04.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_type03_img01.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_type03_img04.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_material_table01.png?date=20260409",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_material_table02.png?date=20260409",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.xn--9m1b22au9hqqan3e93vy4o.com/img/sub/unit_material_table03.png?date=20260409",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
- },
  "https://www.sujain-pm2.co.kr": {
   "checked": "2026-11-06",
   "plans": [
@@ -334,7 +257,7 @@
   ]
  },
  "https://ay-yemizi.com/": {
-  "checked": "2026-11-04",
+  "checked": "2026-11-12",
   "plans": [
    {
     "url": "https://ay-yemizi.com/assets/images/sub/unit_84.jpg",
@@ -345,7 +268,7 @@
   ]
  },
  "https://brand.hldni.com/bucheon-urbanic/": {
-  "checked": "2026-11-04",
+  "checked": "2026-11-12",
   "plans": [
    {
     "url": "https://brand.hldni.com/bucheon-urbanic/image/sub/information/unit1.jpg",
@@ -1528,113 +1451,6 @@
   "checked": "2026-11-11",
   "plans": []
  },
- "http://efete-eungye.com/": {
-  "checked": "2026-11-11",
-  "plans": [
-   {
-    "url": "http://efete-eungye.com/asset/sec_unit_tit.png",
-    "type": null,
-    "kind": "평면",
-    "alt": "UNIT PLAN"
-   },
-   {
-    "url": "http://efete-eungye.com/asset/unit01.png",
-    "type": null,
-    "kind": "평면",
-    "alt": "39㎡ TYPE"
-   },
-   {
-    "url": "http://efete-eungye.com/asset/unit02.png",
-    "type": null,
-    "kind": "평면",
-    "alt": "48㎡ TYPE"
-   },
-   {
-    "url": "http://efete-eungye.com/asset/unit03.png",
-    "type": null,
-    "kind": "평면",
-    "alt": "52㎡ A TYPE"
-   },
-   {
-    "url": "http://efete-eungye.com/asset/unit04.png",
-    "type": null,
-    "kind": "평면",
-    "alt": "52㎡ B TYPE"
-   },
-   {
-    "url": "http://efete-eungye.com/asset/unit05.png",
-    "type": null,
-    "kind": "평면",
-    "alt": "52㎡ C TYPE"
-   },
-   {
-    "url": "http://efete-eungye.com/asset/unit06.png",
-    "type": null,
-    "kind": "평면",
-    "alt": "59㎡ A TYPE"
-   },
-   {
-    "url": "http://efete-eungye.com/asset/unit07.png",
-    "type": null,
-    "kind": "평면",
-    "alt": "59㎡ B TYPE"
-   },
-   {
-    "url": "http://efete-eungye.com/asset/unit08.png",
-    "type": null,
-    "kind": "평면",
-    "alt": "59㎡ C TYPE"
-   },
-   {
-    "url": "http://efete-eungye.com/asset/sub/unit_39.png",
-    "type": "39",
-    "kind": "평면",
-    "alt": "에피트 시흥 은계 39㎡"
-   },
-   {
-    "url": "http://efete-eungye.com/asset/sub/unit_48.png",
-    "type": "48",
-    "kind": "평면",
-    "alt": "에피트 시흥 은계 48㎡"
-   },
-   {
-    "url": "http://efete-eungye.com/asset/sub/unit_52a.png",
-    "type": "52A",
-    "kind": "평면",
-    "alt": "에피트 시흥 은계 52㎡A"
-   },
-   {
-    "url": "http://efete-eungye.com/asset/sub/unit_52b.png",
-    "type": "52B",
-    "kind": "평면",
-    "alt": "에피트 시흥 은계 52㎡B"
-   },
-   {
-    "url": "http://efete-eungye.com/asset/sub/unit_52c.png",
-    "type": "52C",
-    "kind": "평면",
-    "alt": "에피트 시흥 은계 52㎡C"
-   },
-   {
-    "url": "http://efete-eungye.com/asset/sub/unit_59a.png",
-    "type": "59A",
-    "kind": "평면",
-    "alt": "에피트 시흥 은계 59㎡A"
-   },
-   {
-    "url": "http://efete-eungye.com/asset/sub/unit_59b.png",
-    "type": "59B",
-    "kind": "평면",
-    "alt": "에피트 시흥 은계 59㎡B"
-   },
-   {
-    "url": "http://efete-eungye.com/asset/sub/unit_59c.png",
-    "type": "59C",
-    "kind": "평면",
-    "alt": "에피트 시흥 은계 59㎡C"
-   }
-  ]
- },
  "https://청계노르웨이숲.com": {
   "checked": "2026-11-11",
   "plans": [
@@ -2003,7 +1819,7 @@
   ]
  },
  "https://www.prugio.com/hb/2026/pravenue": {
-  "checked": "2026-11-04",
+  "checked": "2026-11-12",
   "plans": [
    {
     "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-84c.png",
@@ -2044,78 +1860,6 @@
    {
     "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-img.jpg",
     "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_60a.jpg",
-    "type": "60A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_60a.jpg",
-    "type": "60A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_60b.jpg",
-    "type": "60B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_60b.jpg",
-    "type": "60B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_60c.jpg",
-    "type": "60C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_60c.jpg",
-    "type": "60C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_84a.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_84a.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_84b.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_84b.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_84c.jpg",
-    "type": "84C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_84c.jpg",
-    "type": "84C",
     "kind": "평면",
     "alt": ""
    }
@@ -2391,6 +2135,26 @@
  },
  "http://detre-sw.co.kr": {
   "checked": "2026-11-11",
+  "plans": []
+ },
+ "http://평택고덕대광로제비앙모아엘가.com": {
+  "checked": "2026-11-12",
+  "plans": []
+ },
+ "https://xi.co.kr/irc": {
+  "checked": "2026-11-12",
+  "plans": []
+ },
+ "https://xi.co.kr/sd2": {
+  "checked": "2026-11-12",
+  "plans": []
+ },
+ "https://xi.co.kr/YYH": {
+  "checked": "2026-11-12",
+  "plans": []
+ },
+ "https://www.arteragd.co.kr": {
+  "checked": "2026-11-12",
   "plans": []
  }
 }
