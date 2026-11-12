@@ -1,5 +1,394 @@
 [
  {
+  "id": "ah:urbty:2026950090:2026950090",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "분양",
+  "kind": "오피스텔",
+  "name": "중화역 라온프라이빗 센트로",
+  "address": "서울특별시 중랑구 중화동 303-9번지 일원",
+  "region": "서울",
+  "gu": "중랑구",
+  "units": 74,
+  "dates": {
+   "notice": "2026-11-12",
+   "start": "2026-11-25",
+   "end": "2026-11-26",
+   "winner": "2026-12-02",
+   "contract_start": "2026-12-08",
+   "contract_end": "2026-12-09"
+  },
+  "dateBasis": "api",
+  "moveIn": "2029-02",
+  "models": [
+   {
+    "type": "20OA",
+    "excl": 20.158,
+    "units": 12,
+    "price": 17800
+   },
+   {
+    "type": "41OA",
+    "excl": 41.513,
+    "units": 26,
+    "price": 36800
+   },
+   {
+    "type": "59OB",
+    "excl": 59.914,
+    "units": 2,
+    "price": 54800,
+    "plan": "https://jh-raon.com/assets/images/sub/unit_59.jpg"
+   },
+   {
+    "type": "59OA",
+    "excl": 59.914,
+    "units": 32,
+    "price": 52000,
+    "plan": "https://jh-raon.com/assets/images/sub/unit_59.jpg"
+   },
+   {
+    "type": "41OB",
+    "excl": 41.513,
+    "units": 2,
+    "price": 37200
+   }
+  ],
+  "priceMin": 17800,
+  "priceMax": 54800,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "중화3재정비촉진구역도시환경정비사업토지등소유자",
+  "tel": "15556223",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950090&pblancNo=2026950090&houseSecd=02",
+  "homepage": "https://jh-raon.com",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026950090&pblancNo=2026950090&atchmnflSeqNo=2023059&atchmnflSn=1"
+   }
+  ],
+  "firstSeen": "2026-11-13",
+  "geo": {
+   "lat": 37.60051,
+   "lng": 127.07938,
+   "precision": "동"
+  },
+  "homePlans": [
+   {
+    "url": "https://jh-raon.com/assets/images/main/com-unit.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://jh-raon.com/assets/images/main/unit-img-01.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://jh-raon.com/assets/images/main/unit-img-02.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://jh-raon.com/assets/images/sub/unit_45.jpg",
+    "type": "45",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://jh-raon.com/assets/images/sub/unit_58.jpg",
+    "type": "58",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://jh-raon.com/assets/images/sub/unit_59.jpg",
+    "type": "59",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://jh-raon.com/assets/images/sub/unit_70.jpg",
+    "type": "70",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://jh-raon.com/assets/images/sub/unit_84.jpg",
+    "type": "84",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://jh-raon.com/assets/images/sub/unit_73t.jpg",
+    "type": "73T",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://jh-raon.com/assets/images/sub/unit_84t.jpg",
+    "type": "84T",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://jh-raon.com/assets/images/sub/unit_93t.jpg",
+    "type": "93T",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://jh-raon.com/assets/images/sub/unit_98t.jpg",
+    "type": "98T",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://jh-raon.com/assets/images/sub/unit_126t.jpg",
+    "type": "126T",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://jh-raon.com/assets/images/sub/unit_20oa.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://jh-raon.com/assets/images/sub/unit_41oa.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://jh-raon.com/assets/images/sub/unit_41ob.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://jh-raon.com/assets/images/sub/unit_59oa.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://jh-raon.com/assets/images/sub/unit_59ob.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ {
+  "id": "ah:apt:2026000576:2026000576",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "분양",
+  "kind": "아파트",
+  "name": "아르뮤제자이",
+  "address": "경기도 안산시 상록구 성포동 586번지 일원",
+  "region": "경기",
+  "gu": "안산시",
+  "units": 984,
+  "dates": {
+   "notice": "2026-11-12",
+   "start": "2026-11-23",
+   "end": "2026-11-25",
+   "special_start": "2026-11-23",
+   "special_end": "2026-11-23",
+   "rank1_start": "2026-11-24",
+   "rank1_end": "2026-11-24",
+   "rank2_start": "2026-11-25",
+   "rank2_end": "2026-11-25",
+   "winner": "2026-12-01",
+   "contract_start": "2026-12-13",
+   "contract_end": "2026-12-15"
+  },
+  "dateBasis": "api",
+  "moveIn": "2031-03",
+  "models": [
+   {
+    "type": "84A",
+    "area": 119.2032,
+    "excl": 84.0,
+    "units": 82,
+    "special": 98,
+    "price": 110500
+   },
+   {
+    "type": "84B",
+    "area": 120.6563,
+    "excl": 84.0,
+    "units": 43,
+    "special": 45,
+    "price": 110500
+   },
+   {
+    "type": "84C",
+    "area": 120.9921,
+    "excl": 84.0,
+    "units": 42,
+    "special": 48,
+    "price": 109900
+   },
+   {
+    "type": "99A",
+    "area": 140.8321,
+    "excl": 99.0,
+    "units": 157,
+    "special": 23,
+    "price": 127200
+   },
+   {
+    "type": "99B",
+    "area": 140.3974,
+    "excl": 99.0,
+    "units": 237,
+    "special": 35,
+    "price": 124200
+   },
+   {
+    "type": "104",
+    "area": 147.4366,
+    "excl": 104.0,
+    "units": 152,
+    "special": 22,
+    "price": 140840
+   }
+  ],
+  "priceMin": 109900,
+  "priceMax": 140840,
+  "tags": [],
+  "targets": [],
+  "builder": "지에스건설(주)",
+  "supplier": "우리자산신탁 주식회사",
+  "tel": "18333367",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000576&pblancNo=2026000576",
+  "homepage": "https://xi.co.kr/armusee",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000576&pblancNo=2026000576&atchmnflSeqNo=2023060&atchmnflSn=2"
+   }
+  ],
+  "firstSeen": "2026-11-13",
+  "geo": {
+   "lat": 37.32169,
+   "lng": 126.84957,
+   "precision": "동"
+  }
+ },
+ {
+  "id": "ah:apt:2026000457:2026000457",
+  "source": "청약홈",
+  "sector": "공공",
+  "cat": "분양",
+  "kind": "아파트",
+  "name": "부천대장 하우스토리 디센트(부천대장지구 A2BL) 공공분양주택",
+  "address": "경기도 부천시 오정구 대장동, 오정동, 원종동, 삼정동 일원 부천대장 공공주택지구 내 A2블록",
+  "region": "경기",
+  "gu": "부천시",
+  "units": 548,
+  "dates": {
+   "notice": "2026-11-12",
+   "start": "2026-11-23",
+   "end": "2026-11-25",
+   "special_start": "2026-11-23",
+   "special_end": "2026-11-23",
+   "rank1_start": "2026-11-24",
+   "rank1_end": "2026-11-24",
+   "rank2_start": "2026-11-25",
+   "rank2_end": "2026-11-25",
+   "winner": "2026-12-01",
+   "contract_start": "2027-01-25",
+   "contract_end": "2027-01-29"
+  },
+  "dateBasis": "api",
+  "moveIn": "2029-06",
+  "models": [
+   {
+    "type": "59A",
+    "area": 81.0969,
+    "excl": 59.0,
+    "units": 37,
+    "special": 205,
+    "price": 61345
+   },
+   {
+    "type": "59B",
+    "area": 81.4772,
+    "excl": 59.0,
+    "units": 18,
+    "special": 108,
+    "price": 61520
+   },
+   {
+    "type": "59C",
+    "area": 81.4772,
+    "excl": 59.0,
+    "units": 3,
+    "special": 11,
+    "price": 61515
+   },
+   {
+    "type": "74A",
+    "area": 101.8363,
+    "excl": 74.0,
+    "units": 8,
+    "special": 42,
+    "price": 75423
+   },
+   {
+    "type": "84A",
+    "area": 115.3774,
+    "excl": 84.0,
+    "units": 16,
+    "special": 100,
+    "price": 85406
+   }
+  ],
+  "priceMin": 61345,
+  "priceMax": 85406,
+  "tags": [
+   "분양가상한제",
+   "공공주택지구",
+   "대규모택지",
+   "공공주택특별법"
+  ],
+  "targets": [],
+  "builder": "남광토건(주), 중흥토건(주), (주)케이알산업, 극동건설(주), 씨앤씨종합건설(주)",
+  "supplier": "남광토건 주식회사",
+  "tel": "0323220548",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancDetail.do?houseManageNo=2026000457&pblancNo=2026000457",
+  "homepage": "https://www.부천대장하우스토리디센트.com",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000457&pblancNo=2026000457&atchmnflSeqNo=2023090&atchmnflSn=3"
+   }
+  ],
+  "firstSeen": "2026-11-13",
+  "geo": {
+   "lat": 37.50144,
+   "lng": 126.76601,
+   "precision": "구"
+  },
+  "planPages": [
+   {
+    "page": 44,
+    "url": "plans/ah_apt_2026000457_2026000457-p44.jpg",
+    "types": []
+   }
+  ]
+ },
+ {
   "id": "sh:rent:313161",
   "source": "SH",
   "sector": "공공",
@@ -2030,7 +2419,7 @@
   "files": [
    {
     "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000553&pblancNo=2026000553&atchmnflSeqNo=2016014&atchmnflSn=8"
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000553&pblancNo=2026000553&atchmnflSeqNo=2016014&atchmnflSn=9"
    }
   ],
   "firstSeen": "2026-11-07",
@@ -5120,52 +5509,6 @@
   "firstSeen": "2026-10-29"
  },
  {
-  "id": "sh:rent:311962",
-  "source": "SH",
-  "sector": "공공",
-  "region": "서울",
-  "cat": "임대",
-  "kind": "공공임대",
-  "name": "구로구 도전숙(수요자맞춤형) 잔여세대 입주자 모집 공고",
-  "address": null,
-  "gu": "구로구",
-  "units": 12,
-  "dates": {
-   "notice": "2026-10-28",
-   "start": "2026-11-04",
-   "end": "2026-11-06",
-   "winner": "2027-01-26"
-  },
-  "dateBasis": "본문",
-  "moveIn": null,
-  "models": [],
-  "priceMin": null,
-  "priceMax": null,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "SH공사 매입주택공급부",
-  "tel": null,
-  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=311962",
-  "homepage": null,
-  "files": [
-   {
-    "name": "2610 구로구 도전숙 입주자 모집 공고문(안).pdf",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311962&data_tp=A&file_seq=1"
-   },
-   {
-    "name": "입주신청서 등 (붙임 1~4).hwpx",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311962&data_tp=A&file_seq=2"
-   }
-  ],
-  "firstSeen": "2026-10-29",
-  "geo": {
-   "lat": 37.4955,
-   "lng": 126.8875,
-   "precision": "구"
-  }
- },
- {
   "id": "mh:21471",
   "source": "한국자산관리공사",
   "sector": "공공",
@@ -6508,50 +6851,6 @@
    }
   ],
   "firstSeen": "2026-10-26"
- },
- {
-  "id": "sh:rent:311965",
-  "source": "SH",
-  "sector": "공공",
-  "region": "서울",
-  "cat": "임대",
-  "kind": "공공임대",
-  "name": "강북구 신혼부부(수요자맞춤형)주택 1~4차 잔여세대 입주자 모집 공고",
-  "address": null,
-  "gu": "강북구",
-  "units": 4,
-  "dates": {
-   "notice": "2026-10-26",
-   "start": "2026-11-02",
-   "end": "2026-11-12",
-   "winner": "2027-01-22"
-  },
-  "dateBasis": "본문",
-  "moveIn": null,
-  "models": [],
-  "priceMin": null,
-  "priceMax": null,
-  "tags": [],
-  "targets": [
-   "신혼·신생아"
-  ],
-  "builder": null,
-  "supplier": "SH공사 매입주택공급부",
-  "tel": null,
-  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=311965",
-  "homepage": null,
-  "files": [
-   {
-    "name": "지역수요 맞춤형 신혼부부 매입임대주택 입주자 모집 공고문.pdf",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=311965&data_tp=A&file_seq=1"
-   }
-  ],
-  "firstSeen": "2026-10-27",
-  "geo": {
-   "lat": 37.6396,
-   "lng": 127.0257,
-   "precision": "구"
-  }
  },
  {
   "id": "ah:remndr:2026930042:2026930042",
@@ -9869,62 +10168,6 @@
   }
  },
  {
-  "id": "lh:2015122300020900",
-  "source": "LH",
-  "sector": "공공",
-  "region": "경기",
-  "cat": "임대",
-  "kind": "매입임대",
-  "name": "[경기북부] 청년 매입임대주택 선착순 예비입주자 모집공고 (김포시, 포천시)",
-  "address": null,
-  "gu": "김포시",
-  "units": null,
-  "dates": {
-   "notice": "2026-10-16",
-   "end": "2026-10-29",
-   "winner": "2026-11-24",
-   "contract_start": "2026-12-01",
-   "contract_end": "2026-12-31"
-  },
-  "dateBasis": "api",
-  "statusHint": "접수마감",
-  "moveIn": null,
-  "models": [],
-  "priceMin": null,
-  "priceMax": null,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "LH",
-  "tel": null,
-  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020900&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-  "homepage": null,
-  "files": [
-   {
-    "name": "(261016)경기북부청년매입임대주택공급대상주택목록.xlsx",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68994418"
-   },
-   {
-    "name": "(261016)경기북부청년매입임대주택선착순예비입주자모집공고문.hwpx",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69008403"
-   },
-   {
-    "name": "(261016)경기북부청년매입임대주택선착순예비입주자모집공고문.pdf",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69008404"
-   },
-   {
-    "name": "청년매입임대_QnA.hwpx",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68993551"
-   }
-  ],
-  "firstSeen": "2026-10-16",
-  "geo": {
-   "lat": 37.61557,
-   "lng": 126.71578,
-   "precision": "구"
-  }
- },
- {
   "id": "ah:apt:2026000509:2026000509",
   "source": "청약홈",
   "sector": "민간",
@@ -10622,166 +10865,6 @@
    "lng": 126.81422,
    "precision": "주소"
   }
- },
- {
-  "id": "ah:remndr:2026910260:2026910260",
-  "source": "청약홈",
-  "sector": "민간",
-  "cat": "분양",
-  "kind": "무순위·잔여세대",
-  "name": "의왕역 한신더휴",
-  "address": "경기도 의왕시 삼동 244-1번지 일원",
-  "region": "경기",
-  "gu": "의왕시",
-  "units": 8,
-  "dates": {
-   "notice": "2026-10-12",
-   "start": "2026-10-19",
-   "end": "2026-10-19",
-   "winner": "2026-10-23",
-   "contract_start": "2026-10-29",
-   "contract_end": "2026-10-29"
-  },
-  "dateBasis": "api",
-  "moveIn": "2029-06",
-  "models": [
-   {
-    "type": "59B",
-    "excl": 59.0,
-    "units": 2,
-    "special": 0,
-    "price": 70000
-   },
-   {
-    "type": "84B",
-    "excl": 84.0,
-    "units": 6,
-    "special": 0,
-    "price": 94000
-   }
-  ],
-  "priceMin": 70000,
-  "priceMax": 94000,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "우성4차아파트 및 주변가로주택정비사업조합",
-  "tel": "15660879",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910260&pblancNo=2026910260",
-  "homepage": "https://의왕역한신더휴.kr",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910260&pblancNo=2026910260&atchmnflSeqNo=1994055&atchmnflSn=3"
-   }
-  ],
-  "firstSeen": "2026-10-13",
-  "geo": {
-   "lat": 37.31948,
-   "lng": 126.95704,
-   "precision": "동"
-  }
- },
- {
-  "id": "ah:urbty:2026950077:2026950077",
-  "source": "청약홈",
-  "sector": "민간",
-  "cat": "분양",
-  "kind": "오피스텔",
-  "name": "옥정중앙역 대방 디에트르Ⅱ",
-  "address": "경기도 양주시 옥정동 962-9, 962-8번지(옥정지구 중상1, 복합1블록)",
-  "region": "경기",
-  "gu": "양주시",
-  "units": 853,
-  "dates": {
-   "notice": "2026-10-08",
-   "start": "2026-10-19",
-   "end": "2026-10-20",
-   "winner": "2026-10-26",
-   "contract_start": "2026-10-28",
-   "contract_end": "2026-10-29"
-  },
-  "dateBasis": "api",
-  "moveIn": "2030-06",
-  "models": [
-   {
-    "type": "119OB",
-    "excl": 119.8284,
-    "units": 281,
-    "price": 60600
-   },
-   {
-    "type": "119OC",
-    "excl": 119.9734,
-    "units": 282,
-    "price": 64330
-   },
-   {
-    "type": "119OC",
-    "excl": 119.9734,
-    "units": 6,
-    "price": 81990
-   },
-   {
-    "type": "119OA",
-    "excl": 119.9569,
-    "units": 6,
-    "price": 77890
-   },
-   {
-    "type": "119OB",
-    "excl": 119.8284,
-    "units": 6,
-    "price": 77240
-   },
-   {
-    "type": "119OA",
-    "excl": 119.9569,
-    "units": 272,
-    "price": 61110
-   }
-  ],
-  "priceMin": 60600,
-  "priceMax": 81990,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "대방건설 주식회사",
-  "tel": "16887002",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950077&pblancNo=2026950077&houseSecd=02",
-  "homepage": "https://detre-ojop.co.kr",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026950077&pblancNo=2026950077&atchmnflSeqNo=1963143&atchmnflSn=9"
-   }
-  ],
-  "firstSeen": "2026-10-13",
-  "geo": {
-   "lat": 37.82075,
-   "lng": 127.08698,
-   "precision": "동"
-  },
-  "homePlans": [
-   {
-    "url": "https://detre-ojop.co.kr/img/unit/06cont01.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://detre-ojop.co.kr/img/unit/119oa.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://detre-ojop.co.kr/img/unit/119ob.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
  },
  {
   "id": "ah:apt:2026000458:2026000458",
@@ -11976,12 +12059,6 @@
   "moveIn": "2029-10",
   "models": [
    {
-    "type": "90A",
-    "excl": 90.9868,
-    "units": 2,
-    "price": 185100
-   },
-   {
     "type": "84A",
     "excl": 84.9809,
     "units": 3,
@@ -11998,6 +12075,12 @@
     "excl": 90.9834,
     "units": 1,
     "price": 179400
+   },
+   {
+    "type": "90A",
+    "excl": 90.9868,
+    "units": 2,
+    "price": 185100
    }
   ],
   "priceMin": 168100,
