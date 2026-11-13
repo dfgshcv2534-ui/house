@@ -1,6 +1,6 @@
 {
  "https://www.sujain-pm2.co.kr": {
-  "checked": "2026-11-06",
+  "checked": "2026-11-14",
   "plans": [
    {
     "url": "https://www.sujain-pm2.co.kr/sub/unit01.jpg",
@@ -17,7 +17,7 @@
   ]
  },
  "https://ic-yemizi.com/": {
-  "checked": "2026-11-06",
+  "checked": "2026-11-14",
   "plans": [
    {
     "url": "https://ic-yemizi.com/assets/images/main/unit-bg.jpg",
@@ -77,12 +77,8 @@
   "checked": "2026-11-13",
   "plans": []
  },
- "http://www.foreapt.com": {
-  "checked": "2026-11-13",
-  "plans": []
- },
  "https://www.i-park.com/uijeongbucentral": {
-  "checked": "2026-11-06",
+  "checked": "2026-11-14",
   "plans": [
    {
     "url": "https://cdn.i-park.com/ipark/uijeongbucentral2_grand/img/main/unit_01_v2.png",
@@ -1866,11 +1862,11 @@
   "plans": []
  },
  "https://www.idsd.co.kr": {
-  "checked": "2026-11-06",
+  "checked": "2026-11-14",
   "plans": []
  },
  "https://hillstate.co.kr/SALE/1030/main/index": {
-  "checked": "2026-11-06",
+  "checked": "2026-11-14",
   "plans": []
  },
  "https://www.thehive-first.com": {
@@ -2272,6 +2268,49 @@
  },
  "https://www.부천대장하우스토리디센트.com": {
   "checked": "2026-11-13",
+  "plans": []
+ },
+ "https://www.야목역서희스타힐스그랜드힐.com": {
+  "checked": "2026-11-14",
+  "plans": [
+   {
+    "url": "https://www.xn--2i0bs4kloch9d4zkhlca439cd3a150f0iqomae.com/img/sub/unitplan_59a_n3.png?new",
+    "type": "59A",
+    "kind": "평면",
+    "alt": "59A"
+   },
+   {
+    "url": "https://www.xn--2i0bs4kloch9d4zkhlca439cd3a150f0iqomae.com/img/sub/unitplan_59b_n3.png?new",
+    "type": "59B",
+    "kind": "평면",
+    "alt": "59B"
+   },
+   {
+    "url": "https://www.xn--2i0bs4kloch9d4zkhlca439cd3a150f0iqomae.com/img/sub/unitplan_59c_n3.png?new",
+    "type": "59C",
+    "kind": "평면",
+    "alt": "59C"
+   },
+   {
+    "url": "https://www.xn--2i0bs4kloch9d4zkhlca439cd3a150f0iqomae.com/img/sub/unitplan_84a_n3.png?new",
+    "type": "84A",
+    "kind": "평면",
+    "alt": "84A"
+   },
+   {
+    "url": "https://www.xn--2i0bs4kloch9d4zkhlca439cd3a150f0iqomae.com/img/sub/unitplan_84b_n3.png?new",
+    "type": "84B",
+    "kind": "평면",
+    "alt": "84B"
+   }
+  ]
+ },
+ "https://www.해링턴플레이스문래.com": {
+  "checked": "2026-11-14",
+  "plans": []
+ },
+ "https://brand.hldni.com/gyeonghuigung/": {
+  "checked": "2026-11-14",
   "plans": []
  }
 }
