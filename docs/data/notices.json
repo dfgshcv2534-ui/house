@@ -130,7 +130,8 @@
    "lat": 37.63594,
    "lng": 127.21651,
    "precision": "구"
-  }
+  },
+  "stale": true
  },
  {
   "id": "gh:buy:852",
@@ -161,7 +162,8 @@
   "tel": null,
   "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancDetailView.do?pbancNo=852",
   "homepage": null,
-  "firstSeen": "2026-11-14"
+  "firstSeen": "2026-11-14",
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910299:2026910299",
@@ -2089,7 +2091,8 @@
    "lat": 37.00777,
    "lng": 127.27997,
    "precision": "구"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:remndr:2026910290:2026910290",
@@ -2410,7 +2413,8 @@
    "lat": 37.73807,
    "lng": 127.03397,
    "precision": "구"
-  }
+  },
+  "stale": true
  },
  {
   "id": "ah:urbty:2026950095:2026950095",
@@ -11196,7 +11200,8 @@
   "tel": null,
   "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancDetailView.do?pbancNo=823",
   "homepage": null,
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "stale": true
  },
  {
   "id": "sh:rent:310950",
@@ -13044,7 +13049,8 @@
    "lat": 38.0964,
    "lng": 127.0746,
    "precision": "구"
-  }
+  },
+  "stale": true
  },
  {
   "id": "sh:rent:308944",
@@ -13110,7 +13116,8 @@
   "tel": null,
   "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancDetailView.do?pbancNo=812",
   "homepage": null,
-  "firstSeen": "2026-10-13"
+  "firstSeen": "2026-10-13",
+  "stale": true
  },
  {
   "id": "ah:apt:2026000404:2026000404",
