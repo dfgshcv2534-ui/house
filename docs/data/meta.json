@@ -1,11 +1,15 @@
 {
- "updatedAt": "2026-11-14T10:15+09:00",
- "baseDate": "2026-11-14",
+ "updatedAt": "2026-11-15T00:28+09:00",
+ "baseDate": "2026-11-15",
  "sources": {
   "청약홈": {
-   "ok": true,
-   "count": 103,
-   "failedParts": []
+   "ok": false,
+   "count": 20,
+   "failedParts": [
+    "apt",
+    "remndr",
+    "urbty"
+   ]
   },
   "SH": {
    "ok": true,
@@ -13,9 +17,9 @@
    "failedParts": []
   },
   "GH": {
-   "ok": false,
-   "count": 0,
-   "message": "GH 게시판을 하나도 읽지 못했습니다"
+   "ok": true,
+   "count": 9,
+   "failedParts": []
   },
   "iH": {
    "ok": false,
@@ -38,6 +42,6 @@
    "failedParts": []
   }
  },
- "total": 155,
- "newToday": 7
+ "total": 154,
+ "newToday": 0
 }

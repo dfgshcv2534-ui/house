@@ -227,11 +227,11 @@
   ]
  },
  "https://unjeong-iparkcity.com": {
-  "checked": "2026-11-07",
+  "checked": "2026-11-15",
   "plans": []
  },
  "https://www.중앙하이츠원종역.com": {
-  "checked": "2026-11-07",
+  "checked": "2026-11-15",
   "plans": [
    {
     "url": "https://www.xn--2e5bqkuw2tw6b5xac3xm4o.com/img/sub/unitplan_69a.png",
@@ -299,7 +299,7 @@
   ]
  },
  "http://www.엘리프한신더휴수원.com": {
-  "checked": "2026-11-07",
+  "checked": "2026-11-15",
   "plans": [
    {
     "url": "https://xn--9m1b83j3xh2was2iwubdz8ceua06k.com/images/complex-info/plan1_251029.jpg",
@@ -1870,7 +1870,7 @@
   "plans": []
  },
  "https://www.thehive-first.com": {
-  "checked": "2026-11-07",
+  "checked": "2026-11-15",
   "plans": [
    {
     "url": "https://www.thehive-first.com/sub/plan.jpg",
@@ -1887,23 +1887,36 @@
   ]
  },
  "http://www.yjd-verthill.com": {
-  "checked": "2026-11-07",
+  "checked": "2026-11-15",
   "plans": []
  },
  "https://www.오남역서희스타힐스여의재.com": {
-  "checked": "2026-11-07",
+  "checked": "2026-11-15",
   "plans": []
  },
  "http://www.geomdan-sclass.com": {
-  "checked": "2026-11-07",
+  "checked": "2026-11-15",
   "plans": []
  },
  "http://jeil-foredu.co.kr": {
-  "checked": "2026-11-07",
-  "plans": []
+  "checked": "2026-11-15",
+  "plans": [
+   {
+    "url": "http://jeil-foredu.co.kr/sub/unit01.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "http://jeil-foredu.co.kr/sub/unit02.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  },
  "https://feliztower-yangwoo.co.kr": {
-  "checked": "2026-11-07",
+  "checked": "2026-11-15",
   "plans": [
    {
     "url": "https://feliztower-yangwoo.co.kr/sub/unit59.jpg",
@@ -1932,7 +1945,7 @@
   ]
  },
  "https://www.jh-raon.com": {
-  "checked": "2026-11-07",
+  "checked": "2026-11-15",
   "plans": [
    {
     "url": "https://www.jh-raon.com/assets/images/main/com-unit.png",
@@ -1953,62 +1966,92 @@
     "alt": ""
    },
    {
-    "url": "https://www.jh-raon.com/assets/images/sub/unit_45.jpg",
+    "url": "https://www.jh-raon.com/assets/images/sub/261113_unit_45.jpg",
     "type": "45",
     "kind": "평면",
     "alt": ""
    },
    {
-    "url": "https://www.jh-raon.com/assets/images/sub/unit_58.jpg",
+    "url": "https://www.jh-raon.com/assets/images/sub/261113_unit_58.jpg",
     "type": "58",
     "kind": "평면",
     "alt": ""
    },
    {
-    "url": "https://www.jh-raon.com/assets/images/sub/unit_59.jpg",
+    "url": "https://www.jh-raon.com/assets/images/sub/261113_unit_59.jpg",
     "type": "59",
     "kind": "평면",
     "alt": ""
    },
    {
-    "url": "https://www.jh-raon.com/assets/images/sub/unit_70.jpg",
+    "url": "https://www.jh-raon.com/assets/images/sub/261113_unit_70.jpg",
     "type": "70",
     "kind": "평면",
     "alt": ""
    },
    {
-    "url": "https://www.jh-raon.com/assets/images/sub/unit_84.jpg",
+    "url": "https://www.jh-raon.com/assets/images/sub/261113_unit_84.jpg",
     "type": "84",
     "kind": "평면",
     "alt": ""
    },
    {
-    "url": "https://www.jh-raon.com/assets/images/sub/unit_73t.jpg",
+    "url": "https://www.jh-raon.com/assets/images/sub/261113_unit_73t.jpg",
     "type": "73T",
     "kind": "평면",
     "alt": ""
    },
    {
-    "url": "https://www.jh-raon.com/assets/images/sub/unit_84t.jpg",
+    "url": "https://www.jh-raon.com/assets/images/sub/261113_unit_84t.jpg",
     "type": "84T",
     "kind": "평면",
     "alt": ""
    },
    {
-    "url": "https://www.jh-raon.com/assets/images/sub/unit_93t.jpg",
+    "url": "https://www.jh-raon.com/assets/images/sub/261113_unit_93t.jpg",
     "type": "93T",
     "kind": "평면",
     "alt": ""
    },
    {
-    "url": "https://www.jh-raon.com/assets/images/sub/unit_98t.jpg",
+    "url": "https://www.jh-raon.com/assets/images/sub/261113_unit_98t.jpg",
     "type": "98T",
     "kind": "평면",
     "alt": ""
    },
    {
-    "url": "https://www.jh-raon.com/assets/images/sub/unit_126t.jpg",
+    "url": "https://www.jh-raon.com/assets/images/sub/261113_unit_126t.jpg",
     "type": "126T",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.jh-raon.com/assets/images/sub/unit_20oa.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.jh-raon.com/assets/images/sub/unit_41oa.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.jh-raon.com/assets/images/sub/unit_41ob.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.jh-raon.com/assets/images/sub/unit_59oa.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.jh-raon.com/assets/images/sub/unit_59ob.jpg",
+    "type": null,
     "kind": "평면",
     "alt": ""
    }
