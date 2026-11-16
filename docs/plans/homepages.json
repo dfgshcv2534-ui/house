@@ -70,7 +70,7 @@
   ]
  },
  "https://www.마곡스카이온.com": {
-  "checked": "2026-11-09",
+  "checked": "2026-11-17",
   "plans": []
  },
  "https://www.엘리프검단포레듀.com": {
@@ -242,7 +242,7 @@
   ]
  },
  "http://개성로니엘.kr": {
-  "checked": "2026-11-09",
+  "checked": "2026-11-17",
   "plans": [
    {
     "url": "https://xn--h49ao0kn4enskhzf.kr/html/images/sub/plan_img.jpg",
@@ -2355,5 +2355,105 @@
  "https://brand.hldni.com/gyeonghuigung/": {
   "checked": "2026-11-14",
   "plans": []
+ },
+ "https://www.리아츠더인천.com": {
+  "checked": "2026-11-17",
+  "plans": [
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type3.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type4.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type5.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type6.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type1.png?v=1",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type2.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59A_nooption.jpg",
+    "type": "59A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59B_nooption.jpg",
+    "type": "59B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59C_nooption.jpg",
+    "type": "59C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_74_nooption.jpg",
+    "type": "74",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_84A_240607_nooption.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_84B_240607_nooption.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_42A.jpg",
+    "type": "42A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_42B.jpg",
+    "type": "42B",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ "https://www.the-h-newbanpoestella.co.kr": {
+  "checked": "2026-11-17",
+  "plans": [
+   {
+    "url": "https://www.the-h-newbanpoestella.co.kr/assets/images/sub/unit.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": "평면안내 안내"
+   }
+  ]
  }
 }

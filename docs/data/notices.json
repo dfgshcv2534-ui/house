@@ -1,5 +1,494 @@
 [
  {
+  "id": "sh:rent:313268",
+  "source": "SH",
+  "sector": "공공",
+  "region": "서울",
+  "cat": "임대",
+  "kind": "공공임대",
+  "name": "동작구 홀몸어르신(수요자맞춤형)주택 잔여세대 입주자 모집 공고",
+  "address": null,
+  "gu": "동작구",
+  "units": 7,
+  "dates": {
+   "notice": "2026-11-16",
+   "start": "2026-11-23",
+   "end": "2026-12-04",
+   "winner": "2027-01-18"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [
+   "고령자"
+  ],
+  "builder": null,
+  "supplier": "SH공사 매입주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=313268",
+  "homepage": null,
+  "files": [
+   {
+    "name": "동작구 홀몸어르신 맞춤형 공공주택 입주자 모집공고문.pdf",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=313268&data_tp=A&file_seq=1"
+   },
+   {
+    "name": "0_ 신청방법 및 제출서류.hwp",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=313268&data_tp=A&file_seq=2"
+   },
+   {
+    "name": "1_(신청자 작성)홀몸어르신 공급신청서.hwp",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=313268&data_tp=A&file_seq=3"
+   },
+   {
+    "name": "2_(신청자 작성)개인정보수집이용 및 제3자제공동의서.hwp",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=313268&data_tp=A&file_seq=4"
+   },
+   {
+    "name": "3_(신청자 작성)금융정보 등(금융ㆍ신용ㆍ보험 정보) 제공 동의서.hwp",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=313268&data_tp=A&file_seq=5"
+   },
+   {
+    "name": "4_(신청자 작성)무주택서약서.hwp",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=313268&data_tp=A&file_seq=6"
+   },
+   {
+    "name": "평면도.hwp",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=313268&data_tp=A&file_seq=7"
+   }
+  ],
+  "firstSeen": "2026-11-17",
+  "geo": {
+   "lat": 37.5124,
+   "lng": 126.9393,
+   "precision": "구"
+  }
+ },
+ {
+  "id": "lh:2015122300021068",
+  "source": "LH",
+  "sector": "공공",
+  "region": "경기",
+  "cat": "임대",
+  "kind": "영구임대",
+  "name": "안산시 영구임대주택 예비입주자 모집(2026.11.16)",
+  "address": "경기도 안산시 단원구 화정로 9(선부동,주공아파트)",
+  "gu": "안산시",
+  "units": 588,
+  "dates": {
+   "notice": "2026-11-16",
+   "end": "2026-11-25",
+   "winner": "2027-03-31"
+  },
+  "dateBasis": "api",
+  "statusHint": "공고중",
+  "moveIn": null,
+  "models": [
+   {
+    "type": "39",
+    "area": 39.85,
+    "excl": 26.37,
+    "units": 588
+   }
+  ],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [
+   "지역난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021068&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+  "homepage": null,
+  "area": "26.37㎡",
+  "files": [
+   {
+    "name": "(26.11.16.공고)안산시영구임대예비입주자표준모집공고문.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69411858"
+   },
+   {
+    "name": "(26.11.16.공고)안산시영구임대예비입주자표준모집공고문.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69411857"
+   }
+  ],
+  "images": [
+   {
+    "label": "평면도",
+    "name": "평면도.JPG",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=30008578"
+   }
+  ],
+  "firstSeen": "2026-11-17",
+  "geo": {
+   "lat": 37.33143,
+   "lng": 126.82036,
+   "precision": "동"
+  }
+ },
+ {
+  "id": "lh:0000061212",
+  "source": "LH",
+  "sector": "공공",
+  "region": "경기",
+  "cat": "특수형",
+  "kind": "분양전환 임대",
+  "name": "파주운정A4BL(별하람3) 10년 공공임대주택리츠 예비입주자 모집(무순위)",
+  "address": "경기도 파주시 가람로 109 별하람마을 3단지 서희스타힐스NHF(와동동)",
+  "gu": "파주시",
+  "units": 1422,
+  "dates": {
+   "notice": "2026-11-16",
+   "end": "2026-11-26",
+   "start": "2026-11-25",
+   "winner": "2026-11-30",
+   "contract_start": "2026-12-30",
+   "contract_end": "2026-12-31"
+  },
+  "dateBasis": "api",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [
+   "지역난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061212&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+  "homepage": null,
+  "area": "59.97~84.98㎡",
+  "files": [
+   {
+    "name": "(양식)개인정보수집이용및제3자제공동의서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69430297"
+   },
+   {
+    "name": "파주운정A4BL공공임대주택리츠예비입주자모집공고(안)_261116.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69430289"
+   },
+   {
+    "name": "파주운정A4BL공공임대주택리츠예비입주자모집공고(안)_261116.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69430292"
+   },
+   {
+    "name": "파주운정A4_별하람3_팜플렛.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69430296"
+   }
+  ],
+  "images": [
+   {
+    "label": "단지조감도",
+    "name": "단지조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69430242"
+   },
+   {
+    "label": "지역위치도",
+    "name": "지역조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69430244"
+   },
+   {
+    "label": "토지이용계획도",
+    "name": "토지이용계획도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69430245"
+   },
+   {
+    "label": "단지배치도",
+    "name": "단지배치도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69430246"
+   }
+  ],
+  "firstSeen": "2026-11-17",
+  "geo": {
+   "lat": 37.73877,
+   "lng": 126.76547,
+   "precision": "동"
+  }
+ },
+ {
+  "id": "lh:0000061210",
+  "source": "LH",
+  "sector": "공공",
+  "region": "경기",
+  "cat": "특수형",
+  "kind": "분양전환 임대",
+  "name": "파주운정A20BL(산내2) 10년 공공임대주택리츠 예비입주자모집(무순위)",
+  "address": "경기도 파주시 교하로 50 (목동동,산내마을2단지센트럴리움)",
+  "gu": "파주시",
+  "units": 1362,
+  "dates": {
+   "notice": "2026-11-16",
+   "end": "2026-11-26",
+   "start": "2026-11-25",
+   "winner": "2026-11-30",
+   "contract_start": "2026-12-30",
+   "contract_end": "2026-12-31"
+  },
+  "dateBasis": "api",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [
+   "지역난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061210&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
+  "homepage": null,
+  "area": "51.96~84.98㎡",
+  "files": [
+   {
+    "name": "(양식)개인정보수집이용및제3자제공동의서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69428858"
+   },
+   {
+    "name": "파주운정A20BL공공임대주택리츠예비입주자모집공고(안)_261116.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69428583"
+   },
+   {
+    "name": "파주운정A20BL공공임대주택리츠예비입주자모집공고(안)_261116.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69428575"
+   },
+   {
+    "name": "평면도및동호배치도.zip",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69428924"
+   }
+  ],
+  "firstSeen": "2026-11-17",
+  "geo": {
+   "lat": 37.70494,
+   "lng": 126.72284,
+   "precision": "주소"
+  }
+ },
+ {
+  "id": "ah:opt:2026940262:2026940262",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "분양",
+  "kind": "임의공급",
+  "name": "리아츠 더 인천(24차)",
+  "address": "인천광역시 제물포구 송림동 31-3번지 일원",
+  "region": "인천",
+  "gu": "제물포구",
+  "units": 7,
+  "dates": {
+   "notice": "2026-11-16",
+   "start": "2026-11-18",
+   "end": "2026-11-20",
+   "winner": "2026-11-25",
+   "contract_start": "2026-11-28",
+   "contract_end": "2026-11-28"
+  },
+  "dateBasis": "api",
+  "moveIn": "2027-10",
+  "models": [
+   {
+    "type": "59B",
+    "excl": 59.0,
+    "units": 2,
+    "price": 36800,
+    "plan": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59B_nooption.jpg"
+   },
+   {
+    "type": "59C",
+    "excl": 59.0,
+    "units": 1,
+    "price": 38500,
+    "plan": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59C_nooption.jpg"
+   },
+   {
+    "type": "74",
+    "excl": 74.0,
+    "units": 2,
+    "price": 48400,
+    "plan": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_74_nooption.jpg"
+   },
+   {
+    "type": "84B",
+    "excl": 84.0,
+    "units": 2,
+    "price": 54500,
+    "plan": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_84B_240607_nooption.jpg"
+   }
+  ],
+  "priceMin": 36800,
+  "priceMax": 54500,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "송림6구역재개발정비사업조합",
+  "tel": "15515758",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940262&pblancNo=2026940262",
+  "homepage": "https://www.리아츠더인천.com",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940262&pblancNo=2026940262&atchmnflSeqNo=2024029&atchmnflSn=3"
+   }
+  ],
+  "firstSeen": "2026-11-17",
+  "geo": {
+   "lat": 37.47736,
+   "lng": 126.64876,
+   "precision": "동"
+  },
+  "homePlans": [
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type3.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type4.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type5.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type6.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type1.png?v=1",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/main/slide_type2.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59A_nooption.jpg",
+    "type": "59A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59B_nooption.jpg",
+    "type": "59B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_59C_nooption.jpg",
+    "type": "59C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_74_nooption.jpg",
+    "type": "74",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_84A_240607_nooption.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_84B_240607_nooption.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_42A.jpg",
+    "type": "42A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.xn--9m1b83joykr9b9zjpoc.com/images/space/unit_42B.jpg",
+    "type": "42B",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ {
+  "id": "ah:opt:2026940256:2026940256",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "분양",
+  "kind": "임의공급",
+  "name": "디에이치 신반포에스테라",
+  "address": "서울특별시 서초구 잠원동 65-33번지 일대",
+  "region": "서울",
+  "gu": "서초구",
+  "units": 5,
+  "dates": {
+   "notice": "2026-11-16",
+   "start": "2026-11-18",
+   "end": "2026-11-19",
+   "winner": "2026-11-24",
+   "contract_start": "2026-11-27",
+   "contract_end": "2026-11-27"
+  },
+  "dateBasis": "api",
+  "moveIn": "2028-01",
+  "models": [
+   {
+    "type": "84",
+    "excl": 84.0,
+    "units": 5,
+    "price": 439800
+   }
+  ],
+  "priceMin": 439800,
+  "priceMax": 439800,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "신반포22차아파트주택재건축정비사업조합",
+  "tel": "15336366",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026940256&pblancNo=2026940256",
+  "homepage": "https://www.the-h-newbanpoestella.co.kr",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026940256&pblancNo=2026940256&atchmnflSeqNo=2014143&atchmnflSn=6"
+   }
+  ],
+  "firstSeen": "2026-11-17",
+  "geo": {
+   "lat": 37.51825,
+   "lng": 127.0124,
+   "precision": "동"
+  },
+  "homePlans": [
+   {
+    "url": "https://www.the-h-newbanpoestella.co.kr/assets/images/sub/unit.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": "평면안내 안내"
+   }
+  ]
+ },
+ {
   "id": "lh:0000061211",
   "source": "LH",
   "sector": "공공",
@@ -2390,10 +2879,10 @@
   "units": null,
   "dates": {
    "notice": "2026-11-06",
-   "end": "2026-11-19"
+   "end": "2026-11-16"
   },
   "dateBasis": "api",
-  "statusHint": "공고중",
+  "statusHint": "접수마감",
   "moveIn": null,
   "models": [],
   "priceMin": null,
@@ -2435,28 +2924,16 @@
   "moveIn": "2028-05",
   "models": [
    {
-    "type": "19A",
-    "excl": 19.891,
-    "units": 2,
-    "price": 30510
-   },
-   {
-    "type": "19B",
-    "excl": 19.891,
-    "units": 1,
-    "price": 29300
-   },
-   {
     "type": "24A",
     "excl": 24.771,
     "units": 2,
     "price": 38130
    },
    {
-    "type": "59B",
-    "excl": 59.989,
+    "type": "24B",
+    "excl": 24.771,
     "units": 1,
-    "price": 95460
+    "price": 37360
    },
    {
     "type": "29",
@@ -2465,10 +2942,10 @@
     "price": 45590
    },
    {
-    "type": "34",
-    "excl": 34.194,
-    "units": 2,
-    "price": 49420
+    "type": "19B",
+    "excl": 19.891,
+    "units": 1,
+    "price": 29300
    },
    {
     "type": "59A",
@@ -2477,10 +2954,22 @@
     "price": 86700
    },
    {
-    "type": "24B",
-    "excl": 24.771,
+    "type": "59B",
+    "excl": 59.989,
     "units": 1,
-    "price": 37360
+    "price": 95460
+   },
+   {
+    "type": "19A",
+    "excl": 19.891,
+    "units": 2,
+    "price": 30510
+   },
+   {
+    "type": "34",
+    "excl": 34.194,
+    "units": 2,
+    "price": 49420
    }
   ],
   "priceMin": 29300,
@@ -4196,10 +4685,10 @@
   "dates": {
    "notice": "2026-11-02",
    "end": "2026-11-18",
+   "start": "2026-11-16",
    "winner": "2027-02-23"
   },
   "dateBasis": "api",
-  "statusHint": "공고중",
   "moveIn": null,
   "models": [
    {
@@ -12222,18 +12711,6 @@
   "moveIn": "2029-10",
   "models": [
    {
-    "type": "90A",
-    "excl": 90.9868,
-    "units": 2,
-    "price": 185100
-   },
-   {
-    "type": "84A",
-    "excl": 84.9809,
-    "units": 3,
-    "price": 170900
-   },
-   {
     "type": "76A",
     "excl": 76.9986,
     "units": 14,
@@ -12244,6 +12721,18 @@
     "excl": 90.9834,
     "units": 1,
     "price": 179400
+   },
+   {
+    "type": "90A",
+    "excl": 90.9868,
+    "units": 2,
+    "price": 185100
+   },
+   {
+    "type": "84A",
+    "excl": 84.9809,
+    "units": 3,
+    "price": 170900
    }
   ],
   "priceMin": 168100,
