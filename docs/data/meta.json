@@ -1,14 +1,11 @@
 {
- "updatedAt": "2026-11-16T01:03+09:00",
+ "updatedAt": "2026-11-16T09:32+09:00",
  "baseDate": "2026-11-16",
  "sources": {
   "청약홈": {
-   "ok": false,
-   "count": 70,
-   "failedParts": [
-    "remndr",
-    "urbty"
-   ]
+   "ok": true,
+   "count": 102,
+   "failedParts": []
   },
   "SH": {
    "ok": true,
@@ -16,9 +13,9 @@
    "failedParts": []
   },
   "GH": {
-   "ok": false,
-   "count": 0,
-   "message": "GH 게시판을 하나도 읽지 못했습니다"
+   "ok": true,
+   "count": 9,
+   "failedParts": []
   },
   "iH": {
    "ok": false,
