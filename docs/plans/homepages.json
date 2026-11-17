@@ -263,41 +263,6 @@
    }
   ]
  },
- "https://brand.hldni.com/bucheon-urbanic/": {
-  "checked": "2026-11-12",
-  "plans": [
-   {
-    "url": "https://brand.hldni.com/bucheon-urbanic/image/sub/information/unit1.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/bucheon-urbanic/image/sub/information/unit2.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/bucheon-urbanic/image/sub/information/unit3.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/bucheon-urbanic/image/sub/information/unit4.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://brand.hldni.com/bucheon-urbanic/image/sub/information/unit5.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
- },
  "http://www.엘리프한신더휴수원.com": {
   "checked": "2026-11-15",
   "plans": [
@@ -394,15 +359,15 @@
   ]
  },
  "https://apply.lh.or.kr/": {
-  "checked": "2026-11-10",
+  "checked": "2026-11-18",
   "plans": []
  },
  "https://apply.lh.or.kr": {
-  "checked": "2026-11-10",
+  "checked": "2026-11-18",
   "plans": []
  },
  "http://www.gwanggyo-centreville.com": {
-  "checked": "2026-11-10",
+  "checked": "2026-11-18",
   "plans": [
    {
     "url": "https://xn--hc0bse624alpgn0dn2h81ac9gr89a.com/images/complex-info/site-plan1.jpg",
@@ -455,18 +420,18 @@
   ]
  },
  "https://pg2.lynn.co.kr/": {
-  "checked": "2026-11-10",
+  "checked": "2026-11-18",
   "plans": []
  },
  "https://guri.ensvil.com/": {
-  "checked": "2026-11-10",
+  "checked": "2026-11-18",
   "plans": []
  },
  "https://www.중앙하이츠구성플랫폼시티.com": {
-  "checked": "2026-11-10",
+  "checked": "2026-11-18",
   "plans": [
    {
-    "url": "https://xn--2e0b97q70h3ub54eo3dtwdc4o60ksscp5d6za.com/assets/site/project/unit/iso/iso_59A.png?v=20261104isotrim",
+    "url": "https://xn--2e0b97q70h3ub54eo3dtwdc4o60ksscp5d6za.com/assets/site/project/unit/iso/iso_59A.png?v=20261111iso2",
     "type": "59A",
     "kind": "입체",
     "alt": "59㎡ A 아이소메트릭"
@@ -478,7 +443,7 @@
     "alt": "59㎡ A 확장기본형 평면도"
    },
    {
-    "url": "https://xn--2e0b97q70h3ub54eo3dtwdc4o60ksscp5d6za.com/assets/site/project/unit/iso/iso_59B.png?v=20261104isotrim",
+    "url": "https://xn--2e0b97q70h3ub54eo3dtwdc4o60ksscp5d6za.com/assets/site/project/unit/iso/iso_59B.png?v=20261111iso2",
     "type": "59B",
     "kind": "입체",
     "alt": "59㎡ B 아이소메트릭"
@@ -490,7 +455,7 @@
     "alt": "59㎡ B 확장기본형 평면도"
    },
    {
-    "url": "https://xn--2e0b97q70h3ub54eo3dtwdc4o60ksscp5d6za.com/assets/site/project/unit/iso/iso_68.png?v=20261104isotrim",
+    "url": "https://xn--2e0b97q70h3ub54eo3dtwdc4o60ksscp5d6za.com/assets/site/project/unit/iso/iso_68.png?v=20261111iso2",
     "type": "68",
     "kind": "입체",
     "alt": "68㎡ 아이소메트릭"
@@ -502,7 +467,7 @@
     "alt": "68㎡ 확장기본형 평면도"
    },
    {
-    "url": "https://xn--2e0b97q70h3ub54eo3dtwdc4o60ksscp5d6za.com/assets/site/project/unit/iso/iso_74.png?v=20261104isotrim",
+    "url": "https://xn--2e0b97q70h3ub54eo3dtwdc4o60ksscp5d6za.com/assets/site/project/unit/iso/iso_74.png?v=20261111iso2",
     "type": "74",
     "kind": "입체",
     "alt": "74㎡ 아이소메트릭"
@@ -514,7 +479,7 @@
     "alt": "74㎡ 확장기본형 평면도"
    },
    {
-    "url": "https://xn--2e0b97q70h3ub54eo3dtwdc4o60ksscp5d6za.com/assets/site/project/unit/iso/iso_79.png?v=20261104isotrim",
+    "url": "https://xn--2e0b97q70h3ub54eo3dtwdc4o60ksscp5d6za.com/assets/site/project/unit/iso/iso_79.png?v=20261111iso2",
     "type": "79",
     "kind": "입체",
     "alt": "79㎡ 아이소메트릭"
@@ -526,7 +491,7 @@
     "alt": "79㎡ 확장기본형 평면도"
    },
    {
-    "url": "https://xn--2e0b97q70h3ub54eo3dtwdc4o60ksscp5d6za.com/assets/site/project/unit/iso/iso_84.png?v=20261104isotrim",
+    "url": "https://xn--2e0b97q70h3ub54eo3dtwdc4o60ksscp5d6za.com/assets/site/project/unit/iso/iso_84.png?v=20261111iso2",
     "type": "84",
     "kind": "입체",
     "alt": "84㎡ 아이소메트릭"
@@ -540,8 +505,14 @@
   ]
  },
  "https://www.엘리프시흥더프라임.com": {
-  "checked": "2026-11-10",
+  "checked": "2026-11-18",
   "plans": [
+   {
+    "url": "https://www.xn--9m1bw2f72b22pdwdr3cdz1bca395c.com/final/assets/img/popup/popup_feature_261110.jpg?v=261110",
+    "type": null,
+    "kind": "평면",
+    "alt": "ELIF 시흥 더프라임 특장점 - 분양가 상한제 수도권 전용 84㎡ 5억"
+   },
    {
     "url": "https://www.xn--9m1bw2f72b22pdwdr3cdz1bca395c.com/final/assets/img/sub/unit_84A_key_261104.jpg",
     "type": "84A",
@@ -581,7 +552,7 @@
   ]
  },
  "https://jije.forena.co.kr/": {
-  "checked": "2026-11-10",
+  "checked": "2026-11-18",
   "plans": [
    {
     "url": "https://jije.forena.co.kr/img/main/type_thumb_5.jpg",
@@ -646,11 +617,11 @@
   ]
  },
  "http://www.detre-gc.co.kr/": {
-  "checked": "2026-11-10",
+  "checked": "2026-11-18",
   "plans": []
  },
  "https://숭의역노르웨이숲더스카이.com": {
-  "checked": "2026-11-10",
+  "checked": "2026-11-18",
   "plans": [
    {
     "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit-bg.jpg",
@@ -715,7 +686,7 @@
   ]
  },
  "https://더샵분당하이스트.kr": {
-  "checked": "2026-11-10",
+  "checked": "2026-11-18",
   "plans": [
    {
     "url": "https://xn--ok1btgm3zxqdwrcgyl3jvsze.kr/img/unit_iso01.png",
@@ -756,11 +727,11 @@
   ]
  },
  "https://www.lynn.co.kr": {
-  "checked": "2026-11-10",
+  "checked": "2026-11-18",
   "plans": []
  },
  "https://www.화서역아너스빌.com": {
-  "checked": "2026-11-10",
+  "checked": "2026-11-18",
   "plans": [
    {
     "url": "https://www.xn--h50bp5wx7b30b79e72a035f.com/m/assets/images/sub/m_unit_84a_01.jpg",
@@ -1288,101 +1259,6 @@
     "type": null,
     "kind": "평면",
     "alt": "103㎡B 평면 및 라이프업 옵션 안내"
-   }
-  ]
- },
- "http://halla-shincheon.co.kr/": {
-  "checked": "2026-11-11",
-  "plans": [
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84a.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84b.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84c.jpg",
-    "type": "84C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84d.jpg",
-    "type": "84D",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_84e.jpg",
-    "type": "84E",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111a.jpg",
-    "type": "111A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111b.jpg",
-    "type": "111B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111c.jpg",
-    "type": "111C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/main/unit/unit_111d.jpg",
-    "type": "111D",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84a_img1.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84a_img2.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84a_img3.jpg",
-    "type": "84A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84b_img1.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84b_img2.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "http://halla-shincheon.co.kr/image/sub/unit/unit84b_img3.jpg",
-    "type": "84B",
-    "kind": "평면",
-    "alt": ""
    }
   ]
  },
@@ -2455,5 +2331,110 @@
     "alt": "평면안내 안내"
    }
   ]
+ },
+ "https://www.raemian.co.kr/sales/s/jamsiljinju": {
+  "checked": "2026-11-18",
+  "plans": [
+   {
+    "url": "https://www.raemian.co.kr/upload/editor/image/images/000301/03_01_unit_plan_43_1.jpg",
+    "type": "43",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.raemian.co.kr/upload/editor/image/images/000301/03_01_unit_plan_59a_1.jpg",
+    "type": "59A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.raemian.co.kr/upload/editor/image/images/000301/03_01_unit_plan_59b_1.jpg",
+    "type": "59B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.raemian.co.kr/upload/editor/image/images/000301/03_01_unit_plan_59c_1.jpg",
+    "type": "59C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.raemian.co.kr/upload/editor/image/images/000301/03_01_unit_plan_74a_1.jpg",
+    "type": "74A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.raemian.co.kr/upload/editor/image/images/000301/03_01_unit_plan_74b_1.jpg",
+    "type": "74B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.raemian.co.kr/upload/editor/image/images/000301/03_01_unit_plan_74c_1.jpg",
+    "type": "74C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.raemian.co.kr/upload/editor/image/images/000301/03_01_unit_plan_84a_1.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.raemian.co.kr/upload/editor/image/images/000301/03_01_unit_plan_84b_1.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.raemian.co.kr/upload/editor/image/images/000301/03_01_unit_plan_84c_1.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.raemian.co.kr/upload/editor/image/images/000301/03_01_unit_plan_84d_1.jpg",
+    "type": "84D",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.raemian.co.kr/upload/editor/image/images/000301/03_01_unit_plan_84e_1.jpg",
+    "type": "84E",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.raemian.co.kr/upload/editor/image/images/000301/03_01_unit_plan_104a_1.jpg",
+    "type": "104A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.raemian.co.kr/upload/editor/image/images/000301/03_01_unit_plan_104b_1.jpg",
+    "type": "104B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.raemian.co.kr/upload/editor/image/images/000301/03_01_unit_plan_104c_1.jpg",
+    "type": "104C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.raemian.co.kr/upload/editor/image/images/000301/03_01_unit_plan_104d_2.jpg",
+    "type": "104D",
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ "https://더샵분당센트로.kr": {
+  "checked": "2026-11-18",
+  "plans": []
  }
 }
