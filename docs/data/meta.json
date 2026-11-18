@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T03:07+09:00",
+ "updatedAt": "2026-11-18T11:45+09:00",
  "baseDate": "2026-11-18",
  "sources": {
   "청약홈": {
@@ -13,9 +13,9 @@
    "failedParts": []
   },
   "GH": {
-   "ok": false,
-   "count": 0,
-   "message": "GH 게시판을 하나도 읽지 못했습니다"
+   "ok": true,
+   "count": 9,
+   "failedParts": []
   },
   "iH": {
    "ok": false,
