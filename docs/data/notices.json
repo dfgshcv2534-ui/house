@@ -1,5 +1,134 @@
 [
  {
+  "id": "sh:rent:313537",
+  "source": "SH",
+  "sector": "공공",
+  "region": "서울",
+  "cat": "임대",
+  "kind": "영구임대",
+  "name": "2026년 영구임대주택 예비입주자 모집 공고",
+  "address": null,
+  "gu": null,
+  "units": null,
+  "dates": {
+   "notice": "2026-11-19",
+   "start": "2026-11-30",
+   "end": "2026-12-04"
+  },
+  "dateBasis": "본문",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "SH공사 공공주택공급부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=313537",
+  "homepage": null,
+  "files": [
+   {
+    "name": "26 영구임대 예비입주자 모집공고문.pdf",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=YGYC0101&seq=313537&data_tp=A&file_seq=1"
+   },
+   {
+    "name": "26 영구임대 예비입주자 모집공고 요약본.pdf",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=YGYC0101&seq=313537&data_tp=A&file_seq=2"
+   },
+   {
+    "name": "영구임대주택신청양식(2026).hwp",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=YGYC0101&seq=313537&data_tp=A&file_seq=3"
+   }
+  ],
+  "firstSeen": "2026-11-19"
+ },
+ {
+  "id": "lh:2015122300021109",
+  "source": "LH",
+  "sector": "공공",
+  "region": "서울",
+  "cat": "임대",
+  "kind": "영구임대",
+  "name": "2026년 서울특별시 영구임대주택 예비입주자 모집",
+  "address": "서울특별시 중랑구 양원역로 92(망우동,LH서울양원1단지)",
+  "gu": "중랑구",
+  "units": 1025,
+  "dates": {
+   "notice": "2026-11-19",
+   "end": "2026-12-04",
+   "winner": "2027-03-25"
+  },
+  "dateBasis": "api",
+  "statusHint": "공고중",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [
+   "지역난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021109&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+  "homepage": null,
+  "area": "26.75㎡",
+  "files": [
+   {
+    "name": "2026년서울시영구임대주택예비입주자모집공고문(LH).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69480871"
+   },
+   {
+    "name": "2026년서울시영구임대주택예비입주자모집공고문(LH).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69480894"
+   },
+   {
+    "name": "2026년서울시영구임대주택예비입주자모집신청양식(LH).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69481476"
+   }
+  ],
+  "images": [
+   {
+    "label": "서울양원_영구임대지역조감도",
+    "name": "서울양원_영구임대지역조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=41973632"
+   },
+   {
+    "label": "서울양원_영구임대토지이용계획도",
+    "name": "서울양원_영구임대토지이용계획도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=41973636"
+   },
+   {
+    "label": "서울양원_영구임대단지조감도",
+    "name": "서울양원_영구임대단지조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=41973633"
+   },
+   {
+    "label": "서울양원_영구임대단지배치도",
+    "name": "서울양원_영구임대단지배치도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=41973634"
+   },
+   {
+    "label": "서울양원_영구임대동호배치도",
+    "name": "서울양원_영구임대동호배치도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=41973635"
+   },
+   {
+    "label": "서울양원_영구임대교통망도",
+    "name": "서울양원_영구임대교통망도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=41973637"
+   }
+  ],
+  "firstSeen": "2026-11-19",
+  "geo": {
+   "lat": 37.6033,
+   "lng": 127.10752,
+   "precision": "주소"
+  }
+ },
+ {
   "id": "sh:rent:313424",
   "source": "SH",
   "sector": "공공",
@@ -11015,6 +11144,12 @@
   "firstSeen": "2026-10-17",
   "homePlans": [
    {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/popup/pop1119.png",
+    "type": null,
+    "kind": "평면",
+    "alt": "선착순 동호수 지정 계약 안내 - 11월 22일 일요일 첫번째 선착순 동"
+   },
+   {
     "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84c.jpg",
     "type": "84C",
     "kind": "평면",
@@ -11186,6 +11321,12 @@
   ],
   "firstSeen": "2026-10-17",
   "homePlans": [
+   {
+    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/popup/pop1119.png",
+    "type": null,
+    "kind": "평면",
+    "alt": "선착순 동호수 지정 계약 안내 - 11월 22일 일요일 첫번째 선착순 동"
+   },
    {
     "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84c.jpg",
     "type": "84C",
