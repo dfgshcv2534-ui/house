@@ -69,14 +69,6 @@
    }
   ]
  },
- "https://www.마곡스카이온.com": {
-  "checked": "2026-11-17",
-  "plans": []
- },
- "https://www.엘리프검단포레듀.com": {
-  "checked": "2026-11-13",
-  "plans": []
- },
  "https://www.i-park.com/uijeongbucentral": {
   "checked": "2026-11-14",
   "plans": [
@@ -249,7 +241,7 @@
   ]
  },
  "https://ay-yemizi.com/": {
-  "checked": "2026-11-12",
+  "checked": "2026-11-20",
   "plans": [
    {
     "url": "https://ay-yemizi.com/assets/images/sub/unit_84.jpg",
@@ -1608,7 +1600,7 @@
   ]
  },
  "https://www.prugio.com/hb/2026/pravenue": {
-  "checked": "2026-11-12",
+  "checked": "2026-11-20",
   "plans": [
    {
     "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-84c.png",
@@ -1649,6 +1641,78 @@
    {
     "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/main/unit-img.jpg",
     "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_60a.jpg",
+    "type": "60A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_60a.jpg",
+    "type": "60A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_60b.jpg",
+    "type": "60B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_60b.jpg",
+    "type": "60B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_60c.jpg",
+    "type": "60C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_60c.jpg",
+    "type": "60C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_84a.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_84a.jpg",
+    "type": "84A",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_84b.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_84b.jpg",
+    "type": "84B",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/assets/images/sub/unit_84c.jpg",
+    "type": "84C",
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.prugio.com/hb/2026/pravenue/m/assets/images/sub/m_unit_84c.jpg",
+    "type": "84C",
     "kind": "평면",
     "alt": ""
    }
@@ -1970,23 +2034,23 @@
   "plans": []
  },
  "http://평택고덕대광로제비앙모아엘가.com": {
-  "checked": "2026-11-12",
+  "checked": "2026-11-20",
   "plans": []
  },
  "https://xi.co.kr/irc": {
-  "checked": "2026-11-12",
+  "checked": "2026-11-20",
   "plans": []
  },
  "https://xi.co.kr/sd2": {
-  "checked": "2026-11-12",
+  "checked": "2026-11-20",
   "plans": []
  },
  "https://xi.co.kr/YYH": {
-  "checked": "2026-11-12",
+  "checked": "2026-11-20",
   "plans": []
  },
  "https://www.arteragd.co.kr": {
-  "checked": "2026-11-12",
+  "checked": "2026-11-20",
   "plans": []
  },
  "https://jh-raon.com": {
@@ -2360,6 +2424,77 @@
  },
  "https://www.s-class.co.kr/": {
   "checked": "2026-11-19",
+  "plans": []
+ },
+ "https://www.gd3-hoban.co.kr/": {
+  "checked": "2026-11-20",
+  "plans": [
+   {
+    "url": "https://www.gd3-hoban.co.kr/final/assets/images/sub/img_top_plan.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.gd3-hoban.co.kr/final/assets/images/sub/img_plan.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.gd3-hoban.co.kr/final/assets/images/sub/img_top_unit.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.gd3-hoban.co.kr/final/assets/images/sub/img_unit_01.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.gd3-hoban.co.kr/final/assets/images/sub/img_unit_02.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.gd3-hoban.co.kr/final/assets/images/sub/img_unit_03.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.gd3-hoban.co.kr/final/assets/images/sub/img_unit_04.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.gd3-hoban.co.kr/final/assets/images/sub/img_unit_05.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://www.gd3-hoban.co.kr/final/assets/images/sub/img_unit_06.png",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ "https://detre-hangang.co.kr": {
+  "checked": "2026-11-20",
+  "plans": []
+ },
+ "https://gy-thehue.com": {
+  "checked": "2026-11-20",
+  "plans": []
+ },
+ "https://ws-thehue.com": {
+  "checked": "2026-11-20",
   "plans": []
  }
 }
