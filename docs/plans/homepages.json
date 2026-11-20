@@ -1,21 +1,4 @@
 {
- "https://www.sujain-pm2.co.kr": {
-  "checked": "2026-11-14",
-  "plans": [
-   {
-    "url": "https://www.sujain-pm2.co.kr/sub/unit01.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://www.sujain-pm2.co.kr/sub/unit02.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
- },
  "https://ic-yemizi.com/": {
   "checked": "2026-11-14",
   "plans": [
@@ -226,17 +209,6 @@
     "type": "69A",
     "kind": "평면",
     "alt": "69A"
-   }
-  ]
- },
- "http://개성로니엘.kr": {
-  "checked": "2026-11-17",
-  "plans": [
-   {
-    "url": "https://xn--h49ao0kn4enskhzf.kr/html/images/sub/plan_img.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
    }
   ]
  },
@@ -607,71 +579,6 @@
  "http://www.detre-gc.co.kr/": {
   "checked": "2026-11-18",
   "plans": []
- },
- "https://숭의역노르웨이숲더스카이.com": {
-  "checked": "2026-11-18",
-  "plans": [
-   {
-    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit-bg.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit_69.png",
-    "type": "69",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit_84.png",
-    "type": "84",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit_84oa.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit_84ob.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/main/unit-obj.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/sub/unit_69.jpg",
-    "type": "69",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/sub/unit_84.jpg",
-    "type": "84",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/sub/unit_84oa.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--o80b88an0jf4j1a99d07pp6by2aeid716s.com/assets/images/sub/unit_84ob.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
  },
  "https://더샵분당하이스트.kr": {
   "checked": "2026-11-18",
@@ -1719,7 +1626,7 @@
   ]
  },
  "https://더샵송도그란테르.kr": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "plans": []
  },
  "https://www.idsd.co.kr": {
@@ -2054,7 +1961,7 @@
   "plans": []
  },
  "https://jh-raon.com": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "plans": [
    {
     "url": "https://jh-raon.com/assets/images/main/com-unit.png",
@@ -2075,61 +1982,61 @@
     "alt": ""
    },
    {
-    "url": "https://jh-raon.com/assets/images/sub/unit_45.jpg",
+    "url": "https://jh-raon.com/assets/images/sub/261113_unit_45.jpg",
     "type": "45",
     "kind": "평면",
     "alt": ""
    },
    {
-    "url": "https://jh-raon.com/assets/images/sub/unit_58.jpg",
+    "url": "https://jh-raon.com/assets/images/sub/261113_unit_58.jpg",
     "type": "58",
     "kind": "평면",
     "alt": ""
    },
    {
-    "url": "https://jh-raon.com/assets/images/sub/unit_59.jpg",
+    "url": "https://jh-raon.com/assets/images/sub/261113_unit_59.jpg",
     "type": "59",
     "kind": "평면",
     "alt": ""
    },
    {
-    "url": "https://jh-raon.com/assets/images/sub/unit_70.jpg",
+    "url": "https://jh-raon.com/assets/images/sub/261113_unit_70.jpg",
     "type": "70",
     "kind": "평면",
     "alt": ""
    },
    {
-    "url": "https://jh-raon.com/assets/images/sub/unit_84.jpg",
+    "url": "https://jh-raon.com/assets/images/sub/261113_unit_84.jpg",
     "type": "84",
     "kind": "평면",
     "alt": ""
    },
    {
-    "url": "https://jh-raon.com/assets/images/sub/unit_73t.jpg",
+    "url": "https://jh-raon.com/assets/images/sub/261113_unit_73t.jpg",
     "type": "73T",
     "kind": "평면",
     "alt": ""
    },
    {
-    "url": "https://jh-raon.com/assets/images/sub/unit_84t.jpg",
+    "url": "https://jh-raon.com/assets/images/sub/261113_unit_84t.jpg",
     "type": "84T",
     "kind": "평면",
     "alt": ""
    },
    {
-    "url": "https://jh-raon.com/assets/images/sub/unit_93t.jpg",
+    "url": "https://jh-raon.com/assets/images/sub/261113_unit_93t.jpg",
     "type": "93T",
     "kind": "평면",
     "alt": ""
    },
    {
-    "url": "https://jh-raon.com/assets/images/sub/unit_98t.jpg",
+    "url": "https://jh-raon.com/assets/images/sub/261113_unit_98t.jpg",
     "type": "98T",
     "kind": "평면",
     "alt": ""
    },
    {
-    "url": "https://jh-raon.com/assets/images/sub/unit_126t.jpg",
+    "url": "https://jh-raon.com/assets/images/sub/261113_unit_126t.jpg",
     "type": "126T",
     "kind": "평면",
     "alt": ""
@@ -2167,11 +2074,11 @@
   ]
  },
  "https://xi.co.kr/armusee": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "plans": []
  },
  "https://www.부천대장하우스토리디센트.com": {
-  "checked": "2026-11-13",
+  "checked": "2026-11-21",
   "plans": []
  },
  "https://www.야목역서희스타힐스그랜드힐.com": {
@@ -2495,6 +2402,14 @@
  },
  "https://ws-thehue.com": {
   "checked": "2026-11-20",
+  "plans": []
+ },
+ "http://yongin-dmapt.co.kr": {
+  "checked": "2026-11-21",
+  "plans": []
+ },
+ "https://www.소사휴먼빌.com": {
+  "checked": "2026-11-21",
   "plans": []
  }
 }
