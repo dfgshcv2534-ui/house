@@ -1,5 +1,83 @@
 [
  {
+  "id": "sh:rent:313509",
+  "source": "SH",
+  "sector": "공공",
+  "region": "서울",
+  "cat": "임대",
+  "kind": "사회주택",
+  "name": "[토지지원 사회주택]에어스페이스 신림4호점_어울리 입주자 모집 공고",
+  "address": "서울시 관악구 신림로 23",
+  "gu": "관악구",
+  "units": null,
+  "dates": {
+   "notice": "2026-11-20"
+  },
+  "dateBasis": "없음",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "SH공사 공공개발금융부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=313509",
+  "homepage": null,
+  "files": [
+   {
+    "name": "1_어울리_에어스페이스_신림4호점_303호_입주자추가모집_공고문_2611.pdf",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=313509&data_tp=A&file_seq=1"
+   }
+  ],
+  "firstSeen": "2026-11-20",
+  "geo": {
+   "lat": 37.47092,
+   "lng": 126.93593,
+   "precision": "주소"
+  }
+ },
+ {
+  "id": "sh:rent:313503",
+  "source": "SH",
+  "sector": "공공",
+  "region": "서울",
+  "cat": "임대",
+  "kind": "사회주택",
+  "name": "[토지지원 사회주택]에어스페이스 신림3호점_어울리 입주자 모집 공고",
+  "address": "서울시 관악구 신림로 7",
+  "gu": "관악구",
+  "units": null,
+  "dates": {
+   "notice": "2026-11-20"
+  },
+  "dateBasis": "없음",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "SH공사 공공개발금융부",
+  "tel": null,
+  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=313503",
+  "homepage": null,
+  "files": [
+   {
+    "name": "1_어울리_에어스페이스_신림3호점_입주자추가모집_202호_공고문.pdf",
+    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=313503&data_tp=A&file_seq=1"
+   }
+  ],
+  "firstSeen": "2026-11-20",
+  "geo": {
+   "lat": 37.4767,
+   "lng": 126.93757,
+   "precision": "주소"
+  }
+ },
+ {
   "id": "sh:rent:313610",
   "source": "SH",
   "sector": "공공",
@@ -768,9 +846,7 @@
    "notice": "2026-11-19",
    "end": "2026-12-01",
    "start": "2026-11-30",
-   "winner": "2027-03-26",
-   "contract_start": "2027-11-30",
-   "contract_end": "2027-11-30"
+   "winner": "2027-03-26"
   },
   "dateBasis": "api",
   "moveIn": null,
@@ -1000,12 +1076,12 @@
   "dates": {
    "notice": "2026-11-19",
    "end": "2026-12-03",
+   "start": "2026-12-01",
    "winner": "2027-02-26",
    "contract_start": "2027-03-01",
    "contract_end": "2027-04-30"
   },
   "dateBasis": "api",
-  "statusHint": "공고중",
   "moveIn": null,
   "models": [],
   "priceMin": null,
@@ -1051,12 +1127,12 @@
   "dates": {
    "notice": "2026-11-19",
    "end": "2026-12-03",
+   "start": "2026-12-01",
    "winner": "2027-02-26",
    "contract_start": "2027-03-01",
    "contract_end": "2027-04-30"
   },
   "dateBasis": "api",
-  "statusHint": "공고중",
   "moveIn": null,
   "models": [],
   "priceMin": null,
@@ -1468,9 +1544,9 @@
   ],
   "firstSeen": "2026-11-20",
   "geo": {
-   "lat": 37.5301,
-   "lng": 127.1238,
-   "precision": "구"
+   "lat": 37.55824,
+   "lng": 127.13085,
+   "precision": "동"
   }
  },
  {
