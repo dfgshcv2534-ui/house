@@ -627,10 +627,6 @@
    }
   ]
  },
- "https://www.여의도더로드캐슬.kr": {
-  "checked": "2026-11-18",
-  "plans": []
- },
  "https://www.gy-bando.com": {
   "checked": "2026-11-18",
   "plans": []
@@ -2129,6 +2125,59 @@
  },
  "https://www.소사휴먼빌.com": {
   "checked": "2026-11-21",
+  "plans": []
+ },
+ "https://blog.naver.com/kkvista": {
+  "checked": "2026-11-24",
+  "plans": []
+ },
+ "https://더샵분당하이스트.kr": {
+  "checked": "2026-11-24",
+  "plans": [
+   {
+    "url": "https://xn--ok1btgm3zxqdwrcgyl3jvsze.kr/img/unit_iso01.png",
+    "type": null,
+    "kind": "입체",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--ok1btgm3zxqdwrcgyl3jvsze.kr/img/unit_iso02.png",
+    "type": null,
+    "kind": "입체",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--ok1btgm3zxqdwrcgyl3jvsze.kr/img/unit_iso03.png",
+    "type": null,
+    "kind": "입체",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--ok1btgm3zxqdwrcgyl3jvsze.kr/sub/unit01.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--ok1btgm3zxqdwrcgyl3jvsze.kr/sub/unit02.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--ok1btgm3zxqdwrcgyl3jvsze.kr/sub/unit03.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ "http://www.이천서희스타힐스스카이.com": {
+  "checked": "2026-11-24",
+  "plans": []
+ },
+ "https://백운밸리리젠시빌란트.com": {
+  "checked": "2026-11-24",
   "plans": []
  }
 }

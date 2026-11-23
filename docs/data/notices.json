@@ -86,6 +86,874 @@
   }
  },
  {
+  "id": "lh:2015122300021131",
+  "source": "LH",
+  "sector": "공공",
+  "region": "서울",
+  "cat": "임대",
+  "kind": "행복주택",
+  "name": "서울삼전,강동천호,LH수서1,LH수서2 행복주택 예비입주자 모집공고",
+  "address": "서울특별시 강동구 천호동",
+  "gu": "강동구",
+  "units": 2044,
+  "dates": {
+   "notice": "2026-11-23",
+   "end": "2026-12-01",
+   "start": "2026-11-30",
+   "winner": "2027-03-26"
+  },
+  "dateBasis": "api",
+  "moveIn": null,
+  "models": [
+   {
+    "type": "36B(청년, 신혼부부, 한부모가족)",
+    "area": 66.2005,
+    "excl": 36.33,
+    "units": 7
+   },
+   {
+    "type": "14A(대학생/청년)",
+    "area": 23.009,
+    "excl": 14.69,
+    "units": 420
+   },
+   {
+    "type": "26A(주거급여수급자)",
+    "area": 40.4612,
+    "excl": 26.54,
+    "units": 86
+   },
+   {
+    "type": "36A,B(청년, 신혼부부·한부모가족)",
+    "area": 55.1753,
+    "excl": 36.6,
+    "units": 120
+   },
+   {
+    "type": "44A(신혼부부·한부모가족)",
+    "area": 67.5198,
+    "excl": 44.89,
+    "units": 120
+   },
+   {
+    "type": "14A(대학생/청년)",
+    "area": 22.0083,
+    "excl": 14.69,
+    "units": 276
+   },
+   {
+    "type": "26A(청년)",
+    "area": 39.7619,
+    "excl": 26.54,
+    "units": 102
+   },
+   {
+    "type": "26B(고령자-주거약자)",
+    "area": 39.7619,
+    "excl": 26.54,
+    "units": 108
+   },
+   {
+    "type": "36A(청년, 신혼부부, 한부모가족)",
+    "area": 55.1932,
+    "excl": 36.84,
+    "units": 350
+   },
+   {
+    "type": "36B(청년, 신혼부부, 한부모가족)",
+    "area": 54.8336,
+    "excl": 36.6,
+    "units": 62
+   },
+   {
+    "type": "44A(신혼부부, 한부모가족)",
+    "area": 67.2536,
+    "excl": 44.89,
+    "units": 132
+   },
+   {
+    "type": "44C(신혼부부, 한부모가족)",
+    "area": 66.909,
+    "excl": 44.66,
+    "units": 24
+   },
+   {
+    "type": "26형(신혼부부)",
+    "area": 40.3906,
+    "excl": 26.21,
+    "units": 12
+   },
+   {
+    "type": "41형(신혼부부)",
+    "area": 62.8687,
+    "excl": 41.39,
+    "units": 8
+   }
+  ],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [
+   "정정공고",
+   "개별난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021131&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+  "homepage": null,
+  "area": "16.25~36.89㎡",
+  "files": [
+   {
+    "name": "LH수서1(수서역세권A1BL)행복주택팸플릿.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69535341"
+   },
+   {
+    "name": "LH수서2(수서역세권A2BL)행복주택팸플릿.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69535343"
+   },
+   {
+    "name": "★(정정공고)서울삼전,강동천호,LH수서1,LH수서2,행복주택예비입주자모집공고(2026.11.19).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69547448"
+   },
+   {
+    "name": "★(정정공고)서울삼전,강동천호,LH수서1,LH수서2,행복주택예비입주자모집공고(2026.11.19).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69547465"
+   },
+   {
+    "name": "강동천호행복주택팸플릿.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69535345"
+   },
+   {
+    "name": "서울삼전행복주택_조감도및평면도.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69535348"
+   },
+   {
+    "name": "행복주택제출서류.zip",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69535938"
+   }
+  ],
+  "images": [
+   {
+    "label": "강동천호행복주택교통망도",
+    "name": "강동천호행복주택교통망도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54898465"
+   },
+   {
+    "label": "강동천호행복주택조감도",
+    "name": "강동천호행복주택조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54898466"
+   },
+   {
+    "label": "강동천호행복주택_단지배치도",
+    "name": "강동천호행복주택_단지배치도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54898467"
+   },
+   {
+    "label": "강동천호행복주택동호배치도",
+    "name": "강동천호행복주택동호배치도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54898468"
+   },
+   {
+    "label": "강동천호행복주택투시도-저용량",
+    "name": "강동천호행복주택투시도-저용량.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54898756"
+   },
+   {
+    "label": "수서역세권A1BL행복주택단지조감도",
+    "name": "수서역세권A1BL행복주택단지조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=42298342"
+   },
+   {
+    "label": "수서역세권A1BL행복주택단지배치도",
+    "name": "수서역세권A1BL행복주택단지배치도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=42298343"
+   },
+   {
+    "label": "수서역세권동호배치도",
+    "name": "수서역세권동호배치도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=50002011"
+   },
+   {
+    "label": "지역조감도",
+    "name": "지역조감도.JPG",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=46440653"
+   },
+   {
+    "label": "2021.11.26서울수서조감도",
+    "name": "2021.11.26서울수서조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=46440617"
+   },
+   {
+    "label": "211129수서A2단지배치도",
+    "name": "211129수서A2단지배치도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=46440619"
+   },
+   {
+    "label": "211129수서역세권동호배치도",
+    "name": "211129수서역세권동호배치도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=46440620"
+   },
+   {
+    "label": "2021.11.26서울수서투시도",
+    "name": "2021.11.26서울수서투시도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=46440618"
+   },
+   {
+    "label": "지역조감도",
+    "name": "지역조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=32090973"
+   },
+   {
+    "label": "단지조감도",
+    "name": "단지조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=32090974"
+   }
+  ],
+  "firstSeen": "2026-11-24",
+  "geo": {
+   "lat": 37.54294,
+   "lng": 127.12733,
+   "precision": "주소"
+  }
+ },
+ {
+  "id": "lh:2015122300021130",
+  "source": "LH",
+  "sector": "공공",
+  "region": "경기",
+  "cat": "임대",
+  "kind": "행복주택",
+  "name": "수원시지역 호매실21단지, 고등2단지 행복주택 입주자격완화[선계약 후검증] 입주자 모집(2026.11.23)",
+  "address": "경기도 수원시 권선구 호매실로 103(호매실동,엘에이치호매실스타힐스)",
+  "gu": "수원시",
+  "units": 900,
+  "dates": {
+   "notice": "2026-11-23",
+   "end": "2026-12-04",
+   "winner": "2026-12-22",
+   "contract_start": "2026-12-30",
+   "contract_end": "2026-12-30"
+  },
+  "dateBasis": "api",
+  "statusHint": "공고중",
+  "moveIn": null,
+  "models": [
+   {
+    "type": "36형(신혼부부·한부모가족 등)",
+    "area": 57.796,
+    "excl": 36.38,
+    "units": 86
+   },
+   {
+    "type": "36A형(신혼부부·한부모가족)",
+    "area": 56.6214,
+    "excl": 36.63,
+    "units": 198
+   },
+   {
+    "type": "36A형(청년)",
+    "area": 56.6214,
+    "excl": 36.63,
+    "units": 198
+   }
+  ],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [
+   "지역난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021130&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+  "homepage": null,
+  "area": "21.49~36.38㎡",
+  "files": [
+   {
+    "name": "[별첨1.공사양식](필수)개인정보수집이용및제3자제공동의서등.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69527412"
+   },
+   {
+    "name": "[별첨2.공사양식](필수)입주자격완화확약서등.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69527414"
+   },
+   {
+    "name": "[별첨3.공사양식](예비신혼부부해당)예비신혼부부신청확인서,세대구성확인서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69527415"
+   },
+   {
+    "name": "[별첨4.공사양식](해당시)위임장(양식).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69527416"
+   },
+   {
+    "name": "[별첨5]마이마이서비스고객메뉴얼(V7).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69527418"
+   },
+   {
+    "name": "★261123수원시지역행복주택입주자격완화모집공고문.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69527406"
+   },
+   {
+    "name": "★261123수원시지역행복주택입주자격완화모집공고문.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69527404"
+   },
+   {
+    "name": "팸플릿_수원고등2단지(C-1블록)행복주택.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69527420"
+   },
+   {
+    "name": "팸플릿_수원호매실21단지(A-7블록)행복주택.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69527425"
+   }
+  ],
+  "images": [
+   {
+    "label": "수원호매실행복주택지역조감도=크기조정",
+    "name": "수원호매실행복주택지역조감도=크기조정.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=29259398"
+   },
+   {
+    "label": "수원호매실행복주택교통망도",
+    "name": "수원호매실행복주택교통망도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=29259399"
+   },
+   {
+    "label": "수원호매실행복주택단지조감도(리플릿용)(압축)",
+    "name": "수원호매실행복주택단지조감도(리플릿용)(압축).jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=29259400"
+   },
+   {
+    "label": "수원호매실행복주택단지배치도=크기조정",
+    "name": "수원호매실행복주택단지배치도=크기조정.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=29259401"
+   },
+   {
+    "label": "수원고등C1블록_지역조감도",
+    "name": "수원고등C1블록_지역조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=38137786"
+   },
+   {
+    "label": "수원고등C1블록_지구조감도",
+    "name": "수원고등C1블록_지구조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=38167031"
+   },
+   {
+    "label": "수원고등C1블록_단지조감도",
+    "name": "수원고등C1블록_단지조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=38167032"
+   },
+   {
+    "label": "수원고등C1블록_단지배치도",
+    "name": "수원고등C1블록_단지배치도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=38167033"
+   }
+  ],
+  "firstSeen": "2026-11-24",
+  "geo": {
+   "lat": 37.2557,
+   "lng": 126.96725,
+   "precision": "주소"
+  }
+ },
+ {
+  "id": "ah:remndr:2026930048:2026930048",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "분양",
+  "kind": "무순위·잔여세대",
+  "name": "동탄신도시 금강펜테리움 7차 센트럴파크 불법행위재공급",
+  "address": "경기도 화성시 신동 동탄2택지개발지구(A57-2블럭)",
+  "region": "경기",
+  "gu": "화성시",
+  "units": 1,
+  "dates": {
+   "notice": "2026-11-23",
+   "start": "2026-11-30",
+   "end": "2026-11-30",
+   "rank1_start": "2026-11-30",
+   "rank1_end": "2026-11-30",
+   "winner": "2026-12-03",
+   "contract_start": "2026-12-10",
+   "contract_end": "2026-12-10"
+  },
+  "dateBasis": "api",
+  "moveIn": "2027-01",
+  "models": [
+   {
+    "type": "84A",
+    "area": 111.6975,
+    "excl": 84.0,
+    "units": 1,
+    "special": 0,
+    "price": 55320
+   }
+  ],
+  "priceMin": 55320,
+  "priceMax": 55320,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "주식회사 하이아트이앤씨",
+  "tel": "0234687746",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026930048&pblancNo=2026930048",
+  "homepage": "https://blog.naver.com/kkvista",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026930048&pblancNo=2026930048&atchmnflSeqNo=2027422&atchmnflSn=3"
+   }
+  ],
+  "firstSeen": "2026-11-24",
+  "geo": {
+   "lat": 37.18391,
+   "lng": 127.14197,
+   "precision": "동"
+  }
+ },
+ {
+  "id": "ah:remndr:2026910305:2026910305",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "분양",
+  "kind": "무순위·잔여세대",
+  "name": "판교TH212(2차)",
+  "address": "경기도 성남시 분당구 판교대장지구 B2, B3BL",
+  "region": "경기",
+  "gu": "성남시",
+  "units": 1,
+  "dates": {
+   "notice": "2026-11-23",
+   "start": "2026-11-30",
+   "end": "2026-11-30",
+   "winner": "2026-12-03",
+   "contract_start": "2026-12-10",
+   "contract_end": "2026-12-10"
+  },
+  "dateBasis": "api",
+  "moveIn": "2027-01",
+  "models": [
+   {
+    "type": "128C",
+    "excl": 128.0,
+    "units": 1,
+    "special": 0,
+    "price": 159300
+   }
+  ],
+  "priceMin": 159300,
+  "priceMax": 159300,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "(주)하이아트",
+  "tel": "0234687746",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910305&pblancNo=2026910305",
+  "homepage": "https://blog.naver.com/kkvista",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910305&pblancNo=2026910305&atchmnflSeqNo=2023020&atchmnflSn=4"
+   }
+  ],
+  "firstSeen": "2026-11-24",
+  "geo": {
+   "lat": 37.42016,
+   "lng": 127.12621,
+   "precision": "구"
+  }
+ },
+ {
+  "id": "ah:remndr:2026910304:2026910304",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "분양",
+  "kind": "무순위·잔여세대",
+  "name": "더샵 분당하이스트(2차)",
+  "address": "경기도 성남시 분당구 정자동 90번지",
+  "region": "경기",
+  "gu": "성남시",
+  "units": 34,
+  "dates": {
+   "notice": "2026-11-23",
+   "start": "2026-11-30",
+   "end": "2026-11-30",
+   "winner": "2026-12-03",
+   "contract_start": "2026-12-05",
+   "contract_end": "2026-12-05"
+  },
+  "dateBasis": "api",
+  "moveIn": "2027-12",
+  "models": [
+   {
+    "type": "74A",
+    "excl": 74.0,
+    "units": 1,
+    "special": 0,
+    "price": 234200
+   },
+   {
+    "type": "74D",
+    "excl": 74.0,
+    "units": 1,
+    "special": 0,
+    "price": 230200
+   },
+   {
+    "type": "84A",
+    "excl": 84.0,
+    "units": 18,
+    "special": 0,
+    "price": 298100
+   },
+   {
+    "type": "84C",
+    "excl": 84.0,
+    "units": 2,
+    "special": 0,
+    "price": 273900
+   },
+   {
+    "type": "84G",
+    "excl": 84.0,
+    "units": 12,
+    "special": 0,
+    "price": 292000
+   }
+  ],
+  "priceMin": 230200,
+  "priceMax": 298100,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "느티마을4단지 리모델링주택조합",
+  "tel": "18001430",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910304&pblancNo=2026910304",
+  "homepage": "https://더샵분당하이스트.kr",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910304&pblancNo=2026910304&atchmnflSeqNo=2027367&atchmnflSn=2"
+   }
+  ],
+  "firstSeen": "2026-11-24",
+  "geo": {
+   "lat": 37.36628,
+   "lng": 127.11873,
+   "precision": "동"
+  },
+  "homePlans": [
+   {
+    "url": "https://xn--ok1btgm3zxqdwrcgyl3jvsze.kr/img/unit_iso01.png",
+    "type": null,
+    "kind": "입체",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--ok1btgm3zxqdwrcgyl3jvsze.kr/img/unit_iso02.png",
+    "type": null,
+    "kind": "입체",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--ok1btgm3zxqdwrcgyl3jvsze.kr/img/unit_iso03.png",
+    "type": null,
+    "kind": "입체",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--ok1btgm3zxqdwrcgyl3jvsze.kr/sub/unit01.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--ok1btgm3zxqdwrcgyl3jvsze.kr/sub/unit02.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--ok1btgm3zxqdwrcgyl3jvsze.kr/sub/unit03.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
+ },
+ {
+  "id": "ah:remndr:2026910303:2026910303",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "분양",
+  "kind": "무순위·잔여세대",
+  "name": "동탄신도시 금강펜테리움 7차 센트럴파크(2차)",
+  "address": "경기도 화성시 동탄구 동탄신리천로8길 17, 동탄신도시 금강펜테리움 7차 센트럴파크",
+  "region": "경기",
+  "gu": "화성시",
+  "units": 4,
+  "dates": {
+   "notice": "2026-11-23",
+   "start": "2026-11-30",
+   "end": "2026-11-30",
+   "winner": "2026-12-03",
+   "contract_start": "2026-12-10",
+   "contract_end": "2026-12-10"
+  },
+  "dateBasis": "api",
+  "moveIn": "2027-01",
+  "models": [
+   {
+    "type": "84A",
+    "excl": 84.0,
+    "units": 1,
+    "special": 0,
+    "price": 55320
+   },
+   {
+    "type": "84B",
+    "excl": 84.0,
+    "units": 3,
+    "special": 0,
+    "price": 55810
+   }
+  ],
+  "priceMin": 55320,
+  "priceMax": 55810,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "주식회사 하이아트이앤씨",
+  "tel": "0234687746",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910303&pblancNo=2026910303",
+  "homepage": "https://blog.naver.com/kkvista",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910303&pblancNo=2026910303&atchmnflSeqNo=2027407&atchmnflSn=5"
+   }
+  ],
+  "firstSeen": "2026-11-24",
+  "geo": {
+   "lat": 37.19947,
+   "lng": 126.83126,
+   "precision": "구"
+  }
+ },
+ {
+  "id": "ah:remndr:2026910302:2026910302",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "분양",
+  "kind": "무순위·잔여세대",
+  "name": "한화포레나 영흥숲(4차)",
+  "address": "경기도 수원시 영통구 원천동 333-1번지 일원",
+  "region": "경기",
+  "gu": "수원시",
+  "units": 2,
+  "dates": {
+   "notice": "2026-11-23",
+   "start": "2026-12-01",
+   "end": "2026-12-01",
+   "winner": "2026-12-04",
+   "contract_start": "2026-12-11",
+   "contract_end": "2026-12-11"
+  },
+  "dateBasis": "api",
+  "moveIn": "2026-12",
+  "models": [
+   {
+    "type": "66",
+    "excl": 66.0,
+    "units": 1,
+    "special": 0,
+    "price": 51220
+   },
+   {
+    "type": "68",
+    "excl": 68.0,
+    "units": 1,
+    "special": 0,
+    "price": 57600
+   }
+  ],
+  "priceMin": 51220,
+  "priceMax": 57600,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "(주)한화",
+  "tel": "0318989447",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910302&pblancNo=2026910302",
+  "homepage": null,
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910302&pblancNo=2026910302&atchmnflSeqNo=2022219&atchmnflSn=3"
+   }
+  ],
+  "firstSeen": "2026-11-24",
+  "geo": {
+   "lat": 37.27355,
+   "lng": 127.05915,
+   "precision": "동"
+  }
+ },
+ {
+  "id": "ah:remndr:2026910301:2026910301",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "분양",
+  "kind": "무순위·잔여세대",
+  "name": "이천 서희스타힐스 SKY (조합원 취소분)",
+  "address": "경기도 이천시 안흥동 279-1번지 일원",
+  "region": "경기",
+  "gu": "이천시",
+  "units": 3,
+  "dates": {
+   "notice": "2026-11-23",
+   "start": "2026-12-01",
+   "end": "2026-12-01",
+   "winner": "2026-12-04",
+   "contract_start": "2026-12-08",
+   "contract_end": "2026-12-08"
+  },
+  "dateBasis": "api",
+  "moveIn": "2029-01",
+  "models": [
+   {
+    "type": "84A",
+    "excl": 84.0,
+    "units": 2,
+    "special": 0,
+    "price": 65460
+   },
+   {
+    "type": "84C",
+    "excl": 84.0,
+    "units": 1,
+    "special": 0,
+    "price": 63050
+   }
+  ],
+  "priceMin": 63050,
+  "priceMax": 65460,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "안흥동 지역주택조합",
+  "tel": "15776803",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910301&pblancNo=2026910301",
+  "homepage": "http://www.이천서희스타힐스스카이.com",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910301&pblancNo=2026910301&atchmnflSeqNo=2022069&atchmnflSn=2"
+   }
+  ],
+  "firstSeen": "2026-11-24",
+  "geo": {
+   "lat": 37.2764,
+   "lng": 127.46016,
+   "precision": "동"
+  }
+ },
+ {
+  "id": "ah:pvtrent:2026850057:2026850057",
+  "source": "청약홈",
+  "sector": "민간",
+  "cat": "임대",
+  "kind": "공공지원민간임대",
+  "name": "의왕 백운밸리 리젠시빌 란트",
+  "address": "경기도 의왕시 백운밸리 도시개발사업 A1BL",
+  "region": "경기",
+  "gu": "의왕시",
+  "units": 130,
+  "dates": {
+   "notice": "2026-11-23",
+   "start": "2026-11-30",
+   "end": "2026-11-30",
+   "winner": "2026-12-03",
+   "contract_start": "2026-12-09",
+   "contract_end": "2026-12-10"
+  },
+  "dateBasis": "api",
+  "moveIn": "2029-05",
+  "models": [
+   {
+    "type": "59A",
+    "area": 82.3582,
+    "excl": 59.9814,
+    "units": 24,
+    "price": 51000
+   },
+   {
+    "type": "59AT",
+    "area": 82.3582,
+    "excl": 59.9814,
+    "units": 4,
+    "price": 37000
+   },
+   {
+    "type": "59B",
+    "area": 82.2081,
+    "excl": 59.9639,
+    "units": 30,
+    "price": 51000
+   },
+   {
+    "type": "59BT",
+    "area": 82.2081,
+    "excl": 59.9639,
+    "units": 2,
+    "price": 35100
+   },
+   {
+    "type": "59C",
+    "area": 81.5214,
+    "excl": 59.9574,
+    "units": 37,
+    "price": 49900
+   },
+   {
+    "type": "59CT",
+    "area": 81.5214,
+    "excl": 59.9574,
+    "units": 18,
+    "price": 37800
+   },
+   {
+    "type": "74",
+    "area": 101.5495,
+    "excl": 74.9739,
+    "units": 15,
+    "price": 59300
+   }
+  ],
+  "priceMin": 35100,
+  "priceMax": 59300,
+  "tags": [],
+  "targets": [],
+  "builder": null,
+  "supplier": "주식회사 리젠시빌주택",
+  "tel": "18990757",
+  "url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026850057&pblancNo=2026850057&houseSecd=03",
+  "homepage": "https://백운밸리리젠시빌란트.com",
+  "files": [
+   {
+    "name": "모집공고문 보기 (PDF)",
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026850057&pblancNo=2026850057&atchmnflSeqNo=2021998&atchmnflSn=5"
+   }
+  ],
+  "firstSeen": "2026-11-24",
+  "geo": {
+   "lat": 37.34491,
+   "lng": 126.96899,
+   "precision": "구"
+  }
+ },
+ {
   "id": "sh:rent:313509",
   "source": "SH",
   "sector": "공공",
@@ -561,7 +1429,7 @@
   "files": [
    {
     "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000591&pblancNo=2026000591&atchmnflSeqNo=2027261&atchmnflSn=4"
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000591&pblancNo=2026000591&atchmnflSeqNo=2027261&atchmnflSn=5"
    }
   ],
   "firstSeen": "2026-11-21",
@@ -1322,237 +2190,6 @@
   "geo": {
    "lat": 37.4024,
    "lng": 126.71846,
-   "precision": "주소"
-  }
- },
- {
-  "id": "lh:2015122300021098",
-  "source": "LH",
-  "sector": "공공",
-  "region": "서울",
-  "cat": "임대",
-  "kind": "행복주택",
-  "name": "서울삼전,강동천호,LH수서1,LH수서2 행복주택 예비입주자 모집공고",
-  "address": "서울특별시 강동구 천호동",
-  "gu": "강동구",
-  "units": 2044,
-  "dates": {
-   "notice": "2026-11-19",
-   "end": "2026-12-01",
-   "start": "2026-11-30",
-   "winner": "2027-03-26"
-  },
-  "dateBasis": "api",
-  "moveIn": null,
-  "models": [
-   {
-    "type": "36B(청년, 신혼부부, 한부모가족)",
-    "area": 66.2005,
-    "excl": 36.33,
-    "units": 7
-   },
-   {
-    "type": "14A(대학생/청년)",
-    "area": 23.009,
-    "excl": 14.69,
-    "units": 420
-   },
-   {
-    "type": "26A(주거급여수급자)",
-    "area": 40.4612,
-    "excl": 26.54,
-    "units": 86
-   },
-   {
-    "type": "36A,B(청년, 신혼부부·한부모가족)",
-    "area": 55.1753,
-    "excl": 36.6,
-    "units": 120
-   },
-   {
-    "type": "44A(신혼부부·한부모가족)",
-    "area": 67.5198,
-    "excl": 44.89,
-    "units": 120
-   },
-   {
-    "type": "14A(대학생/청년)",
-    "area": 22.0083,
-    "excl": 14.69,
-    "units": 276
-   },
-   {
-    "type": "26A(청년)",
-    "area": 39.7619,
-    "excl": 26.54,
-    "units": 102
-   },
-   {
-    "type": "26B(고령자-주거약자)",
-    "area": 39.7619,
-    "excl": 26.54,
-    "units": 108
-   },
-   {
-    "type": "36A(청년, 신혼부부, 한부모가족)",
-    "area": 55.1932,
-    "excl": 36.84,
-    "units": 350
-   },
-   {
-    "type": "36B(청년, 신혼부부, 한부모가족)",
-    "area": 54.8336,
-    "excl": 36.6,
-    "units": 62
-   },
-   {
-    "type": "44A(신혼부부, 한부모가족)",
-    "area": 67.2536,
-    "excl": 44.89,
-    "units": 132
-   },
-   {
-    "type": "44C(신혼부부, 한부모가족)",
-    "area": 66.909,
-    "excl": 44.66,
-    "units": 24
-   },
-   {
-    "type": "26형(신혼부부)",
-    "area": 40.3906,
-    "excl": 26.21,
-    "units": 12
-   },
-   {
-    "type": "41형(신혼부부)",
-    "area": 62.8687,
-    "excl": 41.39,
-    "units": 8
-   }
-  ],
-  "priceMin": null,
-  "priceMax": null,
-  "tags": [
-   "개별난방"
-  ],
-  "targets": [],
-  "builder": null,
-  "supplier": "LH",
-  "tel": null,
-  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021098&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-  "homepage": null,
-  "area": "16.25~36.89㎡",
-  "files": [
-   {
-    "name": "LH수서1(수서역세권A1BL)행복주택팸플릿.pdf",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69445650"
-   },
-   {
-    "name": "LH수서2(수서역세권A2BL)행복주택팸플릿.pdf",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69445655"
-   },
-   {
-    "name": "★서울삼전,강동천호,LH수서1,LH수서2,행복주택예비입주자모집공고(2026.11.19).hwpx",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69490108"
-   },
-   {
-    "name": "★서울삼전,강동천호,LH수서1,LH수서2,행복주택예비입주자모집공고(2026.11.19).pdf",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69490179"
-   },
-   {
-    "name": "강동천호행복주택팸플릿.pdf",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69445671"
-   },
-   {
-    "name": "서울삼전행복주택_조감도및평면도.pdf",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69445673"
-   },
-   {
-    "name": "행복주택제출서류.zip",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69445929"
-   }
-  ],
-  "images": [
-   {
-    "label": "강동천호행복주택교통망도",
-    "name": "강동천호행복주택교통망도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54898465"
-   },
-   {
-    "label": "강동천호행복주택조감도",
-    "name": "강동천호행복주택조감도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54898466"
-   },
-   {
-    "label": "강동천호행복주택_단지배치도",
-    "name": "강동천호행복주택_단지배치도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54898467"
-   },
-   {
-    "label": "강동천호행복주택동호배치도",
-    "name": "강동천호행복주택동호배치도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54898468"
-   },
-   {
-    "label": "강동천호행복주택투시도-저용량",
-    "name": "강동천호행복주택투시도-저용량.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54898756"
-   },
-   {
-    "label": "수서역세권A1BL행복주택단지조감도",
-    "name": "수서역세권A1BL행복주택단지조감도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=42298342"
-   },
-   {
-    "label": "수서역세권A1BL행복주택단지배치도",
-    "name": "수서역세권A1BL행복주택단지배치도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=42298343"
-   },
-   {
-    "label": "수서역세권동호배치도",
-    "name": "수서역세권동호배치도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=50002011"
-   },
-   {
-    "label": "지역조감도",
-    "name": "지역조감도.JPG",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=46440653"
-   },
-   {
-    "label": "2021.11.26서울수서조감도",
-    "name": "2021.11.26서울수서조감도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=46440617"
-   },
-   {
-    "label": "211129수서A2단지배치도",
-    "name": "211129수서A2단지배치도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=46440619"
-   },
-   {
-    "label": "211129수서역세권동호배치도",
-    "name": "211129수서역세권동호배치도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=46440620"
-   },
-   {
-    "label": "2021.11.26서울수서투시도",
-    "name": "2021.11.26서울수서투시도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=46440618"
-   },
-   {
-    "label": "지역조감도",
-    "name": "지역조감도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=32090973"
-   },
-   {
-    "label": "단지조감도",
-    "name": "단지조감도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=32090974"
-   }
-  ],
-  "firstSeen": "2026-11-20",
-  "geo": {
-   "lat": 37.54294,
-   "lng": 127.12733,
    "precision": "주소"
   }
  },
@@ -7136,12 +7773,6 @@
   "moveIn": "2030-06",
   "models": [
    {
-    "type": "119OB",
-    "excl": 119.8284,
-    "units": 112,
-    "price": 60600
-   },
-   {
     "type": "119OA",
     "excl": 119.9569,
     "units": 124,
@@ -7152,6 +7783,12 @@
     "excl": 119.9734,
     "units": 43,
     "price": 64330
+   },
+   {
+    "type": "119OB",
+    "excl": 119.8284,
+    "units": 112,
+    "price": 60600
    }
   ],
   "priceMin": 60600,
@@ -8084,107 +8721,6 @@
     "label": "동호배치도",
     "name": "동호배치도.jpg",
     "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69218061"
-   }
-  ],
-  "firstSeen": "2026-10-31",
-  "geo": {
-   "lat": 37.52654,
-   "lng": 126.67407,
-   "precision": "동"
-  }
- },
- {
-  "id": "lh:0000061197",
-  "source": "LH",
-  "sector": "공공",
-  "region": "인천",
-  "cat": "분양",
-  "kind": "공공분양(신혼희망)",
-  "name": "인천가정2 A-2블록 신혼희망타운(공공분양) 잔여세대 추가 입주자모집공고",
-  "address": "인천광역시 서해구 가정동 인천가정2지구 A-2블록 일원",
-  "gu": "서해구",
-  "units": 801,
-  "dates": {
-   "notice": "2026-10-30",
-   "end": "2026-11-09",
-   "start": "2026-11-09",
-   "winner": "2026-11-11",
-   "contract_start": "2026-12-17",
-   "contract_end": "2026-12-18"
-  },
-  "dateBasis": "api",
-  "moveIn": null,
-  "models": [
-   {
-    "type": "55O",
-    "area": 80.0167,
-    "excl": 55.95,
-    "units": 801,
-    "price": 37441
-   }
-  ],
-  "priceMin": 37441,
-  "priceMax": 37441,
-  "tags": [
-   "지역난방"
-  ],
-  "targets": [],
-  "builder": null,
-  "supplier": "LH",
-  "tel": null,
-  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061197&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
-  "homepage": null,
-  "area": "55.95~55.99㎡",
-  "files": [
-   {
-    "name": "(공고문)인천가정2A-2블록신혼희망타운(공공분양)추가입주자모집공고문_게시.hwpx",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69224264"
-   },
-   {
-    "name": "(공고문)인천가정2A-2블록신혼희망타운(공공분양)추가입주자모집공고문_게시.pdf",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69224266"
-   },
-   {
-    "name": "(동호판)인천가정2A-2블록잔여세대동호판.pdf",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69215088"
-   },
-   {
-    "name": "(토지이용계획도)인천가정2A-2블록토지이용계획도.pdf",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69215096"
-   },
-   {
-    "name": "(팸플렛)인천가정2A2(2401).pdf",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69215079"
-   },
-   {
-    "name": "1.위임장.hwpx",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69215168"
-   },
-   {
-    "name": "2.개인정보수집이용및제3자제공동의서.hwpx",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69215169"
-   }
-  ],
-  "images": [
-   {
-    "label": "단지배치도",
-    "name": "인천가정2A-2_단지배치도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69215172"
-   },
-   {
-    "label": "단지조감도",
-    "name": "인천가정2A-2_단지조감도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69215173"
-   },
-   {
-    "label": "지역위치도",
-    "name": "인천가정2A-2_교통망도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69215174"
-   },
-   {
-    "label": "토지이용계획도",
-    "name": "인천가정2A-2_토지이용계획도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69215175"
    }
   ],
   "firstSeen": "2026-10-31",
@@ -10518,63 +11054,6 @@
    "lat": 37.7599,
    "lng": 126.78015,
    "precision": "구"
-  }
- },
- {
-  "id": "ah:urbty:2026950094:2026950094",
-  "source": "청약홈",
-  "sector": "민간",
-  "cat": "분양",
-  "kind": "오피스텔",
-  "name": "대방역 여의도 더로드캐슬",
-  "address": "서울특별시 영등포구 신길동 449-11",
-  "region": "서울",
-  "gu": "영등포구",
-  "units": 4,
-  "dates": {
-   "notice": "2026-10-23",
-   "start": "2026-10-28",
-   "end": "2026-11-03",
-   "winner": "2026-11-06",
-   "contract_start": "2026-11-07",
-   "contract_end": "2026-11-09"
-  },
-  "dateBasis": "api",
-  "moveIn": "2026-11",
-  "models": [
-   {
-    "type": "37B",
-    "excl": 37.8,
-    "units": 2,
-    "price": 52104
-   },
-   {
-    "type": "37A",
-    "excl": 37.04,
-    "units": 2,
-    "price": 50200
-   }
-  ],
-  "priceMin": 50200,
-  "priceMax": 52104,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "(주)무궁화신탁",
-  "tel": "18778079",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950094&pblancNo=2026950094&houseSecd=02",
-  "homepage": "https://www.여의도더로드캐슬.kr",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026950094&pblancNo=2026950094&atchmnflSeqNo=1997995&atchmnflSn=3"
-   }
-  ],
-  "firstSeen": "2026-10-24",
-  "geo": {
-   "lat": 37.50652,
-   "lng": 126.91191,
-   "precision": "동"
   }
  },
  {
@@ -13701,48 +14180,6 @@
    "lng": 127.03418,
    "precision": "동"
   }
- },
- {
-  "id": "ih:sale:177",
-  "source": "iH",
-  "sector": "공공",
-  "region": "인천",
-  "cat": "분양",
-  "kind": "분양",
-  "name": "검암역 푸르지오 프라베뉴(검암B-1BL) 입주자모집공고[정정공고]",
-  "address": null,
-  "gu": "서구",
-  "units": null,
-  "dates": {
-   "notice": "2026-08-25"
-  },
-  "dateBasis": "없음",
-  "moveIn": null,
-  "models": [],
-  "priceMin": null,
-  "priceMax": null,
-  "tags": [
-   "정정공고"
-  ],
-  "targets": [],
-  "builder": null,
-  "supplier": "iH",
-  "tel": null,
-  "url": "https://www.ih.co.kr/main/bbs/bbsMsgDetail.do?msg_seq=177&cate1=a&bcd=sale_lease&pgno=1",
-  "homepage": null,
-  "files": [
-   {
-    "name": "2026000404_검암역_푸르지오_프라베뉴(B-1BL)_공공분양주택(국민주택)_입주자모집공고[정정공고].pdf",
-    "url": "https://www.ih.co.kr/main/bbs/bbsMsgFileDown.do?bcd=sale_lease&msg_seq=177&fileno=1"
-   }
-  ],
-  "firstSeen": "2026-10-13",
-  "geo": {
-   "lat": 37.545,
-   "lng": 126.676,
-   "precision": "구"
-  },
-  "stale": true
  },
  {
   "id": "sh:rent:308971",
