@@ -1,5 +1,58 @@
 [
  {
+  "id": "lh:2015122300021134",
+  "source": "LH",
+  "sector": "공공",
+  "region": "경기",
+  "cat": "임대",
+  "kind": "매입임대",
+  "name": "[경기북부] 2026년 3차 신혼·신생아 매입임대Ⅰ예비입주자 모집 공고",
+  "address": null,
+  "gu": null,
+  "units": null,
+  "dates": {
+   "notice": "2026-11-24",
+   "end": "2026-12-03",
+   "start": "2026-12-01",
+   "winner": "2027-02-26",
+   "contract_start": "2027-03-01",
+   "contract_end": "2027-04-30"
+  },
+  "dateBasis": "api",
+  "moveIn": null,
+  "models": [],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [
+   "정정공고"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021134&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+  "homepage": null,
+  "files": [
+   {
+    "name": "(261119)경기북부신혼·신생아매입임대Ⅰ예비입주자모집공고문(정정).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69550892"
+   },
+   {
+    "name": "(261119)경기북부신혼·신생아매입임대Ⅰ예비입주자모집공고문(정정).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69550896"
+   },
+   {
+    "name": "(261119)경기북부신혼신생아Ⅰ공급대상주택목록(정정).xlsx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69550901"
+   },
+   {
+    "name": "신혼신생아매입임대Ⅰ_QnA.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69550904"
+   }
+  ],
+  "firstSeen": "2026-11-24"
+ },
+ {
   "id": "sh:rent:313647",
   "source": "SH",
   "sector": "공공",
@@ -2245,57 +2298,6 @@
   "firstSeen": "2026-11-20"
  },
  {
-  "id": "lh:2015122300021072",
-  "source": "LH",
-  "sector": "공공",
-  "region": "경기",
-  "cat": "임대",
-  "kind": "매입임대",
-  "name": "[경기북부] 2026년 3차 신혼·신생아 매입임대Ⅰ예비입주자 모집 공고",
-  "address": null,
-  "gu": null,
-  "units": null,
-  "dates": {
-   "notice": "2026-11-19",
-   "end": "2026-12-03",
-   "start": "2026-12-01",
-   "winner": "2027-02-26",
-   "contract_start": "2027-03-01",
-   "contract_end": "2027-04-30"
-  },
-  "dateBasis": "api",
-  "moveIn": null,
-  "models": [],
-  "priceMin": null,
-  "priceMax": null,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "LH",
-  "tel": null,
-  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021072&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-  "homepage": null,
-  "files": [
-   {
-    "name": "(261119)경기북부신혼·신생아매입임대Ⅰ예비입주자모집공고문.hwpx",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69481255"
-   },
-   {
-    "name": "(261119)경기북부신혼·신생아매입임대Ⅰ예비입주자모집공고문.pdf",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69481261"
-   },
-   {
-    "name": "(261119)경기북부신혼신생아Ⅰ공급대상주택목록.xlsx",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69481264"
-   },
-   {
-    "name": "신혼신생아매입임대Ⅰ_QnA.hwpx",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69481356"
-   }
-  ],
-  "firstSeen": "2026-11-20"
- },
- {
   "id": "ah:urbty:2026950098:2026950098",
   "source": "청약홈",
   "sector": "민간",
@@ -4160,10 +4162,10 @@
   "units": null,
   "dates": {
    "notice": "2026-11-13",
-   "end": "2026-11-25"
+   "end": "2026-11-23"
   },
   "dateBasis": "api",
-  "statusHint": "접수중",
+  "statusHint": "접수마감",
   "moveIn": null,
   "models": [],
   "priceMin": null,
@@ -6176,7 +6178,7 @@
    "end": "2026-11-26"
   },
   "dateBasis": "api",
-  "statusHint": "공고중",
+  "statusHint": "접수중",
   "moveIn": null,
   "models": [],
   "priceMin": null,
