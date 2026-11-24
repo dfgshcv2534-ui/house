@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-24T14:13+09:00",
- "baseDate": "2026-11-24",
+ "updatedAt": "2026-11-25T04:50+09:00",
+ "baseDate": "2026-11-25",
  "sources": {
   "청약홈": {
    "ok": true,
@@ -39,5 +39,5 @@
   }
  },
  "total": 167,
- "newToday": 10
+ "newToday": 1
 }

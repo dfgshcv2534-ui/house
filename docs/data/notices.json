@@ -53,6 +53,116 @@
   "firstSeen": "2026-11-24"
  },
  {
+  "id": "lh:2015122300021124",
+  "source": "LH",
+  "sector": "공공",
+  "region": "경기",
+  "cat": "임대",
+  "kind": "국민임대",
+  "name": "[선계약후검증]이천갈산3 국민임대주택 추가 모집",
+  "address": "경기도 이천시 영창로 315(갈산동,휴먼시아)",
+  "gu": "이천시",
+  "units": 445,
+  "dates": {
+   "notice": "2026-11-24",
+   "end": "2026-12-04",
+   "winner": "2026-12-18",
+   "contract_start": "2026-12-29",
+   "contract_end": "2026-12-30"
+  },
+  "dateBasis": "api",
+  "statusHint": "공고중",
+  "moveIn": null,
+  "models": [
+   {
+    "type": "46",
+    "area": 68.6244,
+    "excl": 46.9,
+    "units": 240
+   },
+   {
+    "type": "51",
+    "area": 75.9843,
+    "excl": 51.93,
+    "units": 205
+   }
+  ],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [
+   "개별난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021124&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+  "homepage": null,
+  "area": "46.9~51.93㎡",
+  "files": [
+   {
+    "name": "(게시용)(20261124_이천갈산3)국민임대주택추가모집공고문.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69567776"
+   },
+   {
+    "name": "(게시용)(20261124_이천갈산3)국민임대주택추가모집공고문.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69567782"
+   },
+   {
+    "name": "[국민임대제출서류양식][첨부1](필수)선계약후검증확약서포함(개인정보수집이용및제3자제공동의서등).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69566905"
+   },
+   {
+    "name": "[국민임대제출서류양식][첨부2]예비신혼부부신청확인서및세대구성확인서.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69566911"
+   },
+   {
+    "name": "[마이마이서비스이용하기][첨부4]]고객메뉴얼(V7).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69566927"
+   },
+   {
+    "name": "[팸플릿]이천갈산3(3단지)국민임대주택.zip",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69566931"
+   },
+   {
+    "name": "[해당자만]위임장(양식).pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69566929"
+   },
+   {
+    "name": "[현장접수용][첨부3]본인행정정보제공요구서.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69566919"
+   }
+  ],
+  "images": [
+   {
+    "label": "축소포맷변환_갈산3_지역조감도",
+    "name": "축소포맷변환_갈산3_지역조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24548497"
+   },
+   {
+    "label": "축소포맷변환_갈산3_단지조감도",
+    "name": "축소포맷변환_갈산3_단지조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24548495"
+   },
+   {
+    "label": "갈산3동호배치도",
+    "name": "갈산3동호배치도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=64770875"
+   },
+   {
+    "label": "축소포맷변환_갈산3_교통망도",
+    "name": "축소포맷변환_갈산3_교통망도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24548496"
+   }
+  ],
+  "firstSeen": "2026-11-25",
+  "geo": {
+   "lat": 37.28165,
+   "lng": 127.45799,
+   "precision": "주소"
+  }
+ },
+ {
   "id": "sh:rent:313647",
   "source": "SH",
   "sector": "공공",
@@ -784,7 +894,7 @@
   "files": [
    {
     "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910303&pblancNo=2026910303&atchmnflSeqNo=2027407&atchmnflSn=5"
+    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910303&pblancNo=2026910303&atchmnflSeqNo=2027407&atchmnflSn=6"
    }
   ],
   "firstSeen": "2026-11-24",
@@ -8619,118 +8729,6 @@
     "alt": ""
    }
   ]
- },
- {
-  "id": "lh:0000061198",
-  "source": "LH",
-  "sector": "공공",
-  "region": "인천",
-  "cat": "분양",
-  "kind": "분양주택",
-  "name": "인천가정2 B2블록 공공분양 잔여세대 입주자모집공고(순번추첨 동호지정)",
-  "address": "인천광역시 서해구 가정동 인천가정2 공동지구내 B2블록",
-  "gu": "서해구",
-  "units": 308,
-  "dates": {
-   "notice": "2026-10-30",
-   "end": "2026-11-10",
-   "start": "2026-11-09",
-   "winner": "2026-11-11",
-   "contract_start": "2026-11-14",
-   "contract_end": "2026-12-06"
-  },
-  "dateBasis": "api",
-  "moveIn": "2028-07",
-  "models": [
-   {
-    "type": "84A",
-    "area": 111.3141,
-    "excl": 84.53,
-    "units": 187,
-    "price": 61342
-   },
-   {
-    "type": "84B",
-    "area": 111.3931,
-    "excl": 84.59,
-    "units": 58,
-    "price": 61288
-   },
-   {
-    "type": "84C",
-    "area": 111.9067,
-    "excl": 84.98,
-    "units": 22,
-    "price": 62252
-   }
-  ],
-  "priceMin": 61288,
-  "priceMax": 62252,
-  "tags": [
-   "지역난방"
-  ],
-  "targets": [],
-  "builder": null,
-  "supplier": "LH",
-  "tel": null,
-  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061198&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
-  "homepage": null,
-  "area": "74.95~84.99㎡",
-  "files": [
-   {
-    "name": "위임장.hwpx",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69224913"
-   },
-   {
-    "name": "인천가정2B2BL잔여세대추가모집(순번추첨동호지정)입주자모집공고문.hwpx",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69224852"
-   },
-   {
-    "name": "인천가정2B2BL잔여세대추가모집(순번추첨동호지정)입주자모집공고문.pdf",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69224439"
-   },
-   {
-    "name": "인천가정2B2블록분양팸플릿.pdf",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69224869"
-   },
-   {
-    "name": "인천가정2B2블록잔여세대배치도.pdf",
-    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69224911"
-   }
-  ],
-  "images": [
-   {
-    "label": "토지이용계획도",
-    "name": "토지이용계획도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69218057"
-   },
-   {
-    "label": "단지배치도",
-    "name": "단지배치도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69218058"
-   },
-   {
-    "label": "지역위치도",
-    "name": "교통망도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69218059"
-   },
-   {
-    "label": "단지조감도",
-    "name": "단지조감도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69218060"
-   },
-   {
-    "label": "동호배치도",
-    "name": "동호배치도.jpg",
-    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69218061"
-   }
-  ],
-  "firstSeen": "2026-10-31",
-  "geo": {
-   "lat": 37.52654,
-   "lng": 126.67407,
-   "precision": "동"
-  }
  },
  {
   "id": "ah:apt:2026820013:2026820013",
