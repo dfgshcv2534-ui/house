@@ -29,7 +29,11 @@ jobs:
       - name: 설치
         run: |
           pip install -r requirements.txt pytest
-          python -m playwright install --with-deps chromium
+
+      - name: 평면도용 브라우저 설치
+        # 우분투 미러 접속 오류로 실패해도 공고 수집은 계속한다 (평면도 찾기만 건너뜀)
+        continue-on-error: true
+        run: python -m playwright install --with-deps chromium
 
       - name: 테스트
         run: python -m pytest -q

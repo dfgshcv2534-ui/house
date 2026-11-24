@@ -118,13 +118,16 @@ def attach(notices: list[dict], docs_dir: Path) -> None:
             log.warning("playwright 가 없어 분양 홈페이지 평면도 찾기를 건너뜁니다")
             todo = []
         if todo:
-            with sync_playwright() as p:
-                browser = p.chromium.launch()
-                for url in todo:
-                    plans = crawl(browser, url)
-                    index[url] = {"checked": today.isoformat(), "plans": plans}
-                    log.info("분양 홈페이지 평면도: %s → %d장", url, len(plans))
-                browser.close()
+            try:
+                with sync_playwright() as p:
+                    browser = p.chromium.launch()
+                    for url in todo:
+                        plans = crawl(browser, url)
+                        index[url] = {"checked": today.isoformat(), "plans": plans}
+                        log.info("분양 홈페이지 평면도: %s → %d장", url, len(plans))
+                    browser.close()
+            except Exception as e:  # 브라우저 설치 실패 등 — 평면도만 건너뛰고 공고 수집은 계속
+                log.warning("분양 홈페이지 평면도 찾기를 건너뜁니다: %s", e)
 
     live = {url_of(n) for n in targets}
     for url in [u for u in index if u not in live]:
