@@ -1,5 +1,249 @@
 [
  {
+  "id": "lh:2015122300021055",
+  "source": "LH",
+  "sector": "공공",
+  "region": "인천",
+  "cat": "임대",
+  "kind": "영구임대",
+  "name": "옹진백령 영구임대(마을정비형) 예비입주자 모집 공고",
+  "address": "인천광역시 옹진군 백령면 백령로278번길 133-31",
+  "gu": "옹진군",
+  "units": 30,
+  "dates": {
+   "notice": "2026-11-25",
+   "end": "2026-12-09",
+   "winner": "2027-02-24"
+  },
+  "dateBasis": "api",
+  "statusHint": "공고중",
+  "moveIn": null,
+  "models": [
+   {
+    "type": "26A",
+    "area": 43.7387,
+    "excl": 26.8,
+    "units": 23,
+    "plan": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=37110687"
+   }
+  ],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [
+   "개별가스난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021055&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+  "homepage": null,
+  "area": "26.8㎡",
+  "files": [
+   {
+    "name": "별표1영구임대주택공급신청서(마을정비형).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69386318"
+   },
+   {
+    "name": "별표2개인정보수집이용및제3자제공동의서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69386319"
+   },
+   {
+    "name": "별표3금융정보등(금융,신용,보험정보)제공동의서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69386320"
+   },
+   {
+    "name": "별표4예비입주자중복선정불가사항확인서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69386321"
+   },
+   {
+    "name": "별표5자산보유사실확인서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69386322"
+   },
+   {
+    "name": "별표6위임장양식(대리인신청용).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69386323"
+   },
+   {
+    "name": "별표7예비신혼부부신청확인서및세대구성확인서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69386324"
+   },
+   {
+    "name": "옹진백령영구임대(마을정비형)예비입주자모집공고문.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69386325"
+   },
+   {
+    "name": "옹진백령영구임대(마을정비형)예비입주자모집공고문.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69386326"
+   }
+  ],
+  "images": [
+   {
+    "label": "옹진백령전체조감도",
+    "name": "옹진백령전체조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=37126484"
+   },
+   {
+    "label": "옹진백령마을정비조감도",
+    "name": "옹진백령마을정비조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=37126483"
+   },
+   {
+    "label": "옹진백령단지배치도",
+    "name": "옹진백령단지배치도.PNG",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=37126485"
+   },
+   {
+    "label": "옹진백령동호배치도",
+    "name": "옹진백령동호배치도.PNG",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=37126486"
+   },
+   {
+    "label": "옹진백령마을정비26A투시도",
+    "name": "옹진백령마을정비26A투시도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=37110688"
+   },
+   {
+    "label": "옹진백령마을정비26B평면도",
+    "name": "옹진백령마을정비26B평면도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=37110689"
+   },
+   {
+    "label": "옹진백령마을정비26B투시도",
+    "name": "옹진백령마을정비26B투시도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=37110690"
+   },
+   {
+    "label": "옹진백령마을정비26A평면도",
+    "name": "옹진백령마을정비26A평면도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=37110687"
+   }
+  ],
+  "firstSeen": "2026-11-25",
+  "geo": {
+   "lat": 37.97329,
+   "lng": 124.7178,
+   "precision": "주소"
+  }
+ },
+ {
+  "id": "lh:2015122300021054",
+  "source": "LH",
+  "sector": "공공",
+  "region": "인천",
+  "cat": "임대",
+  "kind": "영구임대",
+  "name": "옹진백령 영구임대(공공실버) 예비입주자 모집 공고",
+  "address": "인천광역시 옹진군 백령면 백령로278번길 133-20",
+  "gu": "옹진군",
+  "units": 72,
+  "dates": {
+   "notice": "2026-11-25",
+   "end": "2026-12-09",
+   "winner": "2027-02-24"
+  },
+  "dateBasis": "api",
+  "statusHint": "공고중",
+  "moveIn": null,
+  "models": [
+   {
+    "type": "26(공공실버)",
+    "area": 45.8404,
+    "excl": 26.8,
+    "units": 72,
+    "plan": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=37110052"
+   }
+  ],
+  "priceMin": null,
+  "priceMax": null,
+  "tags": [
+   "개별가스난방"
+  ],
+  "targets": [],
+  "builder": null,
+  "supplier": "LH",
+  "tel": null,
+  "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021054&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+  "homepage": null,
+  "area": "26.8㎡",
+  "files": [
+   {
+    "name": "별표1영구임대주택공급신청서(공공실버).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69386172"
+   },
+   {
+    "name": "별표2개인정보수집이용및제3자제공동의서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69386173"
+   },
+   {
+    "name": "별표3금융정보등(금융,신용,보험정보)제공동의서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69386174"
+   },
+   {
+    "name": "별표4예비입주자중복선정불가사항확인서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69386175"
+   },
+   {
+    "name": "별표5자산보유사실확인서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69386176"
+   },
+   {
+    "name": "별표6위임장양식(대리인신청용).hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69386177"
+   },
+   {
+    "name": "별표7예비신혼부부신청확인서및세대구성확인서.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69386178"
+   },
+   {
+    "name": "옹진백령영구임대(공공실버)예비입주자모집공고문.hwpx",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69386223"
+   },
+   {
+    "name": "옹진백령영구임대(공공실버)예비입주자모집공고문.pdf",
+    "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69386179"
+   }
+  ],
+  "images": [
+   {
+    "label": "옹진백령전체조감도",
+    "name": "옹진백령전체조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=37110051"
+   },
+   {
+    "label": "옹진백령공공실버조감도",
+    "name": "옹진백령공공실버조감도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=37110050"
+   },
+   {
+    "label": "옹진백령단지배치도",
+    "name": "옹진백령단지배치도.PNG",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=37109830"
+   },
+   {
+    "label": "옹진백령동호배치도",
+    "name": "옹진백령동호배치도.PNG",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=37109831"
+   },
+   {
+    "label": "옹진백령공공실버26평면도",
+    "name": "옹진백령공공실버26평면도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=37110052"
+   },
+   {
+    "label": "옹진백령공공실버26투시도",
+    "name": "옹진백령공공실버26투시도.jpg",
+    "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=37110053"
+   }
+  ],
+  "firstSeen": "2026-11-25",
+  "geo": {
+   "lat": 37.97329,
+   "lng": 124.7178,
+   "precision": "주소"
+  }
+ },
+ {
   "id": "lh:2015122300021134",
   "source": "LH",
   "sector": "공공",
@@ -6285,10 +6529,10 @@
   "units": null,
   "dates": {
    "notice": "2026-11-09",
-   "end": "2026-11-26"
+   "end": "2026-11-24"
   },
   "dateBasis": "api",
-  "statusHint": "접수중",
+  "statusHint": "접수마감",
   "moveIn": null,
   "models": [],
   "priceMin": null,
