@@ -409,10 +409,6 @@
   "checked": "2026-11-26",
   "plans": []
  },
- "http://www.detre-gc.co.kr/": {
-  "checked": "2026-11-26",
-  "plans": []
- },
  "https://www.lynn.co.kr": {
   "checked": "2026-11-26",
   "plans": []
@@ -571,15 +567,11 @@
   "plans": []
  },
  "https://cent.villiv.co.kr": {
-  "checked": "2026-11-19",
-  "plans": []
- },
- "https://www.xi.co.kr/kps": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "plans": []
  },
  "http://www.고강휴먼빌아파트.shop": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "plans": [
    {
     "url": "http://www.xn--939a1o544a42d4yko4u1qa29x.shop/theme/TYPE08/img/main.png",
@@ -649,7 +641,7 @@
   ]
  },
  "https://www.arkone-prugio.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "plans": [
    {
     "url": "https://www.arkone-prugio.com/resources/img/pages/masterplan/01.v100.jpg",
@@ -787,7 +779,7 @@
   "plans": []
  },
  "https://청계노르웨이숲.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "plans": [
    {
     "url": "https://xn--989a62gh9h1mjj1f9xaj1y.com/assets/images/main/unit_59d.png",
@@ -864,7 +856,7 @@
   ]
  },
  "https://detre-ojop.co.kr": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "plans": [
    {
     "url": "https://detre-ojop.co.kr/img/unit/06cont01.png",
@@ -887,11 +879,11 @@
   ]
  },
  "https://www.xi.co.kr/sangokxi": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "plans": []
  },
  "https://www.starhills-yg.co.kr": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "plans": []
  },
  "https://www.apply.lh.or.kr": {
@@ -899,7 +891,7 @@
   "plans": []
  },
  "https://광명시티프라디움.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "plans": [
    {
     "url": "https://xn--hc0bz5m11b1ue95n2zf6zxvzd.com/resources/img/main/unit_bg.jpg",
@@ -1384,11 +1376,11 @@
   ]
  },
  "http://중동역다채로움더원.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "plans": []
  },
  "https://www.harrington495.kr/": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "plans": [
    {
     "url": "https://www.harrington495.kr/images/sub/complex/unit/22-a-type.jpg",
@@ -1495,7 +1487,7 @@
   ]
  },
  "http://detre-sw.co.kr": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "plans": []
  },
  "http://평택고덕대광로제비앙모아엘가.com": {
@@ -2089,7 +2081,7 @@
   ]
  },
  "https://www.s-class.co.kr/": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "plans": []
  },
  "https://www.gd3-hoban.co.kr/": {
@@ -2223,5 +2215,66 @@
  "https://백운밸리리젠시빌란트.com": {
   "checked": "2026-11-24",
   "plans": []
+ },
+ "https://ot.더샵퍼스트월드.kr": {
+  "checked": "2026-11-27",
+  "plans": []
+ },
+ "https://www.lottecastle.co.kr/APT/AT00395/main/index.do": {
+  "checked": "2026-11-27",
+  "plans": []
+ },
+ "https://향남역스위첸.com": {
+  "checked": "2026-11-27",
+  "plans": [
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit01.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit02.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit03.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit04.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit05.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit06.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit07.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   },
+   {
+    "url": "https://xn--q20b245acmc65au2puno.com/sub/unit08.jpg",
+    "type": null,
+    "kind": "평면",
+    "alt": ""
+   }
+  ]
  }
 }
