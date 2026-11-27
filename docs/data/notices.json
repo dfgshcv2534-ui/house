@@ -12154,8 +12154,7 @@
     "excl": 84.0,
     "units": 73,
     "special": 93,
-    "price": 171320,
-    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84c.jpg"
+    "price": 171320
    },
    {
     "type": "84D",
@@ -12225,63 +12224,7 @@
     "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000509&pblancNo=2026000509&atchmnflSeqNo=2000102&atchmnflSn=5"
    }
   ],
-  "firstSeen": "2026-10-17",
-  "homePlans": [
-   {
-    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/popup/pop1119.png",
-    "type": null,
-    "kind": "평면",
-    "alt": "선착순 동호수 지정 계약 안내 - 11월 22일 일요일 첫번째 선착순 동"
-   },
-   {
-    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84c.jpg",
-    "type": "84C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84f.jpg",
-    "type": "84F",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/116a.jpg",
-    "type": "116A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/116b.jpg",
-    "type": "116B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/128a.jpg",
-    "type": "128A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/129b.jpg",
-    "type": "129B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/ph184b.jpg",
-    "type": "184B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/ph188a.jpg",
-    "type": "188A",
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
+  "firstSeen": "2026-10-17"
  },
  {
   "id": "ah:apt:2026000508:2026000508",
@@ -12317,8 +12260,7 @@
     "excl": 84.0,
     "units": 82,
     "special": 98,
-    "price": 171210,
-    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84c.jpg"
+    "price": 171210
    },
    {
     "type": "84F",
@@ -12326,8 +12268,7 @@
     "excl": 84.0,
     "units": 41,
     "special": 49,
-    "price": 171530,
-    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84f.jpg"
+    "price": 171530
    },
    {
     "type": "116A",
@@ -12335,8 +12276,7 @@
     "excl": 116.0,
     "units": 80,
     "special": 12,
-    "price": 218670,
-    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/116a.jpg"
+    "price": 218670
    },
    {
     "type": "116B",
@@ -12344,8 +12284,7 @@
     "excl": 116.0,
     "units": 157,
     "special": 23,
-    "price": 221350,
-    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/116b.jpg"
+    "price": 221350
    },
    {
     "type": "128A",
@@ -12353,8 +12292,7 @@
     "excl": 128.0,
     "units": 78,
     "special": 12,
-    "price": 243610,
-    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/128a.jpg"
+    "price": 243610
    },
    {
     "type": "129B",
@@ -12362,8 +12300,7 @@
     "excl": 129.0,
     "units": 153,
     "special": 23,
-    "price": 248290,
-    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/129b.jpg"
+    "price": 248290
    },
    {
     "type": "184B",
@@ -12371,8 +12308,7 @@
     "excl": 184.0,
     "units": 2,
     "special": 0,
-    "price": 391150,
-    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/ph184b.jpg"
+    "price": 391150
    },
    {
     "type": "188A",
@@ -12380,8 +12316,7 @@
     "excl": 188.0,
     "units": 2,
     "special": 0,
-    "price": 401320,
-    "plan": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/ph188a.jpg"
+    "price": 401320
    }
   ],
   "priceMin": 171210,
@@ -12403,63 +12338,7 @@
     "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026000508&pblancNo=2026000508&atchmnflSeqNo=2000101&atchmnflSn=6"
    }
   ],
-  "firstSeen": "2026-10-17",
-  "homePlans": [
-   {
-    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/popup/pop1119.png",
-    "type": null,
-    "kind": "평면",
-    "alt": "선착순 동호수 지정 계약 안내 - 11월 22일 일요일 첫번째 선착순 동"
-   },
-   {
-    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84c.jpg",
-    "type": "84C",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/84f.jpg",
-    "type": "84F",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/116a.jpg",
-    "type": "116A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/116b.jpg",
-    "type": "116B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/128a.jpg",
-    "type": "128A",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/129b.jpg",
-    "type": "129B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/ph184b.jpg",
-    "type": "184B",
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://xn--2q1b89hgtam35a9rngpa.kr/sub/unit/95/ph188a.jpg",
-    "type": "188A",
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
+  "firstSeen": "2026-10-17"
  },
  {
   "id": "ah:apt:2026000373:2026000373",
