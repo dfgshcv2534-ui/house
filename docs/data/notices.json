@@ -29,8 +29,7 @@
   "tel": null,
   "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancDetailView.do?pbancNo=855",
   "homepage": null,
-  "firstSeen": "2026-11-28",
-  "stale": true
+  "firstSeen": "2026-11-28"
  },
  {
   "id": "ah:apt:2026000612:2026000612",
@@ -1439,8 +1438,7 @@
    "lat": 37.39385,
    "lng": 126.95706,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "lh:2015122300021134",
@@ -2832,7 +2830,8 @@
     "excl": 59.0,
     "units": 4,
     "special": 5,
-    "price": 55932
+    "price": 55932,
+    "plan": "https://www.xn--s22bi8ec7buzab60f.com/common/img/59a.png?v=1795886389832"
    },
    {
     "type": "59B",
@@ -2903,7 +2902,27 @@
    "lat": 37.47341,
    "lng": 126.79478,
    "precision": "동"
-  }
+  },
+  "homePlans": [
+   {
+    "url": "https://www.xn--s22bi8ec7buzab60f.com/common/img/59a.png?v=1795886389832",
+    "type": "59A",
+    "kind": "평면",
+    "alt": "59A 타입 평면도"
+   },
+   {
+    "url": "https://www.xn--s22bi8ec7buzab60f.com/common/img/59a_plan.png?v=20261124",
+    "type": "59A",
+    "kind": "평면",
+    "alt": "59A 타입 기본형 평면도"
+   },
+   {
+    "url": "https://www.xn--s22bi8ec7buzab60f.com/common/img/59a_txt.png?v=20261124",
+    "type": "59A",
+    "kind": "평면",
+    "alt": "59A 타입 기본형 입체 평면도"
+   }
+  ]
  },
  {
   "id": "sh:rent:313610",
@@ -5559,8 +5578,7 @@
    "lat": 37.63594,
    "lng": 127.21651,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "gh:buy:852",
@@ -5591,8 +5609,7 @@
   "tel": null,
   "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancDetailView.do?pbancNo=852",
   "homepage": null,
-  "firstSeen": "2026-11-14",
-  "stale": true
+  "firstSeen": "2026-11-14"
  },
  {
   "id": "ah:remndr:2026910299:2026910299",
@@ -7574,8 +7591,7 @@
    "lat": 37.00777,
    "lng": 127.27997,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:remndr:2026910290:2026910290",
@@ -7896,8 +7912,7 @@
    "lat": 37.73807,
    "lng": 127.03397,
    "precision": "구"
-  },
-  "stale": true
+  }
  },
  {
   "id": "ah:urbty:2026950095:2026950095",
@@ -7922,22 +7937,10 @@
   "moveIn": "2028-05",
   "models": [
    {
-    "type": "24A",
-    "excl": 24.771,
+    "type": "19A",
+    "excl": 19.891,
     "units": 2,
-    "price": 38130
-   },
-   {
-    "type": "24B",
-    "excl": 24.771,
-    "units": 1,
-    "price": 37360
-   },
-   {
-    "type": "29",
-    "excl": 29.036,
-    "units": 1,
-    "price": 45590
+    "price": 30510
    },
    {
     "type": "19B",
@@ -7946,10 +7949,10 @@
     "price": 29300
    },
    {
-    "type": "59A",
-    "excl": 59.945,
+    "type": "24A",
+    "excl": 24.771,
     "units": 2,
-    "price": 86700
+    "price": 38130
    },
    {
     "type": "59B",
@@ -7958,16 +7961,28 @@
     "price": 95460
    },
    {
-    "type": "19A",
-    "excl": 19.891,
-    "units": 2,
-    "price": 30510
+    "type": "29",
+    "excl": 29.036,
+    "units": 1,
+    "price": 45590
    },
    {
     "type": "34",
     "excl": 34.194,
     "units": 2,
     "price": 49420
+   },
+   {
+    "type": "59A",
+    "excl": 59.945,
+    "units": 2,
+    "price": 86700
+   },
+   {
+    "type": "24B",
+    "excl": 24.771,
+    "units": 1,
+    "price": 37360
    }
   ],
   "priceMin": 29300,
@@ -9134,89 +9149,6 @@
   }
  },
  {
-  "id": "ah:urbty:2026950096:2026950096",
-  "source": "청약홈",
-  "sector": "민간",
-  "cat": "분양",
-  "kind": "오피스텔",
-  "name": "옥정중앙역 대방 디에트르Ⅱ",
-  "address": "경기도 양주시 옥정동 962-9,8번지(옥정지구 중상1, 복합1블록)",
-  "region": "경기",
-  "gu": "양주시",
-  "units": 279,
-  "dates": {
-   "notice": "2026-11-04",
-   "start": "2026-11-09",
-   "end": "2026-11-09",
-   "winner": "2026-11-12",
-   "contract_start": "2026-11-14",
-   "contract_end": "2026-11-14"
-  },
-  "dateBasis": "api",
-  "moveIn": "2030-06",
-  "models": [
-   {
-    "type": "119OA",
-    "excl": 119.9569,
-    "units": 124,
-    "price": 61110
-   },
-   {
-    "type": "119OC",
-    "excl": 119.9734,
-    "units": 43,
-    "price": 64330
-   },
-   {
-    "type": "119OB",
-    "excl": 119.8284,
-    "units": 112,
-    "price": 60600
-   }
-  ],
-  "priceMin": 60600,
-  "priceMax": 64330,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "대방건설 주식회사",
-  "tel": "16887002",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectPRMOLttotPblancDetailView.do?houseManageNo=2026950096&pblancNo=2026950096&houseSecd=02",
-  "homepage": "https://detre-ojop.co.kr",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026950096&pblancNo=2026950096&atchmnflSeqNo=2013996&atchmnflSn=2"
-   }
-  ],
-  "firstSeen": "2026-11-05",
-  "geo": {
-   "lat": 37.82075,
-   "lng": 127.08698,
-   "precision": "동"
-  },
-  "homePlans": [
-   {
-    "url": "https://detre-ojop.co.kr/img/unit/06cont01.png",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://detre-ojop.co.kr/img/unit/119oa.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   },
-   {
-    "url": "https://detre-ojop.co.kr/img/unit/119ob.jpg",
-    "type": null,
-    "kind": "평면",
-    "alt": ""
-   }
-  ]
- },
- {
   "id": "ah:remndr:2026910285:2026910285",
   "source": "청약홈",
   "sector": "민간",
@@ -9500,65 +9432,6 @@
    "lat": 37.14994,
    "lng": 127.07746,
    "precision": "구"
-  }
- },
- {
-  "id": "ah:remndr:2026910281:2026910281",
-  "source": "청약홈",
-  "sector": "민간",
-  "cat": "분양",
-  "kind": "무순위·잔여세대",
-  "name": "빌리브센트하이(2차)",
-  "address": "경기도 남양주시 화도읍 마석우리 295-32번지 일원",
-  "region": "경기",
-  "gu": "남양주시",
-  "units": 5,
-  "dates": {
-   "notice": "2026-11-02",
-   "start": "2026-11-09",
-   "end": "2026-11-09",
-   "winner": "2026-11-12",
-   "contract_start": "2026-11-14",
-   "contract_end": "2026-11-14"
-  },
-  "dateBasis": "api",
-  "moveIn": "2026-12",
-  "models": [
-   {
-    "type": "84B",
-    "excl": 84.0,
-    "units": 4,
-    "special": 0,
-    "price": 67700
-   },
-   {
-    "type": "98B",
-    "excl": 98.0,
-    "units": 1,
-    "special": 0,
-    "price": 78200
-   }
-  ],
-  "priceMin": 67700,
-  "priceMax": 78200,
-  "tags": [],
-  "targets": [],
-  "builder": null,
-  "supplier": "(주)에코월드이엔씨",
-  "tel": "15884940",
-  "url": "https://www.applyhome.co.kr/ai/aia/selectAPTRemndrLttotPblancDetailView.do?houseManageNo=2026910281&pblancNo=2026910281",
-  "homepage": "https://cent.villiv.co.kr",
-  "files": [
-   {
-    "name": "모집공고문 보기 (PDF)",
-    "url": "https://static.applyhome.co.kr/ai/aia/getAtchmnfl.do?houseManageNo=2026910281&pblancNo=2026910281&atchmnflSeqNo=2010088&atchmnflSn=4"
-   }
-  ],
-  "firstSeen": "2026-11-03",
-  "geo": {
-   "lat": 37.65383,
-   "lng": 127.31968,
-   "precision": "동"
   }
  },
  {
@@ -12342,8 +12215,7 @@
   "tel": null,
   "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancDetailView.do?pbancNo=823",
   "homepage": null,
-  "firstSeen": "2026-10-13",
-  "stale": true
+  "firstSeen": "2026-10-13"
  },
  {
   "id": "sh:rent:310950",
@@ -13859,51 +13731,6 @@
    {
     "name": "(수정)생활언어 번역본 ( 2026년 1-2인가구를 위한 도시형생활주택(건설형원룸) 잔여세대 입주자 모집공고).pdf",
     "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=308167&data_tp=A&file_seq=6"
-   }
-  ],
-  "firstSeen": "2026-10-11"
- },
- {
-  "id": "sh:rent:309925",
-  "source": "SH",
-  "sector": "공공",
-  "region": "서울",
-  "cat": "임대",
-  "kind": "청년안심주택",
-  "name": "2026년 2차 청년안심주택(공공임대) 입주자 모집공고(정정)",
-  "address": null,
-  "gu": null,
-  "units": 595,
-  "dates": {
-   "notice": "2026-07-31",
-   "start": "2026-08-11",
-   "end": "2026-08-13",
-   "winner": "2026-12-11"
-  },
-  "dateBasis": "본문",
-  "moveIn": null,
-  "models": [],
-  "priceMin": null,
-  "priceMax": null,
-  "tags": [
-   "정정공고"
-  ],
-  "targets": [
-   "청년"
-  ],
-  "builder": null,
-  "supplier": "SH공사 맞춤주택공급부",
-  "tel": null,
-  "url": "https://www.i-sh.co.kr/app/lay2/program/S1T294C297/www/brd/m_247/view.do?multi_itm_seq=2&seq=309925",
-  "homepage": null,
-  "files": [
-   {
-    "name": "2026년 제2차청년안심주택-공고문.pdf",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=309925&data_tp=A&file_seq=1"
-   },
-   {
-    "name": "[첨부] 청년안심주택 신청 관련 부모 범위 기준(1).pdf",
-    "url": "https://www.i-sh.co.kr/app/com/util/htmlConverter.do?brd_id=GS0401&seq=309925&data_tp=A&file_seq=2"
    }
   ],
   "firstSeen": "2026-10-11"
